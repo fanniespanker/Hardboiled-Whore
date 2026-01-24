@@ -1,0 +1,510 @@
+<?xml version='1.0' encoding='utf-8'?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:so="https://schema.org/version/latest/schemaorg-current-https.rdf"
+    >
+  <so:Person rdf:about="https://fanniespanker.com/ArmedEscorts/FannieSpanker">
+    <so:name>Fannie Spanker</so:name>
+    <so:givenName>Fannie</so:givenName>
+    <so:familyName>Spanker</so:familyName>
+    <so:gender>https://schema.org/Female</so:gender>
+    <so:pronouns>she/her</so:pronouns>
+    <so:email>fannie.spanker@gmail.com</so:email>
+    <so:identifier>https://fanniespanker.com/</so:identifier>
+    <so:url>https://fanniespanker.com/</so:url>
+    <so:spouse>[REDACTED]</so:spouse>
+  </so:Person>
+  
+  <so:BookSeries rdf:about="https://fanniespanker.com/ArmedEscorts/">
+    <so:name>Armed Escorts</so:name>
+    <so:author rdf:resource="https://fanniespanker.com/ArmedEscorts/FannieSpanker"/>
+    <so:hasPart rdf:resource="https://fanniespanker.com/ArmedEscorts/HardboiledWhore"/>
+    <so:startDate>2025-08-12</so:startDate>
+    <so:temporalCoverage>2024-07-12/..</so:temporalCoverage>
+  </so:BookSeries>
+  
+  <so:Book rdf:about="https://fanniespanker.com/ArmedEscorts/HardboiledWhore">
+    <!-- Publication information -->
+    <so:publisher rdf:resource="https://fanniespanker.com/ArmedEscorts/FannieSpanker"/>
+    <so:creativeWorkStatus>Published</so:creativeWorkStatus>
+    <so:datePublished>2025-08-12</so:datePublished>
+    <so:copyrightNotice>Copyright 2025 by Fannie Spanker.</so:copyrightNotice>
+    <so:copyrightHolder rdf:resource="https://fanniespanker.com/ArmedEscorts/FannieSpanker"/>
+    <so:copyrightYear>2025</so:copyrightYear>
+    <so:license rdf:resource="https://creativecommons.org/licenses/by-nc/4.0/"/>
+    <so:dateModified>2025-10-24</so:dateModified>
+    <so:countryOfOrigin>US</so:countryOfOrigin>
+    <so:inLanguage>en-US</so:inLanguage>
+    <so:bookFormat>EBook</so:bookFormat>
+    <so:isPartOf rdf:resource="https://fanniespanker.com/ArmedEscorts"/>
+    <so:position>1</so:position>
+    <so:isAccessibleForFree>true</so:isAccessibleForFree>
+    <so:encodingFormat>application/epub+zip</so:encodingFormat>
+    <so:numberOfPages>599</so:numberOfPages>
+    <so:wordCount>245201</so:wordCount>
+    <so:timeRequired>PT16h</so:timeRequired>
+    <so:abstract>A recently fired parking enforcement officer begins a sexual relationship with an experienced older woman, who encourages her to pursue a career as a private investigator-cum-sex worker in her search for a missing antifascist activist. She sells her body to a corrupt government official in exchange for her dream job of police detective, but ends up spending more time making love to her snowballing romantic circle than looking for her missing man.</so:abstract>
+            
+    <!-- Setting and characters -->
+    <so:temporalCoverage>2024-07-12/2024-07-18</so:temporalCoverage>
+    <so:contentLocation rdf:resource="https://fanniespanker.com/ArmedEscorts/SantaVirginia"/>
+    <so:character rdf:resource="https://fanniespanker.com/ArmedEscorts/AndreaBachman"/>
+    <so:character rdf:resource="https://fanniespanker.com/ArmedEscorts/Shosh"/>
+    <so:character rdf:resource="https://fanniespanker.com/ArmedEscorts/Judith"/>
+    <so:character rdf:resource="https://fanniespanker.com/ArmedEscorts/Diane"/>
+    <so:character rdf:resource="https://fanniespanker.com/ArmedEscorts/Georgina"/>
+    <so:character rdf:resource="https://fanniespanker.com/ArmedEscorts/AndreaBuchanan"/>
+    <so:character rdf:resource="https://fanniespanker.com/ArmedEscorts/Regina"/>
+    <so:character rdf:resource="https://fanniespanker.com/ArmedEscorts/Tom"/>
+    <so:character rdf:resource="https://fanniespanker.com/ArmedEscorts/Nico"/>
+    <so:character rdf:resource="https://fanniespanker.com/ArmedEscorts/Yesenia"/>
+    <so:character rdf:resource="https://fanniespanker.com/ArmedEscorts/Geraldine"/>
+    <so:character rdf:resource="https://fanniespanker.com/ArmedEscorts/Alex"/>
+    
+    <!-- Rating -->
+    <so:contentRating>18+</so:contentRating>
+    <so:contentRating>CSR-4</so:contentRating>
+    <so:contentRating>age 18+</so:contentRating>
+    <so:contentRating>mature</so:contentRating>
+    <so:contentRating>NC-17</so:contentRating>
+    <so:contentRating>X</so:contentRating>
+    <so:typicalAgeRange>18-</so:typicalAgeRange>
+    <so:isFamilyFriendly>False</so:isFamilyFriendly>
+    
+    <!-- Accessibility -->
+    <so:accessMode>textual</so:accessMode>
+    <so:accessMode>visual</so:accessMode>
+    <so:accessModeSufficient>textual</so:accessModeSufficient>
+    <so:accessModeSufficient>textual,visual</so:accessModeSufficient>
+    <so:accessibilityFeature>alternativeText</so:accessibilityFeature>
+    <so:accessibilityFeature>longDescription</so:accessibilityFeature>
+    <so:accessibilityFeature>ttsMarkup</so:accessibilityFeature>
+    <so:accessibilityFeature>unlocked</so:accessibilityFeature>
+    <so:accessibilityFeature>readingOrder</so:accessibilityFeature>
+    <so:accessibilityFeature>structuralNavigation</so:accessibilityFeature>
+    <so:accessibilityFeature>tableOfContents</so:accessibilityFeature>
+    <so:accessibilityHazard>noFlashingHazard</so:accessibilityHazard>
+    <so:accessibilityHazard>noMotionSimulationHazard</so:accessibilityHazard>
+    <so:accessibilityHazard>noSoundHazard</so:accessibilityHazard>    
+    <so:accessibilitySummary>This publication had a result of 'Incomplete' for the ACE Smart WCAG 2 Level A conformance checker. Every non-decorative image has alternative text; complex images have long image descriptions; text has SSML phonetic, volume, pitch, emphasis, and language markup to improve TTS; and attention has been paid to navigational structure and minimum visual contrast. There are no accessibility hazards in the forms of sounds, flashing, or motion. However, due to budgetary and skill limitations, these features have not been tested with commercial screen readers (JAWS, BRLTTY, COBRA, et cetera), and for the same reasons neither could sign language transcription of the work be provided; furthermore, none of the free TTS utilities properly rendered the SSML markup in testing. Notwithstanding the unavailability of accessibility software for testing, lack of support among free EPUB text to speech readers, and lack of budget and skillset to certify accessibility, this EPUB document is expected to satisfy the accessibility needs of a majority of readers. Future suggestions or contributions to improve accessibility should be directed to the author at Fannie.Spanker@gmail.com.</so:accessibilitySummary>
+    
+    <!-- Genres -->
+    <so:genre>FICTION / Erotica / LGBTQ+ / General</so:genre>
+    <so:genre>FICTION / Mystery &amp; Detective / Hard-Boiled</so:genre>
+    <so:genre>FICTION / Satire</so:genre>
+    <so:genre>FICTION / General</so:genre>
+    <so:genre>FICTION / LGBTQ+ / Lesbian</so:genre>
+    <so:genre>FICTION / LGBTQ+ / Bisexual</so:genre>
+    <so:genre>FICTION / Jewish</so:genre>
+    <so:genre>FICTION / Romance / General</so:genre>
+    <so:genre>FICTION / Romance / LGBTQ+ / General</so:genre>
+    <so:genre>FICTION / Romance / Erotic</so:genre>
+    <so:genre>FICTION / Romance / LGBTQ+ / Bisexual</so:genre>
+    <so:genre>FICTION / Romance / LGBTQ+ / Lesbian</so:genre>
+    <so:genre>FICTION / Erotica / General</so:genre>
+    <so:genre>FICTION / Erotica / LGBTQ+ / General</so:genre>
+    <so:genre>FICTION / Erotica / BDSM</so:genre>
+    <so:genre>FICTION / Erotica / LGBTQ+ / Bisexual</so:genre>
+    <so:genre>FICTION / Erotica / LGBTQ+ / Lesbian</so:genre>
+    <so:genre>FICTION / Mystery &amp; Detective / General</so:genre>
+    <so:genre>FICTION / Mystery &amp; Detective / Hard-Boiled</so:genre>
+    <so:genre>FICTION / Romance / Later in Life</so:genre>
+    <so:genre>FICTION / Romance / Love Triangle</so:genre>
+    <so:genre>FICTION / Romance / Polyamory</so:genre>
+    <so:genre>FICTION / Romance / Police &amp; Law Enforcement</so:genre>
+    <so:genre>FICTION / Romance / Workplace</so:genre>
+    <so:genre>FICTION / Mystery &amp; Detective / Police Procedural</so:genre>
+    <so:genre>FICTION / Mystery &amp; Detective / Women Sleuths</so:genre>
+    <so:genre>FICTION / Mystery &amp; Detective / Jewish</so:genre>
+    <so:genre>FICTION / Romance / Contemporary</so:genre>
+    <so:genre>POETRY / General</so:genre>
+    <so:genre>POETRY / American / General</so:genre>
+    <so:genre>POETRY / LGBTQ+</so:genre>
+    <so:genre>POETRY / Subjects &amp; Themes / Love &amp; Erotica</so:genre>
+  </so:Book>
+  
+  <!-- Setting -->
+  <so:City rdf:about="https://fanniespanker.com/ArmedEscorts/SantaVirginia">
+    <so:address>Southern California</so:address>
+  </so:City>
+  
+  <!-- Character meta items -->
+  <so:Person rdf:about="https://fanniespanker.com/ArmedEscorts/AndreaBachman">
+    <so:birthDate>1990-07-12</so:birthDate>
+    <so:nationality>US</so:nationality>
+    <so:height>62 in</so:height>
+    <so:weight>176 lb</so:weight>
+    <so:givenName>Andrea</so:givenName>
+    <so:additionalName>Esther</so:additionalName>
+    <so:familyName>Bachman</so:familyName>
+    <so:additionalName>Eupraxia</so:additionalName>
+    <so:additionalName>Clover</so:additionalName>
+    <so:gender>female</so:gender>
+    <so:pronouns>she/her</so:pronouns>
+    <so:parent rdf:resource="https://fanniespanker.com/ArmedEscorts/Shosh"/>
+    <so:knows rdf:resource="https://fanniespanker.com/ArmedEscorts/Judith"/>
+    <so:knows rdf:resource="https://fanniespanker.com/ArmedEscorts/Diane"/>
+    <so:knows rdf:resource="https://fanniespanker.com/ArmedEscorts/Georgina"/>
+    <so:knows rdf:resource="https://fanniespanker.com/ArmedEscorts/AndreaBuchanan"/>
+    <so:knows rdf:resource="https://fanniespanker.com/ArmedEscorts/Regina"/>
+    <so:knows rdf:resource="https://fanniespanker.com/ArmedEscorts/Tom"/>
+    <so:knows rdf:resource="https://fanniespanker.com/ArmedEscorts/Nico"/>
+    <so:knows rdf:resource="https://fanniespanker.com/ArmedEscorts/Yesenia"/>
+    <so:knows rdf:resource="https://fanniespanker.com/ArmedEscorts/Geraldine"/>
+    <so:knows rdf:resource="https://fanniespanker.com/ArmedEscorts/Alex"/>
+    <so:knowsLanguage>en-US-CA</so:knowsLanguage>
+    <so:knowsLanguage>es-US-CA</so:knowsLanguage>
+    <so:homeLocation>2840 Chester A. Arthur, Santa Virginia, CA, US</so:homeLocation>
+    <so:worksFor rdf:resource="https://fanniespanker.com/ArmedEscorts/SVPD/CAP"/>
+    <so:worksFor>
+      <so:EmployeeRole>
+        <so:roleName>Parking Enforcement Officer</so:roleName>
+        <so:numberedPosition>01-4582</so:numberedPosition>
+        <so:startDate>2011-11</so:startDate>
+        <so:endDate>2024-07-12</so:endDate>
+      </so:EmployeeRole>
+    </so:worksFor>
+    <so:worksFor>
+      <so:EmployeeRole>
+        <so:roleName>Crimes Against Persons Detective</so:roleName>
+        <so:numberedPosition>01-4582</so:numberedPosition>
+        <so:startDate>2024-07-12</so:startDate>
+      </so:EmployeeRole>
+    </so:worksFor>
+    <so:honorificPrefix>Detective</so:honorificPrefix>
+    <so:jobTitle>Crimes Against Persons Detective</so:jobTitle>
+    <so:memberOf rdf:resource="https://fanniespanker.com/ArmedEscorts/SVSWG"/>
+    <so:owns rdf:resource="https://fanniespanker.com/ArmedEscorts/BananaShark"/>
+  </so:Person>
+  
+  <so:Car rdf:about="https://fanniespanker.com/ArmedEscorts/BananaShark">
+    <so:name>Banana Shark</so:name>
+    <so:modelDate>1988</so:modelDate>
+    <so:manufacturer>BMW</so:manufacturer>
+    <so:brand>BMW</so:brand>
+    <so:model>M6 E24</so:model>
+    <so:color>banana yellow</so:color>
+  </so:Car>
+  
+  <so:Person rdf:about="https://fanniespanker.com/ArmedEscorts/Shosh">
+    <so:givenName>Shoshanah</so:givenName>
+    <so:familyName>Bachman</so:familyName>
+    <so:additionalName>Shosh</so:additionalName>
+    <so:gender>female</so:gender>
+    <so:pronouns>she/her</so:pronouns>
+    <so:children rdf:resource="https://fanniespanker.com/ArmedEscorts/AndreaBachman"/>
+    <so:knows rdf:resource="https://fanniespanker.com/ArmedEscorts/AndreaBachman"/>
+  </so:Person>
+  
+  <so:Person rdf:about="https://fanniespanker.com/ArmedEscorts/Judith">
+    <so:givenName>Judith</so:givenName>
+    <so:additionalName>Éowyn</so:additionalName>
+    <so:familyName>Lucas</so:familyName>
+    <so:additionalName>Blondie</so:additionalName>
+    <so:gender>female</so:gender>
+    <so:pronouns>she/her</so:pronouns>
+    <so:memberOf rdf:resource="https://fanniespanker.com/ArmedEscorts/SVSWG"/>
+    <so:knows rdf:resource="https://fanniespanker.com/ArmedEscorts/AndreaBachman"/>
+    <so:knows rdf:resource="https://fanniespanker.com/ArmedEscorts/Diane"/>
+    <so:knows rdf:resource="https://fanniespanker.com/ArmedEscorts/Georgina"/>
+    <so:knows rdf:resource="https://fanniespanker.com/ArmedEscorts/AndreaBuchanan"/>
+    <so:knows rdf:resource="https://fanniespanker.com/ArmedEscorts/Regina"/>
+    <so:knows rdf:resource="https://fanniespanker.com/ArmedEscorts/Yesenia"/>
+    <so:knows rdf:resource="https://fanniespanker.com/ArmedEscorts/Geraldine"/>
+    <so:knows rdf:resource="https://fanniespanker.com/ArmedEscorts/Alex"/>
+  </so:Person>
+  
+  <so:Person rdf:about="https://fanniespanker.com/ArmedEscorts/Diane">
+    <so:honorificPrefix>Captain</so:honorificPrefix>
+    <so:givenName>Diane</so:givenName>
+    <so:additionalName>Leigh</so:additionalName>
+    <so:familyName>Somers</so:familyName>
+    <so:additionalName>Mistress</so:additionalName>
+    <so:additionalName>Madam Moneta</so:additionalName>
+    <so:gender>nonbinary female</so:gender>
+    <so:pronouns>she/her</so:pronouns>
+    <so:memberOf rdf:resource="https://fanniespanker.com/ArmedEscorts/SVSWG"/>
+    <so:worksFor rdf:resource="https://fanniespanker.com/ArmedEscorts/SVPD/Vice"/>
+    <so:jobTitle>Vice Squad Captain</so:jobTitle>
+    <so:knows rdf:resource="https://fanniespanker.com/ArmedEscorts/Judith"/>
+    <so:knows rdf:resource="https://fanniespanker.com/ArmedEscorts/AndreaBachman"/>
+    <so:knows rdf:resource="https://fanniespanker.com/ArmedEscorts/Georgina"/>
+    <so:knows rdf:resource="https://fanniespanker.com/ArmedEscorts/AndreaBuchanan"/>
+    <so:knows rdf:resource="https://fanniespanker.com/ArmedEscorts/Regina"/>
+    <so:knows rdf:resource="https://fanniespanker.com/ArmedEscorts/Yesenia"/>
+    <so:knows rdf:resource="https://fanniespanker.com/ArmedEscorts/Geraldine"/>
+    <so:knows rdf:resource="https://fanniespanker.com/ArmedEscorts/Alex"/>
+  </so:Person>
+  
+  <so:Person rdf:about="https://fanniespanker.com/ArmedEscorts/Georgina">
+    <so:givenName>Georgina</so:givenName>
+    <so:familyName>Dominguez</so:familyName>
+    <so:additionalName>Asta</so:additionalName>
+    <so:additionalName>Koko</so:additionalName>
+    <so:additionalName>Georgia</so:additionalName>
+    <so:additionalName>Gina</so:additionalName>
+    <so:gender>female</so:gender>
+    <so:pronouns>she/her</so:pronouns>
+    <so:knows rdf:resource="https://fanniespanker.com/ArmedEscorts/Judith"/>
+    <so:knows rdf:resource="https://fanniespanker.com/ArmedEscorts/Diane"/>
+    <so:knows rdf:resource="https://fanniespanker.com/ArmedEscorts/AndreaBachman"/>
+    <so:knows rdf:resource="https://fanniespanker.com/ArmedEscorts/AndreaBuchanan"/>
+    <so:knows rdf:resource="https://fanniespanker.com/ArmedEscorts/Regina"/>
+    <so:worksFor rdf:resource="https://fanniespanker.com/ArmedEscorts/SVMEO"/>
+    <so:jobTitle>Autopsy Assistant</so:jobTitle>
+    <so:worksFor>
+      <so:EmployeeRole>
+        <so:roleName>Autopsy Assistant</so:roleName>
+        <so:startDate>2024-07-15</so:startDate>
+      </so:EmployeeRole>
+    </so:worksFor>
+    <so:worksFor>
+      <so:EmployeeRole>
+        <so:roleName>Acting Lead Crime Scene Investigator"</so:roleName>
+        <so:endDate>2024-07-15</so:endDate>
+        <so:startDate>2024-07-15</so:startDate>
+      </so:EmployeeRole>
+    </so:worksFor>
+    <so:worksFor>
+      <so:EmployeeRole>
+        <so:roleName>Crime Scene Investigator</so:roleName>
+        <so:endDate>2024-07-15</so:endDate>
+      </so:EmployeeRole>
+    </so:worksFor>
+  </so:Person>
+  
+  <so:Person rdf:about="https://fanniespanker.com/ArmedEscorts/AndreaBuchanan">
+    <so:honorificPrefix>Lieutenant</so:honorificPrefix>
+    <so:givenName>Andrea</so:givenName>
+    <so:additionalName>Priscilla</so:additionalName>
+    <so:familyName>Buchanan</so:familyName>
+    <so:additionalName>Prissy</so:additionalName>
+    <so:additionalName>Doll</so:additionalName>
+    <so:gender>female</so:gender>
+    <so:pronouns>she/her</so:pronouns>
+    <so:worksFor rdf:resource="https://fanniespanker.com/ArmedEscorts/SVPD"/>
+    <so:jobTitle>Digital Media Archival Officer</so:jobTitle>
+    <so:knows rdf:resource="https://fanniespanker.com/ArmedEscorts/Judith"/>
+    <so:knows rdf:resource="https://fanniespanker.com/ArmedEscorts/Diane"/>
+    <so:knows rdf:resource="https://fanniespanker.com/ArmedEscorts/Georgina"/>
+    <so:knows rdf:resource="https://fanniespanker.com/ArmedEscorts/AndreaBachman"/>
+    <so:knows rdf:resource="https://fanniespanker.com/ArmedEscorts/Regina"/>
+  </so:Person>
+  
+  <so:Person rdf:about="https://fanniespanker.com/ArmedEscorts/Regina">
+    <so:honorificPrefix>Doctor</so:honorificPrefix>
+    <so:givenName>Regina</so:givenName>
+    <so:familyName>Klein</so:familyName>
+    <so:honorificSuffix>M.D.</so:honorificSuffix>
+    <so:additionalName>Blue</so:additionalName>
+    <so:additionalName>Reggie</so:additionalName>
+    <so:additionalName>Gina</so:additionalName>
+    <so:gender>genderqueer</so:gender>
+    <so:pronouns>any</so:pronouns>
+    <so:worksFor rdf:resource="https://fanniespanker.com/ArmedEscorts/SVMEO"/>
+    <so:jobTitle>Medical Examiner</so:jobTitle>
+    <so:knows rdf:resource="https://fanniespanker.com/ArmedEscorts/Judith"/>
+    <so:knows rdf:resource="https://fanniespanker.com/ArmedEscorts/Diane"/>
+    <so:knows rdf:resource="https://fanniespanker.com/ArmedEscorts/Georgina"/>
+    <so:knows rdf:resource="https://fanniespanker.com/ArmedEscorts/AndreaBuchanan"/>
+    <so:knows rdf:resource="https://fanniespanker.com/ArmedEscorts/AndreaBachman"/>
+  </so:Person>
+  
+  <so:Person rdf:about="https://fanniespanker.com/ArmedEscorts/Tom">
+    <so:honorificPrefix>Sergeant</so:honorificPrefix>
+    <so:givenName>Thomas</so:givenName>
+    <so:additionalName>Peter</so:additionalName>
+    <so:familyName>Forrester</so:familyName>
+    <so:additionalName>Tommy</so:additionalName>
+    <so:gender>male</so:gender>
+    <so:pronouns>he/him</so:pronouns>
+    <so:worksFor rdf:resource="https://fanniespanker.com/ArmedEscorts/SVPD"/>
+    <so:jobTitle>Parking Enforcement Officer</so:jobTitle>
+    <so:knows rdf:resource="https://fanniespanker.com/ArmedEscorts/Tom"/>
+    <so:knows rdf:resource="https://fanniespanker.com/ArmedEscorts/AndreaBachman"/>
+    <so:knows rdf:resource="https://fanniespanker.com/ArmedEscorts/Yesenia"/>
+  </so:Person>
+  
+  <so:Person rdf:about="https://fanniespanker.com/ArmedEscorts/Nico">
+    <so:givenName>Nico</so:givenName>
+    <so:familyName>Forrester</so:familyName>
+    <so:additionalName>Cupcake</so:additionalName>
+    <so:additionalName>Pink</so:additionalName>
+    <so:gender>femboy</so:gender>
+    <so:pronouns>any</so:pronouns>
+    <so:memberOf rdf:resource="https://fanniespanker.com/ArmedEscorts/SVSWG"/>
+    <so:knows rdf:resource="https://fanniespanker.com/ArmedEscorts/AndreaBachman"/>
+    <so:knows rdf:resource="https://fanniespanker.com/ArmedEscorts/Nico"/>
+  </so:Person>
+  
+  <so:Person rdf:about="https://fanniespanker.com/ArmedEscorts/Yesenia">
+    <so:honorificPrefix>Professor</so:honorificPrefix>
+    <so:givenName>Adriana</so:givenName>
+    <so:familyName>Valenzuela</so:familyName>
+    <so:additionalName>Yesenia</so:additionalName>
+    <so:additionalName>Seni</so:additionalName>
+    <so:gender>genderqueer, postgender</so:gender>
+    <so:pronouns>any</so:pronouns>
+    <so:memberOf rdf:resource="https://fanniespanker.com/ArmedEscorts/SVSWG"/>
+    <so:knows rdf:resource="https://fanniespanker.com/ArmedEscorts/Judith"/>
+    <so:knows rdf:resource="https://fanniespanker.com/ArmedEscorts/AndreaBachman"/>
+    <so:knows rdf:resource="https://fanniespanker.com/ArmedEscorts/Diane"/>
+    <so:knows rdf:resource="https://fanniespanker.com/ArmedEscorts/Geraldine"/>
+    <so:knows rdf:resource="https://fanniespanker.com/ArmedEscorts/Alex"/>
+    <so:knows rdf:resource="https://fanniespanker.com/ArmedEscorts/Nico"/>
+  </so:Person>
+  
+  <so:Person rdf:about="https://fanniespanker.com/ArmedEscorts/Geraldine">
+    <so:givenName>Geraldine</so:givenName>
+    <so:familyName>Brookvale</so:familyName>
+    <so:spouse>Alexander Brookvale</so:spouse>
+    <so:additionalName>Geri</so:additionalName>
+    <so:gender>female</so:gender>
+    <so:pronouns>she/her</so:pronouns>
+    <so:knows rdf:resource="https://fanniespanker.com/ArmedEscorts/Judith"/>
+    <so:knows rdf:resource="https://fanniespanker.com/ArmedEscorts/Diane"/>
+    <so:knows rdf:resource="https://fanniespanker.com/ArmedEscorts/AndreaBachman"/>
+    <so:knows rdf:resource="https://fanniespanker.com/ArmedEscorts/Nico"/>
+    <so:knows rdf:resource="https://fanniespanker.com/ArmedEscorts/Yesenia"/>
+    <so:knows rdf:resource="https://fanniespanker.com/ArmedEscorts/Alex"/>
+    <so:affiliation rdf:resource="https://fanniespanker.com/ArmedEscorts/SVPDefund"/>
+    <so:affiliation rdf:resource="https://fanniespanker.com/ArmedEscorts/OCDNF"/>
+    <so:affiliation rdf:resource="https://fanniespanker.com/ArmedEscorts/SVSWG"/>
+    <so:affiliation rdf:resource="https://fanniespanker.com/ArmedEscorts/AMS"/>
+    <so:affiliation rdf:resource="https://fanniespanker.com/ArmedEscorts/SVSDP"/>
+    <so:affiliation rdf:resource="https://fanniespanker.com/ArmedEscorts/PL"/>
+    <so:affiliation rdf:resource="https://fanniespanker.com/ArmedEscorts/DRN"/>
+    <so:affiliation rdf:resource="https://fanniespanker.com/ArmedEscorts/AGL"/>
+  </so:Person>
+  
+  <so:Person rdf:about="https://fanniespanker.com/ArmedEscorts/Alex">
+    <so:givenName>Alexander</so:givenName>
+    <so:familyName>Brookvale</so:familyName>
+    <so:spouse>Geraldine Brookvale</so:spouse>
+    <so:additionalName>Alex</so:additionalName>
+    <so:additionalName>Aly</so:additionalName>
+    <so:additionalName>Xander</so:additionalName>
+    <so:gender>male</so:gender>
+    <so:pronouns>he/him</so:pronouns>
+    <so:knows rdf:resource="https://fanniespanker.com/ArmedEscorts/Judith"/>
+    <so:knows rdf:resource="https://fanniespanker.com/ArmedEscorts/Diane"/>
+    <so:knows rdf:resource="https://fanniespanker.com/ArmedEscorts/AndreaBachman"/>
+    <so:knows rdf:resource="https://fanniespanker.com/ArmedEscorts/Nico"/>
+    <so:knows rdf:resource="https://fanniespanker.com/ArmedEscorts/Yesenia"/>
+    <so:knows rdf:resource="https://fanniespanker.com/ArmedEscorts/Geraldine"/>
+    <so:affiliation rdf:resource="https://fanniespanker.com/ArmedEscorts/SVPDefund"/>
+    <so:affiliation rdf:resource="https://fanniespanker.com/ArmedEscorts/OCDNF"/>
+    <so:affiliation rdf:resource="https://fanniespanker.com/ArmedEscorts/SVSWG"/>
+    <so:affiliation rdf:resource="https://fanniespanker.com/ArmedEscorts/AMS"/>
+    <so:affiliation rdf:resource="https://fanniespanker.com/ArmedEscorts/SVSDP"/>
+    <so:affiliation rdf:resource="https://fanniespanker.com/ArmedEscorts/PL"/>
+    <so:affiliation rdf:resource="https://fanniespanker.com/ArmedEscorts/CRN"/>
+    <so:affiliation rdf:resource="https://fanniespanker.com/ArmedEscorts/AGL"/>
+  </so:Person>
+  
+        <!-- Organization meta items -->
+  <so:Organization rdf:about="https://fanniespanker.com/ArmedEscorts/SVPDefund">
+    <so:name>SVPDefund</so:name>
+  </so:Organization>
+  
+  <so:Organization rdf:about="https://fanniespanker.com/ArmedEscorts/OCDNF">
+    <so:name>Our Color Does Not Fade</so:name>
+  </so:Organization>
+  
+  <so:WorkersUnion rdf:about="https://fanniespanker.com/ArmedEscorts/SVSWG">
+    <so:name>Santa Virginia Sex Workers Guild</so:name>
+    <so:alternateName>SVSWG</so:alternateName>
+    <so:alternateName>Sex Workers Guild</so:alternateName>
+    <so:alternateName>SWG</so:alternateName>
+    <so:foundingLocation rdf:resource="https://fanniespanker.com/ArmedEscorts/TorreyPinesHotel"/>
+    <so:foundingDate>2016-10-08</so:foundingDate>
+  </so:WorkersUnion>
+  
+  <so:Hotel rdf:about="https://fanniespanker.com/ArmedEscorts/TorreyPinesHotel">
+    <so:name>Torrey Pines Hotel</so:name>
+    <so:alternateName>Torrey Pines</so:alternateName>
+    <so:alternateName>the hotel</so:alternateName>
+    <so:alternateName>Sex Workers Guild HQ</so:alternateName>
+    <so:founder rdf:resource="https://fanniespanker.com/ArmedEscorts/Yesenia"/>
+    <so:founder rdf:resource="https://fanniespanker.com/ArmedEscorts/Alex"/>
+  </so:Hotel>
+  
+  <so:Organization rdf:about="https://fanniespanker.com/ArmedEscorts/AMS">
+    <so:name>Abolish Modern Slavery</so:name>
+  </so:Organization>
+  
+  <so:Organization rdf:about="https://fanniespanker.com/ArmedEscorts/SVSDP">
+    <so:name>Santa Virginians for Sane Drug Policy</so:name>
+  </so:Organization>
+  
+  <so:Organization rdf:about="https://fanniespanker.com/ArmedEscorts/PL">
+    <so:name>Palestina Libre</so:name>
+  </so:Organization>
+  
+  <so:Organization rdf:about="https://fanniespanker.com/ArmedEscorts/CRN">
+    <so:name>Convicts’ Rights Now</so:name>
+  </so:Organization>
+  
+  <so:Organization rdf:about="https://fanniespanker.com/ArmedEscorts/AGL">
+    <so:name>Anti-Gentrification League</so:name>
+  </so:Organization>
+  
+  <so:GovernmentOrganization rdf:about="https://fanniespanker.com/ArmedEscorts/SVPD">
+    <so:name>Santa Virginia Police Department</so:name>
+    <so:alternateName>SVPD</so:alternateName>
+    <so:location rdf:resource="https://fanniespanker.com/ArmedEscorts/SantaVirginia"/>
+    <so:department>
+      <so:GovernmentOrganization rdf:about="https://fanniespanker.com/ArmedEscorts/CAP">
+        <so:name>Crimes Against Persons Unit</so:name>
+        <so:alternateName>CAPU</so:alternateName>
+        <so:alternateName>Crimes Against Persons Squad</so:alternateName>
+        <so:alternateName>CAPS</so:alternateName>
+        <so:alternateName>Crimes Against Persons</so:alternateName>
+        <so:alternateName>CAP</so:alternateName>
+        <so:alternateName>Death and Dismemberment Squad</so:alternateName>
+        <so:alternateName>Death and Dismemberment</so:alternateName>
+      </so:GovernmentOrganization>
+    </so:department>
+    <so:department>
+      <so:GovernmentOrganization rdf:about="https://fanniespanker.com/ArmedEscorts/PCU">
+        <so:name>Property Crimes Unit</so:name>
+        <so:alternateName>PCU</so:alternateName>
+        <so:alternateName>Property Crimes Squad</so:alternateName>
+        <so:alternateName>PCS</so:alternateName>
+        <so:alternateName>Property Crimes</so:alternateName>
+        <so:alternateName>Property</so:alternateName>
+      </so:GovernmentOrganization>
+    </so:department>
+    <so:department>
+      <so:GovernmentOrganization rdf:about="https://fanniespanker.com/ArmedEscorts/PEU">
+        <so:name>Parking Enforcement Unit</so:name>
+        <so:alternateName>PEU</so:alternateName>
+        <so:alternateName>Parking Enforcement Squad</so:alternateName>
+        <so:alternateName>PES</so:alternateName>
+        <so:alternateName>PISS</so:alternateName>
+        <so:alternateName>PISS Squad</so:alternateName>
+        <so:alternateName>Parking Enforcement</so:alternateName>
+        <so:alternateName>Parking</so:alternateName>
+        <so:alternateName>Meter Maid Squad</so:alternateName>
+      </so:GovernmentOrganization>
+    </so:department>
+    <so:department>
+      <so:GovernmentOrganization rdf:about="https://fanniespanker.com/ArmedEscorts/SVPD/CSI">
+        <so:name>Crime Scene Investigation</so:name>
+        <so:alternateName>CSI</so:alternateName>
+      </so:GovernmentOrganization>
+    </so:department>
+    <so:department>
+      <so:GovernmentOrganization rdf:about="https://fanniespanker.com/ArmedEscorts/SVPD/Vice">
+        <so:name>Vice Unit</so:name>
+        <so:alternateName>Vice Squad</so:alternateName>
+        <so:alternateName>Vice</so:alternateName>
+      </so:GovernmentOrganization>
+    </so:department>
+  </so:GovernmentOrganization>
+  
+  <so:GovernmentOrganization rdf:about="https://fanniespanker.com/ArmedEscorts/SVMEO">
+    <so:name>Santa Virginia Medical Examiner's Office</so:name>
+    <so:name>Medical Examiner's Office</so:name>
+  </so:GovernmentOrganization>
+</rdf:RDF>

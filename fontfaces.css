@@ -1,0 +1,249 @@
+@charset "UTF-8";
+
+@page {
+  margin: 0.25in;
+}
+
+/* Fjord One */
+/* latin */
+@font-face {
+  font-family: 'Fjord One';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: 
+    url(https://fonts.gstatic.com/s/fjordone/v22/zOL-4pbEnKBY_9S1jNKb7uRB.woff2) format('woff2'),
+    url('/fonts/FjordOne-Regular.ttf') format('truetype');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* Open Sans */
+/* latin */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: 100%;
+  font-display: swap;
+  src: 
+    url(https://fonts.gstatic.com/s/opensans/v44/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsjZ0B4gaVI.woff2) format('woff2'),
+    url('/fonts/OpenSans-VariableFont_wdth,wght.ttf') format('truetype');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: 100%;
+  font-display: swap;
+  src: 
+    url(https://fonts.gstatic.com/s/opensans/v44/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsjZ0B4uaVIGxA.woff2) format('woff2'),
+    url('/fonts/OpenSans-VariableFont_wdth,wght.ttf') format('truetype');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* symbols */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: 100%;
+  font-display: swap;
+  src: 
+    url(https://fonts.gstatic.com/s/opensans/v44/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsjZ0B5OaVIGxA.woff2) format('woff2'),
+    url('/fonts/OpenSans-VariableFont_wdth,wght.ttf') format('truetype');
+  unicode-range: U+0001-000C, U+000E-001F, U+007F-009F, U+20DD-20E0, U+20E2-20E4, U+2150-218F, U+2190, U+2192, U+2194-2199, U+21AF, U+21E6-21F0, U+21F3, U+2218-2219, U+2299, U+22C4-22C6, U+2300-243F, U+2440-244A, U+2460-24FF, U+25A0-27BF, U+2800-28FF, U+2921-2922, U+2981, U+29BF, U+29EB, U+2B00-2BFF, U+4DC0-4DFF, U+FFF9-FFFB, U+10140-1018E, U+10190-1019C, U+101A0, U+101D0-101FD, U+102E0-102FB, U+10E60-10E7E, U+1D2C0-1D2D3, U+1D2E0-1D37F, U+1F000-1F0FF, U+1F100-1F1AD, U+1F1E6-1F1FF, U+1F30D-1F30F, U+1F315, U+1F31C, U+1F31E, U+1F320-1F32C, U+1F336, U+1F378, U+1F37D, U+1F382, U+1F393-1F39F, U+1F3A7-1F3A8, U+1F3AC-1F3AF, U+1F3C2, U+1F3C4-1F3C6, U+1F3CA-1F3CE, U+1F3D4-1F3E0, U+1F3ED, U+1F3F1-1F3F3, U+1F3F5-1F3F7, U+1F408, U+1F415, U+1F41F, U+1F426, U+1F43F, U+1F441-1F442, U+1F444, U+1F446-1F449, U+1F44C-1F44E, U+1F453, U+1F46A, U+1F47D, U+1F4A3, U+1F4B0, U+1F4B3, U+1F4B9, U+1F4BB, U+1F4BF, U+1F4C8-1F4CB, U+1F4D6, U+1F4DA, U+1F4DF, U+1F4E3-1F4E6, U+1F4EA-1F4ED, U+1F4F7, U+1F4F9-1F4FB, U+1F4FD-1F4FE, U+1F503, U+1F507-1F50B, U+1F50D, U+1F512-1F513, U+1F53E-1F54A, U+1F54F-1F5FA, U+1F610, U+1F650-1F67F, U+1F687, U+1F68D, U+1F691, U+1F694, U+1F698, U+1F6AD, U+1F6B2, U+1F6B9-1F6BA, U+1F6BC, U+1F6C6-1F6CF, U+1F6D3-1F6D7, U+1F6E0-1F6EA, U+1F6F0-1F6F3, U+1F6F7-1F6FC, U+1F700-1F7FF, U+1F800-1F80B, U+1F810-1F847, U+1F850-1F859, U+1F860-1F887, U+1F890-1F8AD, U+1F8B0-1F8BB, U+1F8C0-1F8C1, U+1F900-1F90B, U+1F93B, U+1F946, U+1F984, U+1F996, U+1F9E9, U+1FA00-1FA6F, U+1FA70-1FA7C, U+1FA80-1FA89, U+1FA8F-1FAC6, U+1FACE-1FADC, U+1FADF-1FAE9, U+1FAF0-1FAF8, U+1FB00-1FBFF;
+}
+/* latin */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: italic;
+  font-weight: 400;
+  font-stretch: 100%;
+  font-display: swap;
+  src: 
+    url(https://fonts.gstatic.com/s/opensans/v44/memQYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWq8tWZ0Pw86hd0Rk8ZkWVAewA.woff2) format('woff2'),
+    url('/fonts/OpenSans-VariableFont_wdth,wght.ttf') format('truetype');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: italic;
+  font-weight: 400;
+  font-stretch: 100%;
+  font-display: swap;
+  src: 
+    url(https://fonts.gstatic.com/s/opensans/v44/memQYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWq8tWZ0Pw86hd0Rk8ZkWV4ewJER.woff2) format('woff2'),
+    url('/fonts/OpenSans-VariableFont_wdth,wght.ttf') format('truetype');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+/* Poiret One */
+/* latin */
+@font-face {
+  font-family: 'Poiret One';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: 
+    url(https://fonts.gstatic.com/s/poiretone/v18/UqyVK80NJXN4zfRgbdfbo55cVw.woff2) format('woff2'),
+    url('/fonts/PoiretOne-Regular.ttf') format('truetype');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Poiret One';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: 
+    url(https://fonts.gstatic.com/s/poiretone/v18/UqyVK80NJXN4zfRgbdfbo5BcV_cx.woff2) format('woff2'),
+    url('/fonts/PoiretOne-Regular.ttf') format('truetype');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+/* Sorts Mill Goudy */
+/* latin */
+@font-face {
+  font-family: 'Sorts Mill Goudy';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/sortsmillgoudy/v16/Qw3GZR9MED_6PSuS_50nEaVrfzgEbHoEjw.woff2) format('woff2'),
+    url('/fonts/Sorts_Mill_Goudy_-_Regular.ttf') format('truetype');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Sorts Mill Goudy';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/sortsmillgoudy/v16/Qw3GZR9MED_6PSuS_50nEaVrfzgEbHQEj6M7.woff2) format('woff2'),
+    url('/fonts/Sorts_Mill_Goudy_-_Regular.ttf') format('truetype');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Sorts Mill Goudy';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: 
+    url(https://fonts.gstatic.com/s/sortsmillgoudy/v16/Qw3AZR9MED_6PSuS_50nEaVrfzgEbH80jbs_.woff2) format('woff2'),
+    url('/fonts/Sorts_Mill_Goudy_-_Italic.ttf') format('truetype');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Sorts Mill Goudy';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: 
+    url(https://fonts.gstatic.com/s/sortsmillgoudy/v16/Qw3AZR9MED_6PSuS_50nEaVrfzgEbH80g7s_xPE.woff2) format('woff2'),
+    url('/fonts/Sorts_Mill_Goudy_-_Italic.ttf') format('truetype');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* bold italic */
+@font-face {
+  font-family: "Sorts Mill Goudy";
+  font-weight: bold;
+  font-style: italic;
+  src: url('/fonts/Sorts_Mill_Goudy_-_BoldItalic.ttf') format("truetype");
+}
+
+/* Lansbury FG */
+@font-face {
+  font-family: "Lansbury FG";
+  font-weight: normal;
+  font-style: normal;
+  src: url('/fonts/lansbury.ttf') format("truetype");
+}
+
+/* Gentium */
+@font-face {
+  font-family: "Gentium";
+  font-weight: normal;
+  font-style: normal;
+  src: 
+    url('/fonts/Gentium-Regular.woff2') format('woff2'), 
+    url('/fonts/Gentium-Regular.woff') format('woff'),
+    url('/fonts/Gentium-Regular.ttf') format("truetype");
+}
+@font-face {
+  font-family: "Gentium";
+  font-weight: bold;
+  font-style: normal;
+  src: 
+    url('/fonts/Gentium-Bold.woff2') format('woff2'), 
+    url('/fonts/Gentium-Bold.woff') format('woff'),
+    url('/fonts/Gentium-Bold.ttf') format("truetype");
+}
+@font-face {
+  font-family: "Gentium";
+  font-weight: normal;
+  font-style: italic;
+  src: 
+    url('/fonts/Gentium-Italic.woff2') format('woff2'), 
+    url('/fonts/Gentium-Italic.woff') format('woff'),
+    url('/fonts/Gentium-Italic.ttf') format("truetype");
+}
+@font-face {
+  font-family: "Gentium";
+  font-weight: bold;
+  font-style: italic;
+  src: 
+    url('/fonts/Gentium-BoldItalic.woff2') format('woff2'), 
+    url('/fonts/Gentium-BoldItalic.woff') format('woff'),
+    url('/fonts/Gentium-BoldItalic.ttf') format("truetype");
+}
+
+@font-face {
+  font-family: "Charrington Roughened";
+  font-weight: normal;
+  font-style: normal;
+  src: url('/fonts/Charruff.ttf') format("truetype");
+}
+@font-face {
+  font-family: "Operation Napalm";
+  font-weight: normal;
+  font-style: italic;
+  src: url('/fonts/OperationNapalm_-_Italic.ttf') format("truetype");
+}
+@font-face {
+  font-family: "Operation Napalm";
+  font-weight: normal;
+  font-style: normal;
+  src: url('/fonts/OperationNapalm_-_Regular.ttf') format("truetype");
+}
+@font-face {
+  font-family: "Kredit Back";
+  font-weight: normal;
+  font-style: normal;
+  src: url('/fonts/Kredit_Back.otf') format("opentype");
+}
+
+/**
+ * @license
+ * MyFonts Webfont Build ID 3867246, 2020-12-16T11:57:38-0500
+ * 
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement(s) entered into by the website owner. All other parties are 
+ * explicitly restricted from using the Licensed Webfonts(s).
+ * 
+ * You may obtain a valid license at the URLs below.
+ * 
+ * Webfont: Dealerplate California by Typodermic
+ * URL: https://www.myfonts.com/collections/typodermic-foundry
+ 
+ * © 2025 MyFonts Inc. */ 
+@font-face {
+  font-family: "Dealerplate California";
+  font-weight: normal;
+  font-style: normal;
+  src:
+    url('/fonts/DealerplateCalifornia/font.woff2') format('woff2'), 
+    url('/fonts/DealerplateCalifornia/font.woff') format('woff');
+}

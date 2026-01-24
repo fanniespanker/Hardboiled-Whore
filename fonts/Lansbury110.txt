@@ -1,0 +1,38 @@
+Lansbury FG 1.10
+----------------
+The first name of this beautiful Art Nouveau font it seems was "Art Gothic" or "Toulouse Lautrec". It became a "famous font" through a TV series starring Angela Lansbury as detective novelist Jessica Fletcher. So the font also runs under "Fletcher Gothic", "Lansbury" etc. 
+
+Using one of the anonymous freeware versions around, I added many characters. Alternative characters had to go to different places, non-standard of course, but more convenient for non-Unicode-aware software. This free font software is mainly for the benefit of amateurs. Professionals, get one of the commercial versions on sale if you bother. Or put up with the inconvenience for free.
+
+In version 1.10 I did further tweaking on letterspacing, kerning and outline smoothing and also added a few more characters in slots that had been empty.
+
+Andreas Höfeld
+www.fontgrube.de 
+April 2013
+
+LICENSE FOR LANSBURY FG
+
+Use
+---
+You may use this font software free of charge for both personal and commercial use. 
+
+Conversion and modification
+---------------------------
+You may convert this font to other formats including web font formats or modify it for your own purposes. You may use web font formats of this font to display text on your web pages, but you may not explicitly offer converted or modified versions of this font software for download or re-use by others, unless you have received permission in writing to do so.
+
+Distribution
+------------
+You may distribute this font on digital media or as a download on your website as long as you comply with the following rules. Violation of one or more of these rules terminates your distribution license and you have to stop distribution immediately:
+
+1. You may offer the font only in form of a ZIP file containing only the font software and this readme file. 
+2. You are not allowed to distribute the font software without this text file.
+3. You may not redistribute modified or converted copies of the font software (see above).
+4. You may not add advertising messages in text or graphics form to the zip file.
+5. You are not allowed to create a self-extracting executable file containing the font software or require the user 6. to run or install a download manager or other software to get the download.
+7. You may not charge money for the download. 
+8. If you want to distribute this font on storage media (CD DVD) produced in numbers of more than 50 identical copies, you must send me a specimen copy.
+
+Updates
+-------
+Further updates of this font may be published on my web site fontgrube.de. Have fun with this font.
+
