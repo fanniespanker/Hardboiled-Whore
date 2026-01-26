@@ -39,9 +39,10 @@
     <meta 
         property="http://purl.org/dc/terms/format" 
         itemprop="encodingFormat" 
-        content="text/html"/> 
-    <meta itemprop="" content=""/> 
-    <meta itemprop="" content=""/>
+        content="text/html"/>
+    
+    <meta itemprop="isAccessibleForFree" content="True"/>
+    
     
   </head>
   <body
@@ -106,9 +107,8 @@
                   alt=""/>
               Download the ebook (EPUB3) here;
               <meta 
-              property="http://purl.org/dc/terms/hasFormat" 
-              itemprop=""
-              content="application/epub+zip"/>
+                property="http://purl.org/dc/terms/hasFormat"
+                content="application/epub+zip"/>
             </a>
           </div>
           <div>
@@ -163,10 +163,23 @@
             </a> © 
             <span 
                 itemprop="copyrightYear"
-                property="http://purl.org/dc/terms/dateCopyrighted http://purl.org/dc/terms/available http://purl.org/dc/terms/dateCopyrighted"
+                property="http://purl.org/dc/terms/dateCopyrighted http://purl.org/dc/terms/available"
             >
               202X
-            </span>,
+            </span>, Episode II of 
+            <div 
+        itemprop="isPartOf"
+        itemscope
+        itemtype="CreativeWorkSeries"
+    >
+      <meta itemprop="name" content="Armed Escorts"/>
+      <meta itemprop="creator author" itemref="FannieSpanker"/>
+      <meta itemprop="creativeWorkStatus" content="Incomplete"/>
+      <link itemprop="identifier URL" href="https://fanniespanker.com/armedescorts/"/>
+    </div>
+            <meta 
+                itemprop="countryOfOrigin" 
+                content="The Republic of Alta California"/> 
             modified 
             <span 
                 itemprop="dateModified" 
@@ -200,9 +213,20 @@
               property="http://purl.org/dc/elements/1.1/format"
               content="text/html"/>
           a readable HTML document, as well as
-          <meta 
-              property="http://purl.org/dc/elements/1.1/format"
-              content="application/epub+zip"/>
+          <div 
+              itemprop="associatedMedia"
+              itemscope
+              itemtype="MediaObject"
+            >
+            <meta 
+                itemprop="encodingFormat"
+                property="http://purl.org/dc/elements/1.1/format"
+                content="application/epub+zip"/>
+            <link
+                itemprop="contentUrl"
+                href="https://fanniespanker.com/armedescorts/nudienoire/Nudie Noire - Fannie Spanker.epub"/>
+            <meta itemprop="isAccessibleForFree" content="True"/>
+          </div>
           a downloadable EPUB3 ebook.
         </p>
         <p>
@@ -223,6 +247,7 @@
           </span>
         </p>
         <h3>Summary of Your Rights and Obligations Under this License</h3>
+        <meta itemprop="isAccessibleForFree" content="True"/>
         <p>You are free to:</p>
         <ul>
           <li><i>Share</i> — copy and redistribute the material in any medium or format</li>
