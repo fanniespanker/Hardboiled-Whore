@@ -124,7 +124,11 @@
       <meta name="description" content="Title page."/>
       
       <div class="TitlePageText">
-        <span itemprop="title" class="TitlePageTitle">
+        <span 
+            property="http://purl.org/dc/terms/title" 
+            itemprop="title" 
+            class="TitlePageTitle"
+        >
           <span class="Hardboiled">Hardboiled</span>
           <br/>
           <span class="Whore">Whore</span>
@@ -142,8 +146,8 @@
           <span itemprop="givenName">Fannie</span>
           <span itemprop="familyName">Spanker</span>
           <link 
-              itemprop="email" 
-              href="mailto:fannie.spanker@gmail.com"/>
+              href="mailto:fannie.spanker@gmail.com" 
+              itemprop="email"/>
           <meta itemprop="gender" content="female"/>
           <meta itemprop="pronouns" content="she/her"/>
           <span 
@@ -235,23 +239,32 @@
         <h2>Copyright and License</h2>
         <p>
           <span role="doc-credit">
-            <meta itemprop="datePublished" datetime="2025-08-12"/>
-            <meta itemprop="dateModified" datetime="2026-01-29"/>
-            <meta itemprop="copyrightYear" datetime="2025"/>
             <a 
                 href="https://fanniespanker.com/armedescorts/hardboiledwhore/" 
-                property="http://purl.org/dc/terms/title">Hardboiled Whore</a> © <span itemprop="copyrightYear"
-                property="http://purl.org/dc/terms/dateCopyrighted http://purl.org/dc/terms/available">2025</span>,
-            modified <span class="http://purl.org/dc/terms/modified">2025-12-25</span>,
+            >Hardboiled Whore</a> 
+            © 
+            <span 
+                property="http://purl.org/dc/terms/dateCopyrighted http://purl.org/dc/terms/available" 
+                itemprop="copyrightYear"
+                datetime="2025"
+            >2025</span>,
+            modified 
+            <span 
+                property="http://purl.org/dc/terms/modified" 
+                itemprop="dateModified" 
+                datetime="2026-02-06">February 6, 2026</span>,
             <br/>
-            a novel by <a 
+            a novel by 
+            <a 
                 rel="author me" 
                 href="mailto:fannie.spanker@gmail.com" 
             >
               Fannie Spanker
             </a>
           </span>,
-          is accessible free of charge at 
+          is accessible free of charge 
+          <meta itemprop="isAccessibleForFree" content="True"/>
+          at 
           <br/>
           <a 
               class="NavButton" 
@@ -263,9 +276,7 @@
         </p>
         <p>
           This book is licensed (except for fonts) under 
-          <span
-              property="http://purl.org/dc/terms/license"
-          >
+          <span property="http://purl.org/dc/terms/license">
             CC BY-NC-SA 4.0 
             <img class="SVGIcon" src="/images/cc.svg" alt="Creative Commons"/>
             <img class="SVGIcon" src="/images/by.svg" alt="Attribution"/>
@@ -276,6 +287,7 @@
             <a 
                 href="https://creativecommons.org/licenses/by-nc-sa/4.0/"
                 property="http://purl.org/dc/terms/rights"
+                itemprop="license"
             >
               creativecommons.org/licenses/by-nc-sa/4.0/
             </a>
