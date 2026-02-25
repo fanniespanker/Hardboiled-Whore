@@ -49,6 +49,9 @@ section {
     border-color: var(--blush);
   }
 }
+section#TitlePage {
+  padding: initial;
+}
 
 
 .HorizontallyCentered {
@@ -110,6 +113,7 @@ section {
   text-align: center;
   
   background: linear-gradient(to bottom, #ff60a0 0%, #d80080 25%, #e040e0 33.3%, #a05098 60%, #0038a8 75%, #0080ff 100%);
+  background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   
@@ -179,6 +183,7 @@ a:hover:has( > .TitlePageBG) {
     
     .TitlePageText {
       background: var(--blush);
+      background-clip: initial;
       -webkit-background-clip: initial;
       -webkit-text-fill-color: initial;
     }
@@ -366,7 +371,7 @@ desc {
   font-family: "Lansbury FG", serif;
   font-size: 2em;
   color: var(--blush);
-  line-height: 1.2
+  line-height: 1.2;
   text-align: center;
   text-indent: 0;
   
@@ -981,7 +986,7 @@ nav#NavBar {
             
             span {
               display: block;
-              vertical-align: middle;
+              /*vertical-align: middle;*/
             }
           }
           a:hover {
