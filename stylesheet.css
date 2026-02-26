@@ -6,6 +6,7 @@
   --lily: #a080a0;
   --violet: #a000a0;
   --blush: #fff0ff;
+  --amethyst: #f000f0;
 }
 
 html {
@@ -100,60 +101,6 @@ section#TitlePage {
 }
 
 
-.TitlePageBG {
-  background-color: var(--char);
-  color: var(--blush);
-}
-
-.TitlePageText {
-  width: 100%;
-  margin-left: 0;
-  margin-right: 0;
-  font-size: 4em;
-  text-align: center;
-  
-  background: linear-gradient(to bottom, #ff60a0 0%, #d80080 25%, #e040e0 33.3%, #a05098 60%, #0038a8 75%, #0080ff 100%);
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  
-  .TitlePageTitle {
-    font-family: "Poiret One", sans-serif;
-    width: 100%;
-    text-align: center;
-    line-height: 1.0;
-    
-    .Hardboiled {
-      font-size: 100%;
-    }
-    
-    .Whore {
-      font-size: 161%;
-    }
-  }
-
-  .TitlePageAuthor {
-    font-family: "Lansbury FG", serif;
-    font-size: 66.666%;
-    text-align: center;
-  }
-}
-@media (max-width: 360px) {
-  .TitlePageText {
-    font-size: 3em;
-  }
-}
-@media (max-width: 240px) {
-  .TitlePageText {
-    font-size: 2em;
-  }
-}
-@media (max-width: 180px) {
-  .TitlePageText {
-    font-size: 1.5em;
-  }
-}
-
 a {
   color: var(--bruise);
 }
@@ -171,27 +118,9 @@ a:hover {
   }
 }
 
-a:has( > .TitlePageBG) {
-  display: block;
-  text-decoration: none;
-}
-a:hover:has( > .TitlePageBG) {
-  color: var(--bruise);
-  background: var(--blush);
-  
-  .TitlePageBG {
-    
-    .TitlePageText {
-      background: var(--blush);
-      background-clip: initial;
-      -webkit-background-clip: initial;
-      -webkit-text-fill-color: initial;
-    }
-  }
-}
-
 h2 {
-  font-family: "Poiret One", sans-serif;
+  font-family: "Amaranth", sans-serif;
+  font-weight: bold;
   font-size: 2em;
   font-weight: normal;
   line-height: 1.2;
@@ -202,7 +131,7 @@ h2 {
   
   .ChapterNumber {
     display: block;
-    font-family: "Lansbury FG", serif;
+    font-family: "Amaranth", sans-serif;
     font-size: 66.666%;
     text-align: center;
     text-indent: 0;
@@ -210,7 +139,8 @@ h2 {
   
   .ChapterName {
     display: block;
-    font-family: "Poiret One", sans-serif;
+    font-family: "Amaranth", sans-serif;
+    font-weight: bold;
     font-size: 100%;
     text-align: center;
     font-variant-ligatures: none;
@@ -218,9 +148,9 @@ h2 {
 }
 
 h3 {
-  font-family: "Poiret One", sans-serif;
+  font-family: "Amaranth", sans-serif;
   font-size: 1.25em;
-  font-weight: normal;
+  font-weight: bold;
   line-height: 1.2;
   text-align: center;
   margin: 0.5em 1em;
@@ -976,24 +906,19 @@ nav#NavBar {
             box-sizing: border-box;
             font-family: "Lansbury FG", serif;
             font-size: 1.25em;
-            color: #f000f0;
+            color: var(--amethyst);
             width: 100%;
             height: 100%;
             padding: 0.5em;
             margin: auto;
             text-align: center;
             line-height: 1.2;
-            
-            span {
-              display: block;
-              /*vertical-align: middle;*/
-            }
           }
+          
           a:hover {
             color: var(--blush);
             background: var(--bruise);
             text-decoration: none;
-          
           }
         }
         
