@@ -50,7 +50,7 @@ section {
     border-color: var(--blush);
   }
 }
-section#TitlePage {
+section#CoverPage {
   padding: initial;
 }
 
@@ -84,12 +84,13 @@ section#TitlePage {
     font-size: 7vh;
       
     .SeriesPageTitle {
-      font-family: "Poiret One", sans-serif;
+      font-family: "Amaranth", sans-serif;
+      font-weight: bold;
       font-size: 100%;
     }
     
     .SeriesPageAuthor {
-      font-family: "Lansbury FG", serif;
+      font-family: "Amaranth", sans-serif;
       font-size: 66.6%;
     }
   }
@@ -115,6 +116,37 @@ a:hover {
   a:hover {
     color: var(--bruise);
     background: var(--blush);
+  }
+}
+
+h1 {
+  font-family: "Poiret One", sans-serif;
+  font-weight: normal;
+  text-align: center;
+  max-width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0.25em;
+  font-size: 3em;
+  line-height: 1;
+  
+  .ActNumber {
+    display: block;
+    font-family: "Amaranth", serif;
+    font-style: italic;
+    font-size: 66.666%;
+    text-align: center;
+    text-indent: 0;
+  }
+  
+  .ActName {
+    display: block;
+    font-family: "Amaranth", sans-serif;
+    font-weight: bold;
+    font-size: 100%;
+    text-align: center;
+    text-indent: 0;
+    line-height: 1;
   }
 }
 
@@ -154,6 +186,29 @@ h3 {
   line-height: 1.2;
   text-align: center;
   margin: 0.5em 1em;
+}
+
+.Subtitle {
+  display: block;
+  font-family: "Amaranth", "Gentium", serif;
+  font-size: 1.5em;
+  line-height: 1.2;
+  text-align: center;
+  text-indent: 0;
+}
+
+p {
+  margin-bottom: 0.25em;
+  margin-left: min(1em,0.333vw);
+  margin-right: min(1em,0.333vw);
+  margin-top: 0.25em;
+  padding-bottom: 0;
+  padding-left: 0;
+  padding-right: 0;
+  padding-top: 0;
+  line-height: 1.25;
+  text-align: justify;
+  text-indent: 1.5em;
 }
 
 #Copyright {
@@ -209,26 +264,29 @@ nav {
   max-width: fit-content;
   margin-left: auto;
   margin-right: auto;
-  
+
   li {
     list-style: none;
   }
+
+  > ol > li {
+  font-weight: bold;
+  margin-top: 0.75em;
+  }
   
+  > ol > li > ol > li {
+  font-weight: normal;
+  }
+
+  > ol > li > ol > li > a:before {
+  content: counter(list-item) ": ";
+  }
+
   a {
     text-decoration: underline;
   }
 }
 
-nav > ol > li {
-  font-weight: bold;
-  margin-top: 0.75em;
-}
-nav > ol > li > ol > li {
-  font-weight: normal;
-}
-nav > ol > li > ol > li > a:before {
-  content: counter(list-item) ": ";
-}
 
 ul.ContentWarningsSubheading {
   display: block;
@@ -261,20 +319,6 @@ hr {
 }
 
 
-p {
-  margin-bottom: 0.25em;
-  margin-left: min(1em,0.333vw);
-  margin-right: min(1em,0.333vw);
-  margin-top: 0.25em;
-  padding-bottom: 0;
-  padding-left: 0;
-  padding-right: 0;
-  padding-top: 0;
-  line-height: 1.25;
-  text-align: justify;
-  text-indent: 1.5em;
-}
-
 
 svg {
   max-width: min(5.5in,calc(100cqw - 0.5em));
@@ -293,7 +337,7 @@ desc {
   white-space: pre;
 }
 
-#TitlePageNav {
+#CoverPageNav {
   display: block;
   max-width: min(fit-content,5.5in);
   margin-left: auto;
@@ -323,7 +367,7 @@ desc {
   }
 }
 @media (prefers-color-scheme: dark) {
-  #TitlePageNav {
+  #CoverPageNav {
     a {
       color: var(--blush);
     }
@@ -385,43 +429,6 @@ desc {
   }
 }
 
-h1 {
-  font-family: "Poiret One", sans-serif;
-  font-weight: normal;
-  text-align: center;
-  max-width: fit-content;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 0.25em;
-  font-size: 3em;
-  line-height: 1;
-  
-  .ActNumber {
-    display: block;
-    font-family: "Lansbury FG", serif;
-    font-size: 66.666%;
-    text-align: center;
-    text-indent: 0;
-  }
-  
-  .ActName {
-    display: block;
-    font-family: "Poiret One", sans-serif;
-    font-size: 100%;
-    text-align: center;
-    text-indent: 0;
-    line-height: 1;
-  }
-}
-
-.Subtitle {
-  display: block;
-  font-family: "Gentium", serif;
-  font-size: 1.5em;
-  line-height: 1.2;
-  text-align: center;
-  text-indent: 0;
-}
 
 sup {
   font-size: 75%;
@@ -456,6 +463,17 @@ div.ChapterDivider {
   div {
     text-align: center;
   }
+}
+
+section[id^="Act"][id*="Chapter"]::after {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  column-gap: 1em;
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+  content: "𒃽𒀭𒈾𒍠𒈨𒂵𒂗𒉈𒂗𒅗";
 }
 
 .BadgeEngraving {
@@ -904,7 +922,7 @@ nav#NavBar {
           a {
             display: block;
             box-sizing: border-box;
-            font-family: "Lansbury FG", serif;
+            font-family: "Amaranth", sans-serif;
             font-size: 1.25em;
             color: var(--amethyst);
             width: 100%;
