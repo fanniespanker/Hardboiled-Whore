@@ -321,17 +321,17 @@ hr {
 
 
 svg {
-  max-width: min(5.5in,calc(100cqw - 0.5em));
+  --poem-width: min(396pt,100%);
+  --font-size: calc(var(--poem-width / 72));
+  max-width: var(--poem-width);
   margin-left: auto;
   margin-right: auto;
   
-  #text1 {
-    font-family: "Gentium", serif;
-    font-size: 12pt;
-    fill: #000000;
-    fill-opacity: 1;
-    stroke: none;
-  }
+  font-family: "Gentium", serif;
+  font-size: var(--font-size);
+  fill: #000000;
+  fill-opacity: 1;
+  stroke: none;
 }
 desc {
   white-space: pre;
