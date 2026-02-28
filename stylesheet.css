@@ -323,14 +323,11 @@ hr {
 }
 
 svg {
-  --poem-width: min(396pt,100%);
-  --font-size: var(--poem-width);
-  
-  max-width: var(--poem-width);
+  max-width: min(396pt, 100%);
   margin-left: auto;
   margin-right: auto;
   
-  font-size: var(--font-size);
+  font-size: 12pt;
   font-family: "Gentium", serif;
   fill: #000000;
   fill-opacity: 1;
