@@ -288,7 +288,7 @@ nav > ol > li {
 }
 
 
-ul.ContentWarningsSubheading {
+ul.ContentNoticeSubheading {
   display: block;
   font-family: "Open Sans", sans-serif;
   font-size: 1.25em;
@@ -395,7 +395,7 @@ desc {
   }
 }
 
-#ContentWarnings {
+#ContentNotices {
   margin-top: 0.5em;
   margin-bottom: 0.5em;
   margin-left: auto;
