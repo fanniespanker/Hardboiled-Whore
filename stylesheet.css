@@ -120,8 +120,9 @@ a:hover {
 }
 
 h1 {
-  font-family: "Poiret One", sans-serif;
+  font-family: "Amaranth", sans-serif;
   font-weight: normal;
+  font-style: normal;
   text-align: center;
   max-width: fit-content;
   margin-left: auto;
@@ -132,7 +133,6 @@ h1 {
   
   .ActNumber {
     display: block;
-    font-family: "Amaranth", serif;
     font-style: italic;
     font-size: 66.666%;
     text-align: center;
@@ -141,12 +141,10 @@ h1 {
   
   .ActName {
     display: block;
-    font-family: "Amaranth", sans-serif;
     font-weight: bold;
     font-size: 100%;
     text-align: center;
     text-indent: 0;
-    line-height: 1;
   }
 }
 
@@ -163,7 +161,7 @@ h2 {
   
   .ChapterNumber {
     display: block;
-    font-family: "Amaranth", sans-serif;
+    font-style: italic;
     font-size: 66.666%;
     text-align: center;
     text-indent: 0;
@@ -171,7 +169,6 @@ h2 {
   
   .ChapterName {
     display: block;
-    font-family: "Amaranth", sans-serif;
     font-weight: bold;
     font-size: 100%;
     text-align: center;
@@ -190,7 +187,7 @@ h3 {
 
 .Subtitle {
   display: block;
-  font-family: "Amaranth", "Gentium", serif;
+  font-family: "Amaranth", sans-serif;
   font-size: 1.5em;
   line-height: 1.2;
   text-align: center;
@@ -264,26 +261,29 @@ nav {
   max-width: fit-content;
   margin-left: auto;
   margin-right: auto;
-
+  
+  font-size: 1.2em;
+  line-height: 2.5;
+  
   li {
     list-style: none;
   }
+  
+  a {
+    text-decoration: none;
+  }
+}
 
-  > ol > li {
+nav > ol > li {
   font-weight: bold;
   margin-top: 0.75em;
-  }
   
-  > ol > li > ol > li {
-  font-weight: normal;
-  }
-
-  > ol > li > ol > li > a:before {
-  content: counter(list-item) ": ";
-  }
-
-  a {
-    text-decoration: underline;
+  > ol > li {
+    font-weight: normal;
+  
+    > a:before {
+      content: counter(list-item) ": ";
+    }
   }
 }
 
@@ -325,6 +325,7 @@ hr {
 svg {
   --poem-width: min(396pt,100%);
   --font-size: var(--poem-width);
+  
   max-width: var(--poem-width);
   margin-left: auto;
   margin-right: auto;
@@ -847,11 +848,6 @@ cite {
 }
 .MarginSpearmint {
   margin-left: 6.25em;
-}
-@media (max-width: 400px ) {
-  #Poem\3A HoneymoonByTheStyx {
-    font-size: 10pt;
-  }
 }
 
 
