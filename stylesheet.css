@@ -17,7 +17,7 @@ html {
 body {
   color: black;
   background: var(--blush);
-  font-family: "Gentium", serif;
+  font-family: "Fjord One", serif;
   voice-family: female;
   padding: env(safe-area-inset-top) env(safe-area-inset-right) env(safe-area-inset-bottom) env(safe-area-inset-left);
 }
@@ -279,7 +279,7 @@ nav {
   margin-right: auto;
   
   font-size: 1.2em;
-  line-height: 2.5;
+  line-height: 1.25;
   
   li {
     list-style: none;
@@ -338,13 +338,12 @@ hr {
   font-size: min(12pt, 3.5vw);
 }
 
-svg {
+svg#Poem-Electrified {
   max-width: min(6in, 100%);
   margin-left: auto;
   margin-right: auto;
-  
-  font-size: 12pt;
-  font-family: "Gentium", serif;
+  font-family: "Sorts Mill Goudy";
+  font-size: 11pt;
   fill: #000000;
   fill-opacity: 1;
   stroke: none;
