@@ -374,6 +374,7 @@ desc {
       color: var(--blush);
       border: medium solid var(--bruise);
     }
+    
     a:hover {
       color: var(--blush);
       background: var(--bruise);
