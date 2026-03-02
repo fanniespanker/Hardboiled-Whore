@@ -1,0 +1,862 @@
+@charset "UTF-8";
+
+:root {
+  --char: #242424;
+  --bruise: #800080;
+  --lily: #a080a0;
+  --violet: #a000a0;
+  --blush: #fff0ff;
+  --amethyst: #f000f0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  color: black;
+  background: var(--blush);
+  font-family: "Gentium", serif;
+  voice-family: female;
+  padding: env(safe-area-inset-top) env(safe-area-inset-right) env(safe-area-inset-bottom) env(safe-area-inset-left);
+}
+@media (prefers-color-scheme: dark) {
+  body {
+    color: var(--blush);
+    background: black;
+  }
+}
+
+.AuthorIntroduction {
+  text-indent: 0;
+}
+
+section {
+  background: white;
+  margin-left: 0.5em;
+  margin-right: 0.5em;
+  margin-bottom: 0.5em;
+  margin-top: 0.5em;
+  padding: min(4.1666vw, 0.25in);
+  border-width: thin;
+  border-color: var(--char);
+  border-style: solid;
+}
+@media (prefers-color-scheme: dark) {
+  section {
+    background: var(--char);
+    border-color: var(--blush);
+  }
+}
+section#CoverPage {
+  padding: initial;
+}
+
+
+.HorizontallyCentered {
+  min-width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+}
+.VerticallyCentered {
+  padding-top: 20vh;
+  padding-bottom: 20vh;
+  min-height: fit-content;
+}
+@supports (display: flex) {
+  .VerticallyCentered {
+    display: flex;
+    min-height: 66.666vh;
+    padding-top: 10vw;
+    padding-bottom: 10vw;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+  }
+}
+
+
+
+.TitlePageBG {
+  color: black;
+}
+@media (prefers-color-scheme: dark) {
+    .TitlePageBG {
+      background-color: var(--char);
+      color: var(--blush);
+    }
+  }
+
+.TitlePageText {
+  width: 100%;
+  margin-left: 0;
+  margin-right: 0;
+  font-size: 4em;
+  text-align: center;
+  
+  .TitlePageTitle {
+    font-family: "Poiret One", sans-serif;
+    width: 100%;
+    text-align: center;
+    line-height: 1.0;
+    
+    .Hardboiled {
+      font-size: 100%;
+    }
+    
+    .Whore {
+      font-size: 161%;
+    }
+  }
+
+  .TitlePageAuthor {
+    font-family: "Dexterous", serif;
+    font-size: 66.666%;
+    text-align: center;
+  }
+}
+@media (prefers-color-scheme: dark) {
+  .TitlePageText {
+    background: linear-gradient(to bottom, #ff60a0 0%, #d80080 25%, #e040e0 33.3%, #a05098 60%, #0038a8 75%, #0080ff 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+}
+@media (max-width: 360px) {
+  .TitlePageText {
+    font-size: 3em;
+  }
+}
+@media (max-width: 240px) {
+  .TitlePageText {
+    font-size: 2em;
+  }
+}
+@media (max-width: 180px) {
+  .TitlePageText {
+    font-size: 1.5em;
+  }
+}
+
+
+a {
+  color: var(--bruise);
+}
+a:hover {
+  color: var(--blush);
+  background: var(--bruise);
+}
+@media (prefers-color-scheme: dark) {  
+  a {
+    color: var(--blush);
+  }
+  a:hover {
+    color: var(--bruise);
+    background: var(--blush);
+  }
+}
+
+h1 {
+  font-family: "Amaranth", sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  text-align: center;
+  max-width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0.25em;
+  font-size: 3em;
+  line-height: 1;
+  
+  .ActNumber {
+    display: block;
+    font-style: italic;
+    font-size: 66.666%;
+    text-align: center;
+    text-indent: 0;
+  }
+  
+  .ActName {
+    display: block;
+    font-weight: bold;
+    font-size: 100%;
+    text-align: center;
+    text-indent: 0;
+  }
+}
+
+h2 {
+  font-family: "Amaranth", sans-serif;
+  font-weight: bold;
+  font-size: 2em;
+  font-weight: normal;
+  line-height: 1.2;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0.25em;
+  
+  .ChapterNumber {
+    display: block;
+    font-style: italic;
+    font-size: 66.666%;
+    text-align: center;
+    text-indent: 0;
+  }
+  
+  .ChapterName {
+    display: block;
+    font-weight: bold;
+    font-size: 100%;
+    text-align: center;
+    font-variant-ligatures: none;
+  }
+}
+
+h3 {
+  font-family: "Amaranth", sans-serif;
+  font-size: 1.25em;
+  font-weight: bold;
+  line-height: 1.2;
+  text-align: center;
+  margin: 0.5em 1em;
+}
+
+.Subtitle {
+  display: block;
+  font-family: "Amaranth", sans-serif;
+  font-size: 1.5em;
+  line-height: 1.2;
+  text-align: center;
+  text-indent: 0;
+}
+
+p {
+  margin-bottom: 0.25em;
+  margin-left: min(1em,0.333vw);
+  margin-right: min(1em,0.333vw);
+  margin-top: 0.25em;
+  padding-bottom: 0;
+  padding-left: 0;
+  padding-right: 0;
+  padding-top: 0;
+  line-height: 1.25;
+  text-align: justify;
+  text-indent: 1.5em;
+}
+
+#Copyright {
+  border-width: thin;
+  border-color: var(--char);
+  border-style: solid;
+  
+  p {
+    text-indent: 0;
+    text-align: left;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  #Copyright {
+    border-color: var(--blush);
+  }
+}
+
+img.SVGIcon {
+  height: 1em;
+  width: 1em;
+  margin-left: 1px;
+  margin-right: 1px;
+  vertical-align: -12.5%;
+}
+
+ol {
+  padding-left: 0.5em;
+}
+li {
+  padding-left: 0.25em;
+}
+ul {
+  margin-left: 2em;
+  margin-right: 2em;
+  padding: 0;
+}
+ul > li {
+  list-style: disc;
+}
+
+#Acknowledgments, #Dedication {
+  display: block;
+  font-family: "Sorts Mill Goudy", serif;
+  font-style: italic;
+  line-height: 1.2;
+  text-align: center;
+}
+
+nav {
+  
+  max-width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  
+  font-size: 1.2em;
+  line-height: 1.5;
+  
+  li {
+    list-style: none;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+}
+
+nav > ol > li {
+  font-weight: bold;
+  margin-top: 0.75em;
+  
+  > ol > li {
+    font-weight: normal;
+  
+    > a:before {
+      content: counter(list-item) ": ";
+    }
+  }
+}
+
+
+ul.ContentNoticesSubheading {
+  display: block;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.25em;
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 1em;
+  text-align: left;
+  text-indent: 0;
+  line-height: 1.2;
+  
+  li { 
+    font-family: inherit;
+    font-size: 0.8em;
+    list-style: square inside;
+  }
+}
+
+hr {
+  text-align: center;
+  border: 0.5pt solid black;
+  margin: 1em 25%;
+}
+@media (prefers-color-scheme: dark){
+  hr {
+    border-color: var(--blush);
+  }
+}
+
+.ScaleFontSize {
+  font-size: min(12pt, 3.5vw);
+}
+
+svg {
+  font-family: "Gentium", serif;
+  font-size: 11pt;
+  fill: #000000;
+  fill-opacity: 1;
+  stroke: none;
+}
+desc {
+  white-space: pre;
+}
+
+#TropesKinks {
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  margin-left: auto;
+  margin-right: auto;
+  
+  > ul {
+    margin-left: 4em;
+    margin-right: 4em;
+  }
+  
+  > ul > li {
+    list-style: disc;
+    line-height: 1.5;
+  }
+}
+
+#ContentNotices {
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  margin-left: auto;
+  margin-right: auto;
+  
+  > ul {
+    margin-left: 2em;
+    margin-right: 2em;
+  }
+  
+  > ul > li {
+    list-style: none;
+  }
+  
+  > ul > li > ul > li {
+    list-style: disc;
+    line-height: 1.5;
+  }
+  
+  h3 {
+    max-width: 6in;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+#Disclaimer {
+  p {
+    text-indent: 0;
+    margin-bottom: 1em;
+  }
+}
+
+
+sup {
+  font-size: 75%;
+  vertical-align: top;
+}
+
+.Verse a {
+  text-decoration: underline;
+}
+.Verse p {
+  margin-left: 2em;
+  margin-right: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+  padding-right: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+  text-indent: -2em;
+  max-width: fit-content;
+  text-align: left;
+}
+
+div.ChapterDivider {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  column-gap: 1em;
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+  div {
+    text-align: center;
+  }
+}
+
+section[id^="Act"][id*="Chapter"]::after {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  column-gap: 1em;
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+  content: "𒃽𒀭𒈾𒍠𒈨𒂵𒂗𒉈𒂗𒅗";
+}
+
+.BadgeEngraving {
+  display: block;
+  font-family: "Sorts Mill Goudy", serif;
+  font-style: italic;
+  line-height: 1.5;
+  width: fit-content;
+  margin-top: 0.75em;
+  margin-bottom: 0.75em;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 0;
+  padding-left: 0;
+  padding-right: 0;
+  padding-top: 0;
+  page-break-after: avoid;
+  text-align: center;
+  text-indent: 0;
+}
+.BadgeEngraving > p {
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 1.666;
+}
+.WhiteFoam {
+  font-style: italic;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  column-count: 2;
+  column-rule-style: solid;
+  text-align: center;
+  break-inside: avoid;
+}
+.WhiteFoam > p {
+  margin-top: 0;
+  margin-bottom: 0.5em;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  text-indent: 0;
+}
+
+em {
+  voice-stress: moderate;
+}
+
+.InnerMonologue {
+  color: #600060;
+  font-style: italic;
+  voice-volume: x-soft;
+  voice-pitch: -20%;
+  
+  em {
+    font-weight: bold;
+  }
+}
+@media (prefers-color-scheme: dark){
+  .InnerMonologue {
+    color: #ff80ff;
+  }
+}
+
+.Instinct {
+  color: #006060;
+  font-family: "Charrington Roughened", serif;
+  font-weight: bold;
+  font-style: italic;
+  voice-volume: x-soft;
+  voice-pitch: -60%;
+  
+  em {
+    text-transform: uppercase;
+  }
+}
+@media (prefers-color-scheme: dark){
+  .Instinct {
+    color: #80ffff;
+  }
+}
+
+.Irrealis {
+  color: #008000;
+  font-style: italic;
+  voice-volume: x-soft;
+  voice-pitch: -40%;
+  
+  em {
+    font-weight: bold;
+  }
+}
+@media (prefers-color-scheme: dark){
+  .Irrealis {
+    color: #a0ffa0;
+  }
+}
+.Irrealis cite {
+  font-weight: bold;
+}
+
+.Musical {
+  color: #606000;
+}
+@media (prefers-color-scheme: dark){
+  .Musical {
+    color: #ffffa0;
+  }
+}
+
+.Nonverbal {
+  color: #a00000;
+  font-style: italic;
+  voice-volume: x-soft;
+}
+@media (prefers-color-scheme: dark){
+  .Nonverbal {
+    color: #ffa0a0;
+  }
+}
+
+cite {
+  color: #202020;
+  font-style: italic;
+}
+@media (prefers-color-scheme: dark){
+  cite {
+    color: #e0e0e0;
+  }
+}
+
+.Soft {
+  color: #0000a0;
+  voice-volume: soft;
+}
+@media (prefers-color-scheme: dark){
+  .Soft {
+    color: #a0a0ff;
+  }
+}
+
+.Website {
+  color: #202020;
+  font-style: italic;
+}
+@media (prefers-color-scheme: dark){
+  .Website {
+    color: #e0e0e0;
+  }
+}
+
+.LicensePlate {
+  font-family: "Dealerplate California", monospace;
+  color: #000080;
+}
+@media (prefers-color-scheme: dark){
+  .LicensePlate {
+    color: #4040ff;
+  }
+}
+
+.ACAB {
+  font-family: "Operation Napalm", monospace;
+}
+.CreditCard {
+  font-family: "Kredit Back", monospace;
+}
+
+.NoIndent {
+  text-indent: 0;
+}
+.NoItalic {
+  font-style: normal;
+}
+.AvoidPageBreakInside {
+  page-break-inside: avoid;
+}
+.AvoidPageBreakBefore {
+  page-break-before: avoid;
+}
+.TextConversation {
+  font-family: "Fjord One", serif;
+  margin: 0.5em;
+  padding-left: 0;
+  padding-right: 0;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  border: thick solid #d0d0d0;
+  background-color: #f8f8f8;
+  break-inside: avoid;
+  text-align: left;
+  text-indent: 0;
+}
+@media (prefers-color-scheme: dark){
+  .TextConversation {
+    background-color: #400040;
+    border-color: #800080;
+  }
+}
+
+.Message {
+  display: block;
+  width: fit-content;
+  margin-bottom: 0.25em;
+  margin-left: 0.75em;
+  margin-right: 0.75em;
+  margin-top: 0.25em;
+  padding-bottom: 0.25em;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+  padding-top: 0.25em;
+  border-radius: 1em;
+  border-style: solid;
+  border-width: medium;
+  text-align: left;
+}
+
+.Sender {
+  display: block;
+  margin-top: 0.5em;
+  page-break-after: avoid;
+  page-break-inside: avoid;
+  font-weight: bold;
+  font-size: 1.08333;
+  break-after: avoid;
+}
+.Incoming {
+  display: block;
+  max-width: 66.6%;
+  margin-right: auto;
+}
+.Incoming > .Sender {
+  margin-left: 1.5em;
+  text-align: left;
+  margin-right: auto;
+}
+.Incoming > .Message {
+  margin-right: auto;
+}
+
+.Diane > .Message {
+  background-color: #ffe0ff;
+  border-color: #802080;
+}
+@media (prefers-color-scheme: dark){
+  .Diane > .Message {
+    background-color: #802080;
+    color: #ffe0ff;
+    border-color: #ff80ff;
+  }
+}
+
+.Georgina > .Message {
+  background-color: #ffe0e0;
+  border-color: #802020;
+}
+@media (prefers-color-scheme: dark){
+  .Georgina > .Message {
+    background-color: #802020;
+    color: #ffe0e0;
+    border-color: #ff8080;
+  }  
+}
+
+.Regina > .Message {
+  background-color: #e0ffff;
+  border-color: #008080;
+}
+@media (prefers-color-scheme: dark){
+  .Regina > .Message {
+    background-color: #008080;
+    color: #e0ffff;
+    border-color: #00e0e0;
+  }  
+}
+
+.Judith > .Message {
+  background-color: #ffffe0;
+  border-color: #808020;
+}
+@media (prefers-color-scheme: dark){
+  .Judith > .Message {
+    background-color: #808020;
+    color: #ffffe0;
+    border-color: #e0e080;
+  }
+}
+
+.Prissy > .Message {
+  background-color: #e0e0ff;
+  border-color: #202080;
+}
+@media (prefers-color-scheme: dark){
+  .Prissy > .Message {
+    background-color: #202080;
+    color: #e0e0ff;
+    border-color: #8080e0;
+  }
+}
+
+.Outgoing {
+  display: block;
+  max-width: 66.6%;
+  margin-left: auto;
+}
+.Outgoing > .Sender {
+  margin-right: 1.5em;
+  text-align: right;
+}
+.Outgoing > .Message {
+  background-color: #ffd0a0;
+  border-color: #e04000;
+  margin-left: auto;
+}
+@media (prefers-color-scheme: dark){
+  .Outgoing > .Message {
+    background-color: #804000;
+    border-color: #ff8000;
+    color: #ffe0d0;
+  }
+}
+.PaddingLeft2em {
+  padding-left: 2em;
+}
+.PaddingBottom0_5em {
+  padding-bottom: 0.5em;
+}
+.PaddingBottom0_25em {
+  padding-bottom: 0.25em;
+}
+.Verse {
+  display: block;
+  font-family: "Sorts Mill Goudy", serif;
+  font-size: 1.1666em;
+  max-width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  padding-left: 0;
+  padding-right: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+  line-height: 1.2;
+  text-align: left;
+  break-inside: avoid;
+}
+.VerseLineIndent {
+  text-indent: 0;
+  margin-left: 2em;
+}
+.VersePresentTense {
+  font-style: italic;
+}
+.PreserveWhiteSpace {
+  white-space: pre;
+}
+.LineHeight1 {
+  line-height: 1;
+}
+.Font1em {
+  font-size: 1em;
+}
+.SpaceAfterLine {
+  margin-bottom: 0.5em;
+}
+.Big {
+  font-size: 1.5em;
+}
+.MarginSpearmint {
+  margin-left: 6.25em;
+}
+
+
+#SpanishTranslations {
+  
+  article {
+    margin: 1em;
+    display: block;
+    
+    p {
+      text-indent: 0;
+      margin-left: 1em;
+    }
+    
+    .PartOfSpeech {
+      font-variant-caps: small-caps;
+    }
+  
+    dfn {
+      margin-left: 0;
+    }
+  }
+}

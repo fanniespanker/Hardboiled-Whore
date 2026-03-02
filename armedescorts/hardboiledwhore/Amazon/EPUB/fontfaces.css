@@ -1,0 +1,294 @@
+@charset "utf-8";
+@page {
+  size: auto;
+  margin-left: 0.25in;
+  margin-right: 0.25in;
+  margin-top: 0.25in;
+  margin-bottom: 0.25in;
+  color: black !important;
+  background: white !important;
+}
+
+/* Amaranth */
+/* Regular */
+@font-face {
+  font-family: "Amaranth";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('fonts/Amaranth-Regular.ttf') format("truetype");
+}
+/* Italic */
+@font-face {
+  font-family: "Amaranth";
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url('fonts/Amaranth-Italic.ttf') format("truetype");
+}
+/* Bold */
+@font-face {
+  font-family: "Amaranth";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url('fonts/Amaranth-Bold.ttf') format("truetype");
+}
+/* BoldItalic */
+@font-face {
+  font-family: "Amaranth";
+  font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+  src: url('fonts/Amaranth-BoldItalic.ttf') format("truetype");
+}
+
+/* Charrington */
+@font-face {
+  font-family: "Charrington Roughened";
+  font-weight: normal;
+  font-style: normal;
+  src: url('fonts/Charruff.ttf') format("truetype");
+}
+
+/* Dealerplate California */
+@font-face {
+  /* @license
+  * MyFonts Webfont Build ID 3867246, 2020-12-16T11:57:38-0500
+  * 
+  * The fonts listed in this notice are subject to the End User License
+  * Agreement(s) entered into by the website owner. All other parties are 
+  * explicitly restricted from using the Licensed Webfonts(s).
+  * 
+  * You may obtain a valid license at the URLs below.
+  * 
+  * Webfont: Dealerplate California by Typodermic
+  * URL: https://www.myfonts.com/collections/typodermic-foundry
+  *
+  * © 2025 MyFonts Inc. */
+  font-family: "Dealerplate California";
+  font-weight: normal;
+  font-style: normal;
+  src: url('fonts/DealerplateCalifornia.otf') format("opentype");
+}
+
+/* Dexterous */
+@font-face {
+  /* Concerning remixing, please see the following EULA, which disallows use of
+  * the Dexterous font in transformative works.
+  *
+  * License Permalink: https://www.fontspring.com/lic/so6klnqozd
+  *
+  * EBOOK FONTS | END USER LICENSE AGREEMENT | V2.0
+  * By downloading, installing and/or embedding font software (“Fonts”) offered
+  * for license by Creative Market Labs, Inc, Fontspring, and its distributors
+  * (“Licensor”), you (“Licensee”) agree to be bound by the following terms and
+  * conditions of this End User Licensing Agreement (“EULA”):
+  * 1. RIGHTS GRANTED
+  * Licensor grants to Licensee a perpetual, worldwide, non-exclusive and
+  * non-transferable license to install the Fonts, and create, reproduce, modify,
+  * display,
+  * and distribute artwork created with the Fonts in accordance with the terms
+  * and conditions of this EULA.
+  * 1.1 STORAGE & BACKUP
+  * ⬇︎ Server Storage
+  * The Licensee is permitted to upload the Fonts to a server or a cloud-based
+  * storage service that is owned, leased, or otherwise controlled by Licensee,
+  * for the purpose of storage, asset management, and retrieval by Licensee only.
+  * ⬇︎ Backup
+  * The Licensee is permitted to make a reasonable number of backup copies of the
+  * Font for disaster recovery purposes only.
+  * 1.2 LIMITS
+  * ⚠️ Title Limit
+  * Licensee is only permitted to embed the Fonts into the quantity of distinct
+  * Ebook titles indicated on the applicable order receipt (“Receipt”).
+  * ⚠️ Obscured Font Files
+  * Ebooks must embed the Font within a file format that obscures the Font using
+  * either compression, encryption, or obfuscation. Valid Ebook formats that meet
+  * this criteria include, but are not limited to, PDF, EPUB 2.01, EPUB 3, Apple
+  * Books, and KF8.
+  * ⚠️ Non-Executable Font Files
+  * The Font must take the form of a non-executable file that is interpreted by
+  * e-reading software or e-reading devices.
+  * 1.3 RIGHTS
+  * ✔ Multiple Copies & Versions
+  * Licensee is permitted to embed the Fonts into an unlimited number of copies,
+  * and subsequent versions of each Ebook.
+  * ✔ Modification Allowed
+  * Licensee is permitted to subset or otherwise modify the Fonts to improve the
+  * Font’s performance in their Ebook.
+  * 1.4 RESTRICTIONS
+  * ✘ No OS Installation
+  * Licensee is prohibited from installing the Fonts on any End User operating
+  * system.
+  * ✘ No Other Systems/Product Embedding
+  * Licensed Users are prohibited from embedding or installing the Fonts in:
+  * - Computer operating systems, such as Mac, Windows or Linux
+  * - Websites with CSS @font-face
+  * - Desktop applications, mobile apps, and other software
+  * - Cloud-based apps allowing third-party, End User Font usage
+  * - Electronic devices
+  * - Digital games
+  * - Editable templates and editable PDFs
+  * 1.5 Third Parties
+  * The Licensee is permitted to temporarily provide the Fonts to a third-party
+  * designer or agent (“Agent”) who is working on behalf of the Licensee. All
+  * Agents of the Licensee must: (a) agree in writing to Licensee that the Fonts
+  * will be used exclusively for Licensee’s work, in accordance with the terms of
+  * this EULA; (b) destroy all copies of the Fonts upon completion and delivery
+  * of the work to Licensee; and (c) use and/or embed the Fonts only in work
+  * owned or controlled by Licensee.
+  * 2. FONT MODIFICATIONS
+  * Licensed Users are prohibited from modifying the Fonts, or creating
+  * derivative Fonts without prior written consent from Licensor or the Font’s
+  * copyright holder except where derivative Fonts are necessary for embedding or 
+  * linking in accordance with this EULA.
+  * 3. COPYRIGHT
+  * The Fonts are protected by United States and international copyright and other
+  * laws and treaties. The copyright holder is the sole, exclusive owner of all
+  * intellectual property rights, including rights under copyright and trademark
+  * law. Licensee agrees not to use the Fonts in any manner that infringes the
+  * intellectual property rights of the copyright holder or violates the terms of
+  * this EULA. Licensee will be held legally responsible, and indemnifies
+  * Licensor, for any infringements on the copyright holder’s rights caused by
+  * failure to abide by the terms of this EULA.
+  * 4. TERMINATION
+  * This EULA is effective until terminated. If Licensee fails to comply with any
+  * term of this EULA, Licensor may terminate the EULA with 30 days notice.
+  * 5. REFUNDS AND DISCLAIMER
+  * At Licensee’s request, Licensor may, at its discretion, provide a refund for
+  * the Fonts if the following conditions have been met:
+  * - The Fonts have never been used in any published or released artwork by Licensee.
+  * - No more than 30 days have passed since the date of purchase, specified on the Receipt.
+  * - The Fonts have been completely removed or destroyed from all Licensee’s installations, servers, and backups.
+  * 6. WARRANTY
+  * The Fonts are provided “as is.” Licensor makes no warranty of any kind, either
+  * expressed or implied, including, but not limited to the implied warranties of
+  * merchantability and fitness for a particular purpose.
+  * Licensor shall not be liable for any direct, indirect, consequential, or
+  * incidental damages (including damages from loss of business profits, business
+  * interruption, loss of business information, and the like) arising out of the
+  * use of or inability to use the product even if Licensor has been advised of
+  * the possibility of such damages.
+  * Because some U.S. states do not allow the exclusion or limitation of
+  * liability for consequential or incidental damages, the above limitation may
+  * not apply to Licensee.
+  * 7. GOVERNING LAW
+  * This EULA is governed by the laws of the United States of America and the
+  * State of California.
+  * 8. ENTIRE AGREEMENT
+  * This EULA, in conjunction with the Receipt that accompanies each Font
+  * licensed from Licensor, constitutes the entire agreement between Licensor and
+  * Licensee.
+  * 9. AGREEMENT MODIFICATION
+  * The Licensor and Licensee may modify or amend this EULA when agreed to in
+  * writing.
+  * 10. WAIVER
+  * The waiver of one breach or default hereunder shall not constitute the waiver
+  * of any subsequent breach or default.
+  * ©2022 Creative Market Labs, Inc.
+  */
+  font-family: "Dexterous";
+  font-style: normal;
+  font-weight: normal;
+  src: url('fonts/Dexterous.otf') format ("opentype");
+}
+
+/* Fjord One */
+@font-face {
+  font-family: "Fjord One";
+  font-style: normal;
+  font-weight: normal;
+  src: url('fonts/FjordOne-Regular.ttf') format("truetype");
+}
+
+/* Gentium */
+@font-face {
+  font-family: "Gentium";
+  font-style: normal;
+  font-weight: normal;
+  src: url('fonts/Gentium-Regular.ttf') format("truetype");
+}
+@font-face {
+  font-family: "Gentium";
+  font-style: italic;
+  font-weight: normal;
+  src: url('fonts/Gentium-Italic.ttf') format("truetype");
+}
+@font-face {
+  font-family: "Gentium";
+  font-style: normal;
+  font-weight: bold;
+  src: url('fonts/Gentium-Bold.ttf') format("truetype");
+}
+@font-face {
+  font-family: "Gentium";
+  font-weight: bold;
+  font-style: italic;
+  src: url('fonts/Gentium-BoldItalic.ttf') format("truetype");
+}
+
+/* Kredit Back */
+@font-face {
+  font-family: "Kredit Back";
+  font-weight: normal;
+  font-style: normal;
+  src: url('fonts/Kredit_Back.otf') format("opentype");
+}
+
+/* Open Sans */
+@font-face {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: normal;
+  src: url('fonts/OpenSans-VariableFont_wdth,wght.ttf') format("truetype");
+}
+@font-face {
+  font-family: "Open Sans";
+  font-style: italic;
+  font-weight: normal;
+  src: url('fonts/OpenSans-VariableFont_wdth,wght.ttf') format("truetype");
+}
+
+/* Operation Napalm */
+@font-face {
+  font-family: "Operation Napalm";
+  font-weight: normal;
+  font-style: italic;
+  src: url('fonts/OperationNapalm_-_Italic.ttf') format("truetype");
+}
+@font-face {
+  font-family: "Operation Napalm";
+  font-weight: normal;
+  font-style: normal;
+  src: url('fonts/OperationNapalm_-_Regular.ttf') format("truetype");
+}
+
+/* Poiret One */
+@font-face {
+  font-family: 'Poiret One';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/PoiretOne-Regular.ttf') format('truetype');
+}
+
+/* Sorts Mill Goudy */
+@font-face {
+  font-family: "Sorts Mill Goudy";
+  font-style: normal;
+  font-weight: normal;
+  src: url('fonts/Sorts_Mill_Goudy_-_Regular.ttf') format("truetype");
+}
+@font-face {
+  font-family: "Sorts Mill Goudy";
+  font-style: italic;
+  font-weight: normal;
+  src: url('fonts/Sorts_Mill_Goudy_-_Italic.ttf') format("truetype");
+}
+@font-face {
+  font-family: "Sorts Mill Goudy";
+  font-style: italic;
+  font-weight: bold;
+  src: url('fonts/Sorts_Mill_Goudy_-_BoldItalic.ttf') format("truetype");
+}

@@ -1,0 +1,325 @@
+<?xml version='1.0' encoding='utf-8'?>
+<package xmlns="http://www.idpf.org/2007/opf" version="3.0" unique-identifier="http_id" xml:lang="en-US">
+  <metadata xmlns:opf="http://www.idpf.org/2007/opf" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:schema="https://schema.org/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:cc="http://creativecommons.org/ns#">
+    <dc:title id="title">Hardboiled Whore</dc:title>
+    <meta refines="#title" property="title-type">main</meta>
+    <meta refines="#title" property="file-as">Hardboiled Whore</meta>
+    <dc:creator id="FannieSpanker">Fannie Spanker</dc:creator>
+    <meta refines="#FannieSpanker" property="file-as">Spanker, Fannie</meta>
+    <meta refines="#FannieSpanker" property="role" scheme="marc:relators">author</meta>
+    <meta refines="#FannieSpanker" property="role" scheme="marc:relators">creator</meta>
+    <meta refines="#FannieSpanker" property="role" scheme="marc:relators">book designer</meta>
+    <meta id="series" property="belongs-to-collection">Armed Escort</meta>
+    <meta refines="#series" property="collection-type">series</meta>
+    <meta refines="#series" property="group-position">1</meta>
+    <dc:identifier id="http_id">https://fanniespanker.com/armedescorts/hardboiledwhore/</dc:identifier>
+    <dc:identifier id="uuid_id">uuid:c375b270-2410-4da5-bce3-9ce506fa2c54</dc:identifier>
+    <dc:publisher>Fannie Spanker</dc:publisher>
+    <dc:contributor id="coverartist1">Fannie Spanker</dc:contributor>
+    <meta refines="#coverartist1" property="role" scheme="marc:relators">cover designer</meta>
+    <dc:rights id="copyright">"Hardboiled Whore" copyright 2025 Fannie Spanker, CC-NC-BY-SA v4.0</dc:rights>
+    <dc:language>en-US</dc:language>
+    <dc:date>2025-08-12T00:00:00-07:00</dc:date>
+    <meta id="publicationtype" property="rdf:type">http://schema.org/Book</meta>
+    <meta refines="#copyright" property="dcterms:license">https://creativecommons.org/licenses/by-nc-sa/4.0/</meta>
+    <meta refines="#copyright" property="dcterms:rightsholder">Fannie Spanker</meta>
+    <meta refines="#copyright" property="dcterms:dateCopyrighted">2025</meta>
+    <meta property="dcterms:available">2025-08-12</meta>
+    <meta property="dcterms:modified">2026-02-28T21:23:27Z</meta>
+    <meta property="dcterms:abstract">A recently fired parking enforcement officer begins a sexual relationship with an experienced older woman, who encourages her to pursue a career as a private investigator-cum-sex worker in her search for a missing antifascist activist. She sells her body to a corrupt government official in exchange for her dream job of police detective, but ends up spending more time making love to her snowballing romantic circle than looking for her missing man.</meta>
+    <!-- Genre -->
+    <dc:subject>FICTION / Erotica / LGBTQ+ / Bisexual</dc:subject>
+    <dc:subject>FICTION / Mystery &amp; Detective / Hard-Boiled</dc:subject>
+    <dc:subject>FICTION / Romance / Polyamory</dc:subject>
+    <dc:subject>FICTION / Satire</dc:subject>
+    <dc:subject>FICTION / Jewish</dc:subject>
+    <dc:subject>FICTION / LGBTQ+ / Lesbian</dc:subject>
+    <dc:subject>FICTION / LGBTQ+ / Bisexual</dc:subject>
+    <dc:subject>FICTION / Romance / Erotic</dc:subject>
+    <dc:subject>FICTION / Romance / LGBTQ+ / Bisexual</dc:subject>
+    <dc:subject>FICTION / Romance / LGBTQ+ / Lesbian</dc:subject>
+    <dc:subject>FICTION / Erotica / BDSM</dc:subject>
+    <dc:subject>FICTION / Erotica / LGBTQ+ / Lesbian</dc:subject>
+    <dc:subject>FICTION / Mystery &amp; Detective / Jewish</dc:subject>
+    <dc:subject>FICTION / Mystery &amp; Detective / Police Procedural</dc:subject>
+    <dc:subject>FICTION / Mystery &amp; Detective / Women Sleuths</dc:subject>
+    <dc:subject>FICTION / Romance / Contemporary</dc:subject>
+    <dc:subject>FICTION / Romance / Erotic</dc:subject>
+    <dc:subject>FICTION / Romance / Later in Life</dc:subject>
+    <dc:subject>FICTION / Romance / Love Triangle</dc:subject>
+    <dc:subject>FICTION / Romance / Police &amp; Law Enforcement</dc:subject>
+    <dc:subject>FICTION / Romance / Workplace</dc:subject>
+    <dc:subject>POETRY / American / General</dc:subject>
+    <dc:subject>POETRY / LGBTQ+</dc:subject>
+    <dc:subject>POETRY / Subjects &amp; Themes / Love &amp; Erotica</dc:subject>
+    <dc:subject>http://id.loc.gov/authorities/genreForms/gf2019026152</dc:subject>
+    <dc:subject>http://id.loc.gov/authorities/genreForms/gf2014026280</dc:subject>
+    <dc:subject>http://id.loc.gov/authorities/genreForms/gf2014026288</dc:subject>
+    <dc:subject>http://id.loc.gov/authorities/genreForms/gf2019026138</dc:subject>
+    <dc:subject>http://id.loc.gov/authorities/genreForms/gf2019026139</dc:subject>
+    <dc:subject>http://id.loc.gov/authorities/genreForms/gf2014026452</dc:subject>
+    <dc:subject>http://id.loc.gov/authorities/genreForms/gf2018026053</dc:subject>
+    <dc:subject>http://id.loc.gov/authorities/genreForms/gf2014026320</dc:subject>
+    <dc:subject>http://id.loc.gov/authorities/genreForms/gf2023026105</dc:subject>
+    <dc:subject>http://id.loc.gov/authorities/genreForms/gf2014026571</dc:subject>
+    <dc:subject>http://id.loc.gov/authorities/genreForms/gf2022026063</dc:subject>
+    <dc:subject>http://id.loc.gov/authorities/genreForms/gf2018026001</dc:subject>
+    <dc:subject>http://id.loc.gov/authorities/genreForms/gf2018026002</dc:subject>
+    <dc:subject>http://id.loc.gov/authorities/genreForms/gf2018026003</dc:subject>
+    <dc:subject>http://id.loc.gov/authorities/genreForms/gf2014026321</dc:subject>
+    <dc:subject>http://id.loc.gov/authorities/genreForms/gf2014026377</dc:subject>
+    <meta property="schema:genre">FICTION / Erotica / LGBTQ+ / Bisexual</meta>
+    <meta property="schema:genre">FICTION / Mystery &amp; Detective / Hard-Boiled</meta>
+    <meta property="schema:genre">FICTION / Romance / Polyamory</meta>
+    <meta property="schema:genre">FICTION / Satire</meta>
+    <meta property="schema:genre">FICTION / Jewish</meta>
+    <meta property="schema:genre">FICTION / LGBTQ+ / Lesbian</meta>
+    <meta property="schema:genre">FICTION / LGBTQ+ / Bisexual</meta>
+    <meta property="schema:genre">FICTION / Romance / Erotic</meta>
+    <meta property="schema:genre">FICTION / Romance / LGBTQ+ / Bisexual</meta>
+    <meta property="schema:genre">FICTION / Romance / LGBTQ+ / Lesbian</meta>
+    <meta property="schema:genre">FICTION / Erotica / BDSM</meta>
+    <meta property="schema:genre">FICTION / Erotica / LGBTQ+ / Lesbian</meta>
+    <meta property="schema:genre">FICTION / Mystery &amp; Detective / Jewish</meta>
+    <meta property="schema:genre">FICTION / Mystery &amp; Detective / Police Procedural</meta>
+    <meta property="schema:genre">FICTION / Mystery &amp; Detective / Women Sleuths</meta>
+    <meta property="schema:genre">FICTION / Romance / Contemporary</meta>
+    <meta property="schema:genre">FICTION / Romance / Erotic</meta>
+    <meta property="schema:genre">FICTION / Romance / Later in Life</meta>
+    <meta property="schema:genre">FICTION / Romance / Love Triangle</meta>
+    <meta property="schema:genre">FICTION / Romance / Police &amp; Law Enforcement</meta>
+    <meta property="schema:genre">FICTION / Romance / Workplace</meta>
+    <meta property="schema:genre">POETRY / American / General</meta>
+    <meta property="schema:genre">POETRY / LGBTQ+</meta>
+    <meta property="schema:genre">POETRY / Subjects &amp; Themes / Love &amp; Erotica</meta>
+    <meta property="schema:genre">http://id.loc.gov/authorities/genreForms/gf2019026152</meta>
+    <meta property="schema:genre">http://id.loc.gov/authorities/genreForms/gf2014026280</meta>
+    <meta property="schema:genre">http://id.loc.gov/authorities/genreForms/gf2014026288</meta>
+    <meta property="schema:genre">http://id.loc.gov/authorities/genreForms/gf2019026138</meta>
+    <meta property="schema:genre">http://id.loc.gov/authorities/genreForms/gf2019026139</meta>
+    <meta property="schema:genre">http://id.loc.gov/authorities/genreForms/gf2014026452</meta>
+    <meta property="schema:genre">http://id.loc.gov/authorities/genreForms/gf2018026053</meta>
+    <meta property="schema:genre">http://id.loc.gov/authorities/genreForms/gf2014026320</meta>
+    <meta property="schema:genre">http://id.loc.gov/authorities/genreForms/gf2023026105</meta>
+    <meta property="schema:genre">http://id.loc.gov/authorities/genreForms/gf2014026571</meta>
+    <meta property="schema:genre">http://id.loc.gov/authorities/genreForms/gf2022026063</meta>
+    <meta property="schema:genre">http://id.loc.gov/authorities/genreForms/gf2018026001</meta>
+    <meta property="schema:genre">http://id.loc.gov/authorities/genreForms/gf2018026002</meta>
+    <meta property="schema:genre">http://id.loc.gov/authorities/genreForms/gf2018026003</meta>
+    <meta property="schema:genre">http://id.loc.gov/authorities/genreForms/gf2014026321</meta>
+    <meta property="schema:genre">http://id.loc.gov/authorities/genreForms/gf2014026377</meta>
+    <meta property="schema:about">http://id.loc.gov/authorities/subjects/sh2010118852</meta>
+    <!-- Pagination 
+    <dc:source id="src-id">urn:isbn:9876543210</dc:source>
+    <meta refines="#src-id" property="source-of">pagination</meta>
+    -->
+    <!-- Accessibility -->
+    <meta property="schema:accessMode">textual</meta>
+    <meta property="schema:accessMode">visual</meta>
+    <meta property="schema:accessModeSufficient">textual</meta>
+    <meta property="schema:accessModeSufficient">textual,visual</meta>
+    <meta property="schema:accessibilityFeature">alternativeText</meta>
+    <meta property="schema:accessibilityFeature">longDescription</meta>
+    <meta property="schema:accessibilityFeature">ttsMarkup</meta>
+    <meta property="schema:accessibilityFeature">unlocked</meta>
+    <meta property="schema:accessibilityFeature">readingOrder</meta>
+    <meta property="schema:accessibilityFeature">structuralNavigation</meta>
+    <meta property="schema:accessibilityFeature">tableOfContents</meta>
+    <meta property="schema:accessibilityHazard">noFlashingHazard</meta>
+    <meta property="schema:accessibilityHazard">noMotionSimulationHazard</meta>
+    <meta property="schema:accessibilityHazard">noSoundHazard</meta>
+    <meta property="schema:accessibilitySummary">This publication had a result of 'Incomplete' for the ACE Smart WCAG 2 Level A conformance checker. Every non-decorative image has alternative text; complex images have long image descriptions; text has SSML markup to improve TTS; and attention has been paid to navigational structure and visual contrast. There are no accessibility hazards in the forms of sounds, flashing, or motion. However, due to budgetary and skill limitations, these features have not been tested with commercial screen readers (JAWS, BRLTTY, COBRA, et cetera), and for the same reasons neither could sign language transcription of the work be provided; furthermore, none of the free TTS utilities properly rendered the SSML markup in testing. Notwithstanding the unavailability of accessibility software for testing, lack of support among free EPUB text to speech readers, and lack of budget and skillset to certify accessibility with non-free ereaders, this EPUB document is expected to satisfy the accessibility needs of a majority of readers. Future suggestions or contributions to improve accessibility should be directed to the author at Fannie.Spanker@gmail.com.</meta>
+    <rdf:RDF>
+      <cc:Work rdf:about="https://fanniespanker.com/ArmedEscorts/HardboiledWhore">
+        <cc:license rdf:resource="http://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+        <cc:attributionName rdf:resource="Fannie Spanker"/>
+        <cc:attributionURL rdf:resource="https://fanniespanker.com/"/>
+      </cc:Work>
+      <cc:License rdf:about="http://creativecommons.org/licenses/by-nc-sa/4.0/">
+        <cc:permits rdf:resource="http://creativecommons.org/ns#Reproduction"/>
+        <cc:permits rdf:resource="http://creativecommons.org/ns#Distribution"/>
+        <cc:permits rdf:resource="http://creativecommons.org/ns#DerivativeWorks"/>
+        <cc:requires rdf:resource="http://creativecommons.org/ns#Notice"/>
+        <cc:requires rdf:resource="http://creativecommons.org/ns#Attribution"/>
+        <cc:requires rdf:resource="http://creativecommons.org/ns#ShareAlike"/>
+        <cc:prohibits rdf:resource="http://creativecommons.org/ns#CommercialUse"/>
+      </cc:License>
+    </rdf:RDF>
+  </metadata>
+  <manifest>
+    <item id="coverpage" href="Cover.xhtml" media-type="application/xhtml+xml" properties="svg"/>
+    <item id="titlepage" href="TitlePage.html" media-type="application/xhtml+xml"/>
+    <item id="legal" href="Copyright.html" media-type="application/xhtml+xml"/>
+    <item id="disclaimer" href="Disclaimer.html" media-type="application/xhtml+xml"/>
+    <item id="acknowledgements" href="Acknowledgements.html" media-type="application/xhtml+xml"/>
+    <item id="dedication" href="Dedication.html" media-type="application/xhtml+xml"/>
+    <item id="nav" href="nav.xhtml" media-type="application/xhtml+xml" properties="nav"/>
+    <item id="tropeskinks" href="TropesRelationshipsKinksFetishes.html" media-type="application/xhtml+xml"/>
+    <item id="contentwarnings" href="ContentNotices.html" media-type="application/xhtml+xml"/>
+    <item id="act1" href="Act1.html" media-type="application/xhtml+xml"/>
+    <item id="a1c01s01" href="Act1Chapter01.html" media-type="application/xhtml+xml"/>
+    <item id="a1c02s01" href="Act1Chapter02.html" media-type="application/xhtml+xml"/>
+    <item id="a1c03s01" href="Act1Chapter03.html" media-type="application/xhtml+xml"/>
+    <item id="a1c04s01" href="Act1Chapter04.html" media-type="application/xhtml+xml"/>
+    <item id="a1c05s01" href="Act1Chapter05.html" media-type="application/xhtml+xml"/>
+    <item id="a1c06s01" href="Act1Chapter06.html" media-type="application/xhtml+xml"/>
+    <item id="a1c07s01" href="Act1Chapter07.html" media-type="application/xhtml+xml"/>
+    <item id="a1c08s01" href="Act1Chapter08.html" media-type="application/xhtml+xml"/>
+    <item id="a1c09s01" href="Act1Chapter09.html" media-type="application/xhtml+xml"/>
+    <item id="a1c10s01" href="Act1Chapter10.html" media-type="application/xhtml+xml"/>
+    <item id="a1c11s01" href="Act1Chapter11.html" media-type="application/xhtml+xml"/>
+    <item id="a1c12s01" href="Act1Chapter12.html" media-type="application/xhtml+xml"/>
+    <item id="a1c13s01" href="Act1Chapter13.html" media-type="application/xhtml+xml"/>
+    <item id="a1c14s01" href="Act1Chapter14.html" media-type="application/xhtml+xml"/>
+    <item id="a1c15s01" href="Act1Chapter15.html" media-type="application/xhtml+xml"/>
+    <item id="a1c16s01" href="Act1Chapter16.html" media-type="application/xhtml+xml"/>
+    <item id="a1c17s01" href="Act1Chapter17.html" media-type="application/xhtml+xml"/>
+    <item id="a1c18s01" href="Act1Chapter18.html" media-type="application/xhtml+xml"/>
+    <item id="act2" href="Act2.html" media-type="application/xhtml+xml"/>
+    <item id="a2c01s01" href="Act2Chapter01.html" media-type="application/xhtml+xml"/>
+    <item id="a2c02s01" href="Act2Chapter02.html" media-type="application/xhtml+xml"/>
+    <item id="a2c03s01" href="Act2Chapter03.html" media-type="application/xhtml+xml"/>
+    <item id="a2c04s01" href="Act2Chapter04.html" media-type="application/xhtml+xml"/>
+    <item id="a2c05s01" href="Act2Chapter05.html" media-type="application/xhtml+xml"/>
+    <item id="a2c06s01" href="Act2Chapter06.html" media-type="application/xhtml+xml"/>
+    <item id="a2c07s01" href="Act2Chapter07.html" media-type="application/xhtml+xml"/>
+    <item id="a2c08s01" href="Act2Chapter08.html" media-type="application/xhtml+xml"/>
+    <item id="a2c09s01" href="Act2Chapter09.html" media-type="application/xhtml+xml"/>
+    <item id="a2c10s01" href="Act2Chapter10.html" media-type="application/xhtml+xml"/>
+    <item id="a2c11s01" href="Act2Chapter11.html" media-type="application/xhtml+xml"/>
+    <item id="a2c12s01" href="Act2Chapter12.html" media-type="application/xhtml+xml"/>
+    <item id="a2c13s01" href="Act2Chapter13.html" media-type="application/xhtml+xml"/>
+    <item id="a2c14s01" href="Act2Chapter14.html" media-type="application/xhtml+xml"/>
+    <item id="a2c15s01" href="Act2Chapter15.html" media-type="application/xhtml+xml"/>
+    <item id="a2c16s01" href="Act2Chapter16.html" media-type="application/xhtml+xml"/>
+    <item id="a2c17s01" href="Act2Chapter17.html" media-type="application/xhtml+xml"/>
+    <item id="act3" href="Act3.html" media-type="application/xhtml+xml"/>
+    <item id="a3c01s01" href="Act3Chapter01.html" media-type="application/xhtml+xml"/>
+    <item id="a3c02s01" href="Act3Chapter02.html" media-type="application/xhtml+xml"/>
+    <item id="a3c03s01" href="Act3Chapter03.html" media-type="application/xhtml+xml"/>
+    <item id="a3c04s01" href="Act3Chapter04.html" media-type="application/xhtml+xml"/>
+    <item id="a3c05s01" href="Act3Chapter05.html" media-type="application/xhtml+xml"/>
+    <item id="a3c06s01" href="Act3Chapter06.html" media-type="application/xhtml+xml"/>
+    <item id="a3c07s01" href="Act3Chapter07.html" media-type="application/xhtml+xml"/>
+    <item id="a3c08s01" href="Act3Chapter08.html" media-type="application/xhtml+xml"/>
+    <item id="a3c09s01" href="Act3Chapter09.html" media-type="application/xhtml+xml"/>
+    <item id="a3c10s01" href="Act3Chapter10.html" media-type="application/xhtml+xml"/>
+    <item id="a3c11s01" href="Act3Chapter11.html" media-type="application/xhtml+xml"/>
+    <item id="a3c12s01" href="Act3Chapter12.html" media-type="application/xhtml+xml"/>
+    <item id="a3c13s01" href="Act3Chapter13.html" media-type="application/xhtml+xml"/>
+    <item id="a3c14s01" href="Act3Chapter14.html" media-type="application/xhtml+xml"/>
+    <item id="a3c15s01" href="Act3Chapter15.html" media-type="application/xhtml+xml"/>
+    <item id="colophon" href="Colophon.html" media-type="application/xhtml+xml"/>
+    <item id="ncx" href="toc.ncx" media-type="application/x-dtbncx+xml"/>
+    <item id="page_css" href="fontfaces.css" media-type="text/css"/>
+    <item id="css" href="stylesheet.css" media-type="text/css"/>
+    <item id="id-9" href="lexicon.pls" media-type="application/pls+xml"/>
+    <item id="translations" href="SpanishTranslations.html" media-type="application/xhtml+xml"/>
+    <item id="key" href="FormattingKey.html" media-type="application/xhtml+xml"/>
+    <item id="id-8" href="cover.jpg" media-type="image/jpeg" properties="cover-image"/>
+    <item id="id-1" href="fonts/Charruff.ttf" media-type="application/vnd.ms-opentype"/>
+    <item id="id-5" href="fonts/FjordOne-Regular.ttf" media-type="application/vnd.ms-opentype"/>
+    <item id="id-7" href="fonts/Gentium-Bold.ttf" media-type="application/vnd.ms-opentype"/>
+    <item id="id-16" href="fonts/Gentium-BoldItalic.ttf" media-type="application/vnd.ms-opentype"/>
+    <item id="id-21" href="fonts/Gentium-Italic.ttf" media-type="application/vnd.ms-opentype"/>
+    <item id="id-26" href="fonts/Gentium-Regular.ttf" media-type="application/vnd.ms-opentype"/>
+    <item id="id-33" href="fonts/Kredit_Back.otf" media-type="application/vnd.ms-opentype"/>
+    <item id="id-37" href="fonts/OpenSans-VariableFont_wdth%2cwght.ttf" media-type="application/vnd.ms-opentype"/>
+    <item id="id-38" href="fonts/OperationNapalm_-_Italic.ttf" media-type="application/vnd.ms-opentype"/>
+    <item id="id-39" href="fonts/OperationNapalm_-_Regular.ttf" media-type="application/vnd.ms-opentype"/>
+    <item id="id-41" href="fonts/Sorts_Mill_Goudy_-_BoldItalic.ttf" media-type="application/vnd.ms-opentype"/>
+    <item id="id-42" href="fonts/Sorts_Mill_Goudy_-_Italic.ttf" media-type="application/vnd.ms-opentype"/>
+    <item id="id-43" href="fonts/Sorts_Mill_Goudy_-_Regular.ttf" media-type="application/vnd.ms-opentype"/>
+    <item id="id-2" href="fonts/DealerplateCalifornia.otf" media-type="application/vnd.ms-opentype"/>
+    <item id="id-3" href="images/by.svg" media-type="image/svg+xml"/>
+    <item id="id-4" href="images/cc.svg" media-type="image/svg+xml"/>
+    <item id="id-6" href="images/nc.svg" media-type="image/svg+xml"/>
+    <item id="id-10" href="images/sa.svg" media-type="image/svg+xml"/>
+    <item id="id-11" href="TableOfPoems.html" media-type="application/xhtml+xml"/>
+    <item id="id" href="fonts/Amaranth-Bold.ttf" media-type="application/vnd.ms-opentype"/>
+    <item id="id-12" href="fonts/Amaranth-BoldItalic.ttf" media-type="application/vnd.ms-opentype"/>
+    <item id="id-13" href="fonts/Amaranth-Italic.ttf" media-type="application/vnd.ms-opentype"/>
+    <item id="id-14" href="fonts/Amaranth-Regular.ttf" media-type="application/vnd.ms-opentype"/>
+    <item id="id-15" href="fonts/PoiretOne-Regular.ttf" media-type="application/vnd.ms-opentype"/>
+    <item id="id-17" href="fonts/Dexterous.otf" media-type="application/vnd.ms-opentype"/>
+  </manifest>
+  <spine toc="ncx">
+    <itemref idref="coverpage"/>
+    <itemref idref="titlepage"/>
+    <itemref idref="legal"/>
+    <itemref idref="acknowledgements"/>
+    <itemref idref="dedication"/>
+    <itemref idref="nav"/>
+    <itemref idref="tropeskinks"/>
+    <itemref idref="contentwarnings"/>
+    <itemref idref="key"/>
+    <itemref idref="disclaimer"/>
+    <itemref idref="act1"/>
+    <itemref idref="a1c01s01"/>
+    <itemref idref="a1c02s01"/>
+    <itemref idref="a1c03s01"/>
+    <itemref idref="a1c04s01"/>
+    <itemref idref="a1c05s01"/>
+    <itemref idref="a1c06s01"/>
+    <itemref idref="a1c07s01"/>
+    <itemref idref="a1c08s01"/>
+    <itemref idref="a1c09s01"/>
+    <itemref idref="a1c10s01"/>
+    <itemref idref="a1c11s01"/>
+    <itemref idref="a1c12s01"/>
+    <itemref idref="a1c13s01"/>
+    <itemref idref="a1c14s01"/>
+    <itemref idref="a1c15s01"/>
+    <itemref idref="a1c16s01"/>
+    <itemref idref="a1c17s01"/>
+    <itemref idref="a1c18s01"/>
+    <itemref idref="act2"/>
+    <itemref idref="a2c01s01"/>
+    <itemref idref="a2c02s01"/>
+    <itemref idref="a2c03s01"/>
+    <itemref idref="a2c04s01"/>
+    <itemref idref="a2c05s01"/>
+    <itemref idref="a2c06s01"/>
+    <itemref idref="a2c07s01"/>
+    <itemref idref="a2c08s01"/>
+    <itemref idref="a2c09s01"/>
+    <itemref idref="a2c10s01"/>
+    <itemref idref="a2c11s01"/>
+    <itemref idref="a2c12s01"/>
+    <itemref idref="a2c13s01"/>
+    <itemref idref="a2c14s01"/>
+    <itemref idref="a2c15s01"/>
+    <itemref idref="a2c16s01"/>
+    <itemref idref="a2c17s01"/>
+    <itemref idref="act3"/>
+    <itemref idref="a3c01s01"/>
+    <itemref idref="a3c02s01"/>
+    <itemref idref="a3c03s01"/>
+    <itemref idref="a3c04s01"/>
+    <itemref idref="a3c05s01"/>
+    <itemref idref="a3c06s01"/>
+    <itemref idref="a3c07s01"/>
+    <itemref idref="a3c08s01"/>
+    <itemref idref="a3c09s01"/>
+    <itemref idref="a3c10s01"/>
+    <itemref idref="a3c11s01"/>
+    <itemref idref="a3c12s01"/>
+    <itemref idref="a3c13s01"/>
+    <itemref idref="a3c14s01"/>
+    <itemref idref="a3c15s01"/>
+    <itemref idref="colophon"/>
+    <itemref idref="translations"/>
+    <itemref idref="id-11"/>
+  </spine>
+  <guide>
+    <reference type="cover" title="Cover" href="Cover.xhtml"/>
+    <reference type="title-page" title="Title Page" href="TitlePage.html"/>
+    <reference type="copyright-page" title="Copyright" href="Copyright.html"/>
+    <reference type="dedication" title="Dedication" href="Dedication.html"/>
+    <reference type="acknowledgements" title="Acknowledgements" href="Acknowledgements.html"/>
+    <reference type="toc" title="Table of Contents" href="nav.xhtml"/>
+    <reference type="text" title="Text" href="Act1.html"/>
+    <reference type="colophon" title="Colophon" href="Colophon.html"/>
+    <reference type="glossary" title="Selected Spanish Translations" href="SpanishTranslations.html"/>
+  </guide>
+</package>
