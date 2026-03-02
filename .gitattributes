@@ -1,0 +1,5 @@
+*.docx diff=zip
+*.epub diff=zip
+*.odt diff=zip
+*.pptx diff=zip
+*.xlsx diff=zip
