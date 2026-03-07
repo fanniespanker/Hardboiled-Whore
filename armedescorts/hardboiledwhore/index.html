@@ -2454,7 +2454,7 @@ A lonely ocotillo stands proud among the dunes, fuchsia flowers pointed skywards
           <defs
              id="defs1">
             <linearGradient
-               id="linearGradient71">
+               id="linearGradientMasterSky">
               <stop
                  style="stop-color:#ffa040;stop-opacity:1;"
                  offset="0"
@@ -2493,7 +2493,16 @@ A lonely ocotillo stands proud among the dunes, fuchsia flowers pointed skywards
                  id="stop72" />
             </linearGradient>
             <linearGradient
-               id="linearGradient36">
+               xlink:href="#linearGradientMasterSky"
+               id="linearGradientSky"
+               x1="287.99078"
+               y1="719.97693"
+               x2="287.99078"
+               y2="143.99539"
+               gradientUnits="userSpaceOnUse" />
+
+            <linearGradient
+               id="linearGradientMasterDuneLight">
               <stop
                  style="stop-color:#5e4c1c;stop-opacity:1;"
                  offset="0.45701358"
@@ -2504,7 +2513,7 @@ A lonely ocotillo stands proud among the dunes, fuchsia flowers pointed skywards
                  id="stop37" />
             </linearGradient>
             <linearGradient
-               id="linearGradient34">
+               id="linearGradientMasterDuneShadow">
               <stop
                  style="stop-color:#2a230e;stop-opacity:1;"
                  offset="0.40045249"
@@ -2514,31 +2523,33 @@ A lonely ocotillo stands proud among the dunes, fuchsia flowers pointed skywards
                  offset="0.63348418"
                  id="stop35" />
             </linearGradient>
+            
             <rect
                x="31.631931"
                y="44.284706"
                width="298.88095"
                height="512.33307"
                id="rect1" />
+               
             <linearGradient
-               xlink:href="#linearGradient34"
-               id="linearGradient35"
+               xlink:href="#linearGradientMasterDuneShadow"
+               id="linearGradientFrontDuneShadow"
                x1="305.12329"
                y1="1140.3685"
                x2="305.12329"
                y2="461.45532"
                gradientUnits="userSpaceOnUse" />
             <linearGradient
-               xlink:href="#linearGradient36"
-               id="linearGradient37"
+               xlink:href="#linearGradientMasterDuneLight"
+               id="linearGradientFrontDuneLight"
                x1="318.23477"
                y1="1118.6753"
                x2="318.23477"
                y2="439.76242"
                gradientUnits="userSpaceOnUse" />
             <linearGradient
-               xlink:href="#linearGradient36"
-               id="linearGradient38"
+               xlink:href="#linearGradientMasterDuneLight"
+               id="linearGradientBackDuneLight"
                gradientUnits="userSpaceOnUse"
                x1="318.23477"
                y1="1118.6753"
@@ -2546,28 +2557,20 @@ A lonely ocotillo stands proud among the dunes, fuchsia flowers pointed skywards
                y2="439.76242"
                gradientTransform="translate(-86.780029,-43.352808)" />
             <linearGradient
-               xlink:href="#linearGradient34"
-               id="linearGradient39"
+               xlink:href="#linearGradientMasterDuneShadow"
+               id="linearGradientBackDuneShadow"
                gradientUnits="userSpaceOnUse"
                x1="305.12329"
                y1="1140.3685"
                x2="305.12329"
                y2="461.45532"
                gradientTransform="translate(-86.780029,-43.352808)" />
-            <linearGradient
-               xlink:href="#linearGradient71"
-               id="linearGradient72"
-               x1="287.99078"
-               y1="719.97693"
-               x2="287.99078"
-               y2="143.99539"
-               gradientUnits="userSpaceOnUse" />
           </defs>
           
           <g
              id="layer5">
             <rect
-               style="fill:url(#linearGradient72);fill-opacity:1;stroke:none"
+               style="fill:url(#linearGradientSky);fill-opacity:1;stroke:none"
                id="rect28"
                width="576"
                height="768"
@@ -2716,22 +2719,22 @@ A lonely ocotillo stands proud among the dunes, fuchsia flowers pointed skywards
             <g
                id="back_dunes">
               <path
-                 style="fill:url(#linearGradient38);fill-opacity:1;stroke:none"
+                 style="fill:url(#linearGradientBackDuneLight);fill-opacity:1;stroke:none"
                  d="M -108.00171,750.01217 C 14.431141,625.94686 35.652841,630.84418 56.874541,642.27124 c 21.22169,11.42707 55.502919,76.7246 84.886809,78.35704 29.38389,1.63244 86.51923,-104.47605 122.43287,-71.82729 35.91365,32.64878 58.76778,73.45973 109.37337,71.82729 50.60559,-1.63244 76.72459,-63.66509 102.84361,-63.66509 26.11901,0 68.5624,71.82728 86.51923,73.45972 17.95682,1.63244 0,104.47609 0,104.47609 l -670.93214,-4.8974 z"
                  id="path34-5" />
               <path
-                 style="fill:url(#linearGradient39);fill-opacity:1;stroke:none"
+                 style="fill:url(#linearGradientBackDuneShadow);fill-opacity:1;stroke:none"
                  d="M -121.11317,769.02367 C 1.3196714,668.47663 22.541371,672.4456 43.763071,681.7065 c 21.22169,9.26091 55.5029,62.18041 84.886809,63.5034 29.38389,1.32299 86.51923,-84.67119 122.43287,-58.21145 35.91365,26.45976 58.76778,59.53444 109.37337,58.21145 50.60559,-1.32299 76.72459,-51.59651 102.84361,-51.59651 26.11901,0 68.5624,58.21145 86.51923,59.53443 17.95682,1.32299 0,84.67118 0,84.67118 l -670.93213,-3.9689 z"
                  id="path34-8-2" />
             </g>
             <g
                id="front_dunes">
               <path
-                 style="fill:url(#linearGradient37);fill-opacity:1;stroke:none"
+                 style="fill:url(#linearGradientFrontDuneLight);fill-opacity:1;stroke:none"
                  d="M -21.221698,793.36501 C 101.21117,669.2997 122.43287,674.19702 143.65457,685.62408 c 21.22169,11.42707 55.5029,76.7246 84.88679,78.35704 29.38389,1.63244 86.51923,-104.47605 122.43287,-71.82729 35.91365,32.64878 58.76778,73.45973 109.37337,71.82729 50.60559,-1.63244 76.72459,-63.66509 102.84361,-63.66509 26.11901,0 68.5624,71.82728 86.51923,73.45972 17.95682,1.63244 0,104.47605 0,104.47605 l -670.932138,-4.89732 z"
                  id="path34" />
               <path
-                 style="fill:url(#linearGradient35);fill-opacity:1;stroke:none"
+                 style="fill:url(#linearGradientFrontDuneShadow);fill-opacity:1;stroke:none"
                  d="M -34.333164,812.37651 C 88.099704,711.82947 109.3214,715.79844 130.5431,725.05934 c 21.22169,9.26091 55.5029,62.18041 84.88679,63.5034 29.38389,1.32299 86.51923,-84.67119 122.43287,-58.21145 35.91365,26.45976 58.76778,59.53444 109.37337,58.21145 50.60559,-1.32299 76.72459,-51.59651 102.84361,-51.59651 26.11901,0 68.5624,58.21145 86.51923,59.53443 17.95682,1.32299 0,84.6712 0,84.6712 L -34.333164,877.2029 Z"
                  id="path34-8" />
             </g>
