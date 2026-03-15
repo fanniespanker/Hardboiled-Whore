@@ -12,11 +12,14 @@
     <link rel="preload stylesheet" href="fontfaces.css" crossorigin />
     <link rel="preload stylesheet" href="stylesheet.css" crossorigin />
   </head>
-  <body class="HorizontallyCentered">
-  
-    <section>
+  <body class="HorizontallyCentered" prefix="
+      schema: http://schema.org/ 
+      foaf: https://xmlns.com/foaf/spec/ 
+      homo: https://homosaurus.org/v4/"
+  >
+    <section resource="https://fanniespanker.com/#me">
       <div role="banner" aria-label="author introduction">
-        <h1>Fannie Spanker,</h1>
+        <h1><span property="schema:name foaf:name"><span property="schema:givenName foaf:givenName">Fannie</span> <span property="schema:familyName foaf:familyName">Spanker</span></span>,</h1>
         <p class="AuthorIntroduction">
           author of the erotic leftist detective thriller,
           in which an ex-cop with no qualms about breaking the rules
@@ -24,25 +27,67 @@
           the distractions of lust and love in her search for a missing antifascist hero.
           In this battle between libido and conscience, Detective Andrea Bachman is the
         </p>
+
+        <span resource="https://fanniespanker.com/#me" typeof="schema:Person foaf:Person">
+          
+          <link property="schema:email foaf:email" href="mailto:fannie.spanker@gmail.com"/>
+          <meta property="schema:gender foaf:gender" content="demigirl"/>
+          <meta property="schema:gender foaf:gender" content="demiwoman"/>
+          <link property="schema:gender foaf:gender" href="homoit0001652"/>
+          <meta property="schema:gender foaf:gender" content="femme"/>
+          <link property="schema:gender foaf:gender" href="homoit0000440"/>
+          <meta property="schema:pronouns" content="she/her/herself"/>
+          <link property="schema:pronouns" href="homoit0001692"/>
+          <link property="schema:email foaf:mbox" href="mailto:fannie.spanker@gmail.com"/>
+
+          <span rel="schema:hasOccupation">
+            <span typeof="schema:Occupation">
+              <meta property="schema:name" content="author"/> 
+              <meta property="schema:alternateName" content="writer"/> 
+              <link property="schema:occupationalCategory" href="https://www.onetonline.org/link/summary/27-3043.00"/> 
+            </span>
+            <span typeof="schema:Occupation">
+              <meta property="schema:name" content="poet"/> 
+              <meta property="schema:alternateName" content="lyricist"/>  
+              <link property="schema:occupationalCategory" href="https://www.onetonline.org/link/summary/27-3043.05"/> 
+            </span>
+            <span typeof="schema:Occupation">
+              <meta property="schema:name" content="priestess"/> 
+              <meta property="schema:alternateName" content="clergy"/>  
+              <link property="schema:occupationalCategory" href="https://www.onetonline.org/link/summary/21-2011.00"/> 
+            </span>
+          </span>
+        
+          <link property="schema:memberOf" href="https://fanniespanker.com/thetemple.html#Gašanana_Mani_Edenlil_Naŋnira"/>
+          <link property="schema:memberof" href="https://fanniespanker.com/thetemple.html#High_Priestess"/>
+          <link property="schema:memberof" href="https://fanniespanker.com/thetemple.html#Seeress"/>
+
+        </span>
+
       </div>
-      
-      <a id="ReadHardboiledWhore" href="/armedescorts/hardboiledwhore/">
-        <div>
-          <img 
-              src="armedescorts/hardboiledwhore/images/Hardboiled Whore cover - 1200x1800.jpg"
-              width="100%"
-              alt="The book cover for the novel Hardboiled Whore, by Fannie Spanker. 
-                There is a single blurb: 'She wanted to sell her soul to become a detective… She sold her body instead.' 
-                The cover illustration is of a redhead woman (the main character, Detective Andrea Bachman) in a tight 
-                black dress posing alluringly with a pistol in front of one of the many hotel signs that populate the 
-                Red Light District of Santa Virginia, a city in Southern California."/>
-          />
-          <h2>
-            <img class="SVGIcon" src="/images/book.svg"/>
-            Read the novel here!
-          </h2>
-        </div>
-      </a>
+
+      <div>
+        <a 
+            id="ReadHardboiledWhore" 
+            property="schema:owns foaf:made"
+            href="https://fanniespanker.com/armedescorts/hardboiledwhore/">
+          <div>
+            <img 
+                src="/armedescorts/hardboiledwhore/images/Hardboiled Whore cover - 1200x1800.jpg"
+                width="100%"
+                alt="The book cover for the novel Hardboiled Whore, by Fannie Spanker. 
+                  There is a single blurb: 'She wanted to sell her soul to become a detective… She sold her body instead.' 
+                  The cover illustration is of a redhead woman (the main character, Detective Andrea Bachman) in a tight 
+                  black dress posing alluringly with a pistol in front of one of the many hotel signs that populate the 
+                  Red Light District of Santa Virginia, a city in Southern California."/>
+            />
+            <h2>
+              <img class="SVGIcon" src="/images/book.svg"/>
+              Read the novel here!
+            </h2>
+          </div>
+        </a>
+      </div>
       
       <div role="main" aria-label="book blurb">
         <h2 class="HorizontallyCentered">Some cops love themselves. Some cops know they’re human garbage.</h2>
