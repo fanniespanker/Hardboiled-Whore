@@ -335,7 +335,7 @@ hr {
 }
 
 .ScaleFontSize {
-  font-size: min(12pt, 3.5vw);
+  font-size: 3.75cqw;
 }
 
 svg#Poem-Electrified {
@@ -354,12 +354,10 @@ desc {
 
 #CoverPageNav {
   display: block;
-  max-width: min(fit-content,5.5in);
+  max-width: fit-content;
   margin-left: auto;
   margin-right: auto;
   font-family: "Amaranth", sans-serif;
-  font-size: 1.5em;
-  color: var(--blush);
   line-height: 1.2;
   text-align: center;
   text-indent: 0;
@@ -367,7 +365,7 @@ desc {
   > div {
     margin-top: 0.5em;
     margin-bottom: 0.5em;
-    
+
     a {
       display: inline-block;
       width: 100%;
