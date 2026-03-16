@@ -9,7 +9,7 @@
       http://purl.org/dc/dcmitype/Text 
       http://purl.org/ontology/bibo/Book 
       http://creativecommons.org/ns#Work
-      https://fanniespanker.com/ns#Book"
+      https://fanniespanker.com/mdv/ns#Book"
 >
 
   <head>
@@ -36,25 +36,24 @@
         cc: http://creativecommons.org/ns# 
         foaf: http://xmlns.com/foaf/spec/ 
         xsd: https://www.w3.org/2001/XMLSchema
-        fs: https://fanniespanker.com/ns#" 
+        mdv: https://fanniespanker.com/mdv/" 
       
       resource="https://fanniespanker.com/armedescorts/hardboiledwhore/"
   >
 
-    <meta property="schema:name dcterms:title" content="Hardboiled Whore"/>
+    <meta property="schema:name dcterms:title mvd:title" content="Hardboiled Whore"/>
 
-    <meta property="bibo:edition prism:edition" content="1"/>
+    <meta property="bibo:edition prism:edition mvd:edition" content="1"/>
 
     <link 
-        property="schema:identifier dcterms:identifier" 
-        resource="https://fanniespanker.com/armedescorts/hardboiledwhore/" 
         rel="canonical" 
+        property="schema:identifier dcterms:identifier mdv:identifier" 
         href="https://fanniespanker.com/armedescorts/hardboiledwhore/" 
     />
 
     <link
-        property="schema:isPartOf"
-        typeof="schema:BookSeries" 
+        property="schema:isPartOf mdv:isPartOf"
+        typeof="schema:BookSeries mdv:LiterarySeries" 
         resource="https://fanniespanker.com/armedescorts/"
     />
 
@@ -66,7 +65,8 @@
           schema:rightsHolder 
           dcterms:creator 
           dcterms:publisher 
-          dcterms:rightsHolder" 
+          dcterms:rightsHolder
+          mdv:library/author" 
         typeof="schema:Person dcterms:Agent foaf:Person" 
         resource="https://fanniespanker.com/#me"
     >
@@ -77,7 +77,7 @@
     
 
     <span
-        property="schema:contributor dcterms:contributor fs:illustrator" 
+        property="schema:contributor dcterms:contributor mdv:cover/illustrator" 
         typeof="schema:Person dcterms:Agent foaf:Person" 
         resource="https://www.dirkhooper.com/"
     >
@@ -120,7 +120,8 @@
           schema:abstract 
           dcterms:abstract 
           dcterms:description
-          bibo:abstract" 
+          bibo:abstract
+          mdv:abstract" 
         content=
           "It’s been three days since Alexander Brookvale—Santa Virginia’s most revered (and reviled) hometown activist—went missing. The police have spent those crucial first 72 hours throwing darts at his mug shot.
           Ex-Parking Enforcement Officer Andrea Bachman finds herself with no badge and no real family or friends to help her through her forced retirement. Heeding her mother’s advice for once, she reaches out into cyberspace and forges a most unlikely bond with a smoking hot blond with maturity and experience. Her new friend (with benefits) encourages her to use her investigative instincts to search for the missing activist.
@@ -128,19 +129,19 @@
     />
     
     <meta 
-        property="schema:encodingFormat dcterms:format fs:mediaType" 
+        property="schema:encodingFormat dcterms:format mdv:format/mediaType" 
         content="text/html"
     />
 
-    <span rel="schema:contentLocation fs:narrativeSetting">
+    <span rel="schema:contentLocation mdv:narrative/location">
       <meta content="Southern California"/> 
       <link href="http://dbpedia.org/resource/Southern_California"/> 
       <link href="https://www.wikidata.org/wiki/Q844837"/> 
     </span>
 
-    <meta property="schema:contentReferenceTime fs:narrativeTimePeriod" content="2024-07-12/2024-07-18"/>
+    <meta property="schema:contentReferenceTime mdv:narrative/time" content="2024-07-12--18"/>
 
-    <span rel="schema:genre dcterms:type fs:genre">
+    <span rel="schema:genre dcterms:type mdv:library/genre">
       <meta content="detective and mystery fiction"/> 
       <link href="http://id.worldcat.org/fast/1726581"/> 
       <link href="http://id.loc.gov/authorities/genreForms/gf2014026280"/> 
@@ -212,7 +213,7 @@
       <link href="http://id.loc.gov/authorities/genreForms/gf2019026152"/>
     </span>    
     
-    <span rel="schema:subject dcterms:subject">
+    <span rel="schema:subject dcterms:subject mdv:library/subject">
       <meta content="activism"/> 
       <link href="http://id.worldcat.org/fast/2070573"/> 
       <link href="http://id.loc.gov/authorities/subjects/sh2023000618"/> 
@@ -323,6 +324,8 @@
 
     <meta property="dcterms:audience" content="adults"/>
     
+    <meta property="mdv:library/minimumAge" content="18"/>
+    
     <span 
         property="schema:audience"
         typeof="https://schema.org/PeopleAudience"
@@ -405,7 +408,7 @@
       <meta name="description" content="Title page."/>
 
       <img 
-          property="schema:image fs:coverImage"
+          property="schema:image mdv:cover/image"
           resource="https://fanniespanker.com/armedescorts/hardboiledwhore/images/cover.jpg"
           src="images/cover.jpg" 
           width="100%" 
@@ -422,7 +425,7 @@
             Scroll down to dive in, or:
           </div>
           <div>
-            <a id="DownloadEbook" class="NavButton" href="/armedescorts/hardboiledwhore/download.php">
+            <a id="DownloadEbook" class="NavButton" href="https://fanniespanker.com/armedescorts/hardboiledwhore/download.php">
               <img class="SVGIcon" src="/images/download.svg"/>
               Download the ebook (EPUB3) here;
             </a>
@@ -454,7 +457,7 @@
 
       <div 
           class="HorizontallyCentered" 
-          property="dcterms:rights schema:usageInfo" 
+          property="dcterms:rights schema:usageInfo mdv:legal/rights" 
           typeof="cc:License"
           resource="http://creativecommons.org/licenses/by-nc-sa/4.0/"
       >
@@ -468,19 +471,19 @@
             © 
             <meta 
                 resource="https://fanniespanker.com/armedescorts/hardboiledwhore/"
-                property="schema:datePublished schema:dateCreated dcterms:dateCopyrighted dcterms:available" 
+                property="schema:datePublished schema:dateCreated dcterms:dateCopyrighted dcterms:available mvd:library/datePublished" 
                 datatype="xsd:date"
                 datetime="2025-08-12"/>
             <time 
                 resource="https://fanniespanker.com/armedescorts/hardboiledwhore/"
-                property="schema:copyrightYear" 
+                property="schema:copyrightYear mvd:library/yearCopyrighted" 
                 datatype="xsd:gYear" 
                 datetime="2025" 
             >2025</time>,
             modified 
             <time 
                 resource="https://fanniespanker.com/armedescorts/hardboiledwhore/"
-                property="schema:dateModified dcterms:modified" 
+                property="schema:dateModified dcterms:modified mvd:library/dateModified" 
                 datatype="xsd:date"
                 datetime="2026-03-15"
             >March 15, 2026</time>,
@@ -495,7 +498,7 @@
           </span>,
           is accessible free of charge 
           <meta 
-              property="isAccessibleForFree" 
+              property="schema:isAccessibleForFree mvd:legal/isAccessibleForFree" 
               type="xsd:boolean" 
               content="true"
           />
@@ -516,8 +519,8 @@
               <img class="SVGIcon" src="/images/sa.svg" alt="ShareAlike"/>,
               <br/>
               viewable at
-              <a property="schema:license dcterms:license cc:license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">creativecommons.org/licenses/by-nc-sa/4.0/</a>
-              <link property="cc:legalcode" href="https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode"/>
+              <a property="schema:license dcterms:license cc:license mvd:legal/licenseSummary" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">creativecommons.org/licenses/by-nc-sa/4.0/</a>
+              <link property="cc:legalcode mvd:legal/licenseDocument" href="https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode"/>
             </span>
           </p>
           <h3>Summary of Your Rights and Obligations Under this License</h3>
@@ -547,7 +550,7 @@
       <meta name="description" content="Acknowledgments."/>
       
       <div class="HorizontallyCentered VerticallyCentered">
-        <span>
+        <span property="mvd:acknowledgments">
           A million ‘thank you’s to Effie and Adrian for their invaluable advice and support, and a big ‘thank you so much’ to Dirk Hooper.
         </span>
       </div>
@@ -562,7 +565,7 @@
       <meta name="description" content="Dedication."/>
       
       <div class="HorizontallyCentered VerticallyCentered">
-        <span class="Dedication">
+        <span property="mvd:dedication" class="Dedication">
           To Adrian, Mom, Dad, Mal,<br/>
           Terry, Sheila, Murphy, Steve, Lisa,<br/>
           Lell, Tara, Skye, Rachel, Effie, Cliff,<br/>
@@ -580,7 +583,7 @@
           id="toc" 
           role="doc-toc" 
           aria-label="Table of Contents" 
-          property="dcterms:tableOfContents fs:tableOfContents"
+          property="dcterms:tableOfContents mdv:tableOfContents"
       >
         <h2>Table of Contents</h2>
         <ol>
@@ -675,12 +678,12 @@
       
       <h2>Tropes, Relationships, Kinks, and Fetishes</h2>
       <ul>
-        <li><span property="fs:contentNotice" resource="fs:depiction/sex/graphic">Extra-spicy</span> <span property="fs:contentNotice" resource="fs:relationship/polyamorous">polyamorous</span>, <span property="fs:contentNotice" resource="fs:sex/kink">kinky,</span>, <span property="fs:contentNotice" resource="fs:romance/bisexual">bisexual</span> romance.</li>
-        <li>Camp politically charged suspense mystery: repentant ex-cop <span property="fs:contentNotice" resource="fs:sexWork">sex worker</span> infiltrates <span property="fs:contentNotice" resource="fs:lawEnforcement">police department</span> to save missing activist.</li>
-        <li><span ssml:ph="ˌdʒɛːn ˈɛːks">Gen X</span> <span property="fs:contentNotice" resource="fs:fetish/GILF" ssml:ph="ˈgɪːlf">GILF</span> next door in a May-December relationship with virgin Millennial.</li>
+        <li><span property="mdv:depicts" resource="mdv:sex/graphic">Extra-spicy</span> <span property="mdv:depicts" resource="mdv:romance/polyamorous">polyamorous</span>, <span property="mdv:depicts" resource="mdv:sex/kink">kinky,</span>, <span property="mdv:depicts" resource="mdv:romance/bisexual">bisexual</span> romance.</li>
+        <li>Camp politically charged suspense mystery: repentant ex-cop <span property="mdv:depicts" resource="mdv:topic/sexWork">sex worker</span> infiltrates <span property="mdv:depicts" resource="mdv:topic/lawEnforcement">police department</span> to save missing activist.</li>
+        <li><span ssml:ph="ˌdʒɛːn ˈɛːks">Gen X</span> <span property="mdv:depicts" resource="mdv:fetish/GILF" ssml:ph="ˈgɪːlf">GILF</span> next door in a <span property="mdv:depicts" resource="mdv:romance/ageDifference">May-December relationship with virgin Millennial.</li>
         <li>Love at first sight/love at first fuck/whirlwind romance.</li>
-        <li>Multiple <span property="fs:contentNotice" resource="fs:romance/laterInLife">later in life polyamorous romances</span> (<span property="fs:contentNotice" resource="fs:polyculeAllFemme">FFFFFF</span> and <span property="fs:contentNotice" resource="fs:polyculeMMF">MMF</span>, all over 30), including inappropriate <span property="fs:contentNotice" resource="fs:officeRomance">office romances</span> and <span property="fs:contentNotice" resource="fs:quidProQuoSex">quid pro quo</span>.</li>
-        <li><span property="fs:contentNotice" resource="fs:soulmates">Soulmates</span> (complicated by past romantic trauma and fear of commitment).</li>
+        <li>Multiple <span property="mdv:depicts" resource="mdv:romance/laterInLife">later in life polyamorous romances</span> (<span property="mdv:depicts" resource="mdv:polycule/allFemme">FFFFFF</span> and <span property="mdv:depicts" resource="mdv:polycule/mixedGender">MMF</span>, all over 30), including inappropriate <span property="mdv:depicts" resource="mdv:officeRomance">office romances</span> and <span property="mdv:depicts" resource="mdv:quidProQuoSex">quid pro quo</span>.</li>
+        <li><span property="mdv:depicts" resource="mdv:romance/soulmates">Soulmates</span> (complicated by past romantic trauma and fear of commitment).</li>
         <li>Lesbian orgy/sex party/gangbang (FFFFF on F).</li>
         <li>Hurt and comfort.</li>
         <li>Spankings and kisses.</li>
@@ -688,7 +691,7 @@
         <li>Anonymous sex without contraceptives.</li>
         <li>Cunnilingus (on cis women&NoBreak;—trans folk to follow in future installments).</li>
         <li>Fellatio (on both cis men and trans women).</li>
-        <li>Vaginal penetration (digitally and by women with both penises and strap-ons, as well as men with penises).</li>
+        <li>Vaginal penetration (digitally and by women with both penises and strap-ons, as well as by men with penises).</li>
         <li>Switch FMC submitting to a domme, dominating a sub, and vying for dominance with another domme.</li>
         <li>Consensual ‘non-consent’ <em>roleplay</em> (with prior discussion of ‘go’s, ‘no-go’s, and safewords, as well ongoing and enthusiastic consent).</li>
         <li>Ownership kink.</li>
@@ -765,7 +768,7 @@
       </ul>
     </section>
     
-    <section id="FormattingKey" property="fs:readingGuide" data-fs-page="Formatting Key" class="VerticallyCentered">
+    <section id="FormattingKey" property="mdv:readingGuide" data-fs-page="Formatting Key" class="VerticallyCentered">
       <meta name="description" content="A key to understanding descriptive formatting of text."/>
       
       <div>
@@ -788,7 +791,7 @@
       </div>
     </section>
     
-    <section id="Disclaimer" property="fs:disclaimer" data-fs-page="Disclaimer" class="VerticallyCentered">
+    <section id="Disclaimer" property="mdv:disclaimer" data-fs-page="Disclaimer" class="VerticallyCentered">
       <meta name="description" content="Nothing here is true."/>
       
       <h2>Dicksclaimer</h2>
@@ -800,8 +803,8 @@
   
     <section 
         id="Act1" 
-        property="dcterms:hasPart schema:hasPart fs:hasPart" 
-        typeof="bibo:BookPart schema:CreativeWork fs:LiteraryAct" 
+        property="dcterms:hasPart schema:hasPart mdv:hasPart" 
+        typeof="bibo:BookPart schema:CreativeWork mdv:LiteraryWork/Act" 
         resource="https://fanniespanker.com/armedescorts/hardboiledwhore/#Act1"
         data-fs-page="Act 1" 
         role="doc-part" 
@@ -811,11 +814,11 @@
       
       <div class="HorizontallyCentered VerticallyCentered">
         <h1 id="ActHeading">
-          <span class="ActNumber">Act <span property="number">1</span>:</span>
-          <span class="ActName"><span property="name">Carnal Entrepreneur</span></span>
+          <span class="ActNumber">Act <span property="mdv:number">1</span>:</span>
+          <span class="ActName"><span property="mdv:name">Carnal Entrepreneur</span></span>
         </h1>
         <div>
-          <span property="schema:abstract dcterms:abstract fs:subtitle" role="doc-subtitle" class="Subtitle">
+          <span property="schema:abstract dcterms:abstract mdv:subtitle" role="doc-subtitle" class="Subtitle">
             From the ashes of a parking Nazi<br/>
             emerges an antifascist hero.<br/>
             A very <em><strong>horny</strong></em> hero. 
@@ -825,12 +828,13 @@
     
     </section>
   
-    <section id="Act1Chapter01" property="" data-fs-page="Act 1, Chapter 1" role="doc-chapter">
+    <section id="Act1Chapter01" property="schema:hasPart mdv:hasPart" typeof="schema:Chapter bibo:Chapter mdv:Chapter" resource="#Act1Chapter01" data-fs-page="Act 1, Chapter 1" role="doc-chapter">
       <meta name="description" content="In which our recently unemployed heroine meets the (rather mature) girl next door."/>
-      
+      <meta property="mdv:number" content="4"/>
+
       <h2>
         <span class="ChapterNumber">Chapter 1:</span>
-        <span class="ChapterName">
+        <span class="ChapterName" property="mdv:title">
           You Know<br/>
           I Like My Girls<br/>
           a Little Bit Older
@@ -1073,12 +1077,13 @@
       
     </section>
   
-    <section id="Act1Chapter02" data-fs-page="Act 1, Chapter 2" role="doc-chapter">
+    <section id="Act1Chapter02" property="schema:hasPart mdv:hasPart" typeof="schema:Chapter bibo:Chapter mdv:Chapter" resource="#Act1Chapter02" data-fs-page="Act 1, Chapter 2" role="doc-chapter">
+      <meta property="mdv:number" content="2"/>
       <meta name="description" content="In which our heroine happens upon the gold at the end of the sexual rainbow. No, not that kind of gold."/>
       
       <h2>
         <span class="ChapterNumber">Chapter 2:</span>
-        <span class="ChapterName">
+        <span class="ChapterName" property="mdv:title">
           Best<br/>
           <span ssml:ph="ˈfʌːkˌbʌːdiz">Fuckbuddies</span><br/>
           Forever
@@ -1322,12 +1327,13 @@
       
     </section>
     
-    <section id="Act1Chapter03" data-fs-page="Act 1, Chapter 3" role="doc-chapter">
+    <section id="Act1Chapter03" property="schema:hasPart mdv:hasPart" typeof="schema:Chapter bibo:Chapter mdv:Chapter" resource="#Act1Chapter03" data-fs-page="Act 1, Chapter 3" role="doc-chapter">
+      <meta property="mdv:number" content="2"/>
       <meta name="description" content="Our new fuckbuddies discuss a missing activist over breakfast, then launch into the vital mission of finding him."/>
       
       <h2>
         <span class="ChapterNumber">Chapter 3:</span>
-        <span class="ChapterName">
+        <span class="ChapterName" property="mdv:title">
           Coffee<br/>
           and a Caper
         </span>
@@ -1625,12 +1631,13 @@
       
     </section>
     
-    <section id="Act1Chapter04" data-fs-page="Act 1, Chapter 4" role="doc-chapter">
+    <section id="Act1Chapter04" property="schema:hasPart mdv:hasPart" typeof="schema:Chapter bibo:Chapter mdv:Chapter" resource="#Act1Chapter04" data-fs-page="Act 1, Chapter 4" role="doc-chapter">
+      <meta property="mdv:number" content="3"/>
       <meta name="description" content="Andrea discovers that her social skills leave much to be desired during her first witness interview, but nevertheless recovers a crucial list."/>
       
       <h2>
         <span class="ChapterNumber">Chapter 4:</span>
-        <span class="ChapterName">
+        <span class="ChapterName" property="mdv:title">
           Well-Read Means<br/>
           Well-Worn
         </span>
@@ -1895,12 +1902,13 @@
       
     </section>
       
-    <section id="Act1Chapter05" data-fs-page="Act 1, Chapter 5" role="doc-chapter">
+    <section id="Act1Chapter05" property="schema:hasPart mdv:hasPart" typeof="schema:Chapter bibo:Chapter mdv:Chapter" resource="#Act1Chapter05" data-fs-page="Act 1, Chapter 5" role="doc-chapter">
+      <meta property="mdv:number" content="5"/>
       <meta name="description" content="Our heroines pick up their missing man's trail with the help of TECHNOLOGY."/>
       
       <h2>
         <span class="ChapterNumber">Chapter 5:</span>
-        <span class="ChapterName">Breadcrumbs</span>
+        <span class="ChapterName" property="mdv:title">Breadcrumbs</span>
       </h2>
       
       <p>“Yay!” cheered Judith at my exhilarating discovery.</p>
@@ -2091,12 +2099,13 @@
       
     </section>
       
-    <section id="Act1Chapter06" data-fs-page="Act 1, Chapter 6" role="doc-chapter">
+    <section id="Act1Chapter06" property="schema:hasPart mdv:hasPart" typeof="schema:Chapter bibo:Chapter mdv:Chapter" resource="#Act1Chapter06" data-fs-page="Act 1, Chapter 6" role="doc-chapter">
+      <meta property="mdv:number" content="6"/>
       <meta name="description" content="Andrea discovers (much to her chagrin) that she is a slut."/>
       
       <h2>
         <span class="ChapterNumber">Chapter 6:</span>
-        <span class="ChapterName">
+        <span class="ChapterName" property="mdv:title">
           Dry Laundry,<br/>
           Dry Humping
         </span>
@@ -2946,12 +2955,13 @@ A lonely ocotillo stands proud among the dunes, fuchsia flowers pointed skywards
       
     </section>
     
-    <section id="Act1Chapter07" data-fs-page="Act 1, Chapter 7" role="doc-chapter">
+    <section id="Act1Chapter07" property="schema:hasPart mdv:hasPart" typeof="schema:Chapter bibo:Chapter mdv:Chapter" resource="#Act1Chapter07" data-fs-page="Act 1, Chapter 7" role="doc-chapter">
+      <meta property="mdv:number" content="7"/>
       <meta name="description" content="Andrea finds herself face-to-face with a surprising acquaintance."/>
       
       <h2>
         <span class="ChapterNumber">Chapter 7:</span>
-        <span class="ChapterName">Queen of Vice</span>
+        <span class="ChapterName" property="mdv:title">Queen of Vice</span>
       </h2>
       
       <p>We picked up ‘some’ cash (1,500 dollars) at the ATM by the cafe, which I hoped would be sufficient encouragement for all the shy informants I expected to encounter. It was my idea&NoBreak;—in some movies, the hero has no choice but to buy their informants’ testimony. Information is the private investigator’s most coveted commodity (followed distantly by cigarettes and booze), because sharing or even being suspected of possessing it can be associated with degrees of risk ranging from social embarrassment to economic ruination to incarceration to certain death&NoBreak;—so it ought to be obvious to even the least astute of lay people that it is only fair to compensate informants proportionately to the efforts they invest and the risks they shoulder in acquiring it.</p>
@@ -3123,12 +3133,13 @@ A lonely ocotillo stands proud among the dunes, fuchsia flowers pointed skywards
       
     </section>
     
-    <section id="Act1Chapter08" data-fs-page="Act 1, Chapter 8" role="doc-chapter">
+    <section id="Act1Chapter08" property="schema:hasPart mdv:hasPart" typeof="schema:Chapter bibo:Chapter mdv:Chapter" resource="#Act1Chapter08" data-fs-page="Act 1, Chapter 8" role="doc-chapter">
+      <meta property="mdv:number" content="8"/>
       <meta name="description" content="Andrea fucks a corrupt cop, who proposes a very tempting (and very unethical) quid pro quo."/>
       
       <h2>
         <span class="ChapterNumber">Chapter 8:</span>
-        <span class="ChapterName">Butch Fatale</span>
+        <span class="ChapterName" property="mdv:title">Butch Fatale</span>
       </h2>
       
       <p>Captain Somers, despite being <em>only</em> 5′10″, would have towered over me even more imposingly than Judith did. She was somewhere in her mid-40s, so, her being a late <span ssml:ph="ˌdʒɛːn ˈɛːksɝ">Gen Xer</span>, it would not have surprised the average person very much to meet somebody of her age maintaining a cherry red pixie undercut&NoBreak;—assuming they were unaware of her workplace’s dress code. She also had an intriguing preference for well-fitted men’s outfits, and tonight’s jacket (though too dark for me to discern its exact hue within the indigo shadows of her car’s interior) was no exception. For a police captain, her hair and mode of dress were rather shocking to encounter at work, while her facial features, unique and strikingly polygonal, nevertheless managed to be more shocking still.</p>
@@ -3392,12 +3403,13 @@ A lonely ocotillo stands proud among the dunes, fuchsia flowers pointed skywards
       
     </section>
       
-    <section id="Act1Chapter09" data-fs-page="Act 1, Chapter 9" role="doc-chapter">
+    <section id="Act1Chapter09" property="schema:hasPart mdv:hasPart" typeof="schema:Chapter bibo:Chapter mdv:Chapter" resource="#Act1Chapter09" data-fs-page="Act 1, Chapter 9" role="doc-chapter">
+      <meta property="mdv:number" content="9"/>
       <meta name="description" content="A hardboiled whore is born among dregs, by midwives braver than the troops."/>
       
       <h2>
         <span class="ChapterNumber">Chapter 9:</span>
-        <span class="ChapterName">Seagull</span>
+        <span class="ChapterName" property="mdv:title">Seagull</span>
       </h2>
       
       <p><span ssml:ph="ˈʃoːʃ">Shosh</span> must have been waiting for me; out of nowhere, she asked, “Well? Scale of 10 to 10, how much do you regret that?”</p>
@@ -3556,12 +3568,13 @@ A lonely ocotillo stands proud among the dunes, fuchsia flowers pointed skywards
       
     </section>
     
-    <section id="Act1Chapter10" data-fs-page="Act 1, Chapter 10" role="doc-chapter">
+    <section id="Act1Chapter10" property="schema:hasPart mdv:hasPart" typeof="schema:Chapter bibo:Chapter mdv:Chapter" resource="#Act1Chapter10" data-fs-page="Act 1, Chapter 10" role="doc-chapter">
+      <meta property="mdv:number" content="10"/>
       <meta name="description" content="Our sleuth finally interviews the sex workers of Adams Avenue, whose testimonies lead her to a crime scene."/>
       
       <h2>
         <span class="ChapterNumber">Chapter 10:</span>
-        <span class="ChapterName">
+        <span class="ChapterName" property="mdv:title">
           <span ssml:ph="ˈfɔːɹ ˈtɛːn">410</span> Gone
         </span>
       </h2>
@@ -3888,12 +3901,13 @@ A lonely ocotillo stands proud among the dunes, fuchsia flowers pointed skywards
       
     </section>
     
-    <section id="Act1Chapter11" data-fs-page="Act 1, Chapter 11" role="doc-chapter">
+    <section id="Act1Chapter11" property="schema:hasPart mdv:hasPart" typeof="schema:Chapter bibo:Chapter mdv:Chapter" resource="#Act1Chapter11" data-fs-page="Act 1, Chapter 11" role="doc-chapter">
+      <meta property="mdv:number" content="11"/>
       <meta name="description" content="Having seen the evidence with her own eyes, Andrea realizes she must accept the deal with the devil before she can continue her search for her missing activist."/>
       
       <h2>
         <span class="ChapterNumber">Chapter 11:</span>
-        <span class="ChapterName">Forensics</span>
+        <span class="ChapterName" property="mdv:title">Forensics</span>
       </h2>
       <div>
         <ul class="ContentNoticeSubheading">Content Notices:
@@ -4075,12 +4089,13 @@ A lonely ocotillo stands proud among the dunes, fuchsia flowers pointed skywards
       
     </section>
     
-    <section id="Act1Chapter12" data-fs-page="Act 1, Chapter 12" role="doc-chapter">
+    <section id="Act1Chapter12" property="schema:hasPart mdv:hasPart" typeof="schema:Chapter bibo:Chapter mdv:Chapter" resource="#Act1Chapter12" data-fs-page="Act 1, Chapter 12" role="doc-chapter">
+      <meta property="mdv:number" content="12"/>
       <meta name="description" content="Andrea discovers that she is being watched…"/>
       
       <h2>
         <span class="ChapterNumber">Chapter 12:</span>
-        <span class="ChapterName">Born-Again Bastard</span>
+        <span class="ChapterName" property="mdv:title">Born-Again Bastard</span>
       </h2>
       <div>
         <span role="doc-subtitle" class="Subtitle">Sunday, July 14<sup>th</sup>, 2024</span>
@@ -4324,12 +4339,13 @@ A lonely ocotillo stands proud among the dunes, fuchsia flowers pointed skywards
       
     </section>
     
-    <section id="Act1Chapter13" data-fs-page="Act 1, Chapter 13" role="doc-chapter">
+    <section id="Act1Chapter13" property="schema:hasPart mdv:hasPart" typeof="schema:Chapter bibo:Chapter mdv:Chapter" resource="#Act1Chapter13" data-fs-page="Act 1, Chapter 13" role="doc-chapter">
+      <meta property="mdv:number" content="13"/>
       <meta name="description" content="…and her observers are dead serious about building a criminal case against her."/>
       
       <h2>
         <span class="ChapterNumber">Chapter 13:</span>
-        <span class="ChapterName">Section <span ssml:ph="ˈsɛvən ˈfɔːɹ ˈdɑt ˈoʊ ˈθɹi ˈeɪt ˈtu">74.0382</span></span>
+        <span class="ChapterName" property="mdv:title">Section <span ssml:ph="ˈsɛvən ˈfɔːɹ ˈdɑt ˈoʊ ˈθɹi ˈeɪt ˈtu">74.0382</span></span>
       </h2>
       <div class="HorizontallyCentered">
         <ul class="ContentNoticeSubheading">Content Notices:
@@ -4479,12 +4495,13 @@ A lonely ocotillo stands proud among the dunes, fuchsia flowers pointed skywards
       
     </section>
     
-    <section id="Act1Chapter14" data-fs-page="Act 1, Chapter 14" role="doc-chapter">
+    <section id="Act1Chapter14" property="schema:hasPart mdv:hasPart" typeof="schema:Chapter bibo:Chapter mdv:Chapter" resource="#Act1Chapter14" data-fs-page="Act 1, Chapter 14" role="doc-chapter">
+      <meta property="mdv:number" content="14"/>
       <meta name="description" content="Andrea desperately needs a wardrobe befitting her new rank."/>
       
       <h2>
         <span class="ChapterNumber">Chapter 14:</span>
-        <span class="ChapterName">Invisible Friend</span>
+        <span class="ChapterName" property="mdv:title">Invisible Friend</span>
       </h2>
       <div class="HorizontallyCentered">
         <ul class="ContentNoticeSubheading">Content Notices:
@@ -4637,12 +4654,13 @@ A lonely ocotillo stands proud among the dunes, fuchsia flowers pointed skywards
       
     </section>
     
-    <section id="Act1Chapter15" data-fs-page="Act 1, Chapter 15" role="doc-chapter">
+    <section id="Act1Chapter15" property="schema:hasPart mdv:hasPart" typeof="schema:Chapter bibo:Chapter mdv:Chapter" resource="#Act1Chapter15" data-fs-page="Act 1, Chapter 15" role="doc-chapter">
+      <meta property="mdv:number" content="15"/>
       <meta name="description" content="The chapter title says it all."/>
       
       <h2>
         <span class="ChapterNumber">Chapter 15:</span>
-        <span class="ChapterName">Car Sex</span>
+        <span class="ChapterName" property="mdv:title">Car Sex</span>
       </h2>
       
       <p>Judy whipped out one of her own cards and slipped it into the chip reader. “Yes, it’s a lot to spend on clothes, Andy, but you’re rebuilding your entire wardrobe from scratch, not just buying a garment or two to replace a few you’ve lost to wear and tear. You need this, and now.”</p>
@@ -4797,12 +4815,13 @@ A lonely ocotillo stands proud among the dunes, fuchsia flowers pointed skywards
       
     </section>
     
-    <section id="Act1Chapter16" data-fs-page="Act 1, Chapter 16" role="doc-chapter">
+    <section id="Act1Chapter16" property="schema:hasPart mdv:hasPart" typeof="schema:Chapter bibo:Chapter mdv:Chapter" resource="#Act1Chapter16" data-fs-page="Act 1, Chapter 16" role="doc-chapter">
+      <meta property="mdv:number" content="16"/>
       <meta name="description" content="Our detective-to-be must break the news of her betrayal of the antifascist cause… to the very people she is betraying."/>
       
       <h2>
         <span class="ChapterNumber">Chapter 16:</span>
-        <span class="ChapterName">
+        <span class="ChapterName" property="mdv:title">
           You Can’t Trust<br/>
           an Ex-Cop
         </span>
@@ -4923,12 +4942,13 @@ A lonely ocotillo stands proud among the dunes, fuchsia flowers pointed skywards
       
     </section>
     
-    <section id="Act1Chapter17" data-fs-page="Act 1, Chapter 17" role="doc-chapter">
+    <section id="Act1Chapter17" property="schema:hasPart mdv:hasPart" typeof="schema:Chapter bibo:Chapter mdv:Chapter" resource="#Act1Chapter17" data-fs-page="Act 1, Chapter 17" role="doc-chapter">
+      <meta property="mdv:number" content="17"/>
       <meta name="description" content="Andrea and Judith enkindle their true understanding of each other and themselves."/>
       
       <h2>
         <span class="ChapterNumber">Chapter 17:</span>
-        <span class="ChapterName">
+        <span class="ChapterName" property="mdv:title">
           Ten-Ticket<br/>
           Thrill Ride
         </span>
@@ -5189,12 +5209,13 @@ A lonely ocotillo stands proud among the dunes, fuchsia flowers pointed skywards
       
     </section>
       
-    <section id="Act1Chapter18" data-fs-page="Act 1, Chapter 18" role="doc-chapter">
+    <section id="Act1Chapter18" property="schema:hasPart mdv:hasPart" typeof="schema:Chapter bibo:Chapter mdv:Chapter" resource="#Act1Chapter18" data-fs-page="Act 1, Chapter 18" role="doc-chapter">
+      <meta property="mdv:number" content="18"/>
       <meta name="description" content="This is the part where perfection turns to ash."/>
       
       <h2>
         <span class="ChapterNumber">Chapter 18:</span>
-        <span class="ChapterName">
+        <span class="ChapterName" property="mdv:title">
           Just Friends<br/>
           With Benefits
         </span>
@@ -5263,8 +5284,8 @@ A lonely ocotillo stands proud among the dunes, fuchsia flowers pointed skywards
     
     <section 
         id="Act2" 
-        property="dcterms:hasPart schema:hasPart fs:hasPart" 
-        typeof="bibo:BookPart schema:CreativeWork fs:LiteraryAct" 
+        property="dcterms:hasPart schema:hasPart mdv:hasPart" 
+        typeof="bibo:BookPart schema:CreativeWork mdv:LiteraryWork/Act" 
         resource="https://fanniespanker.com/armedescorts/hardboiledwhore/#Act2"
         data-fs-page="Act 2" 
         role="doc-part" 
@@ -5292,12 +5313,13 @@ A lonely ocotillo stands proud among the dunes, fuchsia flowers pointed skywards
       </div>
     </section>
     
-    <section id="Act2Chapter01" data-fs-page="Act 2, Chapter 1" role="doc-chapter">
+    <section id="Act2Chapter01" property="schema:hasPart mdv:hasPart" typeof="schema:Chapter bibo:Chapter mdv:Chapter" resource="#Act2Chapter01" data-fs-page="Act 2, Chapter 1" role="doc-chapter">
+      <meta property="mdv:number" content="1"/>
       <meta name="description" content="Judith shocks Andrea with the confession of her dearest and most perverse desires."/>
       
       <h2>
         <span class="ChapterNumber">Chapter 1:</span>
-        <span class="ChapterName">
+        <span class="ChapterName" property="mdv:title">
           Tracks 4 and 4<br/>
           on <cite>Nevermind</cite><br/>
           and <cite>In Utero</cite>
@@ -5493,12 +5515,13 @@ A lonely ocotillo stands proud among the dunes, fuchsia flowers pointed skywards
       
     </section>
     
-    <section id="Act2Chapter02" data-fs-page="Act 2, Chapter 2" role="doc-chapter">
+    <section id="Act2Chapter02" property="schema:hasPart mdv:hasPart" typeof="schema:Chapter bibo:Chapter mdv:Chapter" resource="#Act2Chapter02" data-fs-page="Act 2, Chapter 2" role="doc-chapter">
+      <meta property="mdv:number" content="2"/>
       <meta name="description" content="Andy get your gun, and your badge, and your search warrant."/>
       
       <h2>
         <span class="ChapterNumber">Chapter 2:</span>
-        <span class="ChapterName">Tits and Brass</span>
+        <span class="ChapterName" property="mdv:title">Tits and Brass</span>
       </h2>
       
       <p>I dialed Captain Somers’s office number and was greeted by a voice with a sensuous edge, leading me to imagine a pair of pouty red lips, purple eyeshadow, and a mink stole: “Good morning, Tricia Patton, First Precinct Vice, Alcohol and Tobacco Captain’s office, how may I help you?”</p>
@@ -5701,12 +5724,13 @@ A lonely ocotillo stands proud among the dunes, fuchsia flowers pointed skywards
       
     </section>
       
-    <section id="Act2Chapter03" data-fs-page="Act 2, Chapter 3" role="doc-chapter">
+    <section id="Act2Chapter03" property="schema:hasPart mdv:hasPart" typeof="schema:Chapter bibo:Chapter mdv:Chapter" resource="#Act2Chapter03" data-fs-page="Act 2, Chapter 3" role="doc-chapter">
+      <meta property="mdv:number" content="3"/>
       <meta name="description" content="Our hardboiled whore tries to use sex to get her way, and fails miserably."/>
       
       <h2>
         <span class="ChapterNumber">Chapter 3:</span>
-        <span class="ChapterName">
+        <span class="ChapterName" property="mdv:title">
           Renegotiation<br/>
           and Renegation
         </span>
@@ -5915,12 +5939,13 @@ A lonely ocotillo stands proud among the dunes, fuchsia flowers pointed skywards
       
     </section>
       
-    <section id="Act2Chapter04" data-fs-page="Act 2, Chapter 4" role="doc-chapter">
+    <section id="Act2Chapter04" property="schema:hasPart mdv:hasPart" typeof="schema:Chapter bibo:Chapter mdv:Chapter" resource="#Act2Chapter04" data-fs-page="Act 2, Chapter 4" role="doc-chapter">
+      <meta property="mdv:number" content="4"/>
       <meta name="description" content="Andrea and Judith discover yet another shared derangement, and the hardboiled whore decides to give coitus pro quo another try."/>
 
       <h2>
         <span class="ChapterNumber">Chapter 4:</span>
-        <span class="ChapterName">Competitive Cucking</span>
+        <span class="ChapterName" property="mdv:title">Competitive Cucking</span>
       </h2>
       
       <p>A sleek white 2015-or-newer Dodge Charger with a decal on the side declaring it to be operated by ‘Santa Virginia City HIRT’ grumbled up beside me. A woman (5′6″, with brown hair even curlier than mine, in a no-nonsense navy pantsuit with a white shirt) and another (5′9″, with a bleached pixie cut, in a matching outfit, albeit with a more androgynous fit) emerged from the sedan with purpose and assessed me with authority. The shorter woman yelled over the noise of the equipment, “Would you happen to be SVPD?”</p>
@@ -6121,12 +6146,13 @@ A lonely ocotillo stands proud among the dunes, fuchsia flowers pointed skywards
       
     </section>
       
-    <section id="Act2Chapter05" data-fs-page="Act 2, Chapter 5" role="doc-chapter">
+    <section id="Act2Chapter05" property="schema:hasPart mdv:hasPart" typeof="schema:Chapter bibo:Chapter mdv:Chapter" resource="#Act2Chapter05" data-fs-page="Act 2, Chapter 5" role="doc-chapter">
+      <meta property="mdv:number" content="5"/>
       <meta name="description" content="They fuck in the back of a van."/>
       
       <h2>
         <span class="ChapterNumber">Chapter 5:</span>
-        <span class="ChapterName">Love <span ssml:ph="ˈhɝts">HIRTs</span></span>
+        <span class="ChapterName" property="mdv:title">Love <span ssml:ph="ˈhɝts">HIRTs</span></span>
       </h2>
       <div class="HorizontallyCentered">
         <ul class="ContentNoticeSubheading">Content Notice:
@@ -6287,12 +6313,13 @@ A lonely ocotillo stands proud among the dunes, fuchsia flowers pointed skywards
       
     </section>
     
-    <section id="Act2Chapter06" data-fs-page="Act 2, Chapter 6" role="doc-chapter">
+    <section id="Act2Chapter06" property="schema:hasPart mdv:hasPart" typeof="schema:Chapter bibo:Chapter mdv:Chapter" resource="#Act2Chapter06" data-fs-page="Act 2, Chapter 6" role="doc-chapter">
+      <meta property="mdv:number" content="6"/>
       <meta name="description" content="Andrea realizes there is something wrong with her brain."/>
       
       <h2>
         <span class="ChapterNumber">Chapter 6:</span>
-        <span class="ChapterName">Field Promotion</span>
+        <span class="ChapterName" property="mdv:title">Field Promotion</span>
       </h2>
       <div class="HorizontallyCentered">
         <ul class="ContentNoticeSubheading">Content Notice:
@@ -6470,12 +6497,13 @@ A lonely ocotillo stands proud among the dunes, fuchsia flowers pointed skywards
       
     </section>
       
-    <section id="Act2Chapter07" data-fs-page="Act 2, Chapter 7" role="doc-chapter">
+    <section id="Act2Chapter07" property="schema:hasPart mdv:hasPart" typeof="schema:Chapter bibo:Chapter mdv:Chapter" resource="#Act2Chapter07" data-fs-page="Act 2, Chapter 7" role="doc-chapter">
+      <meta property="mdv:number" content="7"/>
       <meta name="description" content="Andrea lets her chips spill onto the table, but bets on her newest conquest not realizing there was no bet in the first place."/>
       
       <h2>
         <span class="ChapterNumber">Chapter 7:</span>
-        <span class="ChapterName">
+        <span class="ChapterName" property="mdv:title">
           The Catgirl<br/>
           Who Tasted<br/>
           Like Strawberries
@@ -6803,12 +6831,13 @@ A lonely ocotillo stands proud among the dunes, fuchsia flowers pointed skywards
       
     </section>
     
-    <section id="Act2Chapter08" data-fs-page="Act 2, Chapter 8" role="doc-chapter">
+    <section id="Act2Chapter08" property="schema:hasPart mdv:hasPart" typeof="schema:Chapter bibo:Chapter mdv:Chapter" resource="#Act2Chapter08" data-fs-page="Act 2, Chapter 8" role="doc-chapter">
+      <meta property="mdv:number" content="8"/>
       <meta name="description" content="Andrea and Georgina's new mistress watches her toys play with each other, then teases them with an outing to a mysterious rendezvous"/>
       
       <h2>
         <span class="ChapterNumber">Chapter 8:</span>
-        <span class="ChapterName">Pleasure Bargain</span>
+        <span class="ChapterName" property="mdv:title">Pleasure Bargain</span>
       </h2>
       <div class="HorizontallyCentered">
         <ul class="ContentNoticeSubheading">Content Notice:
@@ -7037,12 +7066,13 @@ A lonely ocotillo stands proud among the dunes, fuchsia flowers pointed skywards
       
     </section>
     
-    <section id="Act2Chapter09" data-fs-page="Act 2, Chapter 9" role="doc-chapter">
+    <section id="Act2Chapter09" property="schema:hasPart mdv:hasPart" typeof="schema:Chapter bibo:Chapter mdv:Chapter" resource="#Act2Chapter09" data-fs-page="Act 2, Chapter 9" role="doc-chapter">
+      <meta property="mdv:number" content="9"/>
       <meta name="description" content="Madam Moneta takes her new pets to Asmodeus."/>
       
       <h2>
         <span class="ChapterNumber">Chapter 9:</span>
-        <span class="ChapterName">Asmodeus</span>
+        <span class="ChapterName" property="mdv:title">Asmodeus</span>
       </h2>
       <div class="HorizontallyCentered">
         <ul class="ContentNoticeSubheading">Content Notice:
@@ -7203,12 +7233,13 @@ A lonely ocotillo stands proud among the dunes, fuchsia flowers pointed skywards
       
     </section>
     
-    <section id="Act2Chapter10" data-fs-page="Act 2, Chapter 10" role="doc-chapter">
+    <section id="Act2Chapter10" property="schema:hasPart mdv:hasPart" typeof="schema:Chapter bibo:Chapter mdv:Chapter" resource="#Act2Chapter10" data-fs-page="Act 2, Chapter 10" role="doc-chapter">
+      <meta property="mdv:number" content="10"/>
       <meta name="description" content="Andrea meets another coworker&NoBreak;—the man she wants out of her life more than anything."/>
       
       <h2>
         <span class="ChapterNumber">Chapter 10:</span>
-        <span class="ChapterName">Sperm Competition</span>
+        <span class="ChapterName" property="mdv:title">Sperm Competition</span>
       </h2>
       <div class="HorizontallyCentered">
         <ul class="ContentNoticeSubheading">Content Notices:
@@ -7618,12 +7649,13 @@ A lonely ocotillo stands proud among the dunes, fuchsia flowers pointed skywards
       
     </section>
       
-    <section id="Act2Chapter11" data-fs-page="Act 2, Chapter 11" role="doc-chapter">
+    <section id="Act2Chapter11" property="schema:hasPart mdv:hasPart" typeof="schema:Chapter bibo:Chapter mdv:Chapter" resource="#Act2Chapter11" data-fs-page="Act 2, Chapter 11" role="doc-chapter">
+      <meta property="mdv:number" content="11"/>
       <meta name="description" content="A date so exciting it'll stop your heart."/>
       
       <h2>
         <span class="ChapterNumber">Chapter 11:</span>
-        <span class="ChapterName">
+        <span class="ChapterName" property="mdv:title">
           The Hand<br/>
           that Spanks
         </span>
@@ -7956,12 +7988,13 @@ A lonely ocotillo stands proud among the dunes, fuchsia flowers pointed skywards
       
     </section>
     
-    <section id="Act2Chapter12" data-fs-page="Act 2, Chapter 12" role="doc-chapter">
+    <section id="Act2Chapter12" property="schema:hasPart mdv:hasPart" typeof="schema:Chapter bibo:Chapter mdv:Chapter" resource="#Act2Chapter12" data-fs-page="Act 2, Chapter 12" role="doc-chapter">
+      <meta property="mdv:number" content="12"/>
       <meta name="description" content="Death is impermanent; desire, undying."/>
       
       <h2>
         <span class="ChapterNumber">Chapter 12:</span>
-        <span class="ChapterName">Kickstart My Heart</span>
+        <span class="ChapterName" property="mdv:title">Kickstart My Heart</span>
       </h2>
       <div class="HorizontallyCentered">
         <ul class="ContentNoticeSubheading">Content Notices:
@@ -8284,12 +8317,13 @@ Now we’re one&NoBreak;—thank Him above.))
       
     </section>
     
-    <section id="Act2Chapter13" data-fs-page="Act 2, Chapter 13" role="doc-chapter">
+    <section id="Act2Chapter13" property="schema:hasPart mdv:hasPart" typeof="schema:Chapter bibo:Chapter mdv:Chapter" resource="#Act2Chapter13" data-fs-page="Act 2, Chapter 13" role="doc-chapter">
+      <meta property="mdv:number" content="13"/>
       <meta name="description" content="Diane's loyalty to her cause stuns Andrea."/>
       
       <h2>
         <span class="ChapterNumber">Chapter 13:</span>
-        <span class="ChapterName">Who’s to Blame?</span>
+        <span class="ChapterName" property="mdv:title">Who’s to Blame?</span>
       </h2>
       <div class="HorizontallyCentered">
         <ul class="ContentNoticeSubheading">Content Notices:
@@ -8447,12 +8481,13 @@ Now we’re one&NoBreak;—thank Him above.))
       
     </section>
       
-    <section id="Act2Chapter14" data-fs-page="Act 2, Chapter 14" role="doc-chapter">
+    <section id="Act2Chapter14" property="schema:hasPart mdv:hasPart" typeof="schema:Chapter bibo:Chapter mdv:Chapter" resource="#Act2Chapter14" data-fs-page="Act 2, Chapter 14" role="doc-chapter">
+      <meta property="mdv:number" content="14"/>
       <meta name="description" content="Andrea tries to save Diane’s friendship, only to be hit with another confession."/>
       
       <h2>
         <span class="ChapterNumber">Chapter 14:</span>
-        <span class="ChapterName">Friends and Allies</span>
+        <span class="ChapterName" property="mdv:title">Friends and Allies</span>
       </h2>
       
       <p>The drive, deprived of conversation, was tense. Once Georgina was out of the car and on approach to her apartment’s front gate, Diane broke the silence. “How is your throat? Is it still sore?”</p>
@@ -8651,12 +8686,13 @@ Now we’re one&NoBreak;—thank Him above.))
       
     </section>
       
-    <section id="Act2Chapter15" data-fs-page="Act 2, Chapter 15" role="doc-chapter">
+    <section id="Act2Chapter15" property="schema:hasPart mdv:hasPart" typeof="schema:Chapter bibo:Chapter mdv:Chapter" resource="#Act2Chapter15" data-fs-page="Act 2, Chapter 15" role="doc-chapter">
+      <meta property="mdv:number" content="15"/>
       <meta name="description" content="Mothers worry too much, if you ask Andrea."/>
       
       <h2>
         <span class="ChapterNumber">Chapter 15:</span>
-        <span class="ChapterName">Shmendrik</span>
+        <span class="ChapterName" property="mdv:title">Shmendrik</span>
       </h2>
       
       <p>“Tonight was pret-ty crazy,” I replied; <span ssml:ph="ˈʃoːʃ">Shosh</span> nodded, but her eyes told me she knew something was amiss. “Yours?”</p>
@@ -8750,12 +8786,13 @@ Now we’re one&NoBreak;—thank Him above.))
       
     </section>
       
-    <section id="Act2Chapter16" data-fs-page="Act 2, Chapter 16" role="doc-chapter">
+    <section id="Act2Chapter16" property="schema:hasPart mdv:hasPart" typeof="schema:Chapter bibo:Chapter mdv:Chapter" resource="#Act2Chapter16" data-fs-page="Act 2, Chapter 16" role="doc-chapter">
+      <meta property="mdv:number" content="16"/>
       <meta name="description" content="I wanna fuck you like an animal."/>
       
       <h2>
         <span class="ChapterNumber">Chapter 16:</span>
-        <span class="ChapterName">Closer</span>
+        <span class="ChapterName" property="mdv:title">Closer</span>
       </h2>
       
       <p>I took a seat on the couch and tried to process what had just transpired between my BFF and me, but after a few minutes of confusion I concluded that this was some <span class="InnerMonologue">((real serious shit))</span>—and there was still plenty of alcohol and MDMA in my blood, so I was more inclined towards doing <em>fun</em> shit.</p>
@@ -9205,12 +9242,13 @@ Now we’re one&NoBreak;—thank Him above.))
       
     </section>
     
-    <section id="Act2Chapter17" data-fs-page="Act 2, Chapter 17" role="doc-chapter">
+    <section id="Act2Chapter17" property="schema:hasPart mdv:hasPart" typeof="schema:Chapter bibo:Chapter mdv:Chapter" resource="#Act2Chapter17" data-fs-page="Act 2, Chapter 17" role="doc-chapter">
+      <meta property="mdv:number" content="17"/>
       <meta name="description" content="Andrea's night of excess finally catches up with her."/>
       
       <h2>
         <span class="ChapterNumber">Chapter 17:</span>
-        <span class="ChapterName">
+        <span class="ChapterName" property="mdv:title">
           Everything’s<br/>
           Gonna Be<br/>
           Fine, Fine, Fine
@@ -9330,8 +9368,8 @@ Now we’re one&NoBreak;—thank Him above.))
     
     <section 
         id="Act3" 
-        property="dcterms:hasPart schema:hasPart fs:hasPart" 
-        typeof="bibo:BookPart schema:CreativeWork fs:LiteraryAct" 
+        property="dcterms:hasPart schema:hasPart mdv:hasPart" 
+        typeof="bibo:BookPart schema:CreativeWork mdv:LiteraryWork/Act" 
         resource="https://fanniespanker.com/armedescorts/hardboiledwhore/#Act3"  
         data-fs-page="Act 3" 
         role="doc-part" 
@@ -9355,12 +9393,13 @@ Now we’re one&NoBreak;—thank Him above.))
       </div>
     </section>
     
-    <section id="Act3Chapter01" data-fs-page="Act 3, Chapter 1" role="doc-chapter">
+    <section id="Act3Chapter01" property="schema:hasPart mdv:hasPart" typeof="schema:Chapter bibo:Chapter mdv:Chapter" resource="#Act3Chapter01" data-fs-page="Act 3, Chapter 1" role="doc-chapter">
+      <meta property="mdv:number" content="1"/>
       <meta name="description" content="Andrea's hangover makes an already uncomfortable situation worse."/>
       
       <h2>
         <span class="ChapterNumber">Chapter 1:</span>
-        <span class="ChapterName">Acetaldehyde</span>
+        <span class="ChapterName" property="mdv:title">Acetaldehyde</span>
       </h2>
       <div class="HorizontallyCentered">
         <span role="doc-subtitle" class="Subtitle">
@@ -9526,12 +9565,13 @@ Now we’re one&NoBreak;—thank Him above.))
       
     </section>
     
-    <section id="Act3Chapter02" data-fs-page="Act 3, Chapter 2" role="doc-chapter">
+    <section id="Act3Chapter02" property="schema:hasPart mdv:hasPart" typeof="schema:Chapter bibo:Chapter mdv:Chapter" resource="#Act3Chapter02" data-fs-page="Act 3, Chapter 2" role="doc-chapter">
+      <meta property="mdv:number" content="2"/>
       <meta name="description" content="Andrea and Andrea strike up a raunchy rapport almost instantly."/>
       
       <h2>
         <span class="ChapterNumber">Chapter 2:</span>
-        <span class="ChapterName">
+        <span class="ChapterName" property="mdv:title">
           Synchronized<br/>
           Hourglasses
         </span>
@@ -9695,12 +9735,13 @@ comfort.
       
     </section>
     
-    <section id="Act3Chapter03" data-fs-page="Act 3, Chapter 3" role="doc-chapter">
+    <section id="Act3Chapter03" property="schema:hasPart mdv:hasPart" typeof="schema:Chapter bibo:Chapter mdv:Chapter" resource="#Act3Chapter03" data-fs-page="Act 3, Chapter 3" role="doc-chapter">
+      <meta property="mdv:number" content="3"/>
       <meta name="description" content="Andrea and Andrea discover that their values and goals align."/>
       
       <h2>
         <span class="ChapterNumber">Chapter 3:</span>
-        <span class="ChapterName">
+        <span class="ChapterName" property="mdv:title">
           The Silent<br/>
           Whistleblower
         </span>
@@ -9843,7 +9884,8 @@ comfort.
       
     </section>
     
-    <section id="Act3Chapter04" data-fs-page="Act 3, Chapter 4" role="doc-chapter">
+    <section id="Act3Chapter04" property="schema:hasPart mdv:hasPart" typeof="schema:Chapter bibo:Chapter mdv:Chapter" resource="#Act3Chapter04" data-fs-page="Act 3, Chapter 4" role="doc-chapter">
+      <meta property="mdv:number" content="4"/>
       <meta name="description" content="Andrea gets her footage."/>
       
       <h2>
@@ -10021,12 +10063,13 @@ comfort.
       
     </section>
     
-    <section id="Act3Chapter05" data-fs-page="Act 3, Chapter 5" role="doc-chapter">
+    <section id="Act3Chapter05" property="schema:hasPart mdv:hasPart" typeof="schema:Chapter bibo:Chapter mdv:Chapter" resource="#Act3Chapter05" data-fs-page="Act 3, Chapter 5" role="doc-chapter">
+      <meta property="mdv:number" content="5"/>
       <meta name="description" content="A detective, a desk jockey, a drug dealer, a medical examiner and her assistant cram themselves into a tiny apartment furnished with booze and a king size bed."/>  
       
       <h2>
         <span class="ChapterNumber">Chapter 5:</span>
-        <span class="ChapterName">Six’s Company, Too</span>
+        <span class="ChapterName" property="mdv:title">Six’s Company, Too</span>
       </h2>
       
       <p>As I walked from the parking structure to the apartment building, I spotted someone standing by my door. As I drew closer I recognized Andrea, in a pretty black shirt and skirt with an overnight bag slung over her shoulder. Once I reached the top of the stairs, I was close enough to see that she had put on false eyelashes, copper eyeliner wings, generous amounts of blue eyeshadow, and a touch of blush. “Wow, Doll. You’re stunning.” She smiled bashfully. I gave her a hug, pressing my pelvis against hers. “How long have you been waiting here?”</p>
@@ -10166,12 +10209,13 @@ comfort.
       
     </section>
     
-    <section id="Act3Chapter06" data-fs-page="Act 3, Chapter 6" role="doc-chapter">
+    <section id="Act3Chapter06" property="schema:hasPart mdv:hasPart" typeof="schema:Chapter bibo:Chapter mdv:Chapter" resource="#Act3Chapter06" data-fs-page="Act 3, Chapter 6" role="doc-chapter">
+      <meta property="mdv:number" content="6"/>
       <meta name="description" content="Andrea wants nothing more than to be punished for being a naughty girl."/>
       
       <h2>
         <span class="ChapterNumber">Chapter 6:</span>
-        <span class="ChapterName">
+        <span class="ChapterName" property="mdv:title">
           The Uninvited<br/>
           Guest of Honor
         </span>
@@ -10306,12 +10350,13 @@ comfort.
       
     </section>
     
-    <section id="Act3Chapter07" data-fs-page="Act 3, Chapter 7" role="doc-chapter">
+    <section id="Act3Chapter07" property="schema:hasPart mdv:hasPart" typeof="schema:Chapter bibo:Chapter mdv:Chapter" resource="#Act3Chapter07" data-fs-page="Act 3, Chapter 7" role="doc-chapter">
+      <meta property="mdv:number" content="7"/>
       <meta name="description" content="Andrea recklessly pushes Diane's boundaries."/>
       
       <h2>
         <span class="ChapterNumber">Chapter 7:</span>
-        <span class="ChapterName">
+        <span class="ChapterName" property="mdv:title">
           ‘Reneging’<br/>
           on Regina
         </span>
@@ -10641,12 +10686,13 @@ comfort.
       
     </section>
     
-    <section id="Act3Chapter08" data-fs-page="Act 3, Chapter 8" role="doc-chapter">
+    <section id="Act3Chapter08" property="schema:hasPart mdv:hasPart" typeof="schema:Chapter bibo:Chapter mdv:Chapter" resource="#Act3Chapter08" data-fs-page="Act 3, Chapter 8" role="doc-chapter">
+      <meta property="mdv:number" content="8"/>
       <meta name="description" content="Fucking with Judith and making no progress on the missing person case."/>
       
       <h2>
         <span class="ChapterNumber">Chapter 8:</span>
-        <span class="ChapterName">
+        <span class="ChapterName" property="mdv:title">
           The Morning After<br/>
           the Morning-After<br/>
           Pill
@@ -10865,12 +10911,13 @@ comfort.
       
     </section>
     
-    <section id="Act3Chapter09" data-fs-page="Act 3, Chapter 9" role="doc-chapter">
+    <section id="Act3Chapter09" property="schema:hasPart mdv:hasPart" typeof="schema:Chapter bibo:Chapter mdv:Chapter" resource="#Act3Chapter09" data-fs-page="Act 3, Chapter 9" role="doc-chapter">
+      <meta property="mdv:number" content="9"/>
       <meta name="description" content="Andrea receives her first of many death threats."/>
       
       <h2>
         <span class="ChapterNumber">Chapter 9:</span>
-        <span class="ChapterName">
+        <span class="ChapterName" property="mdv:title">
           Canary<br/>
           in a Cop Crime
         </span>
@@ -11373,12 +11420,13 @@ comfort.
       
     </section>
     
-    <section id="Act3Chapter10" data-fs-page="Act 3, Chapter 10" role="doc-chapter">
+    <section id="Act3Chapter10" property="schema:hasPart mdv:hasPart" typeof="schema:Chapter bibo:Chapter mdv:Chapter" resource="#Act3Chapter10" data-fs-page="Act 3, Chapter 10" role="doc-chapter">
+      <meta property="mdv:number" content="10"/>
       <meta name="description" content="Andrea learns some ancient Jewish wisdom."/>
       
       <h2>
         <span class="ChapterNumber">Chapter 10:</span>
-        <span class="ChapterName">Tzedek</span>
+        <span class="ChapterName" property="mdv:title">Tzedek</span>
       </h2>
       <div class="HorizontallyCentered">
         <ul class="ContentNoticeSubheading">Content Notice:
@@ -11634,12 +11682,13 @@ comfort.
       
     </section>
     
-    <section id="Act3Chapter11" data-fs-page="Act 3, Chapter 11" role="doc-chapter">
+    <section id="Act3Chapter11" property="schema:hasPart mdv:hasPart" typeof="schema:Chapter bibo:Chapter mdv:Chapter" resource="#Act3Chapter11" data-fs-page="Act 3, Chapter 11" role="doc-chapter">
+      <meta property="mdv:number" content="11"/>
       <meta name="description" content="Andrea entertains the chief with sweet dairy goodness."/>
       
       <h2>
         <span class="ChapterNumber">Chapter 11:</span>
-        <span class="ChapterName">Cheesecake</span>  
+        <span class="ChapterName" property="mdv:title">Cheesecake</span>  
       </h2>
       
       <p>I racked my brain at my desk the next day. <span class="InnerMonologue">((Where the hell do I go from here?))</span></p>
@@ -11751,12 +11800,13 @@ comfort.
       
     </section>
     
-    <section id="Act3Chapter12" data-fs-page="Act 3, Chapter 12" role="doc-chapter">
+    <section id="Act3Chapter12" property="schema:hasPart mdv:hasPart" typeof="schema:Chapter bibo:Chapter mdv:Chapter" resource="#Act3Chapter12" data-fs-page="Act 3, Chapter 12" role="doc-chapter">
+      <meta property="mdv:number" content="12"/>
       <meta name="description" content="Andrea thinks she's cracked the case."/>
       
       <h2>
         <span class="ChapterNumber">Chapter 12:</span>
-        <span class="ChapterName">
+        <span class="ChapterName" property="mdv:title">
           Mother-Daughter<br/>
           Heart-to-Heart
         </span>
@@ -11866,12 +11916,13 @@ comfort.
       
     </section>
     
-    <section id="Act3Chapter13" data-fs-page="Act 3, Chapter 13" role="doc-chapter">
+    <section id="Act3Chapter13" property="schema:hasPart mdv:hasPart" typeof="schema:Chapter bibo:Chapter mdv:Chapter" resource="#Act3Chapter13" data-fs-page="Act 3, Chapter 13" role="doc-chapter">
+      <meta property="mdv:number" content="13"/>
       <meta name="description" content="He should be here. Where is he? Why isn't he here? What the hell happened to Alexander Brookvale?"/>
       
       <h2>
         <span class="ChapterNumber">Chapter 13:</span>
-        <span class="ChapterName">
+        <span class="ChapterName" property="mdv:title">
           Action Girl<br/>
           Task Force!
         </span>
@@ -12303,12 +12354,13 @@ comfort.
       
     </section>
     
-    <section id="Act3Chapter14" data-fs-page="Act 3, Chapter 14" role="doc-chapter">
+    <section id="Act3Chapter14" property="schema:hasPart mdv:hasPart" typeof="schema:Chapter bibo:Chapter mdv:Chapter" resource="#Act3Chapter14" data-fs-page="Act 3, Chapter 14" role="doc-chapter">
+      <meta property="mdv:number" content="14"/>
       <meta name="description" content="They moved him."/>
       
       <h2>
         <span class="ChapterNumber">Chapter 14:</span>
-        <span class="ChapterName">Forgiving Ghosts</span>
+        <span class="ChapterName" property="mdv:title">Forgiving Ghosts</span>
       </h2>
       <div class="HorizontallyCentered">
         <ul class="ContentNoticeSubheading">Content Notices:
@@ -12545,12 +12597,13 @@ comfort.
       
     </section>
     
-    <section id="Act3Chapter15" data-fs-page="Act 3, Chapter 15" role="doc-chapter">
+    <section id="Act3Chapter15" property="schema:hasPart mdv:hasPart" typeof="schema:Chapter bibo:Chapter mdv:Chapter" resource="#Act3Chapter15" data-fs-page="Act 3, Chapter 15" role="doc-chapter">
+      <meta property="mdv:number" content="15"/>
       <meta name="description" content="The climax you've been waiting for. No, the other kind of climax."/>
       
       <h2>
         <span class="ChapterNumber">Chapter 15:</span>
-        <span class="ChapterName">Steel Casket</span>
+        <span class="ChapterName" property="mdv:title">Steel Casket</span>
       </h2>
       <div class="HorizontallyCentered">
         <ul class="ContentNoticeSubheading">Content Notice:
