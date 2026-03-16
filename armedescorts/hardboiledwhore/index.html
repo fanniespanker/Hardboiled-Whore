@@ -8,7 +8,8 @@
       https://schema.org/Book 
       http://purl.org/dc/dcmitype/Text 
       http://purl.org/ontology/bibo/Book 
-      http://creativecommons.org/ns#Work"
+      http://creativecommons.org/ns#Work
+      https://fanniespanker.com/ns#Book"
 >
 
   <head>
@@ -21,18 +22,6 @@
   
   <body
       id="BookBody" 
-
-      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
-      xmlns:cc="http://creativecommons.org/ns#" 
-
-      prefix="
-        schema: http://schema.org/ 
-        dcterms: http://purl.org/dc/terms/ 
-        bibo: http://purl.org/ontology/bibo/ 
-        cc: http://creativecommons.org/ns# 
-        foaf: http://xmlns.com/foaf/spec/ 
-        xsd: https://www.w3.org/2001/XMLSchema" 
-      
       xmlns:ssml="http://www.w3.org/2001/10/synthesis" 
       ssml:alphabet="ipa" 
       data-ssml-phoneme-alphabet="ipa" 
@@ -40,25 +29,36 @@
       data-ssml-voice-age="35" 
       data-ssml-voice-languages="en-US-CA es-MX-BCN" 
 
-      property="schema:text"
+      prefix="
+        schema: http://schema.org/ 
+        dcterms: http://purl.org/dc/terms/ 
+        bibo: http://purl.org/ontology/bibo/ 
+        cc: http://creativecommons.org/ns# 
+        foaf: http://xmlns.com/foaf/spec/ 
+        xsd: https://www.w3.org/2001/XMLSchema
+        fs: https://fanniespanker.com/ns#" 
+      
+      resource="https://fanniespanker.com/armedescorts/hardboiledwhore/"
   >
 
-    <meta property="cc:license" resource="http://creativecommons.org/licenses/by-nc-sa/4.0/"/>
-    <meta property="cc:attributionName" resource="Fannie Spanker"/>
-    <meta property="cc:attributionURL" resource="https://fanniespanker.com/#me"/>
-
-
     <meta property="schema:name dcterms:title" content="Hardboiled Whore"/>
+
     <meta property="bibo:edition prism:edition" content="1"/>
 
     <link 
         property="schema:identifier dcterms:identifier" 
+        resource="https://fanniespanker.com/armedescorts/hardboiledwhore/" 
         rel="canonical" 
-        href="https://fanniespanker.com/armedescorts/hardboiledwhore/"
+        href="https://fanniespanker.com/armedescorts/hardboiledwhore/" 
     />
-    
+
+    <link
+        property="schema:isPartOf"
+        typeof="schema:BookSeries" 
+        resource="https://fanniespanker.com/armedescorts/"
+    />
+
     <span 
-        resource="https://fanniespanker.com/#me"
         property="
           schema:author 
           schema:creator 
@@ -67,7 +67,8 @@
           dcterms:creator 
           dcterms:publisher 
           dcterms:rightsHolder" 
-        typeof="schema:Person dcterms:Agent foaf:Person"
+        typeof="schema:Person dcterms:Agent foaf:Person" 
+        resource="https://fanniespanker.com/#me"
     >
       <meta property="schema:givenName foaf:givenName" content="Fannie"/> 
       <meta property="schema:familyName foaf:familyName" content="Spanker"/> 
@@ -76,9 +77,9 @@
     
 
     <span
+        property="schema:contributor dcterms:contributor fs:illustrator" 
+        typeof="schema:Person dcterms:Agent foaf:Person" 
         resource="https://www.dirkhooper.com/"
-        property="schema:contributor dcterms:contributor"
-        typeof="schema:Person dcterms:Agent foaf:Person"
     >
       <meta property="schema:givenName foaf:givenName" content="Dirk"/> 
       <meta property="schema:familyName foaf:familyName" content="Hooper"/> 
@@ -94,7 +95,7 @@
       >
         <meta property="schema:name" content="author"/>
         <meta property="schema:alternateName" content="writer"/>
-        <link property="schema:occupationalCategory" href="https://www.onetonline.org/link/summary/27-3043.00"/>
+        <link property="schema:occupationalCategory" resource="https://www.onetonline.org/link/summary/27-3043.00"/>
       </span>
       <span 
           property="schema:hasOccupation"
@@ -102,14 +103,14 @@
       >
         <meta property="schema:name" content="illustrator"/>
         <meta property="schema:alternateName" content="artist"/>
-        <link itemprop="schema:occupationalCategory" href="https://www.onetonline.org/link/summary/27-1013.00"/>
+        <link itemprop="schema:occupationalCategory" resource="https://www.onetonline.org/link/summary/27-1013.00"/>
       </span>
       <span 
           property="schema:hasOccupation"
           typeof="schema:Occupation"
       >
         <meta property="schema:name" content="photographer"/>
-        <link property="schema:occupationalCategory" href="https://www.onetonline.org/link/summary/27-4021.00"/>
+        <link property="schema:occupationalCategory" resource="https://www.onetonline.org/link/summary/27-4021.00"/>
       </span>
     </span>
 
@@ -127,19 +128,19 @@
     />
     
     <meta 
-        property="schema:encodingFormat dcterms:format" 
+        property="schema:encodingFormat dcterms:format fs:mediaType" 
         content="text/html"
     />
 
-    <span rel="schema:contentLocation">
+    <span rel="schema:contentLocation fs:narrativeSetting">
+      <meta content="Southern California"/> 
       <link href="http://dbpedia.org/resource/Southern_California"/> 
       <link href="https://www.wikidata.org/wiki/Q844837"/> 
-      <meta content="Southern California"/> 
     </span>
 
-    <meta property="schema:contentReferenceTime" content="2024-07-12/2024-07-18"/>
+    <meta property="schema:contentReferenceTime fs:narrativeTimePeriod" content="2024-07-12/2024-07-18"/>
 
-    <span rel="schema:genre dcterms:type">
+    <span rel="schema:genre dcterms:type fs:genre">
       <meta content="detective and mystery fiction"/> 
       <link href="http://id.worldcat.org/fast/1726581"/> 
       <link href="http://id.loc.gov/authorities/genreForms/gf2014026280"/> 
@@ -395,22 +396,24 @@
 
     <meta property="isAccessibleForFree"  content="True"/>
 
+    <!-- end metadata -->
+
     <section 
         id="CoverPage" 
         data-fs-page="Title Page"
     >
       <meta name="description" content="Title page."/>
-      
-      <!-- end metadata -->
 
       <img 
-          src="images/Hardboiled Whore cover - 1200x1800.jpg"
-          width="100%"
+          property="schema:image fs:coverImage"
+          resource="https://fanniespanker.com/armedescorts/hardboiledwhore/images/cover.jpg"
+          src="images/cover.jpg" 
+          width="100%" 
           alt="The book cover for the novel Hardboiled Whore, by Fannie Spanker. 
-            There is a single blurb: 'She wanted to sell her soul to become a detective… She sold her body instead.' 
+            There is a blurb: 'She wanted to sell her soul to become a detective… She sold her body instead.' 
             The cover illustration is of a redhead woman (the main character, Detective Andrea Bachman) in a tight 
             black dress posing alluringly with a pistol in front of one of the many hotel signs that populate the 
-            Red Light District of Santa Virginia, a city in Southern California."
+            Red Light District of Santa Virginia, a city in Southern California." 
       />
       
       <footer>
@@ -443,7 +446,6 @@
     
     <section 
         id="Copyright" 
-        resource="https://fanniespanker.com/armedescorts/hardboiledwhore/#Copyright"
         data-fs-page="Copyright" 
         role="doc-credits" 
         class="VerticallyCentered"
@@ -454,7 +456,7 @@
           class="HorizontallyCentered" 
           property="dcterms:rights schema:usageInfo" 
           typeof="cc:License"
-          about="http://creativecommons.org/licenses/by-nc-sa/4.0/"
+          resource="http://creativecommons.org/licenses/by-nc-sa/4.0/"
       >
         <h2>Copyright and License</h2>
         <p>
@@ -465,29 +467,38 @@
               href="https://fanniespanker.com/armedescorts/hardboiledwhore/">Hardboiled Whore</a> 
             © 
             <meta 
+                resource="https://fanniespanker.com/armedescorts/hardboiledwhore/"
                 property="schema:datePublished schema:dateCreated dcterms:dateCopyrighted dcterms:available" 
+                datatype="xsd:date"
                 datetime="2025-08-12"/>
-            <span  
+            <time 
+                resource="https://fanniespanker.com/armedescorts/hardboiledwhore/"
                 property="schema:copyrightYear" 
                 datatype="xsd:gYear" 
                 datetime="2025" 
-            >2025</span>,
+            >2025</time>,
             modified 
-            <span 
+            <time 
+                resource="https://fanniespanker.com/armedescorts/hardboiledwhore/"
                 property="schema:dateModified dcterms:modified" 
+                datatype="xsd:date"
                 datetime="2026-03-15"
-            >March 15, 2026</span>,
+            >March 15, 2026</time>,
             <br/>
             a novel by 
             <a 
                 rel="author me" 
-                href="mailto:fannie.spanker@gmail.com" 
+                href="mailto:fannie.spanker@gmail.com"
             >
               Fannie Spanker
             </a>
           </span>,
           is accessible free of charge 
-          <meta itemprop="isAccessibleForFree" content="True"/>
+          <meta 
+              property="isAccessibleForFree" 
+              type="xsd:boolean" 
+              content="true"
+          />
           at 
           <br/>
           <a class="NavButton" href="https://fanniespanker.com/armedescorts/hardboiledwhore/">fanniespanker.com/armedescorts/hardboiledwhore/</a>,
@@ -562,17 +573,14 @@
       
     </section>
     
-    <section 
-        id="TableOfContents" 
-        data-fs-page="Table of Contents"
-    >
+    <section id="TableOfContents" data-fs-page="Table of Contents">
       <meta name="description" content="Table of contents. Index of front matter, act pages, chapters, and back matter."/>
       
       <nav 
           id="toc" 
           role="doc-toc" 
           aria-label="Table of Contents" 
-          property="dcterms:tableOfContents"
+          property="dcterms:tableOfContents fs:tableOfContents"
       >
         <h2>Table of Contents</h2>
         <ol>
@@ -667,12 +675,12 @@
       
       <h2>Tropes, Relationships, Kinks, and Fetishes</h2>
       <ul>
-        <li>Extra-spicy polyamorous, kinky, bisexual romance.</li>
-        <li>Camp politically charged suspense mystery: repentant ex-cop sex worker infiltrates police department to save missing activist.</li>
-        <li><span ssml:ph="ˌdʒɛːn ˈɛːks">Gen X</span> <span ssml:ph="ˈgɪːlf">GILF</span> next door in a May-December relationship with virgin Millennial.</li>
+        <li><span property="fs:contentNotice" resource="fs:depiction/sex/graphic">Extra-spicy</span> <span property="fs:contentNotice" resource="fs:relationship/polyamorous">polyamorous</span>, <span property="fs:contentNotice" resource="fs:sex/kink">kinky,</span>, <span property="fs:contentNotice" resource="fs:romance/bisexual">bisexual</span> romance.</li>
+        <li>Camp politically charged suspense mystery: repentant ex-cop <span property="fs:contentNotice" resource="fs:sexWork">sex worker</span> infiltrates <span property="fs:contentNotice" resource="fs:lawEnforcement">police department</span> to save missing activist.</li>
+        <li><span ssml:ph="ˌdʒɛːn ˈɛːks">Gen X</span> <span property="fs:contentNotice" resource="fs:fetish/GILF" ssml:ph="ˈgɪːlf">GILF</span> next door in a May-December relationship with virgin Millennial.</li>
         <li>Love at first sight/love at first fuck/whirlwind romance.</li>
-        <li>Multiple later in life polyamorous romances (FFFFFF and MMF, all over 30), including inappropriate office romances and quid pro quo.</li>
-        <li>Soulmates (complicated by past romantic trauma and fear of commitment).</li>
+        <li>Multiple <span property="fs:contentNotice" resource="fs:romance/laterInLife">later in life polyamorous romances</span> (<span property="fs:contentNotice" resource="fs:polyculeAllFemme">FFFFFF</span> and <span property="fs:contentNotice" resource="fs:polyculeMMF">MMF</span>, all over 30), including inappropriate <span property="fs:contentNotice" resource="fs:officeRomance">office romances</span> and <span property="fs:contentNotice" resource="fs:quidProQuoSex">quid pro quo</span>.</li>
+        <li><span property="fs:contentNotice" resource="fs:soulmates">Soulmates</span> (complicated by past romantic trauma and fear of commitment).</li>
         <li>Lesbian orgy/sex party/gangbang (FFFFF on F).</li>
         <li>Hurt and comfort.</li>
         <li>Spankings and kisses.</li>
@@ -757,7 +765,7 @@
       </ul>
     </section>
     
-    <section id="FormattingKey" data-fs-page="Formatting Key" class="VerticallyCentered">
+    <section id="FormattingKey" property="fs:readingGuide" data-fs-page="Formatting Key" class="VerticallyCentered">
       <meta name="description" content="A key to understanding descriptive formatting of text."/>
       
       <div>
@@ -780,26 +788,34 @@
       </div>
     </section>
     
-    <section id="Disclaimer" data-fs-page="Disclaimer" class="VerticallyCentered">
+    <section id="Disclaimer" property="fs:disclaimer" data-fs-page="Disclaimer" class="VerticallyCentered">
       <meta name="description" content="Nothing here is true."/>
       
       <h2>Dicksclaimer</h2>
-      <p>This is a work of fiction.</p>
-      <p>With the exception of the main character (Andrea Bachman), the castmembers (major and minor) are not based on any individuals of our reality, or are else used fictitiously.</p>
-      <p>The setting (Santa Virginia) is an amalgam of Southern California locales, both iconic and humble, but does not represent any one of those places to a significant degree.</p>
-      <p>The organizations, corporations, and other entities are likewise fictitious.</p>
+      <p>This is a work of fiction, with neither nuance nor message.</p>
+      <p>It is not historical, it is not biographical, and it is not informational.</p>
+      <p>The characters, vocations, demographics, organizations, locations, municipalities, and legal entities; political beliefs, misinformation, and conspiracy theories; works of art, forgeries, and satirizations of AI slop; quotes cinematic, musical, folklorical, and literary; trademarks, copyrights, patents, and other forms of cultural theft; religious beliefs, scriptures, and discourse thereof; subcultures, scenes, kinks, fetishes, and perversions; events historical, contemporary, potential, or predestined; military or paramilitary procedures, agendas, and capabilities; claims factual, fabricated, and dubious; and all other matters or things or stuffs&NoBreak;—tangible or intangible, published or unpublished, written or oral, concrete or abstract, enlightened or obscured, benign or malignant, portrayed or referenced herein; either are products of the author’s imagination, or&NoBreak;—if having any basis in or bearing even the slightest resemblance to any reality, falsification, confabulation, or shared delusion&NoBreak;—are portrayed fictitiously.</p>
+      <p>Beware, Dear Reader: nothing here is true.</p>
     </section>
   
-    <section id="Act1" data-fs-page="Act 1" role="doc-part" aria-labelledby="ActHeading">
+    <section 
+        id="Act1" 
+        property="dcterms:hasPart schema:hasPart fs:hasPart" 
+        typeof="bibo:BookPart schema:CreativeWork fs:LiteraryAct" 
+        resource="https://fanniespanker.com/armedescorts/hardboiledwhore/#Act1"
+        data-fs-page="Act 1" 
+        role="doc-part" 
+        aria-labelledby="ActHeading"
+    >
       <meta name="description" content="From the ashes of a parking Nazi emerges an antifascist hero. A very horny hero."/>
       
       <div class="HorizontallyCentered VerticallyCentered">
         <h1 id="ActHeading">
-          <span class="ActNumber">Act 1:</span>
-          <span class="ActName">Carnal Entrepreneur</span>
+          <span class="ActNumber">Act <span property="number">1</span>:</span>
+          <span class="ActName"><span property="name">Carnal Entrepreneur</span></span>
         </h1>
         <div>
-          <span role="doc-subtitle" class="Subtitle">
+          <span property="schema:abstract dcterms:abstract fs:subtitle" role="doc-subtitle" class="Subtitle">
             From the ashes of a parking Nazi<br/>
             emerges an antifascist hero.<br/>
             A very <em><strong>horny</strong></em> hero. 
@@ -809,7 +825,7 @@
     
     </section>
   
-    <section id="Act1Chapter01" data-fs-page="Act 1, Chapter 1" role="doc-chapter">
+    <section id="Act1Chapter01" property="" data-fs-page="Act 1, Chapter 1" role="doc-chapter">
       <meta name="description" content="In which our recently unemployed heroine meets the (rather mature) girl next door."/>
       
       <h2>
@@ -5245,7 +5261,15 @@ A lonely ocotillo stands proud among the dunes, fuchsia flowers pointed skywards
       
     </section>
     
-    <section id="Act2" data-fs-page="Act 2" role="doc-part" aria-labelledby="ActHeading">
+    <section 
+        id="Act2" 
+        property="dcterms:hasPart schema:hasPart fs:hasPart" 
+        typeof="bibo:BookPart schema:CreativeWork fs:LiteraryAct" 
+        resource="https://fanniespanker.com/armedescorts/hardboiledwhore/#Act2"
+        data-fs-page="Act 2" 
+        role="doc-part" 
+        aria-labelledby="ActHeading"
+    >
       <meta name="description" content="Hardboiled Whore, Act 2: Detective Hole-umbo. In which our intrepid investigator instigates a test of endurance, a contest of strength, a race to her fallopian tubes&NoBreak;—a matter of life and… well, life."/>
       <div class="HorizontallyCentered VerticallyCentered">
         <h1 id="ActHeading">
@@ -9304,7 +9328,15 @@ Now we’re one&NoBreak;—thank Him above.))
       
     </section>
     
-    <section id="Act3" data-fs-page="Act 3" role="doc-part" aria-labelledby="ActHeading">
+    <section 
+        id="Act3" 
+        property="dcterms:hasPart schema:hasPart fs:hasPart" 
+        typeof="bibo:BookPart schema:CreativeWork fs:LiteraryAct" 
+        resource="https://fanniespanker.com/armedescorts/hardboiledwhore/#Act3"  
+        data-fs-page="Act 3" 
+        role="doc-part" 
+        aria-labelledby="ActHeading"
+    >
       <meta name="description" content="Hardboiled Whore, Act 3: Pierce the Blue Shield. Orgies one day, death threats the next."/>
       <div class="HorizontallyCentered VerticallyCentered">
         <h1 id="ActHeading">
