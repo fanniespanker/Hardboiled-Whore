@@ -41,7 +41,7 @@
 
     <meta property="schema:name dcterms:title mdv:title" content="Hardboiled Whore"/>
 
-    <meta property="bibo:edition prism:edition mdv:edition" content="1"/>
+    <meta property="bibo:edition prism:edition mdv:library/edition" content="1"/>
 
     <link 
         rel="canonical" 
@@ -87,29 +87,23 @@
       <link property="schema:email foaf:mbox" href="mailto:dirk@dirkhooper.com"/>
       <link property="schema:email foaf:mbox" href="mailto:dirk@rainkingstudios.com"/>
 
-      <span 
-          property="schema:hasOccupation"
-          typeof="schema:Occupation"
-      >
-        <meta property="schema:name" content="author"/>
-        <meta property="schema:alternateName" content="writer"/>
-        <link property="schema:occupationalCategory" resource="https://www.onetonline.org/link/summary/27-3043.00"/>
+      <span rel="schema:hasOccupation">
+        <span typeof="schema:Occupation">
+          <meta property="schema:name" content="author"/>
+          <meta property="schema:alternateName" content="writer"/>
+          <link property="schema:occupationalCategory" resource="https://www.onetonline.org/link/summary/27-3043.00"/>
+        </span>
+        <span typeof="schema:Occupation">
+          <meta property="schema:name" content="illustrator"/>
+          <meta property="schema:alternateName" content="artist"/>
+          <link property="schema:occupationalCategory" resource="https://www.onetonline.org/link/summary/27-1013.00"/>
+        </span>
+        <span typeof="schema:Occupation">
+          <meta property="schema:name" content="photographer"/>
+          <link property="schema:occupationalCategory" resource="https://www.onetonline.org/link/summary/27-4021.00"/>
+        </span>
       </span>
-      <span 
-          property="schema:hasOccupation"
-          typeof="schema:Occupation"
-      >
-        <meta property="schema:name" content="illustrator"/>
-        <meta property="schema:alternateName" content="artist"/>
-        <link property="schema:occupationalCategory" resource="https://www.onetonline.org/link/summary/27-1013.00"/>
-      </span>
-      <span 
-          property="schema:hasOccupation"
-          typeof="schema:Occupation"
-      >
-        <meta property="schema:name" content="photographer"/>
-        <link property="schema:occupationalCategory" resource="https://www.onetonline.org/link/summary/27-4021.00"/>
-      </span>
+
     </span>
 
     <meta 
@@ -127,188 +121,193 @@
     
     <meta property="schema:encodingFormat dcterms:format mdv:format/mediaType" content="text/html"/>
 
-    <meta property="schema:contentLocation mdv:narrative/location" content="Southern California"/> 
-    <link property="schema:contentLocation mdv:narrative/location" resource="http://dbpedia.org/resource/Southern_California"/> 
-    <link property="schema:contentLocation mdv:narrative/location" resource="https://www.wikidata.org/wiki/Q844837"/> 
+    <span rel="schema:contentLocation mdv:narrative/location">
+      <meta content="Southern California"/> 
+      <link resource="http://dbpedia.org/resource/Southern_California"/> 
+      <link resource="https://www.wikidata.org/wiki/Q844837"/> 
+    </span>
 
     <meta property="schema:contentReferenceTime mdv:narrative/time" content="2024-07-12--18"/>
 
-    <meta property="schema:genre dcterms:type mdv:library/genre" content="detective and mystery fiction"/> 
-    <link property="schema:genre dcterms:type mdv:library/genre" resource="http://id.worldcat.org/fast/1726581"/> 
-    <link property="schema:genre dcterms:type mdv:library/genre" resource="http://id.loc.gov/authorities/genreForms/gf2014026280"/> 
+    <span rel="schema:genre dcterms:type mdv:library/genre">
+      <meta content="detective and mystery fiction"/> 
+      <link resource="http://id.worldcat.org/fast/1726581"/> 
+      <link resource="http://id.loc.gov/authorities/genreForms/gf2014026280"/> 
+      
+      <meta content="detective fiction"/> 
+      <link resource="http://dbpedia.org/resource/Detective_fiction"/> 
+
+      <meta content="mystery fiction"/> 
+      <link resource="http://dbpedia.org/resource/Mystery_fiction"/> 
+
+      <meta content="noir fiction"/> 
+      <link resource="http://id.worldcat.org/fast/1038352"/> 
+      <link resource="http://id.loc.gov/authorities/genreForms/gf2014026452"/> 
+      <link resource="http://dbpedia.org/resource/Noir_fiction"/> 
+      
+      <meta content="hardboiled"/> 
+      <meta content="hardboiled fiction"/> 
+      <link resource="https://www.wikidata.org/entity/Q1328330"/> 
+      <link resource="http://dbpedia.org/resource/Hardboiled"/> 
+
+      <meta content="crime fiction"/>
+      <link resource="https://www.wikidata.org/wiki/Q5937792"/> 
+      <link resource="http://dbpedia.org/resource/Crime_fiction"/> 
+
+      <meta content="thriller (fiction)"/> 
+      <link resource="http://id.worldcat.org/fast/1726755"/> 
+      <link resource="http://id.loc.gov/authorities/genreForms/gf2014026571"/> 
+      <link resource="https://www.wikidata.org/wiki/Q121551336"/> 
+      <link resource="https://www.wikidata.org/wiki/Q182015"/> 
+      <link resource="http://dbpedia.org/resource/Thriller_(genre)"/> 
+
+      <meta content="queer fiction"/> 
+      <link resource="http://id.worldcat.org/fast/2061049"/> 
+      <link resource="http://id.loc.gov/authorities/genreForms/gf2022026063"/> 
+      
+      <meta content="queer poetry"/> 
+      <link resource="http://id.worldcat.org/fast/2059983"/> 
+      <link resource="http://id.loc.gov/authorities/genreForms/gf2022026037"/> 
+      
+      <meta content="genderqueer fiction"/> 
+      <link resource="http://id.loc.gov/authorities/genreForms/gf2022026073"/> 
+
+      <meta content="lesbian fiction"/> 
+      <link resource="http://id.worldcat.org/fast/2000476"/> 
+      <link resource="http://id.loc.gov/authorities/genreForms/gf2018026001"/> 
+
+      <meta content="lesbian poetry"/>
+      <link resource="http://id.worldcat.org/fast/2000488"/>
+      <link resource="http://id.loc.gov/authorities/genreForms/gf2018026003"/>
+
+      <meta content="romance fiction"/>
+      <link resource="http://id.worldcat.org/fast/1921732"/>
+      <link resource="http://id.loc.gov/authorities/genreForms/gf2014026516"/>
+      
+      <meta content="love poetry"/>
+      <link resource="http://id.worldcat.org/fast/1921732"/>
+      <link resource="http://id.loc.gov/authorities/genreForms/gf2014026419"/>
+
+      <meta content="erotic fiction"/>
+      <link resource="http://id.worldcat.org/fast/1726601"/>
+      <link resource="http://id.loc.gov/authorities/genreForms/gf2014026320"/>
+      
+      <meta content="erotic poetry"/>
+      <link resource="http://id.worldcat.org/fast/914867"/>
+      <link resource="http://id.loc.gov/authorities/genreForms/gf2014026321"/>
+
+      <meta content="bawdy fiction"/>
+      <link resource="http://id.worldcat.org/fast/2028773"/>
+      <link resource="http://id.loc.gov/authorities/genreForms/gf2019026152"/>
+    </span>
     
-    <meta property="schema:genre dcterms:type mdv:library/genre" content="detective fiction"/> 
-    <link property="schema:genre dcterms:type mdv:library/genre" resource="http://dbpedia.org/resource/Detective_fiction"/> 
-
-    <meta property="schema:genre dcterms:type mdv:library/genre" content="mystery fiction"/> 
-    <link property="schema:genre dcterms:type mdv:library/genre" resource="http://dbpedia.org/resource/Mystery_fiction"/> 
-
-    <meta property="schema:genre dcterms:type mdv:library/genre" content="noir fiction"/> 
-    <link property="schema:genre dcterms:type mdv:library/genre" resource="http://id.worldcat.org/fast/1038352"/> 
-    <link property="schema:genre dcterms:type mdv:library/genre" resource="http://id.loc.gov/authorities/genreForms/gf2014026452"/> 
-    <link property="schema:genre dcterms:type mdv:library/genre" resource="http://dbpedia.org/resource/Noir_fiction"/> 
+    <span rel="schema:subject dcterms:subject mdv:library/subject">
+    <meta content="activism"/> 
+    <link resource="http://id.worldcat.org/fast/2070573"/> 
+    <link resource="http://id.loc.gov/authorities/subjects/sh2023000618"/> 
     
-    <meta property="schema:genre dcterms:type mdv:library/genre" content="hardboiled"/> 
-    <meta property="schema:genre dcterms:type mdv:library/genre" content="hardboiled fiction"/> 
-    <link property="schema:genre dcterms:type mdv:library/genre" resource="https://www.wikidata.org/entity/Q1328330"/> 
-    <link property="schema:genre dcterms:type mdv:library/genre" resource="http://dbpedia.org/resource/Hardboiled"/> 
-
-    <meta property="schema:genre dcterms:type mdv:library/genre" content="crime fiction"/>
-    <link property="schema:genre dcterms:type mdv:library/genre" resource="https://www.wikidata.org/wiki/Q5937792"/> 
-    <link property="schema:genre dcterms:type mdv:library/genre" resource="http://dbpedia.org/resource/Crime_fiction"/> 
-
-    <meta property="schema:genre dcterms:type mdv:library/genre" content="thriller (fiction)"/> 
-    <link property="schema:genre dcterms:type mdv:library/genre" resource="http://id.worldcat.org/fast/1726755"/> 
-    <link property="schema:genre dcterms:type mdv:library/genre" resource="http://id.loc.gov/authorities/genreForms/gf2014026571"/> 
-    <link property="schema:genre dcterms:type mdv:library/genre" resource="https://www.wikidata.org/wiki/Q121551336"/> 
-    <link property="schema:genre dcterms:type mdv:library/genre" resource="https://www.wikidata.org/wiki/Q182015"/> 
-    <link property="schema:genre dcterms:type mdv:library/genre" resource="http://dbpedia.org/resource/Thriller_(genre)"/> 
-
-    <meta property="schema:genre dcterms:type mdv:library/genre" content="queer fiction"/> 
-    <link property="schema:genre dcterms:type mdv:library/genre" resource="http://id.worldcat.org/fast/2061049"/> 
-    <link property="schema:genre dcterms:type mdv:library/genre" resource="http://id.loc.gov/authorities/genreForms/gf2022026063"/> 
+    <meta content="anti-fascist movements"/> 
+    <link resource="http://id.worldcat.org/fast/810329"/> 
+    <link resource="http://id.loc.gov/authorities/subjects/sh85005610"/> 
     
-    <meta property="schema:genre dcterms:type mdv:library/genre" content="queer poetry"/> 
-    <link property="schema:genre dcterms:type mdv:library/genre" resource="http://id.worldcat.org/fast/2059983"/> 
-    <link property="schema:genre dcterms:type mdv:library/genre" resource="http://id.loc.gov/authorities/genreForms/gf2022026037"/> 
+    <meta content="antifascism"/> 
+    <link resource="https://www.wikidata.org/wiki/Q210189"/> 
+    <link resource="http://dbpedia.org/resource/Anti-fascism"/> 
+
+    <meta content="non-monogamous relationships"/> 
+    <link resource="https://id.worldcat.org/fast/1038560"/> 
+    <link resource="http://id.loc.gov/authorities/subjects/sh00003586"/> 
     
-    <meta property="schema:genre dcterms:type mdv:library/genre" content="genderqueer fiction"/> 
-    <link property="schema:genre dcterms:type mdv:library/genre" resource="http://id.loc.gov/authorities/genreForms/gf2022026073"/> 
-
-    <meta property="schema:genre dcterms:type mdv:library/genre" content="lesbian fiction"/> 
-    <link property="schema:genre dcterms:type mdv:library/genre" resource="http://id.worldcat.org/fast/2000476"/> 
-    <link property="schema:genre dcterms:type mdv:library/genre" resource="http://id.loc.gov/authorities/genreForms/gf2018026001"/> 
-
-    <meta property="schema:genre dcterms:type mdv:library/genre" content="lesbian poetry"/>
-    <link property="schema:genre dcterms:type mdv:library/genre" resource="http://id.worldcat.org/fast/2000488"/>
-    <link property="schema:genre dcterms:type mdv:library/genre" resource="http://id.loc.gov/authorities/genreForms/gf2018026003"/>
-
-    <meta property="schema:genre dcterms:type mdv:library/genre" content="romance fiction"/>
-    <link property="schema:genre dcterms:type mdv:library/genre" resource="http://id.worldcat.org/fast/1921732"/>
-    <link property="schema:genre dcterms:type mdv:library/genre" resource="http://id.loc.gov/authorities/genreForms/gf2014026516"/>
+    <meta content="gender non-conformity"/> 
+    <link resource="http://id.worldcat.org/fast/1765240"/> 
+    <link resource="https://id.loc.gov/authorities/subjects/sh2007003716"/> 
     
-    <meta property="schema:genre dcterms:type mdv:library/genre" content="love poetry"/>
-    <link property="schema:genre dcterms:type mdv:library/genre" resource="http://id.worldcat.org/fast/1921732"/>
-    <link property="schema:genre dcterms:type mdv:library/genre" resource="http://id.loc.gov/authorities/genreForms/gf2014026419"/>
-
-    <meta property="schema:genre dcterms:type mdv:library/genre" content="erotic fiction"/>
-    <link property="schema:genre dcterms:type mdv:library/genre" resource="http://id.worldcat.org/fast/1726601"/>
-    <link property="schema:genre dcterms:type mdv:library/genre" resource="http://id.loc.gov/authorities/genreForms/gf2014026320"/>
+    <meta content="love"/> 
+    <link resource="http://id.worldcat.org/fast/1002769"/> 
+    <link resource="http://id.loc.gov/authorities/subjects/sh85078519"/> 
+    <link resource="https://www.wikidata.org/entity/Q316"/> 
     
-    <meta property="schema:genre dcterms:type mdv:library/genre" content="erotic poetry"/>
-    <link property="schema:genre dcterms:type mdv:library/genre" resource="http://id.worldcat.org/fast/914867"/>
-    <link property="schema:genre dcterms:type mdv:library/genre" resource="http://id.loc.gov/authorities/genreForms/gf2014026321"/>
+    <meta content="affection"/> 
+    <link resource="https://www.wikidata.org/entity/Q1124198"/> 
 
-    <meta property="schema:genre dcterms:type mdv:library/genre" content="bawdy fiction"/>
-    <link property="schema:genre dcterms:type mdv:library/genre" resource="http://id.worldcat.org/fast/2028773"/>
-    <link property="schema:genre dcterms:type mdv:library/genre" resource="http://id.loc.gov/authorities/genreForms/gf2019026152"/>
+    <meta content="intimacy"/> 
+    <link resource="https://www.wikidata.org/wiki/Q16358629"/> 
     
-    <meta property="schema:subject dcterms:subject mdv:library/subject" content="activism"/> 
-    <link property="schema:subject dcterms:subject mdv:library/subject" resource="http://id.worldcat.org/fast/2070573"/> 
-    <link property="schema:subject dcterms:subject mdv:library/subject" resource="http://id.loc.gov/authorities/subjects/sh2023000618"/> 
+    <meta content="physical intimacy"/> 
+    <link resource="https://www.wikidata.org/wiki/Q1190058"/> 
+    <link resource="http://dbpedia.org/resource/Physical_intimacy"/> 
+
+    <meta content="self-esteem"/> 
+    <link resource="http://id.worldcat.org/fast/1111662"/> 
+    <link resource="http://id.loc.gov/authorities/subjects/sh85119793"/> 
+
+    <meta content="sexual minorities"/> 
+    <link resource="http://id.worldcat.org/fast/1202158"/> 
+    <link resource="http://id.loc.gov/authorities/subjects/sh2004003385"/> 
+    <meta content="sexual minority"/> 
+    <link resource="https://www.wikidata.org/entity/Q589656"/> 
+    <link resource="http://dbpedia.org/resource/Sexual_minority"/> 
     
-    <meta property="schema:subject dcterms:subject mdv:library/subject" content="anti-fascist movements"/> 
-    <link property="schema:subject dcterms:subject mdv:library/subject" resource="http://id.worldcat.org/fast/810329"/> 
-    <link property="schema:subject dcterms:subject mdv:library/subject" resource="http://id.loc.gov/authorities/subjects/sh85005610"/> 
+    <meta content="social justice"/> 
+    <link resource="http://id.worldcat.org/fast/1122603"/> 
+    <link resource="http://id.loc.gov/authorities/subjects/sh85123969"/> 
+    <link resource="https://www.wikidata.org/entity/Q264892"/> 
+    <link resource="http://dbpedia.org/resource/Social_justice"/> 
     
-    <meta property="schema:subject dcterms:subject mdv:library/subject" content="antifascism"/> 
-    <link property="schema:subject dcterms:subject mdv:library/subject" resource="https://www.wikidata.org/wiki/Q210189"/> 
-    <link property="schema:subject dcterms:subject mdv:library/subject" resource="http://dbpedia.org/resource/Anti-fascism"/> 
+    <meta content="human rights"/> 
+    <link resource="http://id.worldcat.org/fast/963285"/> 
+    <link resource="http://id.loc.gov/authorities/subjects/sh85026379"/> 
+    <link resource="http://dbpedia.org/resource/Human_rights"/> 
+    <meta content="fundamental rights"/> 
+    <link resource="https://www.wikidata.org/entity/Q3237872"/> 
 
-    <meta property="schema:subject dcterms:subject mdv:library/subject" content="non-monogamous relationships"/> 
-    <link property="schema:subject dcterms:subject mdv:library/subject" resource="https://id.worldcat.org/fast/1038560"/> 
-    <link property="schema:subject dcterms:subject mdv:library/subject" resource="http://id.loc.gov/authorities/subjects/sh00003586"/> 
+    <meta content="civil rights"/> 
+    <link resource="http://id.worldcat.org/fast/862627"/> 
+    <link resource="http://id.loc.gov/authorities/subjects/sh85026371"/> 
+
+    <meta content="civil liberties"/> 
+    <link resource="https://www.wikidata.org/entity/Q29556"/> 
     
-    <meta property="schema:subject dcterms:subject mdv:library/subject" content="gender non-conformity"/> 
-    <link property="schema:subject dcterms:subject mdv:library/subject" resource="http://id.worldcat.org/fast/1765240"/> 
-    <link property="schema:subject dcterms:subject mdv:library/subject" resource="https://id.loc.gov/authorities/subjects/sh2007003716"/> 
+    <meta content="civil and political rights"/> 
+    <link resource="http://dbpedia.org/resource/Civil_and_political_rights"/> 
+
+    <meta content="police corruption"/> 
+    <link resource="http://id.worldcat.org/fast/1068588"/> 
+    <link resource="http://id.loc.gov/authorities/subjects/sh85104223"/> 
+    <link resource="https://www.wikidata.org/entity/Q1248389"/> 
+    <link resource="http://dbpedia.org/resource/Police_corruption"/> 
     
-    <meta property="schema:subject dcterms:subject mdv:library/subject" content="love"/> 
-    <link property="schema:subject dcterms:subject mdv:library/subject" resource="http://id.worldcat.org/fast/1002769"/> 
-    <link property="schema:subject dcterms:subject mdv:library/subject" resource="http://id.loc.gov/authorities/subjects/sh85078519"/> 
-    <link property="schema:subject dcterms:subject mdv:library/subject" resource="https://www.wikidata.org/entity/Q316"/> 
-    
-    <meta property="schema:subject dcterms:subject mdv:library/subject" content="affection"/> 
-    <link property="schema:subject dcterms:subject mdv:library/subject" resource="https://www.wikidata.org/entity/Q1124198"/> 
+    <meta content="police misconduct"/> 
+    <link resource="http://id.worldcat.org/fast/1068618"/> 
+    <link resource="http://id.loc.gov/authorities/subjects/sh96000078"/> 
+    <link resource="https://www.wikidata.org/entity/Q11632323"/> 
 
-    <meta property="schema:subject dcterms:subject mdv:library/subject" content="intimacy"/> 
-    <link property="schema:subject dcterms:subject mdv:library/subject" resource="https://www.wikidata.org/wiki/Q16358629"/> 
-    
-    <meta property="schema:subject dcterms:subject mdv:library/subject" content="physical intimacy"/> 
-    <link property="schema:subject dcterms:subject mdv:library/subject" resource="https://www.wikidata.org/wiki/Q1190058"/> 
-    <link property="schema:subject dcterms:subject mdv:library/subject" resource="http://dbpedia.org/resource/Physical_intimacy"/> 
+    <meta content="kink"/> 
+    <link resource="https://www.wikidata.org/wiki/Q3815525"/> 
 
-    <meta property="schema:subject dcterms:subject mdv:library/subject" content="self-esteem"/> 
-    <link property="schema:subject dcterms:subject mdv:library/subject" resource="http://id.worldcat.org/fast/1111662"/> 
-    <link property="schema:subject dcterms:subject mdv:library/subject" resource="http://id.loc.gov/authorities/subjects/sh85119793"/> 
+    <meta content="fetishism (sexual behavior)"/> 
+    <link resource="http://id.worldcat.org/fast/923420"/> 
+    <link resource="http://id.loc.gov/authorities/subjects/sh95000216"/> 
+    <meta content="fetish"/> 
+    <link resource="https://www.wikidata.org/wiki/Q207791"/> 
 
-    <meta property="schema:subject dcterms:subject mdv:library/subject" content="sexual minorities"/> 
-    <link property="schema:subject dcterms:subject mdv:library/subject" resource="http://id.worldcat.org/fast/1202158"/> 
-    <link property="schema:subject dcterms:subject mdv:library/subject" resource="http://id.loc.gov/authorities/subjects/sh2004003385"/> 
-    <meta property="schema:subject dcterms:subject mdv:library/subject" content="sexual minority"/> 
-    <link property="schema:subject dcterms:subject mdv:library/subject" resource="https://www.wikidata.org/entity/Q589656"/> 
-    <link property="schema:subject dcterms:subject mdv:library/subject" resource="http://dbpedia.org/resource/Sexual_minority"/> 
-    
-    <meta property="schema:subject dcterms:subject mdv:library/subject" content="social justice"/> 
-    <link property="schema:subject dcterms:subject mdv:library/subject" resource="http://id.worldcat.org/fast/1122603"/> 
-    <link property="schema:subject dcterms:subject mdv:library/subject" resource="http://id.loc.gov/authorities/subjects/sh85123969"/> 
-    <link property="schema:subject dcterms:subject mdv:library/subject" resource="https://www.wikidata.org/entity/Q264892"/> 
-    <link property="schema:subject dcterms:subject mdv:library/subject" resource="http://dbpedia.org/resource/Social_justice"/> 
-    
-    <meta property="schema:subject dcterms:subject mdv:library/subject" content="human rights"/> 
-    <link property="schema:subject dcterms:subject mdv:library/subject" resource="http://id.worldcat.org/fast/963285"/> 
-    <link property="schema:subject dcterms:subject mdv:library/subject" resource="http://id.loc.gov/authorities/subjects/sh85026379"/> 
-    <link property="schema:subject dcterms:subject mdv:library/subject" resource="http://dbpedia.org/resource/Human_rights"/> 
-    <meta property="schema:subject dcterms:subject mdv:library/subject" content="fundamental rights"/> 
-    <link property="schema:subject dcterms:subject mdv:library/subject" resource="https://www.wikidata.org/entity/Q3237872"/> 
+    <meta content="impregnation fetishism"/> 
+    <link resource="https://www.wikidata.org/wiki/Q120643443"/> 
+    <link resource="https://en.wikipedia.org/wiki/Impregnation_fetishism"/> 
 
-    <meta property="schema:subject dcterms:subject mdv:library/subject" content="civil rights"/> 
-    <link property="schema:subject dcterms:subject mdv:library/subject" resource="http://id.worldcat.org/fast/862627"/> 
-    <link property="schema:subject dcterms:subject mdv:library/subject" resource="http://id.loc.gov/authorities/subjects/sh85026371"/> 
+    <meta content="sexual dominance and submission"/> 
+    <link resource="http://id.worldcat.org/fast/1114834"/> 
+    <link resource="http://id.loc.gov/authorities/subjects/sh96002075"/> 
+    <meta content="BDSM"/> 
+    <link resource="https://www.wikidata.org/wiki/Q190845"/> 
+    <meta content="dominance and submission"/> 
+    <link resource="https://www.wikidata.org/entity/Q1277656"/> 
 
-    <meta property="schema:subject dcterms:subject mdv:library/subject" content="civil liberties"/> 
-    <link property="schema:subject dcterms:subject mdv:library/subject" resource="https://www.wikidata.org/entity/Q29556"/> 
-    
-    <meta property="schema:subject dcterms:subject mdv:library/subject" content="civil and political rights"/> 
-    <link property="schema:subject dcterms:subject mdv:library/subject" resource="http://dbpedia.org/resource/Civil_and_political_rights"/> 
-
-    <meta property="schema:subject dcterms:subject mdv:library/subject" content="police corruption"/> 
-    <link property="schema:subject dcterms:subject mdv:library/subject" resource="http://id.worldcat.org/fast/1068588"/> 
-    <link property="schema:subject dcterms:subject mdv:library/subject" resource="http://id.loc.gov/authorities/subjects/sh85104223"/> 
-    <link property="schema:subject dcterms:subject mdv:library/subject" resource="https://www.wikidata.org/entity/Q1248389"/> 
-    <link property="schema:subject dcterms:subject mdv:library/subject" resource="http://dbpedia.org/resource/Police_corruption"/> 
-    
-    <meta property="schema:subject dcterms:subject mdv:library/subject" content="police misconduct"/> 
-    <link property="schema:subject dcterms:subject mdv:library/subject" resource="http://id.worldcat.org/fast/1068618"/> 
-    <link property="schema:subject dcterms:subject mdv:library/subject" resource="http://id.loc.gov/authorities/subjects/sh96000078"/> 
-    <link property="schema:subject dcterms:subject mdv:library/subject" resource="https://www.wikidata.org/entity/Q11632323"/> 
-
-    <meta property="schema:subject dcterms:subject mdv:library/subject" content="kink"/> 
-    <link property="schema:subject dcterms:subject mdv:library/subject" resource="https://www.wikidata.org/wiki/Q3815525"/> 
-
-    <meta property="schema:subject dcterms:subject mdv:library/subject" content="fetishism (sexual behavior)"/> 
-    <link property="schema:subject dcterms:subject mdv:library/subject" resource="http://id.worldcat.org/fast/923420"/> 
-    <link property="schema:subject dcterms:subject mdv:library/subject" resource="http://id.loc.gov/authorities/subjects/sh95000216"/> 
-    <meta property="schema:subject dcterms:subject mdv:library/subject" content="fetish"/> 
-    <link property="schema:subject dcterms:subject mdv:library/subject" resource="https://www.wikidata.org/wiki/Q207791"/> 
-
-    <meta property="schema:subject dcterms:subject mdv:library/subject" content="impregnation fetishism"/> 
-    <link property="schema:subject dcterms:subject mdv:library/subject" resource="https://www.wikidata.org/wiki/Q120643443"/> 
-    <link property="schema:subject dcterms:subject mdv:library/subject" resource="https://en.wikipedia.org/wiki/Impregnation_fetishism"/> 
-
-    <meta property="schema:subject dcterms:subject mdv:library/subject" content="sexual dominance and submission"/> 
-    <link property="schema:subject dcterms:subject mdv:library/subject" resource="http://id.worldcat.org/fast/1114834"/> 
-    <link property="schema:subject dcterms:subject mdv:library/subject" resource="http://id.loc.gov/authorities/subjects/sh96002075"/> 
-    <meta property="schema:subject dcterms:subject mdv:library/subject" content="BDSM"/> 
-    <link property="schema:subject dcterms:subject mdv:library/subject" resource="https://www.wikidata.org/wiki/Q190845"/> 
-    <meta property="schema:subject dcterms:subject mdv:library/subject" content="dominance and submission"/> 
-    <link property="schema:subject dcterms:subject mdv:library/subject" resource="https://www.wikidata.org/entity/Q1277656"/> 
-
-    <meta property="schema:subject dcterms:subject mdv:library/subject" content="sexual consent"/> 
-    <link property="schema:subject dcterms:subject mdv:library/subject" resource="http://id.worldcat.org/fast/1114809"/> 
-    <link property="schema:subject dcterms:subject mdv:library/subject" resource="http://id.loc.gov/authorities/subjects/sh98003848"/> 
-    <meta property="schema:subject dcterms:subject mdv:library/subject" content="consent"/> 
-    <link property="schema:subject dcterms:subject mdv:library/subject" resource="https://www.wikidata.org/entity/Q231043"/> 
+    <meta content="sexual consent"/> 
+    <link resource="http://id.worldcat.org/fast/1114809"/> 
+    <link resource="http://id.loc.gov/authorities/subjects/sh98003848"/> 
+    <meta content="consent"/> 
+    <link resource="https://www.wikidata.org/entity/Q231043"/> 
 
     <meta property="dcterms:audience" content="adults"/>
     
@@ -322,16 +321,16 @@
       <meta property="schema:suggestedGender" content="some kind of gender, or a lack thereof"/>
       <meta property="schema:requiredGender" content="whatever your heart tells you that you are"/>
       <span rel="schema:audienceType">
-        <meta property="schema:audienceType" content="Queers who tell bad jokes and straights who find bad queer jokes funny."/>
-        <meta property="schema:audienceType" content="Swingers who don’t see monogamy as a prison and monogamists who don’t see polyamory as culty bullshit."/>
-        <meta property="schema:audienceType" content="Jews, Muslims, Quakers, and gentiles who have fun conversations with Jews, Muslims, and Quakers."/>
-        <meta property="schema:audienceType" content="Punks who rock and punks who rap."/>
-        <meta property="schema:audienceType" content="Stoners who realize that weed can be bad for you and sober ex-stoners who understand that weed is not bad for everyone."/>
-        <meta property="schema:audienceType" content="Asexuals who get off on porn."/>
-        <meta property="schema:audienceType" content="Antifascists for whom copaganda is their guilty pleasure."/>
-        <meta property="schema:audienceType" content="Latter day hippies who respect their forebears even if they aren’t perfect, and old guard activists who have faith in the youths and their ideas for a brighter future."/>
-        <meta property="schema:audienceType" content="Ne’er-do-wells who prefer to play by the rules."/>
-        <meta property="schema:audienceType" content="Filles insoumises who stick together."/>
+        <meta content="Queers who tell bad jokes and straights who find bad queer jokes funny."/>
+        <meta content="Swingers who don’t see monogamy as a prison and monogamists who don’t see polyamory as culty bullshit."/>
+        <meta content="Jews, Muslims, Quakers, and gentiles who have fun conversations with Jews, Muslims, and Quakers."/>
+        <meta content="Punks who rock and punks who rap."/>
+        <meta content="Stoners who realize that weed can be bad for you and sober ex-stoners who understand that weed is not bad for everyone."/>
+        <meta content="Asexuals who get off on porn."/>
+        <meta content="Antifascists for whom copaganda is their guilty pleasure."/>
+        <meta content="Latter day hippies who respect their forebears even if they aren’t perfect, and old guard activists who have faith in the youths and their ideas for a brighter future."/>
+        <meta content="Ne’er-do-wells who prefer to play by the rules."/>
+        <meta content="Filles insoumises who stick together."/>
       </span>
     </span>
 
