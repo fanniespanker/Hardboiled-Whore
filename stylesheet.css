@@ -32,7 +32,7 @@ body {
   text-indent: 0;
 }
 
-section {
+body > section {
   background: white;
   max-width: min(100%, 6in);
   margin-left: auto;
@@ -45,7 +45,7 @@ section {
   border-style: solid;
 }
 @media (prefers-color-scheme: dark) {
-  section {
+  body > section {
     background: var(--char);
     border-color: var(--blush);
   }
