@@ -36,7 +36,7 @@
         cc: http://creativecommons.org/ns# 
         foaf: http://xmlns.com/foaf/spec/ 
         xsd: https://www.w3.org/2001/XMLSchema 
-        mdo: https://fanniespanker.com/mdv/ 
+        mdo: https://fanniespanker.github.io/Media-Description-Ontology/
         dbr: http://dbpedia.org/resource/ 
         wdw: https://www.wikidata.org/wiki/ 
         wde: https://www.wikidata.org/entity/ 
@@ -119,7 +119,7 @@
           dcterms:abstract 
           dcterms:description
           bibo:abstract
-          mdo:abstract" 
+          mdo:description" 
         content=
           "It’s been three days since Alexander Brookvale—Santa Virginia’s most revered (and reviled) hometown activist—went missing. The police have spent those crucial first 72 hours throwing darts at his mug shot.
           Ex-Parking Enforcement Officer Andrea Bachman finds herself with no badge and no real family or friends to help her through her forced retirement. Heeding her mother’s advice for once, she reaches out into cyberspace and forges a most unlikely bond with a smoking hot blond with maturity and experience. Her new friend (with benefits) encourages her to use her investigative instincts to search for the missing activist.
@@ -394,7 +394,7 @@
     <meta property="schema:isFamilyFriendly" content="False"/>
     <meta property="schema:typicalAgeRange" content="18-"/>
     
-    <span rel="schema:contentRating mdo:bib#ageCategory">
+    <span rel="schema:contentRating mdo:ageRange">
       <meta content="18+"/>
       <meta content="para adultos solamente"/>
       <meta content="for adults only"/>
@@ -423,7 +423,7 @@
       
       <meta content="MPAA: NC-17"/>
       <link href="https://www.filmratings.com/rating/nc-17/"/>
-      
+
       <meta content="Looky Rating System (LRS):
           &bullet;&#x1F4A5;Violence: 2/5
           &bullet;&#x2764;&#xFE0F;Romance and Sexuality: 5/5
@@ -437,15 +437,121 @@
 
       <meta content="ratedbooks.org: 5 / Deviant Content"/>
       <link href="https://www.ratedbooks.org/_files/ugd/413ae8_750d21c364ef456eb7b3d5889399653c.pdf"/>
+
     </span>
 
-    <meta property="isAccessibleForFree"  content="True"/>
+
+    <span 
+        property="hasContentRating"
+        typeof="ContentRating"
+        resource="https://booklooky.com/book/vj6SEQAAQBAJ"
+    >
+      <span about="#LookySubscoreScale" typeof="mdo:MetricRange">
+          <meta property="mdo:base" resource="xsd:nonNegativeInteger"/>
+          <meta property="mdo:minValue" content="0"/>
+          <meta property="mdo:maxValue" content="5"/>
+      </span>
+      <span property="mdo:score" typeof="mdo:MetricValue">
+        <meta property="mdo:label" content="💥Violence"/>
+        <meta property="mdo:scale" resource="#LookySubscoreScale"/>
+        <meta property="mdo:value" content="2"/>
+          <!--
+        <meta property="mdo:conclusion" content="(Mockup property by Fannie) Some moderate but brief physical violence that results in no lasting injuries."/>
+          -->
+      </span>
+      <span property="mdo:score" typeof="mdo:MetricValue">
+        <meta property="mdo:label" content="❤️Romance and Sexuality"/>
+        <meta property="mdo:scale" resource="#LookySubscoreScale"/>
+        <meta property="mdo:value" content="5"/>
+      </span>
+      <span property="mdo:score" typeof="mdo:MetricValue">
+        <meta property="mdo:label" content="🧠Mental Health"/>
+        <meta property="mdo:scale" resource="#LookySubscoreScale"/>
+        <meta property="mdo:value" content="5"/>
+      </span>
+      <span property="mdo:score" typeof="mdo:MetricValue">
+        <meta property="mdo:label" content="🧙Fantasy / Supernatural"/>
+        <meta property="mdo:scale" resource="#LookySubscoreScale"/>
+        <meta property="mdo:value" content="0"/>
+      </span>
+      <span property="mdo:score" typeof="mdo:MetricValue">
+        <meta property="mdo:label" content="💬!*$#Language"/>
+        <meta property="mdo:scale" resource="#LookySubscoreScale"/>
+        <meta property="mdo:value" content="5"/>
+      </span>
+      <span property="mdo:score" typeof="mdo:MetricValue">
+        <meta property="mdo:label" content="🍷🚬Substance Use"/>
+        <meta property="mdo:scale" resource="#LookySubscoreScale"/>
+        <meta property="mdo:value" content="5"/>
+      </span>
+      <span property="mdo:score" typeof="mdo:MetricValue">
+        <meta property="mdo:label" content="🏳️‍🌈Gender Identity & Representation"/>
+        <meta property="mdo:scale" resource="#LookySubscoreScale"/>
+        <meta property="mdo:value" content="3"/>
+      </span>
+      <span property="mdo:score" typeof="mdo:MetricValue">
+        <meta property="mdo:label" content="😨Fear / Horror"/>
+        <meta property="mdo:scale" resource="#LookySubscoreScale"/>
+        <meta property="mdo:value" content="1"/>
+      </span>
+
+      <span about="#LookyOverallScoreScale" typeof="mdo:MetricRange">
+          <meta property="mdo:base" resource="xsd:decimal"/>
+          <meta property="mdo:minValue" content="0.0"/>
+          <meta property="mdo:maxValue" content="5.0"/>
+          <meta property="mdo:precision" content="1"/>
+      </span>
+      <span property="mdo:score" typeof="mdo:MetricValue">
+        <meta property="mdo:label" content="Overall Score"/>
+        <meta property="mdo:description" content="Looky Rating System Score adjusted for ages 18+"/>
+        <meta property="mdo:scale" resource="#LookyOverallScoreScale"/>
+        <meta property="mdo:value" content="3.3"/>
+      </span>
+      <meta property="mdo:ageRating" content="18"/>
+    </span>
+
+    <span 
+        property="hasContentRating"
+        typeof="ContentRating"
+        resource="https://fanniespanker.com/armedescorts/hardboiledwhore/#PatriotismScore"
+    >
+      <span resource="https://fanniespanker.com/armedescorts/hardboiledwhore/#PatriotismScale" typeof="ChoiceList"> 
+        <meta property="mdo:base" resource="mdo:ChoiceItem"/>
+        <span rel="mdo:choice">
+          <span resource="https://fanniespanker.com/armedescorts/hardboiledwhore/#BraverThanTheTroops" typeof="ChoiceItem">
+            <meta property="mdo:value" content="⚧️🫃🏿 Gender Extremist"/>
+            <meta property="mdo:description" content="A Social Justice Warrior Defending the Nation from the evil oligarchs of the international new world order."/>
+          </span>
+          <span resource="https://fanniespanker.com/armedescorts/hardboiledwhore/#WokeWarrior" typeof="ChoiceItem">
+            <meta property="mdo:value" content="☭☪️✡️ Cultural Marxist"/>
+            <meta property="mdo:description" content="One who has yet to fully shed the bonds of gender, but who is approaching enlightenment."/>
+          </span>
+          <span resource="https://fanniespanker.com/armedescorts/hardboiledwhore/#ForsakenFool" typeof="ChoiceItem">
+            <meta property="mdo:name" content="👩‍❤️‍👩✡️💰 Ignorant Liberal"/>
+            <meta property="mdo:description" content="An occasionally useful idiot whose spiritual growth has been stunted by capitalism's infectious ideology."/>"
+          </span>
+          <span resource="https://fanniespanker.com/armedescorts/hardboiledwhore/#VictimOfBrainwashing" typeof="ChoiceItem">
+            <meta property="mdo:name" content="👨‍👩‍👧‍👦✝️ Red-blooded American"/>
+            <meta property="mdo:description" content="Someone who has been tricked into hating themself and their fellow human beings."/>"
+          </span>
+        </span>
+      </span>
+      <span property="mdo:score" typeof="mdo:MetricValue">
+        <meta property="mdo:label" content="How much she loves her nation."/>
+        <meta property="mdo:scale" resource="https://fanniespanker.com/armedescorts/hardboiledwhore/#PatriotismScale"/>
+        <meta property="mdo:value" resource="https://fanniespanker.com/armedescorts/hardboiledwhore/#BraverThanTheTroops"/>
+        <meta property="mdo:conclusion" content="Despite its fatal flaws and history of inhumanity, she thinks that her nation has the potential (through the efforts of the entire working class) to be a force for good. Oligarchas delendos futurus."/>
+      </span>
+    </span>
 
     <!-- end metadata -->
 
     <section 
         id="CoverPage" 
-        data-fs-page="Title Page"
+        property="schema:hasPart bibo:hasPart mdo:hasPart"
+        typeof="mdo:TitlePage"
+        resource="#CoverPage"
+        data-fs-page="Cover"
     >
       <meta property="mdo:description" content="Title page."/>
 
@@ -490,8 +596,11 @@
     </section>
     
     <section 
-        id="Copyright" 
-        data-fs-page="Copyright" 
+        id="CopyrightPage" 
+        property="mdo:hasRightsDocument"
+        typeof="mdo:RightsDocument"
+        resource="#CopyrightPage"
+        data-fs-page="CopyrightPage" 
         role="doc-credits" 
         class="VerticallyCentered"
     >
@@ -538,12 +647,7 @@
               Fannie Spanker
             </a>
           </span>,
-          is accessible free of charge 
-          <meta 
-              property="schema:isAccessibleForFree mdo:legal#isAccessibleForFree" 
-              datatype="xsd:boolean" 
-              content="true"
-          />
+          is accessible <span property="schema:isAccessibleForFree mdo:legal#isAccessibleForFree" datatype="xsd:boolean" content="true">free of charge</span> 
           at 
           <br/>
           <a class="NavButton" href="https://fanniespanker.com/armedescorts/hardboiledwhore/">fanniespanker.com/armedescorts/hardboiledwhore/</a>,
@@ -562,7 +666,7 @@
               <br/>
               viewable at
               <a property="schema:license dcterms:license cc:license mdo:legal#licenseSummary" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">creativecommons.org/licenses/by-nc-sa/4.0/</a>
-              <link property="cc:legalcode mdo:legal#licenseLegalCode" resource="https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode"/>
+              <meta property="cc:legalcode mdo:legal#licenseLegalCode" resource="https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode"/>
             </span>
           </p>
           <h3>Summary of Your Rights and Obligations Under this License</h3>
@@ -579,7 +683,7 @@
             <p property="cc:requires mdo:legal#requires" resource="cc:ShareAlike"><img alt="" src="/images/sa.svg" class="SVGIcon" /><i>ShareAlike</i> — If you remix, transform, or build upon the material, you must distribute your contributions under the same license as the original.</p>
             <p property="mdo:legal#prohibits" resource="mdo:legal#AdditionalRestrictions"><i>No additional restrictions</i> — You may not apply legal terms or technological measures that legally restrict others from doing anything the license permits.</p>
           </div>
-          <p property="schema:acquireLicensePage mdo:legal#licensingContact" resource="mailto:fannie.spanker@gmail.com">Commercial rights may be negotiated by contacting the author. (Small, independent creators as well as non-profits can expect favorable and permissive terms.)</p>
+          <p property="schema:acquireLicensePage mdo:legal#licensingContact" resource="mailto:fannie.spanker@gmail.com">Commercial rights may be negotiated by contacting the author. (Small, independent creators as well as non-profits can expect favorable and highly permissive terms.)</p>
         </div>
       </div>
     </section>
@@ -590,13 +694,11 @@
         role="doc-acknowledgments"
     >
       <meta property="mdo:description" content="Acknowledgments."/>
-      
       <div class="HorizontallyCentered VerticallyCentered">
         <span property="mdo:acknowledgments">
           A million ‘thank you’s to Effie and Adrian for their invaluable advice and support, and a big ‘thank you so much’ to Dirk Hooper.
         </span>
       </div>
-      
     </section>
     
     <section 
@@ -605,7 +707,6 @@
         role="doc-dedication"
     >
       <meta property="mdo:description" content="Dedication."/>
-      
       <div class="HorizontallyCentered VerticallyCentered">
         <span property="mdo:dedication" class="Dedication">
           To Adrian, Mom, Dad, Mal,<br/>
@@ -615,7 +716,6 @@
           and Lexi, wherever she may be.
         </span>
       </div>
-      
     </section>
     
     <section id="TableOfContents" data-fs-page="Table of Contents">
@@ -629,7 +729,7 @@
         <h2>Table of Contents</h2>
         <ol>
           <li><a class="TOCNavButton" href="#CoverPage">Title Page</a></li>
-          <li><a class="TOCNavButton" href="#Copyright">Copyright Notice</a></li>
+          <li><a class="TOCNavButton" href="#CopyrightPage">Copyright Notice</a></li>
           <li><a class="TOCNavButton" href="#Acknowledgments">Acknowledgments</a></li>
           <li><a class="TOCNavButton" href="#Dedication">Dedication</a></li>
           <li><a class="TOCNavButton" href="#TableOfContents">Table of Contents</a></li>
@@ -712,10 +812,13 @@
       
     <section 
         id="TropesKinks" 
+        property="mdo:hasContentNotices"
+        resource="#TropesKinks"
+        itemtype="mdo:ContentNotices"
         data-fs-page="Tropes, Relationships, Kinks, and Fetishes" 
         class="VerticallyCentered"
     >
-      <meta property="mdo:description" content="A list of tropes, kinks, fetishes, and relationship dynamics that are representated."/>
+      <meta property="mdo:description" content="A list of tropes, kinks, fetishes, and relationship dynamics that are depicted in this story."/>
       
       <h2>Tropes, Relationships, Kinks, and Fetishes</h2>
       <ul>
@@ -725,43 +828,46 @@
         <li>Love at first sight/love at first fuck/whirlwind romance.</li>
         <li>Multiple <span property="mdo:depicts" resource="mdo:romance#laterInLife">later in life polyamorous romances</span> (<span property="mdo:depicts" resource="mdo:polycule#allFemme">FFFFFF</span> and <span property="mdo:depicts" resource="mdo:polycule#mixedGender">MMF</span>, all over 30), including inappropriate <span property="mdo:depicts" resource="mdo:officeRomance">office romances</span> and <span property="mdo:depicts" resource="mdo:quidProQuoSex">quid pro quo</span>.</li>
         <li><span property="mdo:depicts" resource="mdo:romance#soulmates">Soulmates</span> (complicated by past romantic trauma and fear of commitment).</li>
-        <li>Lesbian orgy/sex party/gangbang (FFFFF on F).</li>
-        <li>Hurt and comfort.</li>
-        <li>Spankings and kisses.</li>
-        <li>Masturbation, hand jobs, and fingering.</li>
-        <li>Anonymous sex without contraceptives.</li>
-        <li>Cunnilingus (on cis women&NoBreak;—trans folk to follow in future installments).</li>
-        <li>Fellatio (on both cis men and trans women).</li>
-        <li>Vaginal penetration (digitally and by women with both penises and strap-ons, as well as by men with penises).</li>
-        <li>Switch FMC submitting to a domme, dominating a sub, and vying for dominance with another domme.</li>
-        <li>Consensual ‘non-consent’ <em>roleplay</em> (with prior discussion of ‘go’s, ‘no-go’s, and safewords, as well ongoing and enthusiastic consent).</li>
-        <li>Ownership kink.</li>
-        <li>Degradation/humiliation kink.</li>
-        <li>Pet play.</li>
-        <li>Bondage fantasy.</li>
-        <li>Public sex and exhibitionism.</li>
-        <li>Body scent fetish.</li>
-        <li>Cum fetish (creampies, swallowing, snowballing).</li>
-        <li>Pregnancy/impregnation fetish.</li>
-        <li>Biological clock running out.</li>
-        <li>Ugly duckling.</li>
-        <li>Love for gender non-conformity and androgyny.</li>
-        <li>Love for trans women’s bodies.</li>
-        <li>Love for fat women’s bodies.</li>
-        <li>Love for muscular women’s bodies.</li>
-        <li>Love for short women’s bodies.</li>
-        <li>Love for tall women’s bodies.</li>
-        <li>Height difference (11 inches).</li>
-        <li>Money fetish.</li>
-        <li>Millionaire partner.</li>
-        <li>Enthusiastic sex work (not sex trafficking).</li>
-        <li>Antifascist and sex worker activism and direct action.</li>
-        <li>Exploration of the concepts and praxis of justice (mishpat), righteousness (tzedek), and repentance (t'shuva) beyond a Christofascist lens (examination of reproductive rights is to follow).</li>
+        <li><span property="mdo:depicts" resource="mdo:sex#groupSex">Lesbian orgy/sex party/gangbang (FFFFF on F).</span></li>
+        <li><span proprety="mdo:depicts" resource="mdo:romance#hurtAndComfort">Hurt and comfort.</span></li>
+        <li><span property="mdo:depicts" resource="mdo:kink#impactPlay">Spankings</span> and kisses.</li>
+        <li><span property="mdo:depicts" resource="mdo:sex#masturbation">Masturbation</span>, <span property="mdo:depicts" resource="mdo:sex#manualPenisStimulation">hand jobs</span>, and <span property="mdo:depicts" resource="mdo:sex#manualVaginalStimulation">fingering</span>.</li>
+        <li><span property="mdo:depicts" resource="mdo:sex#anonymousSex">Anonymous sex</span> <span property="mdo:depicts" resource="mdo:sex#unprotectedSex">without contraceptives</span>.</li>
+        <li><span property="mdo:depicts" resource="mdo:sex#cunnilingus">Cunnilingus</span> (on cis women&NoBreak;—trans folk to follow in future installments).</li>
+        <li><span property="mdo:depicts" resource="mdo:sex#oralSex">Fellatio</span> (on both cis men and trans women).</li>
+        <li><span property="mdo:depicts" resource="mdo:sex#vaginalPenetration">Vaginal penetration</span> (<span property="mdo:depicts" resource="mdo:sex#digitalPenetration">digitally</span> and <span property="mdo:depicts" resource="mdo:sex#transWomanOnCisWoman">by women with both penises</span> and <span property="mdo:depicts" resource="mdo:sex#strapon">strap-ons</span>, as well as <span property="mdo:depicts" resource="mdo:sex#cisManOnCisWoman">by men with penises</span>).</li>
+        <li><span property="mdo:depicts" resource="mdo:kink#versatileDynamic">Switch FMC</span> <span property="mdo:depicts" resource="mdo:BDSM#dominanceAndSubmission">submitting to a domme</span>, dominating a sub, and vying for dominance with another domme.</li>
+        <li><span property="mdo:depicts" resource="mdo:kink#consensualNonConsent">Consensual ‘non-consent’ <em>roleplay</em> (with prior discussion of ‘go’s, ‘no-go’s, and safewords, as well ongoing and enthusiastic consent).</span></li>
+        <li><span property="mdo:depicts" resource="mdo:kink#ownership">Ownership kink</span> including <span property="mdo:depicts" resource="mdo:kink#marking">marking</span>.</li>
+        <li><span property="mdo:depicts" resource="mdo:kink#degradation">Degradation</span>/<span property="mdo:depicts" resource="mdo:kink#humiliation">humiliation kink</span>.</li>
+        <li><span property="mdo:depicts" resource="mdo:kink#petPlay">Pet play.</span></li>
+        <li><span property="mdo:depicts" resource="mdo:kink#bondage">Bondage</span> fantasy.</li>
+        <li><span property="mdo:depicts" resource="mdo:kink#publicSex">Public sex</span> and <span property="mdo:depicts" resource="mdo:kink#exhibitionism">exhibitionism</span>.</li>
+        <li><span property="mdo:depicts" resource="mdo:fetish#bodyOdor">Body scent fetish.</span></li>
+        <li><span property="mdo:depicts" resource="mdo:fetish#semen">Cum fetish</span> (<span property="mdo:depicts" resource="mdo:sex#creampie">creampies</span>, <span property="mdo:depicts" resource="mdo:sex#swallowing">swallowing</span>, <span property="mdo:depicts" resource="mdo:sex#snowballing">snowballing</span>).</li>
+        <li><span property="mdo:depicts" resource="mdo:fetish#pregnancy">Pregnancy</span>/<span property="mdo:depicts" resource="mdo:fetish#impregnation">impregnation fetish.</span></li>
+        <li><span property="mdo:depicts" resource="mdo:theme#biologicalClock">Biological clock running out.</span></li>
+        <li><span property="mdo:depicts" resource="mdo:theme#uglyDuckling">Ugly duckling.</span></li>
+        <li><span property="mdo:depicts" resource="mdo:theme#loveOfGenderNonconformity">Love for gender non-conformity</span> and <span property="mdo:depicts" resource="mdo:theme#loveOfAndrogyny">androgyny</span>.</li>
+        <li><span property="mdo:depicts" resource="mdo:theme#loveOfTransfemininity">Love for trans women’s bodies.</span></li>
+        <li><span property="mdo:depicts" resource="mdo:theme#loveOfFatBodies">Love for fat women’s bodies.</span></li>
+        <li><span property="mdo:depicts" resource="mdo:theme#loveOfMuscularFemininity">Love for muscular women’s bodies.</span></li>
+        <li><span property="mdo:depicts" resource="mdo:theme#loveOfShortWomen">Love for short women’s bodies.</span></li>
+        <li><span property="mdo:depicts" resource="mdo:theme#loveOfTallWomen">Love for tall women’s bodies.</span></li>
+        <li><span property="mdo:depicts" resource="mdo:fetish#heightDifference">Height difference (11 inches).</span></li>
+        <li><span property="mdo:depicts" resource="mdo:fetish#wealth">Money fetish.</span></li>
+        <li><span property="mdo:depicts" resource="mdo:romance#wealthyPartner">Millionaire partner.</span></li>
+        <li>Enthusiastic <span property="mdo:depicts" resource="mdo:labor#sexWork">sex work</span> (not sex trafficking).</li>
+        <li><span property="mdo:depicts" resource="mdo:politics#Antifascism">Antifascist</span> and <span property="mdo:depicts" resource="mdo:politics#sexWorkersRights">sex worker activism and direct action</span>.</li>
+        <li>Exploration of the concepts and praxis of <span property="mdo:depicts" resource="mdo:judaism#mishpat">justice (mishpat)</span>, <span property="mdo:depicts" resource="mdo:judaism#tzedek">righteousness (tzedek)</span>, and <span property="mdo:depicts" resource="mdo:judaism#tshuva">repentance (t'shuva)</span> beyond a Christofascist lens (examination of reproductive rights is to follow).</li>
       </ul>
     </section>
     
     <section 
         id="ContentNotices" 
+        property="mdo:hasContentNotices"
+        resource="#ContentNotices"
+        itemtype="mdo:ContentNotices"
         data-fs-page="Content Notices" 
         role="doc-notice"  
         class="VerticallyCentered">
@@ -773,36 +879,36 @@
         <li>
           <h3>Danger and Violence</h3>
           <ul>
-            <li><strong>A nearly lethal strangulation.</strong></li>
-            <li>A death threat.</li>
-            <li>A dead bird.</li>
-            <li>A bloodless mass arrest.</li>
-            <li>Discussions of <span ssml:ph="ˈkɹaɪsˌtoʊˈfæːʃɪzm̩">Christofascism</span>.</li>
+            <li><strong>A <span property="mdo:depicts" resource="mdo:violence#nearDeathExperience">nearly</span> <span property="mdo:depicts" resource="mdo:violence#attemptedMurder">lethal</span> <span property="mdo:depicts" resource="mdo:violence#strangulation">strangulation</span>.</strong></li>
+            <li><span property="mdo:depicts" resource="mdo:violence#deathThreat">A death threat.</span></li>
+            <li><span property="mdo:depicts" resource="mdo:violence#animalDeath">A dead bird.</span></li>
+            <li>A bloodless <span property="mdo:depicts" resource="mdo:violence#massArrest">mass arrest</span>.</li>
+            <li><span property="mdo:depicts" resource="mdo:politics#christofascism">Discussions of <span ssml:ph="ˈkɹaɪsˌtoʊˈfæːʃɪzm̩">Christofascism</span>.</span></li>
           </ul>
         </li>
         <li>
           <h3>Reproductive Rights</h3>
           <ul>
-            <li><strong>Dubious consent (sex fraud/retroactive invalidation of consent due to violation of a sexual quid pro quo agreement).</strong></li>
-            <li>Sexual harassment.</li>
-            <li><span ssml:ph="ˈhɔːɹˈfoʊbiə">Whorephobia</span>/slutphobia.</li>
+            <li><span property="mdo:depicts" resource="mdo:bodilyAutonomy#dubiousConsent"><strong>Dubious consent (sex fraud/retroactive invalidation of consent due to violation of a sexual quid pro quo agreement).</strong></span></li>
+            <li><span property="mdo:depicts" resource="mdo:bodilyAutonomy#sexualHarassment">Sexual harassment.</span></li>
+            <li><span property="mdo:depicts" resource="mdo:bodilyAutonomy#whorePhobia"><span ssml:ph="ˈhɔːɹˈfoʊbiə">Whorephobia</span></span> and <span property="mdo:depicts" resource="mdo:bodilyAutonomy#slutshaming">slutshaming</span>.</span></li>
             <li><span ssml:ph="ˈkɛmˌsɛks">Chemsex</span> (sex while under the influence of recreational drugs).</li>
           </ul>
         </li>
         <li>
           <h3>Mental Health and Substance Abuse</h3>
           <ul>
-            <li>PTSD flashbacks.</li>
-            <li>Complex grief.</li>
-            <li>Mood disorders.</li>
-            <li>Fear of abandonment.</li>
-            <li>Impulsive and reckless sexual behavior.</li>
-            <li>Alcohol use disorder, relapse, and binge drinking.</li>
-            <li><span ssml:ph="ˈpɑːɫiˈdɹʌɡ">Polydrug</span> use (alcohol and MDMA).</li>
+            <li><span property="mdo:depicts" resource="mdo:mentalHealth#flashback">PTSD flashbacks.</span></li>
+            <li><span property="mdo:depicts" resource="mdo:mentalHealth#complexGrief">Complex grief.</span></li>
+            <li><span property="mdo:depicts" resource="mdo:mentalHealth#moodDisorder">Mood disorders.</span></li>
+            <li><span property="mdo:depicts" resource="mdo:mentalHealth#fearOfAbandonment">Fear of abandonment.</span></li>
+            <li><span property="mdo:depicts" resource="mdo:mentalHealth#impulsiveSexualBehavior">Impulsive and reckless sexual behavior.</span></li>
+            <li><span property="mdo:depicts" resource="mdo:substanceUse#alcoholAbuse">Alcohol use disorder, relapse, and binge drinking.</span></li>
+            <li><span property="mdo:depicts" resource="mdo:substanceUse#polydrugUse"><span ssml:ph="ˈpɑːɫiˈdɹʌɡ">Polydrug use</span> (alcohol and <span property="mdo:depicts" resource="mdo:substanceUse#MDMA">MDMA</span>).</li>
             <li><span ssml:ph="ˈkɛmˌsɛks">Chemsex</span>.</li>
-            <li>Seeing, hearing, and feeling things that are not there.</li>
-            <li>Body dysmorphia.</li>
-            <li>Internalized <span ssml:ph="ˈseɪnɪzm̩">sanism</span>.</li>
+            <li><span property="mdo:depicts" resource="mdo:mentalHealth#hallucination">Seeing, hearing, and feeling things that are not there.</span></li>
+            <li><span property="mdo:depicts" resource="mdo:mentalHealth#bodyDysmorphia">Body dysmorphia.</span></li>
+            <li><span property="mdo:depicts" resource="mdo:mentalHealth#internalizedSanism">Internalized <span ssml:ph="ˈseɪnɪzm̩">sanism</span>.</li>
           </ul>
         </li>
       </ul>
@@ -1040,8 +1146,8 @@
       <p>“Oh, for <strong>fuck’s</strong> sake…” I heard her headset clacking on a hard surface through my television&NoBreak;—then heard the thump of a door being shut in the next apartment over and, simultaneously, the same sound through the TV’s speakers. Three seconds after that, somebody knocked on my door.</p>
       <p><span class="Soft">“(No way,)”</span> I murmured. <span class="Soft">“(No fucking way.)”</span> With my mind clouded by wonder at such a coincidence, I answered the door and was greeted by a handsomely beautiful and (at 6′1″) very tall blonde with sharp amber eyes framed by defined-yet-soft and somewhat time-worn features; in agreement with her pinot-supple face were the gently-etched muscles visible on the parts of her body not covered by her Black Sabbath T-shirt, green boxer shorts, and <span ssml:ph="ˈkɹɑːks">Crocs</span> painted to look like half-submerged sharks.</p>
       
-      <div class="HorizontallyCentered VerticallyCentered">
-        <div id="Poem-Cream_or_Sugar" class="Verse HorizontallyCentered">
+      <div id="Poem=Cream_or_Sugar" property="schema:hasPart bibo:hasPart mdo:hasPart" resource="#Poem=Cream_or_Sugar" typeof="schema:CreativeWork bibo:Document mdo:Poem" class="HorizontallyCentered VerticallyCentered">
+        <div class="Verse HorizontallyCentered">
           <p>
             And then a quiet fragrance, <br/>
               carried to</p>
@@ -1159,8 +1265,8 @@
       <p>I grunted, and as she <span ssml:ph="ˌʌnˈtʌːkt">untucked</span> my uniform shirt I hastily ‘unbuttoned’ (popped off) the last button and cast it away without care for where it landed before ripping open my tank top and disposing of it likewise. She pulled my sports bra up and over my head, letting my ironically more mature breasts bounce, and as soon as my hands were free, I grabbed her tits and brushed my thumbs across her nipples, causing her to gasp. I devoured her tender chest as she squeezed mine; she pinched my nips, forcing from me a yelp of pleasure. I wanted to rub my tits against hers but couldn’t quite get them to meet because of our height difference, so I leaned against her chest until she got the hint to lie down. Once she was on her back, I climbed on top of her and rubbed myself against her.</p>
       <p>By chance I breathed in through my nose and caught a full blast of her scent&NoBreak;—</p>
       
-      <div class="HorizontallyCentered VerticallyCentered">
-        <div id="Poem-Steamed_Milk" class="Verse Big VersePresentTense">
+      <div id="Poem=Steamed_Milk" property="schema:hasPart bibo:hasPart mdo:hasPart" resource="#Poem=Steamed_Milk" typeof="schema:CreativeWork bibo:Document mdo:Poem" class="HorizontallyCentered VerticallyCentered">
+        <div class="Verse Big VersePresentTense">
           <p class="PaddingBottom0_25em">Fresh ground </p>
           <p class="PaddingBottom0_25em">French roast </p>
           <p class="PaddingBottom0_25em">Hot pressed </p>
@@ -1252,7 +1358,7 @@
       <p>Then, unable to bear the thought of my first orgasm with a sex partner being at my own hand, I abandoned my clitoris, wrapped my fingers around her wrist, removed her hand from my cheek, guided it towards my crotch, and released it as I meekly whispered, <span class="Soft">“(Please.)”</span></p>
       <p>So her fingers invaded my country and I surrendered to her every maneuver as she politely conquered me. She performed magnificently, vigorously ruling over my clit with a firm hand, and I let her know I was hers with my moaning and whining until time bled over into space, until I felt&NoBreak;—</p>
       
-      <div id="Poem-Sequoia" class="HorizontallyCentered">
+      <div id="Poem=Sequoia" property="schema:hasPart bibo:hasPart mdo:hasPart" resource="#Poem=Sequoia" typeof="schema:CreativeWork bibo:Document mdo:Poem" class="HorizontallyCentered">
       
         <div class="Verse VersePresentTense VerticallyCentered HorizontallyCentered">
           <p class="PaddingBottom0_25em">A fuse within me catches flame. </p>
@@ -2252,9 +2358,9 @@
       <p>I couldn’t say ‘no’ to this woman while every organ inside me was screaming, <span class="InnerMonologue">((Acceptable risk!))</span> <span class="Soft">“(Oh&NoBreak;—okay.)”</span> My heart pounded in my chest, driven one percent by fear, the rest by a need to become one with her.</p>
       <p>She grinned as she deftly picked me up and plopped me down on one of the washing machines, then launched herself onto the one next to it. She pulled me in close, causing me to blush, and brought me in with coffee and&NoBreak;—</p>
     
-      <div id="Poem-Honeymoon_by_the_Styx" class="HorizontallyCentered VerticallyCentered">
-        <meta property="mdo:description" content="I'm just an innocent little fly, I sure hope a beautiful, mature spider doesn't come along and eat me."/>
-        <div class="Instinct PreserveWhiteSpace HorizontallyCentered VerticallyCentered ScaleFontSize">
+      <div id="Poem=Honeymoon_by_the_Styx" property="schema:hasPart bibo:hasPart mdo:hasPart" resource="#Poem=Honeymoon_by_the_Styx" typeof="schema:CreativeWork bibo:Document mdo:Poem" class="HorizontallyCentered VerticallyCentered">
+        <meta property="schema:abstract bibo:extract mdo:description" content="I'm just an innocent little fly, I sure hope a beautiful, mature spider doesn't come along and eat me."/>
+        <div class="Instinct PreserveWhiteSpace HorizontallyCentered VerticallyCentered ">
                              (((
                            More
      subtle              than the            coffee
@@ -2280,8 +2386,8 @@ me             want to puff and pass           a
       <p>The machines stopped and buzzed in quick succession. She removed her tongue from my mouth and said, “Time to dry.”</p>
       <p>Yet I was quite content with being wet. I groaned in frustration; I had been milliseconds away from ripping off her clothes and going down on her. I got off the machine after failing to get off <em>on</em> the machine and followed her lead in loading my damp laundry into the dryers. She clambered onto a dryer and helped me up into her lap, and when she brought her mouth towards mine, I eagerly bridged the gap with my lips and grabbed her hand and planted it on my chest. I caught a whiff of her and savored the scent violently breaking through her deodorant. I thrust my tongue into her mouth and moaned. I leaned against her, and she let me recline her until she was on her back and I was on top of her, straddling her waist. I grabbed her bra through her shirt and squeezed and massaged; she hummed and giggled as I lost control of myself and growled through the gaps between our lips… I was so overpowered by my desire that I began grinding my pelvis against her body, rubbing my crotch against her belly, harder and harder, moaning and moving my hips without conscious effort to bring me closer to what I needed, and closer, and closer, moaning louder and higher and louder and higher… until I felt a buzz like a&NoBreak;—</p>
       
-      <div id="Poem-Treasure_Chest" class="HorizontallyCentered VerticallyCentered">
-        <meta property="mdo:description" content="Linens warm as love."/>
+      <div id="Poem=Treasure_Chest" property="schema:hasPart bibo:hasPart mdo:hasPart" resource="#Poem=" typeof="schema:CreativeWork bibo:Document mdo:Poem" class="HorizontallyCentered VerticallyCentered">
+        <meta property="schema:abstract bibo:abstract mdo:description" content="Linens warm as love."/>
         <div class="Verse Big VersePresentTense">
           <p>Fluffy towel, soft and warm,</p>
           <p>Soughs against my flesh as I</p>
@@ -2479,10 +2585,14 @@ me             want to puff and pass           a
       <p>I was dimly cognizant of the meaning of her words, and managed to say, between kisses, “Please&NoBreak;—don’t&NoBreak;—stop…”</p>
       <p>“Are you close?”</p>
       <p>I definitely felt the pressure of orgasm building within me. <span class="Soft">“(So close!)”</span> I whined. <span class="Soft">“(Keep going!)”</span> Static built up inside me, charging me, and I sighed as she pushed that charge to the breakdown voltage of the air separating me and Earth&NoBreak;— <span class="Soft">“(Ah-h-h-h-h…!)”</span> I hugged her tight as my body became&NoBreak;—</p>
-      <div>
-        <meta property="mdo:description" content="Wake me up inside."/>
-        <svg
-            id="Poem-Electrified"
+      <div 
+          id="Poem=Electrified" 
+          property="schema:hasPart bibo:hasPart mdo:hasPart" 
+          resource="#Poem=Electrified" 
+          typeof="schema:CreativeWork bibo:Document mdo:Poem"
+      >
+        <meta property="schema:abstract bibo:abstract mdo:description" content="Wake me up inside."/>
+        <svg           
             xmlns="http://www.w3.org/2000/svg"
             xmlns:svg="http://www.w3.org/2000/svg"
             xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -2493,7 +2603,8 @@ me             want to puff and pass           a
             viewBox="64 64 512 640"
             preserveAspectRatio="xMidYMid"
             aria-labelledby="ElectrifiedTitle ElectrifiedDescription"
-            role="img" >
+            role="img" 
+        >
           <title id="ElectrifiedTitle">Electrified (a poem)</title>
           
           <desc id="ElectrifiedDescription">
@@ -3017,7 +3128,7 @@ A lonely ocotillo stands proud among the dunes, fuchsia flowers pointed skywards
       <link property="schema:isPartOf dcterms:isPartOf mdo:structure#isPartOf" resource="#Act1">
       <meta property="mdo:structure#isPartNumber" content="7"/>
       <meta property="schema:name dcterms:title mdo:title" content="Queen of Vice"/>
-      <meta property="mdo:description" content="Andrea finds herself face-to-face with a surprising acquaintance."/>
+      <meta property="schema:abstract bibo:abstract mdo:description" content="Andrea finds herself face-to-face with a surprising acquaintance."/>
       
       <h2>
         <span class="ChapterNumber">Chapter 7:</span>
@@ -3197,7 +3308,7 @@ A lonely ocotillo stands proud among the dunes, fuchsia flowers pointed skywards
       <link property="schema:isPartOf dcterms:isPartOf mdo:structure#isPartOf" resource="#Act1">
       <meta property="mdo:structure#isPartNumber" content="8"/>
       <meta property="schema:name dcterms:title mdo:title" content="Butch Fatale"/>
-      <meta property="mdo:description" content="Andrea fucks a corrupt cop, who proposes a very tempting (and very unethical) quid pro quo."/>
+      <meta property="schema:abstract bibo:abstract mdo:description" content="Andrea fucks a corrupt cop, who proposes a very tempting (and very unethical) quid pro quo."/>
       
       <h2>
         <span class="ChapterNumber">Chapter 8:</span>
@@ -3256,7 +3367,7 @@ A lonely ocotillo stands proud among the dunes, fuchsia flowers pointed skywards
       <p>“If that’s what you want.” I waited.</p>
       <p>“You could get into bed instead of standing awkwardly like a sexless mannequin.” I claimed my half of the bed, and she wrapped the curtains around us. We were enclosed, cut off from the world. It was just the two of us, confined within a space designated expressly for intimacy. Fear tickled the base of my brain, while lust tickled everything else. She scooted close and stared into me. “You have such lovely green eyes.” I reveled in her flattery, her words excited me and&NoBreak;—</p>
     
-      <div id="Poem-Marzipan" class="HorizontallyCentered VerticallyCentered">
+      <div id="Poem=Marzipan" property="schema:hasPart bibo:hasPart mdo:hasPart" resource="#Poem=Marzipan" typeof="schema:CreativeWork bibo:Document mdo:Poem" class="HorizontallyCentered VerticallyCentered">
         <div class="PreserveWhiteSpace VersePresentTense Irrealis Font1em HorizontallyCentered"
 >                 A   subtle   whiff   of
      incense strikes my consciousness
@@ -3395,8 +3506,8 @@ A lonely ocotillo stands proud among the dunes, fuchsia flowers pointed skywards
       <p>“I will be damned.” Her face became pensive for several seconds, then grew a bittersweet smile. “You know what? I present my offer without deadline; and though I do hope that you accept it, I will not be crestfallen should you ultimately reject it. Good luck to you, whether you find greener pastures in sex work or have a change of heart and decide to give your dream another shot.”</p>
       <p>“Thank you.” She reached into my lap and began rubbing me. “Ah!” I exclaimed, immediately locked in, moaning, humping her fingers in pursuit of that vital orgasm, second in importance only to one thing. I figured she was doing this because she wanted to watch me cum, so for the sake of giving her that performance all the sooner I thrust my middle finger up my pussy, feeling around for the spot Judith had tickled… and knew that I had found it when, pressing upwards and forwards, I felt the tingling throughout the lower half of my body double. My muscles contracted semi-voluntarily and I groaned; I stretched myself a little further with two fingers, then three. I grabbed a nipple with my other hand and tweaked it, forcing a gasp down my throat; she did the same with the other nipple, unleashing yet another stream of throaty sounds from me. I continued massaging my insides and tweaking my nipple as the captain played with my clitoris and the other nipple, the two of us ascending from the sandy valley to the stony mountain, higher, higher, towards the clouds; until my legs turned stiff as granite, muscles of my cunt contracted greedily around my fingers, and with one last stroke of my&NoBreak;—</p>
       
-      <div id="Poem-Amateur_Work" class="HorizontallyCentered VerticallyCentered">
-        <meta property="mdo:description" content="Only rich idiots buy landscapes."/>
+      <div id="Poem=Amateur_Work" property="schema:hasPart bibo:hasPart mdo:hasPart" resource="#Poem=Amateur_Work" typeof="schema:CreativeWork bibo:Document mdo:Poem" class="HorizontallyCentered VerticallyCentered">
+        <meta property="schema:abstract bibo:abstract mdo:description" content="Only rich idiots buy landscapes."/>
         <div class="Verse VersePresentTense">
           <p>
             Brush from side to side we<br/>
@@ -3469,7 +3580,7 @@ A lonely ocotillo stands proud among the dunes, fuchsia flowers pointed skywards
       <link property="schema:isPartOf dcterms:isPartOf mdo:structure#isPartOf" resource="#Act1">
       <meta property="mdo:structure#isPartNumber" content="9"/>
       <meta property="schema:name dcterms:title mdo:title" content="Seagull"/>
-      <meta property="mdo:description" content="A hardboiled whore is born among dregs, by midwives braver than the troops."/>
+      <meta property="schema:abstract bibo:abstract mdo:description" content="A hardboiled whore is born among dregs, by midwives braver than the troops."/>
       
       <h2>
         <span class="ChapterNumber">Chapter 9:</span>
@@ -3636,7 +3747,7 @@ A lonely ocotillo stands proud among the dunes, fuchsia flowers pointed skywards
       <link property="schema:isPartOf dcterms:isPartOf mdo:structure#isPartOf" resource="#Act1">
       <meta property="mdo:structure#isPartNumber" content="10"/>
       <meta property="schema:name dcterms:title mdo:title" content="410 Gone"/>
-      <meta property="mdo:description" content="Our sleuth finally interviews the sex workers of Adams Avenue, whose testimonies lead her to a crime scene."/>
+      <meta property="schema:abstract bibo:abstract mdo:description" content="Our sleuth finally interviews the sex workers of Adams Avenue, whose testimonies lead her to a crime scene."/>
       
       <h2>
         <span class="ChapterNumber">Chapter 10:</span>
@@ -3971,7 +4082,7 @@ A lonely ocotillo stands proud among the dunes, fuchsia flowers pointed skywards
       <link property="schema:isPartOf dcterms:isPartOf mdo:structure#isPartOf" resource="#Act1">
       <meta property="mdo:structure#isPartNumber" content="11"/>
       <meta property="schema:name dcterms:title mdo:title" content="Forensics"/>
-      <meta property="mdo:description" content="Having seen the evidence with her own eyes, Andrea realizes she must accept the deal with the devil before she can continue her search for her missing activist."/>
+      <meta property="schema:abstract bibo:abstract mdo:description" content="Having seen the evidence with her own eyes, Andrea realizes she must accept the deal with the devil before she can continue her search for her missing activist."/>
       
       <h2>
         <span class="ChapterNumber">Chapter 11:</span>
@@ -4162,7 +4273,7 @@ A lonely ocotillo stands proud among the dunes, fuchsia flowers pointed skywards
       <link property="schema:isPartOf dcterms:isPartOf mdo:structure#isPartOf" resource="#Act1">
       <meta property="mdo:structure#isPartNumber" content="12"/>
       <meta property="schema:name dcterms:title mdo:title" content="Born-Again Bastard"/>
-      <meta property="mdo:description" content="Andrea discovers that she is being watched…"/>
+      <meta property="schema:abstract bibo:abstract mdo:description" content="Andrea discovers that she is being watched…"/>
       
       <h2>
         <span class="ChapterNumber">Chapter 12:</span>
@@ -4414,7 +4525,7 @@ A lonely ocotillo stands proud among the dunes, fuchsia flowers pointed skywards
       <link property="schema:isPartOf dcterms:isPartOf mdo:structure#isPartOf" resource="#Act1">
       <meta property="mdo:structure#isPartNumber" content="13"/>
       <meta property="schema:name dcterms:title mdo:title" content="Section 74.0382"/>
-      <meta property="mdo:description" content="…and her observers are dead serious about building a criminal case against her."/>
+      <meta property="schema:abstract bibo:abstract mdo:description" content="…and her observers are dead serious about building a criminal case against her."/>
       
       <h2>
         <span class="ChapterNumber">Chapter 13:</span>
@@ -4573,7 +4684,7 @@ A lonely ocotillo stands proud among the dunes, fuchsia flowers pointed skywards
       <link property="schema:isPartOf dcterms:isPartOf mdo:structure#isPartOf" resource="#Act1">
       <meta property="mdo:structure#isPartNumber" content="14"/>
       <meta property="schema:name dcterms:title mdo:title" content="Invisible Friend"/>
-      <meta property="mdo:description" content="Andrea desperately needs a wardrobe befitting her new rank."/>
+      <meta property="schema:abstract bibo:abstract mdo:description" content="Andrea desperately needs a wardrobe befitting her new rank."/>
       
       <h2>
         <span class="ChapterNumber">Chapter 14:</span>
@@ -4735,7 +4846,7 @@ A lonely ocotillo stands proud among the dunes, fuchsia flowers pointed skywards
       <link property="schema:isPartOf dcterms:isPartOf mdo:structure#isPartOf" resource="#Act1">
       <meta property="mdo:structure#isPartNumber" content="15"/>
       <meta property="schema:name dcterms:title mdo:title" content="Car Sex"/>
-      <meta property="mdo:description" content="The chapter title says it all."/>
+      <meta property="schema:abstract bibo:abstract mdo:description" content="The chapter title says it all."/>
       
       <h2>
         <span class="ChapterNumber">Chapter 15:</span>
@@ -4796,7 +4907,7 @@ A lonely ocotillo stands proud among the dunes, fuchsia flowers pointed skywards
       <p>My eyes grew a couple sizes; I reached for the light switch and ignition only for her to start on my clitoris with her other hand and resume fingering my pussy at full strength. My will faltered, and turning off the engine and lights became my lowest priority. The dome light lured me in with its gentle illumination, and when I arrived I basked lazily in the warmth of her touch and its soft glow.</p>
       <p>I was oblivious to onlookers, voyeurs, and audience members. She had imprisoned me in paradise, where I waited contentedly for the rapture that would liberate me, a rapture that came ever closer with each moment, heralding itself with the fanfare of my rising vocalizations, until I was deaf from my own throat sounds and then suddenly my voice was quiet as I cried out and I was torn to shreds by my deliverance into a new reality&NoBreak;—</p>
       
-      <div id="Poem-Speed_Cummer" class="HorizontallyCentered VerticallyCentered">
+      <div id="Poem=Speed_Cummer" property="schema:hasPart bibo:hasPart mdo:hasPart" resource="#Poem=Speed_Cummer" typeof="schema:CreativeWork bibo:Document mdo:Poem" class="HorizontallyCentered VerticallyCentered">
         <div class="Verse VersePresentTense">
           <p>A hundred motors growling harsh</p>
           <p>I turn my key, she comes to life</p>
@@ -4898,7 +5009,7 @@ A lonely ocotillo stands proud among the dunes, fuchsia flowers pointed skywards
       <link property="schema:isPartOf dcterms:isPartOf mdo:structure#isPartOf" resource="#Act1">
       <meta property="mdo:structure#isPartNumber" content="16"/>
       <meta property="schema:name dcterms:title mdo:title" content="You Can’t Trust an Ex-Cop"/>
-      <meta property="mdo:description" content="Our detective-to-be must break the news of her betrayal of the antifascist cause… to the very people she is betraying."/>
+      <meta property="schema:abstract bibo:abstract mdo:description" content="Our detective-to-be must break the news of her betrayal of the antifascist cause… to the very people she is betraying."/>
       
       <h2>
         <span class="ChapterNumber">Chapter 16:</span>
@@ -5027,7 +5138,7 @@ A lonely ocotillo stands proud among the dunes, fuchsia flowers pointed skywards
       <link property="schema:isPartOf dcterms:isPartOf mdo:structure#isPartOf" resource="#Act1">
       <meta property="mdo:structure#isPartNumber" content="17"/>
       <meta property="schema:name dcterms:title mdo:title" content="Ten-Ticket Thrill Ride"/>
-      <meta property="mdo:description" content="Andrea and Judith enkindle their true understanding of each other and themselves."/>
+      <meta property="schema:abstract bibo:abstract mdo:description" content="Andrea and Judith enkindle their true understanding of each other and themselves."/>
       
       <h2>
         <span class="ChapterNumber">Chapter 17:</span>
@@ -5117,7 +5228,7 @@ A lonely ocotillo stands proud among the dunes, fuchsia flowers pointed skywards
       <p>“Yes, ma’am!”</p>
       <p>She giggled.</p>
       <p>I placed my lips on the tip, then slowly accepted her cock until the whole thing stretched my lips and filled my mouth. She groaned the whole way, until my nose was buried in her bush…</p>
-      <div id="Poem-The_Cream_I_Crave" class="HorizontallyCentered">
+      <div id="Poem=The_Cream_I_Crave" property="schema:hasPart bibo:hasPart mdo:hasPart" resource="#Poem=The_Cream_I_Crave" typeof="schema:CreativeWork bibo:Document mdo:Poem" class="HorizontallyCentered">
         <div class="Verse VersePresentTense">
           <p>
             A sharp aroma,<br/>
@@ -5177,7 +5288,7 @@ A lonely ocotillo stands proud among the dunes, fuchsia flowers pointed skywards
       <p><em>“Please</em> don’t make me get off.” Up and down I went, impaled upon her cock.</p>
       <p>“We need to pull out&NoBreak;—if I cum inside you might&NoBreak;—get pregnant&NoBreak;—but&NoBreak;—but God I <em>want</em> to be&NoBreak;—inside you when I&NoBreak;—oh, <strong>yes-fuck-I’m&NoBreak;—cummi&NoBreak;—ah&NoBreak;—hah&NoBreak;—inside&NoBreak;—you&NoBreak;—yes&NoBreak;—ah&NoBreak;—O Ishtar! I must be dreaming…”</strong> She grunted and grimaced blissfully and her hips jerked greedily. I devoted every hungry joule in my body to riding her cock as her chest heaved and she breathed in aggressive gasps&NoBreak;— <span class="Soft">“(Hahh, hahh, hahh, fuck, ah…)”</span> —and her eyes rolled back and her fingers dug into the soft flesh of my hips and slammed me down onto her cock and held me there as she began to twitch and&NoBreak;—</p>
       
-      <div id="Poem-Cappuccino" class="HorizontallyCentered VerticallyCentered">
+      <div id="Poem=Cappuccino" property="schema:hasPart bibo:hasPart mdo:hasPart" resource="#Poem=Cappuccino" typeof="schema:CreativeWork bibo:Document mdo:Poem" class="HorizontallyCentered VerticallyCentered">
         <div class="Verse WhiteFoam Font1em">
           <p>Spurt hot white foam</p>
           <p>Hissing hot milk</p>
@@ -5210,7 +5321,7 @@ A lonely ocotillo stands proud among the dunes, fuchsia flowers pointed skywards
       <p>I finished kissing her and resumed riding her, with her hands guiding me up and down, an obscenely contented smirk severing chin from face. We rode the rising and falling waves of my lust together, gazing desirously into each other’s eyes.</p>
       <p>The tingling of the brushing of the crown of her cock against my G-spot on each stroke and the feeling of her filling me gradually magnified in their intensity as I&NoBreak;—</p>
       
-      <div id="Poem-Promised_Country" class="HorizontallyCentered">
+      <div id="Poem=Promised_Country" property="schema:hasPart bibo:hasPart mdo:hasPart" resource="#Poem=Promised_Country" typeof="schema:CreativeWork bibo:Document mdo:Poem" class="HorizontallyCentered">
         <div class="Verse VersePresentTense">
           <p>sail closer</p>
           <p>ever closer, ever closer</p>
@@ -5297,7 +5408,7 @@ A lonely ocotillo stands proud among the dunes, fuchsia flowers pointed skywards
       <link property="schema:isPartOf dcterms:isPartOf mdo:structure#isPartOf" resource="#Act1">
       <meta property="mdo:structure#isPartNumber" content="18"/>
       <meta property="schema:name dcterms:title mdo:title" content="Just Friends With Benefits"/>
-      <meta property="mdo:description" content="This is the part where perfection turns to ash."/>
+      <meta property="schema:abstract bibo:abstract mdo:description" content="This is the part where perfection turns to ash."/>
       
       <h2>
         <span class="ChapterNumber">Chapter 18:</span>
@@ -5382,7 +5493,7 @@ A lonely ocotillo stands proud among the dunes, fuchsia flowers pointed skywards
       <meta property="mdo:structure#isPartNumber" content="2"/>
       <meta property="schema:name dcterms:title mdo:title" content="Detective Hole-umbo"/>
 
-      <meta property="mdo:description" content="Hardboiled Whore, Act 2: Detective Hole-umbo. In which our intrepid investigator instigates a test of endurance, a contest of strength, a race to her fallopian tubes&NoBreak;—a matter of life and… well, life."/>
+      <meta property="schema:abstract bibo:abstract mdo:description" content="Hardboiled Whore, Act 2: Detective Hole-umbo. In which our intrepid investigator instigates a test of endurance, a contest of strength, a race to her fallopian tubes&NoBreak;—a matter of life and… well, life."/>
       <div class="HorizontallyCentered VerticallyCentered">
         <h1 id="Act2Heading">
           <span class="ActNumber">Act 2:</span>
@@ -5408,7 +5519,7 @@ A lonely ocotillo stands proud among the dunes, fuchsia flowers pointed skywards
       <link property="schema:isPartOf dcterms:isPartOf mdo:structure#isPartOf" resource="#Act2">
       <meta property="mdo:structure#isPartNumber" content="1"/>
       <meta property="schema:name dcterms:title mdo:title" content="Tracks 4 and 4 on Nevermind and In Utero"/>
-      <meta property="mdo:description" content="Judith shocks Andrea with the confession of her dearest and most perverse desires."/>
+      <meta property="schema:abstract bibo:abstract mdo:description" content="Judith shocks Andrea with the confession of her dearest and most perverse desires."/>
       
       <h2>
         <span class="ChapterNumber">Chapter 1:</span>
@@ -5612,7 +5723,7 @@ A lonely ocotillo stands proud among the dunes, fuchsia flowers pointed skywards
       <link property="schema:isPartOf dcterms:isPartOf mdo:structure#isPartOf" resource="#Act2">
       <meta property="mdo:structure#isPartNumber" content="2"/>
       <meta property="schema:name dcterms:title mdo:title" content="Tits and Brass"/>
-      <meta property="mdo:description" content="Andy get your gun, and your badge, and your search warrant."/>
+      <meta property="schema:abstract bibo:abstract mdo:description" content="Andy get your gun, and your badge, and your search warrant."/>
       
       <h2>
         <span class="ChapterNumber">Chapter 2:</span>
@@ -5671,7 +5782,7 @@ A lonely ocotillo stands proud among the dunes, fuchsia flowers pointed skywards
       <p>I found a parking spot right next to the elevators… and you can call me ‘Serendipity’ because God heard my prayer and sent me an elevator car to meet me before I could even press the call button, as well as an officer to badge me onto my floor&NoBreak;—only after I stepped out of the elevator did I remember that I couldn’t have badged myself in without a magic card of my own. Things were going positively swimmingly.</p>
       <p>I reported to the armory without receiving harassment; the range master checked my eyesight, and I was not surprised to learn for the twelfth time in my career that it was perfect. For my pistol qual she took me to the range and had me run the 50-round course. She called, “Make ready.”</p>
       
-      <div id="Poem-Performance" class="Verse VersePresentTense PaddingLeft2em">
+      <div id="Poem=Performance" property="schema:hasPart bibo:hasPart mdo:hasPart" resource="#Poem=Performance" typeof="schema:CreativeWork bibo:Document mdo:Poem" class="Verse VersePresentTense PaddingLeft2em">
         <p>you wait against my hip for me to take you,</p>
         <p>wrap my hand around you and lull you from your leather,</p>
         <p>my finger brushing against your guard, eager to slip it inside,</p>
@@ -5823,7 +5934,7 @@ A lonely ocotillo stands proud among the dunes, fuchsia flowers pointed skywards
       <link property="schema:isPartOf dcterms:isPartOf mdo:structure#isPartOf" resource="#Act2"/>
       <meta property="mdo:structure#isPartNumber" content="3"/>
       <meta property="schema:name dcterms:title mdo:title" content="Renegotiation and Renegation"/>
-      <meta property="mdo:description" content="Our hardboiled whore tries to use sex to get her way, and fails miserably."/>
+      <meta property="schema:abstract bibo:abstract mdo:description" content="Our hardboiled whore tries to use sex to get her way, and fails miserably."/>
       
       <h2>
         <span class="ChapterNumber">Chapter 3:</span>
@@ -5973,7 +6084,7 @@ A lonely ocotillo stands proud among the dunes, fuchsia flowers pointed skywards
       <p><span class="Soft">“(Whore… cop…)”</span> I was lost in paradise, strangled by awe, unable to form sentences. Judy was better, to be clear, but the fear and the ecstasy and the shame were mixing, overpowering me synergistically. All I could say was, <span class="Soft">“(Yes…)”</span> and <span class="Soft">“(More…)”</span> and <span class="Soft">“(Give me your cock, please, give me your cum…)”</span> as my mind droned rhythmically, <span class="Instinct">(((Give me your cum, fuck me, fuck me, cum inside me, fuck me, fuck me until you shoot your load inside me, fuck me, fuck me and make me your whore, fuck me, fuck me and be my baby daddy…)))</span></p>
       <p>He panted and grunted as I begged for him to please stay hard and give me his seed. And then, without warning, he grunted several times. I felt him twitch inside me and I thrust myself down to swallow his cock…</p>
       
-      <div id="Poem-Wrecking_Balls" class="HorizontallyCentered">
+      <div id="Poem=Wrecking_Balls" property="schema:hasPart bibo:hasPart mdo:hasPart" resource="#Poem=Wrecking_Balls" typeof="schema:CreativeWork bibo:Document mdo:Poem" class="HorizontallyCentered">
         <div class="Verse VersePresentTense">
           <p>Smash your hearty wrecking balls into the</p>
           <p>Crumbling walls of my most holy temple!</p>
@@ -6040,7 +6151,7 @@ A lonely ocotillo stands proud among the dunes, fuchsia flowers pointed skywards
       <link property="schema:isPartOf dcterms:isPartOf mdo:structure#isPartOf" resource="#Act2">
       <meta property="mdo:structure#isPartNumber" content="4"/>
       <meta property="schema:name dcterms:title mdo:title" content="Competitive Cucking"/>
-      <meta property="mdo:description" content="Andrea and Judith discover yet another shared derangement, and the hardboiled whore decides to give coitus pro quo another try."/>
+      <meta property="schema:abstract bibo:abstract mdo:description" content="Andrea and Judith discover yet another shared derangement, and the hardboiled whore decides to give coitus pro quo another try."/>
 
       <h2>
         <span class="ChapterNumber">Chapter 4:</span>
@@ -6249,7 +6360,7 @@ A lonely ocotillo stands proud among the dunes, fuchsia flowers pointed skywards
       <link property="schema:isPartOf dcterms:isPartOf mdo:structure#isPartOf" resource="#Act2">
       <meta property="mdo:structure#isPartNumber" content="5"/>
       <meta property="schema:name dcterms:title mdo:title" content="Love HIRTs"/>
-      <meta property="mdo:description" content="They fuck in the back of a van."/>
+      <meta property="schema:abstract bibo:abstract mdo:description" content="They fuck in the back of a van."/>
       
       <h2>
         <span class="ChapterNumber">Chapter 5:</span>
@@ -6302,7 +6413,7 @@ A lonely ocotillo stands proud among the dunes, fuchsia flowers pointed skywards
       <p><span class="Soft">“(Ugh. Fine,)”</span> I replied with frustration greater than hers, and wrapped my lips around her cockhead. I looked up and she was smiling smugly. I massaged the underside with my tongue, and felt the whole thing gradually fill my mouth.</p>
       <p>Just then I remembered that I was supposed to be fingering Jessica, too, so I checked in with my left hand to make sure I was doing so; to my satisfaction, I was maintaining a consistent rhythm with her clit, and her eyes were closed. By the time I was done checking in, Jacklyn’s 6-inch cock was fully erect. I slowly pulled my head back, dragging my tongue along the underside, until her tip was just inside my mouth, then commenced the actual sucking, causing her to groan and snicker in delight. I pulled my head back a little further, so that my lips were just crowning the rim of her tip, inspiring another utterance from her. I thrust my head back down, as quickly as I could; a little <em>too</em> quickly, in fact, as I swallowed her cock so far that I gagged, but not before breathing in the&NoBreak;—</p>
       
-      <div id="Poem-Fruit_of_Life" class="HorizontallyCentered">
+      <div id="Poem=Fruit_of_Life" property="schema:hasPart bibo:hasPart mdo:hasPart" resource="#Poem=Fruit_of_Life" typeof="schema:CreativeWork bibo:Document mdo:Poem" class="HorizontallyCentered">
         <div class="Verse VersePresentTense">
           <p>Orchard vast and deep of root</p>
           <p>Tempts the nose with tender fruit</p>
@@ -6326,7 +6437,7 @@ A lonely ocotillo stands proud among the dunes, fuchsia flowers pointed skywards
       <p>“I can’t wait to have her suck my clit.”</p>
       <p><span class="Soft">“(Oh…)</span> Her mouth is&NoBreak;—<span class="Soft">(Jesus)</span>—so good, you’re&NoBreak;—<span class="Soft">(fuck)</span>—you’re gonna love it.” As she fucked my mouth, her groans grew louder&NoBreak;—and so did mine. Then she grunted, and, one last time, planted her cock as far into my mouth as she could, and started to twitch, leaving something salty on the back of my tongue. Even as I struggled to breathe, my right hand massaged my G-spot as I thought to myself, <span class="InnerMonologue">((I’m good at sex. In fact, it’s the only thing I’m good at. And I’m a slut, so the natural thing to do is to let anyone who desires my sexy little body fuck me to my heart’s content.))</span> And as I thought this to myself, my desire to be used grew stronger and stronger, and my self-stimulation grew more and more aggressive, until, as Jacklyn wrenched my head off of her cock…</p>
       
-      <div id="Poem-Famished_Tantalus" class="HorizontallyCentered">
+      <div id="Poem=Famished_Tantalus" property="schema:hasPart bibo:hasPart mdo:hasPart" resource="#Poem=Famished_Tantalus" typeof="schema:CreativeWork bibo:Document mdo:Poem" class="HorizontallyCentered">
         <div class="Verse VersePresentTense">
           <p>Sweet nectar pooling ’pon my tongue stirs lust</p>
           <p>Within my heart and brings with it a prize,</p>
@@ -6355,7 +6466,7 @@ A lonely ocotillo stands proud among the dunes, fuchsia flowers pointed skywards
       <p>“Perfect. We can’t give you a precise ETA, but it should take less than an hour to beat the path. We’ll string red ‘danger asbestos’ tape along the path. If you need access to other rooms, ask first&NoBreak;—<strong>do not</strong> cross the tape.”</p>
       <p>I was <em>supremely</em> satisfied. “Thanks.” I then kneeled in front of her, gently spread her legs, dipped my face into her pussy&NoBreak;—</p>
       
-      <div id="Poem-Lunch_on_the_Wharf" class="HorizontallyCentered">
+      <div id="Poem=Lunch_on_the_Wharf" property="schema:hasPart bibo:hasPart mdo:hasPart" resource="#Poem=Lunch_on_the_Wharf" typeof="schema:CreativeWork bibo:Document mdo:Poem" class="HorizontallyCentered">
         <div class="Verse VersePresentTense">
           <p>Cod, fresh-caught</p>
           <p>Dipped in flour</p>
@@ -6373,7 +6484,7 @@ A lonely ocotillo stands proud among the dunes, fuchsia flowers pointed skywards
       <p>I struggled to keep track of what I was doing with my various body parts, but, hearing Jessica’s loud moans, I concluded I was doing just fine. She yanked my hair again, and I felt the same arousing shock as before. I couldn’t stop myself from briefly opening my mouth to demand, “Keep pulling,” before resuming sucking and licking her.</p>
       <p>To my pleasure, she began pulling on my hair in a rhythm which I tried to match with the stimulation of my G-spot, and as they approached synchrony, the sensations interfered and amplified, bringing me closer and closer to orgasm… but before I could reach it, she cried out in ecstasy as I felt a stream of something moisten my chin. I continued sucking until she pulled my face off of her pussy, shouting, “Oh, fuck! Too much stimulation!” I felt myself close in on my orgasm&NoBreak;—then</p>
 
-      <div id="Poem-All_Mermaids_are_Redheads" class="HorizontallyCentered">
+      <div id="Poem=All_Mermaids_are_Redheads" property="schema:hasPart bibo:hasPart mdo:hasPart" resource="#Poem=All_Mermaids_are_Redheads" typeof="schema:CreativeWork bibo:Document mdo:Poem" class="HorizontallyCentered">
         <div class="Verse VersePresentTense">
           <p class="NoIndent SpaceAfterLine">
             I splash my hands and legs, propel and drift<br/>
@@ -6419,7 +6530,7 @@ A lonely ocotillo stands proud among the dunes, fuchsia flowers pointed skywards
       <link property="schema:isPartOf dcterms:isPartOf mdo:structure#isPartOf" resource="#Act2">
       <meta property="mdo:structure#isPartNumber" content="6"/>
       <meta property="schema:name dcterms:title mdo:title" content="Field Promotion"/>
-      <meta property="mdo:description" content="Andrea realizes there is something wrong with her brain."/>
+      <meta property="schema:abstract bibo:abstract mdo:description" content="Andrea realizes there is something wrong with her brain."/>
       
       <h2>
         <span class="ChapterNumber">Chapter 6:</span>
@@ -6606,7 +6717,7 @@ A lonely ocotillo stands proud among the dunes, fuchsia flowers pointed skywards
       <link property="schema:isPartOf dcterms:isPartOf mdo:structure#isPartOf" resource="#Act2">
       <meta property="mdo:structure#isPartNumber" content="7"/>
       <meta property="schema:name dcterms:title mdo:title" content="The Catgirl Who Tasted Like Strawberries"/>
-      <meta property="mdo:description" content="Andrea lets her chips spill onto the table, but bets on her newest conquest not realizing there was no bet in the first place."/>
+      <meta property="schema:abstract bibo:abstract mdo:description" content="Andrea lets her chips spill onto the table, but bets on her newest conquest not realizing there was no bet in the first place."/>
       
       <h2>
         <span class="ChapterNumber">Chapter 7:</span>
@@ -6770,7 +6881,7 @@ A lonely ocotillo stands proud among the dunes, fuchsia flowers pointed skywards
       <p>“Not gentle&NoBreak;—just&NoBreak;—don’t be a <em>psycho.”</em></p>
       <p><span class="InnerMonologue">((She’s right. I <strong>am</strong> a psycho.))</span> I buried my face again, and this time actually tasted her by thrusting my tongue up her hole.</p>
       
-      <div id="Poem-Labor_Unloved" class="HorizontallyCentered">
+      <div id="Poem=Labor_Unloved" property="schema:hasPart bibo:hasPart mdo:hasPart" resource="#Poem=Labor_Unloved" typeof="schema:CreativeWork bibo:Document mdo:Poem" class="HorizontallyCentered">
         <div class="Verse VersePresentTense">
           <p>
             A man propels an axe<br/>
@@ -6943,7 +7054,7 @@ A lonely ocotillo stands proud among the dunes, fuchsia flowers pointed skywards
       <link property="schema:isPartOf dcterms:isPartOf mdo:structure#isPartOf" resource="#Act2">
       <meta property="mdo:structure#isPartNumber" content="8"/>
       <meta property="schema:name dcterms:title mdo:title" content="Pleasure Bargain"/>
-      <meta property="mdo:description" content="Andrea and Georgina's new mistress watches her toys play with each other, then teases them with an outing to a mysterious rendezvous"/>
+      <meta property="schema:abstract bibo:abstract mdo:description" content="Andrea and Georgina's new mistress watches her toys play with each other, then teases them with an outing to a mysterious rendezvous"/>
       
       <h2>
         <span class="ChapterNumber">Chapter 8:</span>
@@ -7098,7 +7209,7 @@ A lonely ocotillo stands proud among the dunes, fuchsia flowers pointed skywards
       <p>She petted me on the head. “Very good, Andrea. Cum for me.”</p>
       <p>“Of course, right away, Mistress!” I focused on savoring the experience of Georgina giggling and bumping into my cervix. Each thrust was the swelling of winds and each collision of her dildo against the threshold of my uterus was the beat of a pleasure parade where&NoBreak;—</p>
       
-      <div id="Poem-Waltz_of_the_Libertines" class="HorizontallyCentered">
+      <div id="Poem=Waltz_of_the_Libertines" property="schema:hasPart bibo:hasPart mdo:hasPart" resource="#Poem=Waltz_of_the_Libertines" typeof="schema:CreativeWork bibo:Document mdo:Poem" class="HorizontallyCentered">
         <div class="Verse VersePresentTense">
           <p class="NoIndent SpaceAfterLine">
             Each impact heralds nearing thrill<br/>
@@ -7181,7 +7292,7 @@ A lonely ocotillo stands proud among the dunes, fuchsia flowers pointed skywards
       <link property="schema:isPartOf dcterms:isPartOf mdo:structure#isPartOf" resource="#Act2">
       <meta property="mdo:structure#isPartNumber" content="9"/>
       <meta property="schema:name dcterms:title mdo:title" content="Asmodeus"/>
-      <meta property="mdo:description" content="Madam Moneta takes her new pets to Asmodeus."/>
+      <meta property="schema:abstract bibo:abstract mdo:description" content="Madam Moneta takes her new pets to Asmodeus."/>
       
       <h2>
         <span class="ChapterNumber">Chapter 9:</span>
@@ -7351,7 +7462,7 @@ A lonely ocotillo stands proud among the dunes, fuchsia flowers pointed skywards
       <link property="schema:isPartOf dcterms:isPartOf mdo:structure#isPartOf" resource="#Act2">
       <meta property="mdo:structure#isPartNumber" content="10"/>
       <meta property="schema:name dcterms:title mdo:title" content="Sperm Competition"/>
-      <meta property="mdo:description" content="Andrea meets another coworker&NoBreak;—the man she wants out of her life more than anything."/>
+      <meta property="schema:abstract bibo:abstract mdo:description" content="Andrea meets another coworker&NoBreak;—the man she wants out of her life more than anything."/>
       
       <h2>
         <span class="ChapterNumber">Chapter 10:</span>
@@ -7454,7 +7565,7 @@ A lonely ocotillo stands proud among the dunes, fuchsia flowers pointed skywards
       <p>The music was overwhelming but nonetheless pleasant; I surmised it might be EDM (with the assumption that I had an inkling of what EDM sounded like), though it was very different from all the electronic stuff I’d heard before&NoBreak;—I thought perhaps the DJ was on the bleeding edge of sonic trends.</p>
       <p>I strolled a dozen laps around the club, and worked my courage up until I found the will to leave the calm periphery, where people sipped their cocktails and made mammalian love, towards the bustling center of the room, wherein Lust’s congregation humped and hollered to the horny hymnals. I had never danced with anyone before, I never went to homecoming or prom, but&NoBreak;—</p>
       
-      <div id="Poem-Furry_Vision" class="HorizontallyCentered">
+      <div id="Poem=Furry_Vision" property="schema:hasPart bibo:hasPart mdo:hasPart" resource="#Poem=Furry_Vision" typeof="schema:CreativeWork bibo:Document mdo:Poem" class="HorizontallyCentered">
         <div class="Verse">
           <p>Now at last I stole the dancefloor.</p>
           <p>
@@ -7647,7 +7758,7 @@ A lonely ocotillo stands proud among the dunes, fuchsia flowers pointed skywards
       <p>He groaned frustratedly. “Okay, then will you please cum soon so <em>I</em> can cum? My dick feels like it’s ready to explode. Perhaps there’s something I can do to help you get there quicklier?”</p>
       <p>I grabbed his hand and snaked it underneath my skirt and placed his finger on my clit, which sent a tiny shock throughout my lower half. “Give <em>this</em> bad girl a stroke, and every now and then a gentle pinch.” He followed orders, touched and brushed my clit and gave it little squeezes, satisfying all my basic needs. I bent down, kissed him on the neck, and caught a whiff of&NoBreak;—</p>
       
-      <div id="Poem-Bubblegum" class="HorizontallyCentered">
+      <div id="Poem=Bubblegum" property="schema:hasPart bibo:hasPart mdo:hasPart" resource="#Poem=Bubblegum" typeof="schema:CreativeWork bibo:Document mdo:Poem" class="HorizontallyCentered">
         <div class="Verse VersePresentTense">
           <p>Sweet bubblegum</p>
           <p>I chew and blow</p>
@@ -7661,7 +7772,7 @@ A lonely ocotillo stands proud among the dunes, fuchsia flowers pointed skywards
       
       <p>My mind went blank. I humped him, so eager for his semen, up and down and up and down, I made him moan a whore’s love song… and suddenly I heard him grunt, and felt him twitch&NoBreak;—</p>
       
-      <div id="Poem-Gene_Tempest" class="HorizontallyCentered">
+      <div id="Poem=Gene_Tempest" property="schema:hasPart bibo:hasPart mdo:hasPart" resource="#Poem=Gene_Tempest" typeof="schema:CreativeWork bibo:Document mdo:Poem" class="HorizontallyCentered">
         <div class="Verse VersePresentTense">
           <p>Inside my vadge a tempest brews</p>
           <p>Torrential rain of milky dew;</p>
@@ -7708,7 +7819,7 @@ A lonely ocotillo stands proud among the dunes, fuchsia flowers pointed skywards
       <p>It hovered close, close, close enough that I could touch it; so I turned my wits towards my fingers dancing across my clit and concentrated on maintaining a consistent pressure-rhythm-stroke. I pulled a tit out of my dress to twist a nipple&NoBreak;—that sensation sent a jolt of chemicals into my brain, initiating the collapse of all my nervous system, <em>pinch, twist, stroke, rub, pinch twist stroke rub pinch twist stroke rub PINCH</em>—</p>
       <p>My legs and toes stiffened beneath me; my back muscles tightened, causing me to arch. “Eupraxia, I’m cum&NoBreak;—&NoBreak;”</p>
       
-      <div id="Poem-When_Cats_Marry" class="HorizontallyCentered">
+      <div id="Poem=When_Cats_Marry" property="schema:hasPart bibo:hasPart mdo:hasPart" resource="#Poem=When_Cats_Marry" typeof="schema:CreativeWork bibo:Document mdo:Poem" class="HorizontallyCentered">
         <div class="Verse VersePresentTense">
           <p>Squeezed between two furry women</p>
           <p>Softly stroking me with paws, those</p>
@@ -7770,7 +7881,7 @@ A lonely ocotillo stands proud among the dunes, fuchsia flowers pointed skywards
       <link property="schema:isPartOf dcterms:isPartOf mdo:structure#isPartOf" resource="#Act2">
       <meta property="mdo:structure#isPartNumber" content="11"/>
       <meta property="schema:name dcterms:title mdo:title" content="The Hand that Spanks"/>
-      <meta property="mdo:description" content="A date so exciting it'll stop your heart."/>
+      <meta property="schema:abstract bibo:abstract mdo:description" content="A date so exciting it'll stop your heart."/>
       
       <h2>
         <span class="ChapterNumber">Chapter 11:</span>
@@ -7950,7 +8061,7 @@ A lonely ocotillo stands proud among the dunes, fuchsia flowers pointed skywards
       <p>“I haven’t had a thing inside my stomach since this morning. Lift your skirt, so I can have a snack.”</p>
       <p>He pulled his dress up, and I yanked his tenting panties down and spread his fur aside&NoBreak;—</p>
       
-      <div id="Poem-Princess_of_Sour_and_Sweet" class="HorizontallyCentered">
+      <div id="Poem=Princess_of_Sour_and_Sweet" property="schema:hasPart bibo:hasPart mdo:hasPart" resource="#Poem=Princess_of_Sour_and_Sweet" typeof="schema:CreativeWork bibo:Document mdo:Poem" class="HorizontallyCentered">
         <div class="Verse VersePresentTense">
           <p>Leathery spiky exterior yet</p>
           <p>Within your center, bombastic’ly sweet</p>
@@ -7980,7 +8091,7 @@ A lonely ocotillo stands proud among the dunes, fuchsia flowers pointed skywards
       <p>“That’s lovely,” I responded, distracted by my bottle&NoBreak;—I stared at it, still unsure of how to proceed with getting drunk.</p>
       <p><span class="InnerMonologue">((Have I truly forgotten how to drink booze? Cork. Glass. Pour. Sip.))</span> For the first time in a year I pulled the cork out of a bottle’s neck and filled my glass with golden tequila, a special nectar aged for ten or more summers, crafted for enthusiasts who’d rather let the flavors dance and mate and marry upon their tongues, against their cheeks, within their throats&NoBreak;—not quite as aged a liquor as my partners human year-wise… in tequila years, though, in the same sweet late afternoon era as they were, and it would only get better as it approached its sublime sunset. <span class="InnerMonologue">((Here’s to you, dear Tom, you handsome sonuvagun.))</span></p>
       
-      <div id="Poem-Wagon_Meets_Pothole" class="HorizontallyCentered">
+      <div id="Poem=Wagon_Meets_Pothole" property="schema:hasPart bibo:hasPart mdo:hasPart" resource="#Poem=Wagon_Meets_Pothole" typeof="schema:CreativeWork bibo:Document mdo:Poem" class="HorizontallyCentered">
         <div class="Verse VersePresentTense">
           <p>
             i sip at first, then<br/>
@@ -8112,7 +8223,7 @@ A lonely ocotillo stands proud among the dunes, fuchsia flowers pointed skywards
       <link property="schema:isPartOf dcterms:isPartOf mdo:structure#isPartOf" resource="#Act2">
       <meta property="mdo:structure#isPartNumber" content="12"/>
       <meta property="schema:name dcterms:title mdo:title" content="Kickstart My Heart"/>
-      <meta property="mdo:description" content="Death is impermanent; desire, undying."/>
+      <meta property="schema:abstract bibo:abstract mdo:description" content="Death is impermanent; desire, undying."/>
       
       <h2>
         <span class="ChapterNumber">Chapter 12:</span>
@@ -8234,7 +8345,7 @@ A lonely ocotillo stands proud among the dunes, fuchsia flowers pointed skywards
       <p>“Okay&NoBreak;—<span class="Soft">(ah)</span>—of&NoBreak;—<span class="Soft">(mh)</span>—course.”</p>
       <p><span class="InnerMonologue">((He sounds like he’s having much less fun than I’d like… so now it’s time to draw the big guns.))</span> Very cleverly (foolishly, in retrospect) I brought my head down to his crotch and planted my lips on his penis, took him into my throat, caught his scent&NoBreak;—</p>
       
-      <div id="Poem-Huffing_Tequila" class="HorizontallyCentered">
+      <div id="Poem=Huffing_Tequila" property="schema:hasPart bibo:hasPart mdo:hasPart" resource="#Poem=Huffing_Tequila" typeof="schema:CreativeWork bibo:Document mdo:Poem" class="HorizontallyCentered">
         <div class="Verse">
           <p>Agave pays a surprise visit and</p>
           <p>Cedar smoke tickles my nose.</p>
@@ -8327,7 +8438,7 @@ A lonely ocotillo stands proud among the dunes, fuchsia flowers pointed skywards
       <p><em><strong>“Cum inside me, Peter!”</strong></em> I screamed, throwing my arms around his neck and planting my lips on his as my lust struck the killing blow in its usurpation of my will.</p>
       <p><span class="Soft">“(—mhng!)”</span> And he grabbed my waist and slammed me down on his cock and twitched inside me and began to&NoBreak;—</p>
     
-      <div id="Poem-Curd" class="HorizontallyCentered VerticallyCentered ScaleFontSize">
+      <div id="Poem=Curd" property="schema:hasPart bibo:hasPart mdo:hasPart" resource="#Poem=Curd" typeof="schema:CreativeWork bibo:Document mdo:Poem" class="HorizontallyCentered VerticallyCentered ScaleFontSize">
         <div class="Verse">
 <div class="Instinct PreserveWhiteSpace PaddingBottom0_5em">        (((Fill my pussy with your curd,
         Belly swells and breasts leak milk!
@@ -8444,7 +8555,7 @@ Now we’re one&NoBreak;—thank Him above.))
       <link property="schema:isPartOf dcterms:isPartOf mdo:structure#isPartOf" resource="#Act2"/>
       <meta property="mdo:structure#isPartNumber" content="13"/>
       <meta property="schema:name dcterms:title mdo:title" content="Who’s to Blame?"/>
-      <meta property="mdo:description" content="Diane's loyalty to her cause stuns Andrea."/>
+      <meta property="schema:abstract bibo:abstract mdo:description" content="Diane's loyalty to her cause stuns Andrea."/>
       
       <h2>
         <span class="ChapterNumber">Chapter 13:</span>
@@ -8611,7 +8722,7 @@ Now we’re one&NoBreak;—thank Him above.))
       <link property="schema:isPartOf dcterms:isPartOf mdo:structure#isPartOf" resource="#Act2">
       <meta property="mdo:structure#isPartNumber" content="14"/>
       <meta property="schema:name dcterms:title mdo:title" content="Friends and Allies"/>
-      <meta property="mdo:description" content="Andrea tries to save Diane’s friendship, only to be hit with another confession."/>
+      <meta property="schema:abstract bibo:abstract mdo:description" content="Andrea tries to save Diane’s friendship, only to be hit with another confession."/>
       
       <h2>
         <span class="ChapterNumber">Chapter 14:</span>
@@ -8758,7 +8869,7 @@ Now we’re one&NoBreak;—thank Him above.))
       <p>I had been waiting for these words so I could say them back; without delay or effort I responded, “I love you, too, Mistress.” Nestling one hand within the small of her neck, I gently pulled her head my way, then brought my lips within an inch of hers, and waited; after hesitating only half a second, she met them in a soft kiss&NoBreak;—which quickly hardened.</p>
       <p>As we made out, I breathed in through my nose&NoBreak;—</p>
       
-      <div id="Poem-Himbeertorte" class="HorizontallyCentered">
+      <div id="Poem=Himbeertorte" property="schema:hasPart bibo:hasPart mdo:hasPart" resource="#Poem=Himbeertorte" typeof="schema:CreativeWork bibo:Document mdo:Poem" class="HorizontallyCentered">
         <div class="Verse VersePresentTense">
           <p>Clusters of globes,</p>
           <p>Bright rosy red</p>
@@ -8818,7 +8929,7 @@ Now we’re one&NoBreak;—thank Him above.))
       <link property="schema:isPartOf dcterms:isPartOf mdo:structure#isPartOf" resource="#Act2">
       <meta property="mdo:structure#isPartNumber" content="15"/>
       <meta property="schema:name dcterms:title mdo:title" content="Shmendrik"/>
-      <meta property="mdo:description" content="Mothers worry too much, if you ask Andrea."/>
+      <meta property="schema:abstract bibo:abstract mdo:description" content="Mothers worry too much, if you ask Andrea."/>
       
       <h2>
         <span class="ChapterNumber">Chapter 15:</span>
@@ -8920,7 +9031,7 @@ Now we’re one&NoBreak;—thank Him above.))
       <link property="schema:isPartOf dcterms:isPartOf mdo:structure#isPartOf" resource="#Act2">
       <meta property="mdo:structure#isPartNumber" content="16"/>
       <meta property="schema:name dcterms:title mdo:title" content="Closer"/>
-      <meta property="mdo:description" content="I wanna fuck you like an animal."/>
+      <meta property="schema:abstract bibo:abstract mdo:description" content="I wanna fuck you like an animal."/>
       
       <h2>
         <span class="ChapterNumber">Chapter 16:</span>
@@ -8962,7 +9073,12 @@ Now we’re one&NoBreak;—thank Him above.))
       <p>And yet! It was the most exciting, the most intimate, the most <em>romantic</em> sex I had enjoyed up to that point, because the stakes were the highest I’d ever consciously played, because this time we were, with deliberate abandon, flouting the core goal of recreational coitus as blatantly as possible. Her humping did not taper in intensity over time, but remained consistent in the enthusiasm of her thrusts and length of her strokes as she plunged her tip all the way inside me then pulled back to my entrance, giving me that lovely body high as she rubbed the first inch of my cunt.</p>
       <p>I watched her between my outstretched legs and thought to myself, <span class="InnerMonologue">((She is such a beautiful, magnificent, sexy beast. I really would like to bear her children…))</span> Rather than shoot down that premature idea, I entertained it till she grunted and she panted, and I felt her twitch inside&NoBreak;—</p>
       
-      <div id="Poem-Motherhood">
+      <div 
+          id="Poem=Motherhood" 
+          property="schema:hasPart bibo:hasPart mdo:hasPart" 
+          resource="#Poem=Motherhood" 
+          typeof="schema:CreativeWork bibo:Document mdo:Poem"
+      >
         <div class="HorizontallyCentered VerticallyCentered">
           <div class="Verse VersePresentTense HorizontallyCentered">
             <p>The wedding is so beautiful</p>
@@ -9263,7 +9379,13 @@ Now we’re one&NoBreak;—thank Him above.))
       <p>She scooted close and lifted my leg over her thigh. I hiked up my dress and reached for her slick cock to guide it in, but she said, “No, my pretty puppy, that’s <em>my</em> job.”</p>
       <p>With her free hand she guided herself into me, sending a breeze through my pussy while filling me, forcing a gasp from me, deep breath through nostrils&NoBreak;—</p>
       
-      <div id="Poem-I_Want_Smore_of_You" class="HorizontallyCentered">
+      <div 
+          id="Poem=I_Want_Smore_of_You" 
+          property="schema:hasPart bibo:hasPart mdo:hasPart" 
+          resource="#Poem=I_Want_Smore_of_You" 
+          typeof="schema:CreativeWork bibo:Document mdo:Poem" 
+          class="HorizontallyCentered"
+      >
         <div class="Verse VersePresentTense">
           <p>cedar burns</p>
           <p>produces</p>
@@ -9308,7 +9430,12 @@ Now we’re one&NoBreak;—thank Him above.))
       <p>My pretend disapproval evaporated; I gave her a kind smile and a pat on the head. “Good girl. Just sit back, relax, and let me breed you like the prize stud you are.” She whimpered.</p>
       <p>I laid my hands on her chest and enjoyed her tits’ braless softness through her shirt as I brought my pussy upwards, tickling my entrance with her head to give myself that</p>
       
-      <div id="Poem-October_Wind">
+      <div 
+          id="Poem=October_Wind" 
+          property="schema:hasPart bibo:hasPart mdo:hasPart" 
+          resource="#Poem=October_Wind" 
+          typeof="schema:CreativeWork bibo:Document mdo:Poem"
+      >
         <table class="Verse VersePresentTense HorizontallyCentered">
           <tbody>
             <tr>
@@ -9355,7 +9482,7 @@ Now we’re one&NoBreak;—thank Him above.))
       <p>…and I stooped to her chest and brought my lips to her jaw and whispered, “And the kicker is… it isn’t even <em>your</em> baby in my belly.”</p>
       <p>Suddenly&NoBreak;—</p>
       
-      <div id="Poem-To_Write_Another_Tale" class="HorizontallyCentered VerticallyCentered">
+      <div id="Poem=To_Write_Another_Tale" property="schema:hasPart bibo:hasPart mdo:hasPart" resource="#Poem=To_Write_Another_Tale" typeof="schema:CreativeWork bibo:Document mdo:Poem" class="HorizontallyCentered VerticallyCentered">
         <div class="Verse VersePresentTense HorizontallyCentered">
           <p>she Grabs my Legs to Squeeze</p>
           <p>and Grunts her Pleasure sought&NoBreak;—</p>
@@ -9378,7 +9505,7 @@ Now we’re one&NoBreak;—thank Him above.))
       <link property="schema:isPartOf dcterms:isPartOf mdo:structure#isPartOf" resource="#Act2">
       <meta property="mdo:structure#isPartNumber" content="17"/>
       <meta property="schema:name dcterms:title mdo:title" content="Everything’s Gonna Be Fine, Fine, Fine"/>
-      <meta property="mdo:description" content="Andrea's night of excess finally catches up with her."/>
+      <meta property="schema:abstract bibo:abstract mdo:description" content="Andrea's night of excess finally catches up with her."/>
       
       <h2>
         <span class="ChapterNumber">Chapter 17:</span>
@@ -9513,7 +9640,7 @@ Now we’re one&NoBreak;—thank Him above.))
       <meta property="mdo:structure#isPartNumber" content="3"/>
       <meta property="schema:name dcterms:title mdo:title" content="Pierce the Blue Shield"/>
 
-      <meta property="mdo:description" content="Hardboiled Whore, Act 3: Pierce the Blue Shield. Orgies one day, death threats the next."/>
+      <meta property="schema:abstract bibo:abstract mdo:description" content="Hardboiled Whore, Act 3: Pierce the Blue Shield. Orgies one day, death threats the next."/>
       <div class="HorizontallyCentered VerticallyCentered">
         <h1 id="Act3Heading">
           <span class="ActNumber">Act 3:</span>
@@ -9535,7 +9662,7 @@ Now we’re one&NoBreak;—thank Him above.))
       <link property="schema:isPartOf dcterms:isPartOf mdo:structure#isPartOf" resource="#Act3">
       <meta property="mdo:structure#isPartNumber" content="1"/>
       <meta property="schema:name dcterms:title mdo:title" content="Acetaldehyde"/>
-      <meta property="mdo:description" content="Andrea's hangover makes an already uncomfortable situation worse."/>
+      <meta property="schema:abstract bibo:abstract mdo:description" content="Andrea's hangover makes an already uncomfortable situation worse."/>
       
       <h2>
         <span class="ChapterNumber">Chapter 1:</span>
@@ -9709,7 +9836,7 @@ Now we’re one&NoBreak;—thank Him above.))
       <link property="schema:isPartOf dcterms:isPartOf mdo:structure#isPartOf" resource="#Act3">
       <meta property="mdo:structure#isPartNumber" content="2"/>
       <meta property="schema:name dcterms:title mdo:title" content="Synchronized Hourglasses"/>
-      <meta property="mdo:description" content="Andrea and Andrea strike up a raunchy rapport almost instantly."/>
+      <meta property="schema:abstract bibo:abstract mdo:description" content="Andrea and Andrea strike up a raunchy rapport almost instantly."/>
       
       <h2>
         <span class="ChapterNumber">Chapter 2:</span>
@@ -9760,7 +9887,7 @@ Now we’re one&NoBreak;—thank Him above.))
       <p>It was my turn to blush and return her forehand volley. “And yours glimmer… like emeralds… among dunes.”</p>
       <p>Her breath was temporarily stolen. “Ah… Your… Your…” She was now at a loss for compliments, but I doubted it was not for lack of physical admiration. As for me… an aroma, once distant, had approached swiftly, eagerly, coming intimately close&NoBreak;—</p>
       
-      <div id="Poem-Champurrado" class="HorizontallyCentered">
+      <div id="Poem=Champurrado" property="schema:hasPart bibo:hasPart mdo:hasPart" resource="#Poem=Champurrado" typeof="schema:CreativeWork bibo:Document mdo:Poem" class="HorizontallyCentered">
         <div class="Verse VersePresentTense" lang="es-US-CA" xml:lang="es-US-CA">
           <p><a href="#glossary-leche" role="doc-glossref" ssml:ph="ˈle.t͡ʃe" class="NavButton">Leche</a></p>
           <p><a href="#glossary-cacao" role="doc-glossref" ssml:ph="kaˈka.o" class="NavButton">Cacao</a></p>
@@ -9842,7 +9969,7 @@ Now we’re one&NoBreak;—thank Him above.))
       <p class="AvoidPageBreakBefore">“Yes, everything’s fine, there’s just… something I forgot to do last night. But I can take care of it after work. Let’s get back to it, I don’t want to keep you waiting any longer.”</p>
       <p class="AvoidPageBreakBefore">“Oh, thank God, please, keep going.” I planted my mouth on her clitoris&NoBreak;—</p>
       
-      <div id="Poem-Maíz" class="HorizontallyCentered VerticallyCentered">
+      <div id="Poem=Maíz" property="schema:hasPart bibo:hasPart mdo:hasPart" resource="#Poem=Maíz" typeof="schema:CreativeWork bibo:Document mdo:Poem" class="HorizontallyCentered VerticallyCentered">
         <div class="Verse VersePresentTense HorizontallyCentered PreserveWhiteSpace" style="text-align: center; font-size: 4cqw;">
  from
  your earth
@@ -9881,7 +10008,7 @@ comfort.
       <link property="schema:isPartOf dcterms:isPartOf mdo:structure#isPartOf" resource="#Act3">
       <meta property="mdo:structure#isPartNumber" content="3"/>
       <meta property="schema:name dcterms:title mdo:title" content="The Silent Whistleblower"/>
-      <meta property="mdo:description" content="Andrea and Andrea discover that their values and goals align."/>
+      <meta property="schema:abstract bibo:abstract mdo:description" content="Andrea and Andrea discover that their values and goals align."/>
       
       <h2>
         <span class="ChapterNumber">Chapter 3:</span>
@@ -10033,7 +10160,7 @@ comfort.
       <link property="schema:isPartOf dcterms:isPartOf mdo:structure#isPartOf" resource="#Act3">
       <meta property="mdo:structure#isPartNumber" content="4"/>
       <meta property="schema:name dcterms:title mdo:title" content="Répondez S’il Vous Poulet"/>
-      <meta property="mdo:description" content="Andrea gets her footage."/>
+      <meta property="schema:abstract bibo:abstract mdo:description" content="Andrea gets her footage."/>
       
       <h2>
         <span class="ChapterNumber">Chapter 4:</span>
@@ -10215,7 +10342,7 @@ comfort.
       <link property="schema:isPartOf dcterms:isPartOf mdo:structure#isPartOf" resource="#Act3">
       <meta property="mdo:structure#isPartNumber" content="5"/>
       <meta property="schema:name dcterms:title mdo:title" content="Six’s Company, Too"/>
-      <meta property="mdo:description" content="A detective, a desk jockey, a drug dealer, a medical examiner and her assistant cram themselves into a tiny apartment furnished with booze and a king size bed."/>  
+      <meta property="schema:abstract bibo:abstract mdo:description" content="A detective, a desk jockey, a drug dealer, a medical examiner and her assistant cram themselves into a tiny apartment furnished with booze and a king size bed."/>  
       
       <h2>
         <span class="ChapterNumber">Chapter 5:</span>
@@ -10363,7 +10490,7 @@ comfort.
       <link property="schema:isPartOf dcterms:isPartOf mdo:structure#isPartOf" resource="#Act3">
       <meta property="mdo:structure#isPartNumber" content="6"/>
       <meta property="schema:name dcterms:title mdo:title" content="The Uninvited Guest of Honor"/>
-      <meta property="mdo:description" content="Andrea wants nothing more than to be punished for being a naughty girl."/>
+      <meta property="schema:abstract bibo:abstract mdo:description" content="Andrea wants nothing more than to be punished for being a naughty girl."/>
       
       <h2>
         <span class="ChapterNumber">Chapter 6:</span>
@@ -10441,7 +10568,7 @@ comfort.
       <p>“But in the most egregious of cases, I may blindfold and bind them. <em>This</em> I reserve for the worst offenders, because it is an intricate, creative, and time-consuming art. It is also very intimate, requiring courage and patience and trust, because total restraint can be terrifying. Only the submissives closest to me, my most loyal, my favorites, may receive that punishment if they disobey me&NoBreak;—since for one of those I trust most to defy my will would be the <em>most despicable</em> betrayal, deserving of the most artful punishment.”</p>
       <p>Her diverse and seemingly endless list of punishments left me sweating and eager, my mind and body aroused by the possibilities… But <em>this last one,</em> the prospect of being&NoBreak;—</p>
       
-      <div id="Poem-Blindfolded_and_Bound" class="HorizontallyCentered">
+      <div id="Poem=Blindfolded_and_Bound" property="schema:hasPart bibo:hasPart mdo:hasPart" resource="#Poem=Blindfolded_and_Bound" typeof="schema:CreativeWork bibo:Document mdo:Poem" class="HorizontallyCentered">
         <div class="Verse VersePresentTense">
           <p>bound immobile</p>
           <p>helpless fearful</p>
@@ -10506,7 +10633,7 @@ comfort.
       <link property="schema:isPartOf dcterms:isPartOf mdo:structure#isPartOf" resource="#Act3">
       <meta property="mdo:structure#isPartNumber" content="7"/>
       <meta property="schema:name dcterms:title mdo:title" content="‘Reneging’ on Regina"/>
-      <meta property="mdo:description" content="Andrea recklessly pushes Diane's boundaries."/>
+      <meta property="schema:abstract bibo:abstract mdo:description" content="Andrea recklessly pushes Diane's boundaries."/>
       
       <h2>
         <span class="ChapterNumber">Chapter 7:</span>
@@ -10550,7 +10677,7 @@ comfort.
       <p>My clit felt like it was going to explode&NoBreak;—in a good way&NoBreak;—and whoever was playing with my nipples was definitely helping, because the zaps running up and down my abdomen gave variety and complexity to Doll’s already astounding work.</p>
       <p>I felt something building up inside me, as a reservoir threatens to overflow its dam. As my Doll sucked, the pressure within me rose rapidly, faster than I had ever felt it rise before; with each pinch or nibble of my nipples it jumped by several feet, and with each squeeze of my G-spot it shot upwards by tens. I was dimly aware of what was being done to my body, but struggled to recognize the faces of the ones doing it out of the corners of my rolled-up eyes as&NoBreak;—</p>
       
-      <div id="Poem-The_Levy_Breaks" class="HorizontallyCentered VerticallyCentered">
+      <div id="Poem=The_Levy_Breaks" property="schema:hasPart bibo:hasPart mdo:hasPart" resource="#Poem=The_Levy_Breaks" typeof="schema:CreativeWork bibo:Document mdo:Poem" class="HorizontallyCentered VerticallyCentered">
         <div class="Verse VersePresentTense HorizontallyCentered">
           <p>
             the brimming lake beneath the storm<br/>
@@ -10607,7 +10734,7 @@ comfort.
       <p>“Tattletale.”</p>
       <p>“Which of us do you think she’ll side with?” No response. “I didn’t <em>think</em> you’d want to answer that. Get back on my cli&NoBreak;—<em>ah!”</em> She resumed, and not even five seconds later my&NoBreak;—</p>
       
-      <div id="Poem-Large_Caliber_Orgasm" class="HorizontallyCentered">
+      <div id="Poem=Large_Caliber_Orgasm" property="schema:hasPart bibo:hasPart mdo:hasPart" resource="#Poem=Large_Caliber_Orgasm" typeof="schema:CreativeWork bibo:Document mdo:Poem" class="HorizontallyCentered">
         <div class="Verse VersePresentTense">
           <p>back arches</p>
           <p>like Saint Louis’s gate</p>
@@ -10717,7 +10844,7 @@ comfort.
       <p>I sighed. “Yeah. There aren’t very many options. My clit is still sore, but my G-spot is available.”</p>
       <p>“Very well.” She kissed me… and she kissed me… and she kissed me; her raspberry-almond-vanilla musk wafted up my nose and seized my brain&NoBreak;—I kissed her, and I kissed her, and I kissed her. And then her hand alighted on my thigh, inspiring anticipation, and proceeded to crawl upwards until it reached the crux of my legs&NoBreak;—and a single finger entered me, sending that now-familiar rush through my body. I wanted so desperately to be hers, I would be hers, I must let her&NoBreak;—</p>
       
-      <div id="Poem-Cave" class="HorizontallyCentered VerticallyCentered">
+      <div id="Poem=Cave" property="schema:hasPart bibo:hasPart mdo:hasPart" resource="#Poem=Cave" typeof="schema:CreativeWork bibo:Document mdo:Poem" class="HorizontallyCentered VerticallyCentered">
         <div class="Verse VersePresentTense HorizontallyCentered">
           <p>delve deep into my cave;</p>
           <p>i moan; her echo laughs</p>
@@ -10844,7 +10971,7 @@ comfort.
       <link property="schema:isPartOf dcterms:isPartOf mdo:structure#isPartOf" resource="#Act3">
       <meta property="mdo:structure#isPartNumber" content="8"/>
       <meta property="schema:name dcterms:title mdo:title" content="The Morning After the Morning-After Pill"/>
-      <meta property="mdo:description" content="Fucking with Judith and making no progress on the missing person case."/>
+      <meta property="schema:abstract bibo:abstract mdo:description" content="Fucking with Judith and making no progress on the missing person case."/>
       
       <h2>
         <span class="ChapterNumber">Chapter 8:</span>
@@ -11071,7 +11198,7 @@ comfort.
       <link property="schema:isPartOf dcterms:isPartOf mdo:structure#isPartOf" resource="#Act3">
       <meta property="mdo:structure#isPartNumber" content="9"/>
       <meta property="schema:name dcterms:title mdo:title" content="Canary in a Cop Crime"/>
-      <meta property="mdo:description" content="Andrea receives her first of many death threats."/>
+      <meta property="schema:abstract bibo:abstract mdo:description" content="Andrea receives her first of many death threats."/>
       
       <h2>
         <span class="ChapterNumber">Chapter 9:</span>
@@ -11583,7 +11710,7 @@ comfort.
       <link property="schema:isPartOf dcterms:isPartOf mdo:structure#isPartOf" resource="#Act3">
       <meta property="mdo:structure#isPartNumber" content="10"/>
       <meta property="schema:name dcterms:title mdo:title" content="Tzedek"/>
-      <meta property="mdo:description" content="Andrea learns some ancient Jewish wisdom."/>
+      <meta property="schema:abstract bibo:abstract mdo:description" content="Andrea learns some ancient Jewish wisdom."/>
       
       <h2>
         <span class="ChapterNumber">Chapter 10:</span>
@@ -11848,7 +11975,7 @@ comfort.
       <link property="schema:isPartOf dcterms:isPartOf mdo:structure#isPartOf" resource="#Act3">
       <meta property="mdo:structure#isPartNumber" content="11"/>
       <meta property="schema:name dcterms:title mdo:title" content="Cheesecake"/>
-      <meta property="mdo:description" content="Andrea entertains the chief with sweet dairy goodness."/>
+      <meta property="schema:abstract bibo:abstract mdo:description" content="Andrea entertains the chief with sweet dairy goodness."/>
       
       <h2>
         <span class="ChapterNumber">Chapter 11:</span>
@@ -11968,7 +12095,7 @@ comfort.
       <link property="schema:isPartOf dcterms:isPartOf mdo:structure#isPartOf" resource="#Act3">
       <meta property="mdo:structure#isPartNumber" content="12"/>
       <meta property="schema:name dcterms:title mdo:title" content="Mother-Daughter Heart-to-Heart"/>
-      <meta property="mdo:description" content="Andrea thinks she's cracked the case."/>
+      <meta property="schema:abstract bibo:abstract mdo:description" content="Andrea thinks she's cracked the case."/>
       
       <h2>
         <span class="ChapterNumber">Chapter 12:</span>
@@ -12087,7 +12214,7 @@ comfort.
       <link property="schema:isPartOf dcterms:isPartOf mdo:structure#isPartOf" resource="#Act3">
       <meta property="mdo:structure#isPartNumber" content="13"/>
       <meta property="schema:name dcterms:title mdo:title" content="Action Girl Task Force!"/>
-      <meta property="mdo:description" content="He should be here. Where is he? Why isn't he here? What the hell happened to Alexander Brookvale?"/>
+      <meta property="schema:abstract bibo:abstract mdo:description" content="He should be here. Where is he? Why isn't he here? What the hell happened to Alexander Brookvale?"/>
       
       <h2>
         <span class="ChapterNumber">Chapter 13:</span>
@@ -12527,7 +12654,7 @@ comfort.
       <link property="schema:isPartOf dcterms:isPartOf mdo:structure#isPartOf" resource="#Act3">
       <meta property="mdo:structure#isPartNumber" content="14"/>
       <meta property="schema:name dcterms:title mdo:title" content="Forgiving Ghosts"/>
-      <meta property="mdo:description" content="They moved him."/>
+      <meta property="schema:abstract bibo:abstract mdo:description" content="They moved him."/>
       
       <h2>
         <span class="ChapterNumber">Chapter 14:</span>
@@ -12703,7 +12830,7 @@ comfort.
       <p>“For someone who’s scared to fuck at work, you’re awfully noisy.”</p>
       <p>“Shut up and kiss me, but keep your eyes peeled.” But my own eyes grew heavy, and I stopped paying attention to the outside world. I hadn’t recently spent much time with Koko, so it was nice to bond</p>
       
-      <div id="Poem-Weld" class="HorizontallyCentered">
+      <div id="Poem=Weld" property="schema:hasPart bibo:hasPart mdo:hasPart" resource="#Poem=Weld" typeof="schema:CreativeWork bibo:Document mdo:Poem" class="HorizontallyCentered">
         <div class="Verse VersePresentTense">
           <p>with tungsten’s arc</p>
           <p>we meld</p>
@@ -12773,7 +12900,7 @@ comfort.
       <link property="schema:isPartOf dcterms:isPartOf mdo:structure#isPartOf" resource="#Act3">
       <meta property="mdo:structure#isPartNumber" content="15"/>
       <meta property="schema:name dcterms:title mdo:title" content="Steel Casket"/>
-      <meta property="mdo:description" content="The climax you've been waiting for. No, the other kind of climax."/>
+      <meta property="schema:abstract bibo:abstract mdo:description" content="The climax you've been waiting for. No, the other kind of climax."/>
       
       <h2>
         <span class="ChapterNumber">Chapter 15:</span>
@@ -12894,8 +13021,8 @@ comfort.
       
     </section>
     
-    <section id="Colophon" data-fs-page="Colophon" role="doc-colophon">
-      <meta property="mdo:description" content="An afterword and a brief section about the author."/>
+    <section id="Colophon" property="schema:hasPart bibo:hasPart mdo:hasPart" typeof="mdo:colophon" resource="#Colophon" data-fs-page="Colophon" role="doc-colophon">
+      <meta property="schema:abstract bibo:abstract mdo:description" content="An afterword and a brief section about the author."/>
       
       <h3>Afterword</h3>
       <p>I was circling the creative drain while editing what was intended to be my debut story (titled <cite>In the Shade of the Tiger Lily,</cite> a sexy drug-fueled sci-fi spy thriller set in the ’80s) when my spouse suggested that I try working on something else instead. The plot of this new venture was born of a joke concept: a lowly meter maid bumbles her way through solving some inconsequential mystery with sex… or (as Adrian puts it) the pitch for <cite>Zootopia,</cite> but with horny humans instead of celibate anthros, and queer kinky erotica instead of sterile corporate cishet Disney ‘wholesomeness’.</p>
@@ -12908,7 +13035,7 @@ comfort.
       
     </section>
       
-    <section id="SpanishTranslations" data-fs-page="Selected Spanish Translations" role="doc-glossary" aria-labeledby="SpanishTranslationsHeading">
+    <section id="SpanishTranslations" property="schema:hasPart bibo:hasPart mdo:hasPart" typeof="mdo:Glossary" data-fs-page="Selected Spanish Translations" role="doc-glossary" aria-labeledby="SpanishTranslationsHeading">
       <meta property="mdo:description" content="Translations of Spanish words and phrases used throughout HardboiledWhore."/>
       
       <h2 id="SpanishTranslationsHeading">Selected Spanish Translations</h3>
@@ -13184,7 +13311,7 @@ comfort.
       
     </section>
     
-    <section id="TableOfPoems" data-fs-page="Table of Poems" role="doc-toc" aria-labelledby="TableOfPoemsHeading" class="HorizontallyCentered">
+    <section id="TableOfPoems" property="schema:hasPart bibo:hasPart mdo:hasPart" typeof="mdo:TableOfPoems" resource="#TableOfPoems" data-fs-page="Table of Poems" role="doc-toc" aria-labelledby="TableOfPoemsHeading" class="HorizontallyCentered">
       <meta property="mdo:description" content="A table of poems and where to find them."/>
       
       <h1>Table of Poems</h1>
@@ -13192,241 +13319,241 @@ comfort.
           <ol>
             <li>
               <a class="TOPNavButton" 
-                  href="#Poem-Cream_or_Sugar">
+                  href="#Poem=Cream_or_Sugar">
                 Cream or Sugar
               </a>
             </li>
             <li>
               <a class="TOPNavButton" 
-                  href="#Poem-Steamed_Milk">
+                  href="#Poem=Steamed_Milk">
                 Steamed Milk
               </a>
             </li>
             <li>
               <a class="TOPNavButton" 
-                  href="#Poem-Sequoia">
+                  href="#Poem=Sequoia">
                 Sequoia
               </a>
             </li>
             <li>
               <a class="TOPNavButton" 
-                  href="#Poem-Honeymoon_by_the_Styx">
+                  href="#Poem=Honeymoon_by_the_Styx">
                 Honeymoon by the Styx
               </a>
             </li>
             <li>
               <a class="TOPNavButton" 
-                  href="#Poem-Treasure_Chest">
+                  href="#Poem=Treasure_Chest">
                 Treasure Chest
               </a>
             </li>
             <li>
               <a class="TOPNavButton" 
-                  href="#Poem-Electrified">
+                  href="#Poem=Electrified">
                 Electrified
               </a>
             </li>
             <li>
               <a class="TOPNavButton" 
-                  href="#Poem-Marzipan">
+                  href="#Poem=Marzipan">
                 Marzipan
               </a>
             </li>
             <li>
               <a class="TOPNavButton" 
-                  href="#Poem-Amateur_Work">
+                  href="#Poem=Amateur_Work">
                 Amateur Work
               </a>
             </li>
             <li>
               <a class="TOPNavButton" 
-                  href="#Poem-Speed_Cummer">
+                  href="#Poem=Speed_Cummer">
                 Speed Cummer
               </a>
             </li>
             <li>
               <a class="TOPNavButton" 
-                  href="#Poem-The_Cream_I_Crave">
+                  href="#Poem=The_Cream_I_Crave">
                 The Cream I Crave
               </a>
             </li>
             <li>
               <a class="TOPNavButton" 
-                  href="#Poem-Cappuccino">
+                  href="#Poem=Cappuccino">
                 Cappuccino
               </a>
             </li>
             <li>
               <a class="TOPNavButton" 
-                  href="#Poem-Promised_Country">
+                  href="#Poem=Promised_Country">
                 Promised Country
               </a>
             </li>
             <li>
               <a class="TOPNavButton" 
-                  href="#Poem-Performance">
+                  href="#Poem=Performance">
                 Performance
               </a>
             </li>
             <li>
               <a class="TOPNavButton" 
-                  href="#Poem-Wrecking_Balls">
+                  href="#Poem=Wrecking_Balls">
                 Wrecking Balls
               </a>
             </li>
             <li>
               <a class="TOPNavButton" 
-                  href="#Poem-Fruit_of_Life">
+                  href="#Poem=Fruit_of_Life">
                 Fruit of Life
               </a>
             </li>
             <li>
               <a class="TOPNavButton" 
-                  href="#Poem-Famished_Tantalus">
+                  href="#Poem=Famished_Tantalus">
                 Famished Tantalus
               </a>
             </li>
             <li>
               <a class="TOPNavButton" 
-                  href="#Poem-Lunch_on_the_Wharf">
+                  href="#Poem=Lunch_on_the_Wharf">
                 Lunch on the Wharf
               </a>
             </li>
             <li>
               <a class="TOPNavButton" 
-                  href="#Poem-All_Mermaids_are_Redheads">
+                  href="#Poem=All_Mermaids_are_Redheads">
                 All Mermaids are Redheads
               </a>
             </li>
             <li>
               <a class="TOPNavButton" 
-                  href="#Poem-Labor_Unloved">
+                  href="#Poem=Labor_Unloved">
                 Labor Unloved
               </a>
             </li>
             <li>
               <a class="TOPNavButton" 
-                  href="#Poem-Waltz_of_the_Libertines">
+                  href="#Poem=Waltz_of_the_Libertines">
                 Waltz of the Libertines
               </a>
             </li>
             <li>
               <a class="TOPNavButton" 
-                  href="#Poem-Furry_Vision">
+                  href="#Poem=Furry_Vision">
                 Furry Vision
               </a>
             </li>
             <li>
               <a class="TOPNavButton" 
-                  href="#Poem-Bubblegum">
+                  href="#Poem=Bubblegum">
                 Bubblegum
               </a>
             </li>
             <li>
               <a class="TOPNavButton" 
-                  href="#Poem-Gene_Tempest">
+                  href="#Poem=Gene_Tempest">
                 Gene Tempest
               </a>
             </li>
             <li>
               <a class="TOPNavButton" 
-                  href="#Poem-When_Cats_Marry">
+                  href="#Poem=When_Cats_Marry">
                 When Cats Marry
               </a>
             </li>
             <li>
               <a class="TOPNavButton" 
-                  href="#Poem-Princess_of_Sour_and_Sweet">
+                  href="#Poem=Princess_of_Sour_and_Sweet">
                 Princess of Sour and Sweet
               </a>
             </li>
             <li>
               <a class="TOPNavButton" 
-                  href="#Poem-Wagon_Meets_Pothole">
+                  href="#Poem=Wagon_Meets_Pothole">
                 Wagon Meets Pothole
               </a>
             </li>
             <li>
               <a class="TOPNavButton" 
-                  href="#Poem-Huffing_Tequila">
+                  href="#Poem=Huffing_Tequila">
                 Huffing Tequila
               </a>
             </li>
             <li>
               <a class="TOPNavButton" 
-                  href="#Poem-Curd">
+                  href="#Poem=Curd">
                 Curd
               </a>
             </li>
             <li>
               <a class="TOPNavButton" 
-                  href="#Poem-Himbeertorte">
+                  href="#Poem=Himbeertorte">
                 Himbeertorte
               </a>
             </li>
             <li>
               <a class="TOPNavButton" 
-                  href="#Poem-Motherhood">
+                  href="#Poem=Motherhood">
                 Motherhood
               </a>
             </li>
             <li>
               <a class="TOPNavButton" 
-                  href="#Poem-I_Want_Smore_of_You">
+                  href="#Poem=I_Want_Smore_of_You">
                 I want Smore of You
               </a>
             </li>
             <li>
               <a class="TOPNavButton" 
-                  href="#Poem-October_Wind">
+                  href="#Poem=October_Wind">
                 October Wind
               </a>
             </li>
             <li>
               <a class="TOPNavButton" 
-                  href="#Poem-To_Write_Another_Tale">
+                  href="#Poem=To_Write_Another_Tale">
                 To Write Another Tale
               </a>
             </li>
             <li>
               <a class="TOPNavButton" 
-                  href="#Poem-Champurrado">
+                  href="#Poem=Champurrado">
                 Champurrado
               </a>
             </li>
             <li>
               <a class="TOPNavButton" 
-                  href="#Poem-Maíz">
+                  href="#Poem=Maíz">
                 Maíz
               </a>
             </li>
             <li>
               <a class="TOPNavButton" 
-                  href="#Poem-Blindfolded_and_Bound">
+                  href="#Poem=Blindfolded_and_Bound">
                 Blindfolded and Bound
               </a>
             </li>
             <li>
               <a class="TOPNavButton" 
-                  href="#Poem-The_Levy_Breaks">
+                  href="#Poem=The_Levy_Breaks">
                 The Levy Breaks
               </a>
             </li>
             <li>
               <a class="TOPNavButton" 
-                  href="#Poem-Large_Caliber_Orgasm">
+                  href="#Poem=Large_Caliber_Orgasm">
                 Large Caliber Orgasm
               </a>
             </li>
             <li>
               <a class="TOPNavButton" 
-                  href="#Poem-Cave">
+                  href="#Poem=Cave">
                 Cave
               </a>
             </li>
             <li>
               <a class="TOPNavButton" 
-                  href="#Poem-Weld">
+                  href="#Poem=Weld">
                 Weld
               </a>
             </li>
@@ -13455,7 +13582,7 @@ comfort.
               </a>
             </td>
             <td>
-              <a id="NavBarNext" href="#Copyright" rel="next">
+              <a id="NavBarNext" href="#CopyrightPage" rel="next">
                 <span>🢡</span>
                 <span id="NavBarNextPageTitle">Copyright</span>
               </a>
