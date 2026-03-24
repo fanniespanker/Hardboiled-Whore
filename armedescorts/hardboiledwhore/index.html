@@ -40,23 +40,21 @@
         wde: https://www.wikidata.org/entity/ 
         fast: http://id.worldcat.org/fast/ 
         locgf: http://id.loc.gov/authorities/genreForms/ 
-        locsh: http://id.loc.gov/authorities/subjects/" 
+        locsh: http://id.loc.gov/authorities/subjects/"
   >
 
-    <meta property="schema:name dcterms:title mdo:title" content="Hardboiled Whore"/>
+    <meta property="schema:name dcterms:title mdo:pub#title" content="Hardboiled Whore"/>
 
-    <meta property="bibo:edition prism:edition mdo:bib#edition" content="1"/>
+    <meta property="bibo:edition prism:edition mdo:pub#edition" content="1"/>
 
     <link 
         rel="canonical" 
-        property="schema:identifier dcterms:identifier mdo:identifier" 
-        resource="https://fanniespanker.com/armedescorts/hardboiledwhore/" 
-        href="https://fanniespanker.com/armedescorts/hardboiledwhore/" 
+        property="schema:identifier dcterms:identifier mdo:pub#identifier" 
+        resource="https://fanniespanker.com/armedescorts/hardboiledwhore/"
     />
 
     <link
-        property="schema:isPartOf mdo:bibliography#isPartOf"
-        typeof="schema:BookSeries mdo:LiterarySeries" 
+        property="schema:isPartOf mdo:pub#isPartOf" 
         resource="https://fanniespanker.com/armedescorts/"
     />
 
@@ -69,7 +67,7 @@
           dcterms:creator 
           dcterms:publisher 
           dcterms:rightsHolder
-          mdo:bib#author" 
+          mdo:pub#author" 
         typeof="schema:Person dcterms:Agent foaf:Person" 
         resource="https://fanniespanker.com/#me"
     >
@@ -80,17 +78,17 @@
     
 
     <span
-        property="schema:contributor dcterms:contributor mdo:cover#illustrator" 
-        typeof="schema:Person dcterms:Agent foaf:Person" 
+        property="schema:contributor dcterms:contributor mdo:pub#coverIllustrator" 
+        typeof="schema:Person dcterms:Agent foaf:Person mdo:Person" 
         resource="https://www.dirkhooper.com/"
     >
-      <meta property="schema:givenName foaf:givenName" content="Dirk"/> 
-      <meta property="schema:familyName foaf:familyName" content="Hooper"/> 
+      <meta property="schema:givenName foaf:givenName mdo:givenName" content="Dirk"/> 
+      <meta property="schema:familyName foaf:familyName mdo:givenName" content="Hooper"/> 
       <meta property="dcterms:name" content="Dirk Hooper"/> 
-      <link property="schema:url foaf:homepage" href="https://www.dirkhooper.com/"/> 
-      <link property="schema:url foaf:workInfoHomepage" href="https://rainkingstudios.com/about-us/dirk-hooper/"/>
-      <link property="schema:email foaf:mbox" href="mailto:dirk@dirkhooper.com"/>
-      <link property="schema:email foaf:mbox" href="mailto:dirk@rainkingstudios.com"/>
+      <link property="schema:url foaf:homepage mdo:url" href="https://www.dirkhooper.com/"/> 
+      <link property="schema:url foaf:workInfoHomepage mdo:url" href="https://rainkingstudios.com/about-us/dirk-hooper/"/>
+      <link property="schema:email foaf:mbox mdo:emailAddress" href="mailto:dirk@dirkhooper.com"/>
+      <link property="schema:email foaf:mbox mdo:emailAddress" href="mailto:dirk@rainkingstudios.com"/>
 
       <span rel="schema:hasOccupation">
         <span typeof="schema:Occupation">
@@ -117,26 +115,25 @@
           dcterms:abstract 
           dcterms:description
           bibo:abstract
-          mdo:description" 
+          mdo:summary" 
         content=
           "It’s been three days since Alexander Brookvale—Santa Virginia’s most revered (and reviled) hometown activist—went missing. The police have spent those crucial first 72 hours throwing darts at his mug shot.
           Ex-Parking Enforcement Officer Andrea Bachman finds herself with no badge and no real family or friends to help her through her forced retirement. Heeding her mother’s advice for once, she reaches out into cyberspace and forges a most unlikely bond with a smoking hot blond with maturity and experience. Her new friend (with benefits) encourages her to use her investigative instincts to search for the missing activist.
           While earning the trust of the sex rebels of the Red Light District, she receives a tempting offer: her dream job as a detective in exchange for free use of her body. What follows is a thrilling investigation filled with sex, drugs, and rocking a bombshell figure in the fight against Christofascism."
     />
     
-    <meta property="schema:encodingFormat dcterms:format mdo:format#mediaType" content="text/html"/>
-
-    <span rel="schema:contentLocation mdo:setting#location">
-      <meta content="Southern California"/> 
-      <link resource="dbr:Southern_California"/> 
-      <link resource="wdw:Q844837"/> 
-    </span>
+    <meta property="schema:encodingFormat dcterms:format" content="text/html"/>
+    <meta property="mdo:pub#mediaType" resource="https://www.iana.org/assignments/media-types/text/html"/>
 
     <meta property="schema:contentReferenceTime" content="2024-07-12--18"/>
-    <meta property="mdo:narrative#timeStart" content="2024-07-12"/>
-    <meta property="mdo:narrative#timeEnd" conent="2024-07-18"/> 
 
-    <span rel="schema:genre dcterms:type mdo:bib#genre">
+    <span proprety="mdo:narrative#setting" typeof="mdo:narrative#Setting">
+      <meta property="mdo:timeStart" content="2024-07-12"/> 
+      <meta property="mdo:timeEnd" content="2024-07-18"/> 
+      <meta property="mdo:location" resource="https://fanniespanker.com/armedescorts/#Santa_Virginia,_California"/>
+    </span>
+
+    <span rel="schema:genre dcterms:type mdo:pub#genre">
       <meta content="detective and mystery fiction"/> 
       <link resource="fast:1726581"/> 
       <link resource="locgf:gf2014026280"/> 
@@ -149,20 +146,18 @@
       <link resource="fast:1038352"/> 
       <link resource="locgf:gf2014026452"/> 
       <link resource="wdw:Q26221026"/> 
-      <link resource="dbr:Noir_fiction"/>
-      <meta content="noir novel"/>
-      <link resource="wdw:Q1940294"/>  
+      <link resource="dbr:Noir_fiction"/> 
+      <meta content="noir novel"/> 
+      <link resource="wdw:Q1940294"/> 
       
       <meta content="hardboiled"/> 
       <meta content="hardboiled fiction"/> 
       <link resource="wde:Q1328330"/> 
-      <link resource="dbr:Hardboiled"/>
-      <link resource="https://www.britannica.com/art/hard-boiled-fiction"/>  
+      <link resource="dbr:Hardboiled"/> 
 
       <meta content="crime fiction"/>
       <link resource="wdw:Q5937792"/> 
       <link resource="dbr:Crime_fiction"/> 
-      <link resource="https://www.britannica.com/art/crime-fiction"/> 
 
       <meta content="thriller (fiction)"/> 
       <link resource="fast:1726755"/> 
@@ -222,7 +217,7 @@
       <link resource="dbr:Sex_comedy"/> 
     </span>
     
-    <span rel="schema:subject dcterms:subject mdo:bib#subject foaf:primaryTopic foaf:depicts">
+    <span rel="schema:subject dcterms:subject mdo:pub#subject foaf:primaryTopic foaf:depicts">
       <meta content="activism"/> 
       <link resource="fast:2070573"/> 
       <link resource="locsh:sh2023000618"/> 
@@ -620,19 +615,19 @@
             © 
             <meta 
                 about="https://fanniespanker.com/armedescorts/hardboiledwhore/"
-                property="schema:datePublished schema:dateCreated dcterms:dateCopyrighted dcterms:available mdo:bib#datePublished" 
+                property="schema:datePublished schema:dateCreated dcterms:dateCopyrighted dcterms:available mdo:pub#datePublished" 
                 datatype="xsd:date"
                 content="2025-08-12"/>
             <span 
                 about="https://fanniespanker.com/armedescorts/hardboiledwhore/"
-                property="schema:copyrightYear mdo:bib#yearCopyrighted" 
+                property="schema:copyrightYear mdo:pub#yearCopyrighted" 
                 datatype="xsd:gYear" 
                 content="2025" 
             >2025</span>,
             modified 
             <span 
                 about="https://fanniespanker.com/armedescorts/hardboiledwhore/"
-                property="schema:dateModified dcterms:modified mdo:bib#dateModified" 
+                property="schema:dateModified dcterms:modified mdo:pub#dateModified" 
                 datatype="xsd:date"
                 content="2026-03-15"
             >March 15, 2026</span>,
@@ -954,8 +949,8 @@
         role="doc-part" 
         aria-labelledby="Act1Heading"
     >
-      <link property="schema:isPartOf dcterms:isPartOf mdo:bibliography#isPartOf" resource="https://fanniespanker.com/armedescorts/hardboiledwhore/"/>
-      <meta property="mdo:bibliography#isPartNumber" content="1"/>
+      <link property="schema:isPartOf dcterms:isPartOf mdo:pub#isPartOf" resource="https://fanniespanker.com/armedescorts/hardboiledwhore/"/>
+      <meta property="mdo:pub#isPartNumber" content="1"/>
       <meta property="schema:name dcterms:title mdo:title" content="Carnal Entrepreneur"/>
 
       <meta property="mdo:description" content="From the ashes of a parking Nazi emerges an antifascist hero. A very horny hero."/>
@@ -977,9 +972,9 @@
     </section>
   
     <section id="Act1Chapter01" property="schema:hasPart mdo:hasPart" typeof="schema:Chapter bibo:Chapter mdo:Chapter" resource="#Act1Chapter01" data-fs-page="Act 1, Chapter 1" role="doc-chapter">
-      <link property="schema:isPartOf dcterms:isPartOf mdo:bibliography#isPartOf" resource="#Act1">
+      <link property="schema:isPartOf dcterms:isPartOf mdo:pub#isPartOf" resource="#Act1">
       <meta property="mdo:description" content="In which our recently unemployed heroine meets the (rather mature) girl next door."/>
-      <meta property="mdo:bibliography#isPartNumber" content="4"/>
+      <meta property="mdo:pub#isPartNumber" content="4"/>
       <meta property="schema:name dcterms:title mdo:title" content="You Know I Like My Girls a Little Bit Older"/>
 
       <h2>
@@ -1229,8 +1224,8 @@
     </section>
   
     <section id="Act1Chapter02" property="schema:hasPart mdo:hasPart" typeof="schema:Chapter bibo:Chapter mdo:Chapter" resource="#Act1Chapter02" data-fs-page="Act 1, Chapter 2" role="doc-chapter">
-      <link property="schema:isPartOf dcterms:isPartOf mdo:bibliography#isPartOf" resource="#Act1">
-      <meta property="mdo:bibliography#isPartNumber" content="2"/>
+      <link property="schema:isPartOf dcterms:isPartOf mdo:pub#isPartOf" resource="#Act1">
+      <meta property="mdo:pub#isPartNumber" content="2"/>
       <meta property="schema:name dcterms:title mdo:title" content="Best Fuckbuddies Forever"/>
       <meta property="mdo:description" content="In which our heroine happens upon the gold at the end of the sexual rainbow. No, not that kind of gold."/>
       
@@ -1481,8 +1476,8 @@
     </section>
     
     <section id="Act1Chapter03" property="schema:hasPart mdo:hasPart" typeof="schema:Chapter bibo:Chapter mdo:Chapter" resource="#Act1Chapter03" data-fs-page="Act 1, Chapter 3" role="doc-chapter">
-      <link property="schema:isPartOf dcterms:isPartOf mdo:bibliography#isPartOf" resource="#Act1">
-      <meta property="mdo:bibliography#isPartNumber" content="2"/>
+      <link property="schema:isPartOf dcterms:isPartOf mdo:pub#isPartOf" resource="#Act1">
+      <meta property="mdo:pub#isPartNumber" content="2"/>
       <meta property="schema:name dcterms:title mdo:title" content="Coffee and a Caper"/>
       <meta property="mdo:description" content="Our new fuckbuddies discuss a missing activist over breakfast, then launch into the vital mission of finding him."/>
       
@@ -1787,8 +1782,8 @@
     </section>
     
     <section id="Act1Chapter04" property="schema:hasPart mdo:hasPart" typeof="schema:Chapter bibo:Chapter mdo:Chapter" resource="#Act1Chapter04" data-fs-page="Act 1, Chapter 4" role="doc-chapter">
-      <link property="schema:isPartOf dcterms:isPartOf mdo:bibliography#isPartOf" resource="#Act1">
-      <meta property="mdo:bibliography#isPartNumber" content="3"/>
+      <link property="schema:isPartOf dcterms:isPartOf mdo:pub#isPartOf" resource="#Act1">
+      <meta property="mdo:pub#isPartNumber" content="3"/>
       <meta property="schema:name dcterms:title mdo:title" content="Well-Read Means Well-Worn"/>
 
       <meta property="mdo:description" content="Andrea discovers that her social skills leave much to be desired during her first witness interview, but nevertheless recovers a crucial list."/>
@@ -2061,8 +2056,8 @@
     </section>
       
     <section id="Act1Chapter05" property="schema:hasPart mdo:hasPart" typeof="schema:Chapter bibo:Chapter mdo:Chapter" resource="#Act1Chapter05" data-fs-page="Act 1, Chapter 5" role="doc-chapter">
-      <link property="schema:isPartOf dcterms:isPartOf mdo:bibliography#isPartOf" resource="#Act1">
-      <meta property="mdo:bibliography#isPartNumber" content="5"/>
+      <link property="schema:isPartOf dcterms:isPartOf mdo:pub#isPartOf" resource="#Act1">
+      <meta property="mdo:pub#isPartNumber" content="5"/>
       <meta property="schema:name dcterms:title mdo:title" content="Breadcrumbs"/>
       <meta property="mdo:description" content="Our heroines pick up their missing man's trail with the help of TECHNOLOGY."/>
       
@@ -2260,8 +2255,8 @@
     </section>
       
     <section id="Act1Chapter06" property="schema:hasPart mdo:hasPart" typeof="schema:Chapter bibo:Chapter mdo:Chapter" resource="#Act1Chapter06" data-fs-page="Act 1, Chapter 6" role="doc-chapter">
-      <link property="schema:isPartOf dcterms:isPartOf mdo:bibliography#isPartOf" resource="#Act1">
-      <meta property="mdo:bibliography#isPartNumber" content="6"/>
+      <link property="schema:isPartOf dcterms:isPartOf mdo:pub#isPartOf" resource="#Act1">
+      <meta property="mdo:pub#isPartNumber" content="6"/>
       <meta property="schema:name dcterms:title mdo:title" content="Dry Laundry, Dry Humping"/>
       <meta property="mdo:description" content="Andrea discovers (much to her chagrin) that she is a slut."/>
       
@@ -3103,7 +3098,7 @@ A lonely ocotillo stands proud among the dunes, fuchsia flowers pointed skywards
       <p>“First of all, there’s nothing wrong with having a libido. Second, I feel the need to remind you that you yourself said there was nothing wrong with being a slut. You are not the villain for being who you want to be and doing what you want to do. The people mocking you and picking on you for being someone they don’t like or doing something they don’t like are the villains. If being a slut makes you happy, you should embrace it.”</p>
       <p><span class="InnerMonologue">((It’s not that simple…))</span> “People mock me for having hair of an uncommon color. They form these beliefs about what I am before they’ve even met me, and they think less of me because of those beliefs. That’s not the kind of thing you ‘embrace’.”</p>
       <p>“Fuck those people. Fuck what they say. Follow your heart, not theirs, define yourself and don’t let them define you. Those bastards can go to hell.”</p>
-      <p><span class="InnerMonologue">((Does what she’s saying make sense? Sometimes they’re cruel, sometimes they’re inconsiderate, sometimes they’re merely rude&NoBreak;—and sometimes they just… don’t know any better, because they’ve heard the same lies their entire lives, or were never taught how to be civil.))</span> “Not all of them are trying to be mean. Some of them are just ignorant.”</p>
+      <p><span class="InnerMonologue">((Do her words make sense? Sometimes they’re cruel, sometimes they’re inconsiderate, sometimes they’re rude—&NoBreak;—and sometimes they just… don’t know any better, because they’ve heard the same lies their entire lives, or were never taught how to be civil.))</span> “Not all of them are trying to be mean. Some are just ignorant.”</p>
       <p>“The ignorant ones are a different problem, but whether they mean to be cruel or not, they’re still doing harm, so they’re still in the wrong. I’m talking about the assholes who don’t actually care what the truth is or about how you feel. The rest, the ‘nice’ ones… if you don’t feel like telling them to fuck off, you can give educating them a try. But that’s a heavy burden to shoulder, and I honestly don’t think it’s fair to you or worth your time or your effort.”</p>
       <p>“I don’t know if… if someone who’s willing to improve themself isn’t worth helping. I think people deserve second chances.”</p>
       <p>She nodded. “For example… you. That’s something everyone has to decide for herself. In your case, I chose to give you that second chance.”</p>
@@ -3111,20 +3106,20 @@ A lonely ocotillo stands proud among the dunes, fuchsia flowers pointed skywards
       <p>She smiled warmly and rubbed my back. “I’m glad you’ve been able to work through that bullshit to reclaim this part of yourself. How’re ya <span data-ssml-ph="ˈfiːɫən">feelin’</span>?”</p>
       <p>I realized I had been shedding tears throughout the entire conversation and was relieved that I had chosen to skip the mascara that morning. “Um. Just a sec, my face is drenched.” I went and grabbed a tissue from my nightstand to dab my eyes and cheeks. “I think I need time to process; this new way of thinking feels unnatural, and getting used to it is gonna involve scraping away the old thoughts and old emotions, like chewing gum from the sole of my shoe.”</p>
       <p>“Sounds like there might be some trauma.”</p>
-      <p>“Plenty, but… I’m not in pain anymore. The trauma’s still there but it isn’t crushing me. I feel okay for the first time in decades. I feel better about being a redhead, and about being one who enjoys sex. I’m a slut who wants to fuck, and… I’m… proud of it.”</p>
+      <p>“Yeah, but… I’m not hurting anymore. It’s still there but it isn’t crushing me. I feel okay for the first time. I feel good about being a redhead, and about being one who enjoys sex. I’m a slut who wants to fuck, and… I’m… proud of it.”</p>
       <p>“Good!”</p>
       <p>“But I could maybe use a distraction while my ‘metamorphosis’ incubates.”</p>
       <p>“Then let’s get back on the case.” She checked her phone. “It’s past time to leave. It’s 64 outside, so people might wonder why you’re covered in sweat.”</p>
       <p>I sighed. “Shit. No one’s gonna want to be near me while I’m sopping wet.”</p>
       <p>“You might be amused to learn that I find your post-sex sweat <strong>sexy.”</strong></p>
-      <p>“Oh? Well, I’m always happy to be sexy to you, so you can make me sweat whenever you’re in the mood. Fortunately for you, we don’t have time for me to rinse off.”</p>
+      <p>“Oh? Well, I’m always happy to be sexy to you, so you can make me sweat whenever you want. Fortunately for you, we don’t have time for me to rinse off.”</p>
       <p>She grinned. “Alright, <span data-ssml-ph="pɝˈspaɪɹə">Perspira</span>, let’s get a move-on.”</p>
       
     </section>
     
     <section id="Act1Chapter07" property="schema:hasPart mdo:hasPart" typeof="schema:Chapter bibo:Chapter mdo:Chapter" resource="#Act1Chapter07" data-fs-page="Act 1, Chapter 7" role="doc-chapter">
-      <link property="schema:isPartOf dcterms:isPartOf mdo:bibliography#isPartOf" resource="#Act1">
-      <meta property="mdo:bibliography#isPartNumber" content="7"/>
+      <link property="schema:isPartOf dcterms:isPartOf mdo:pub#isPartOf" resource="#Act1">
+      <meta property="mdo:pub#isPartNumber" content="7"/>
       <meta property="schema:name dcterms:title mdo:title" content="Queen of Vice"/>
       <meta property="schema:abstract bibo:abstract mdo:description" content="Andrea finds herself face-to-face with a surprising acquaintance."/>
       
@@ -3303,8 +3298,8 @@ A lonely ocotillo stands proud among the dunes, fuchsia flowers pointed skywards
     </section>
     
     <section id="Act1Chapter08" property="schema:hasPart mdo:hasPart" typeof="schema:Chapter bibo:Chapter mdo:Chapter" resource="#Act1Chapter08" data-fs-page="Act 1, Chapter 8" role="doc-chapter">
-      <link property="schema:isPartOf dcterms:isPartOf mdo:bibliography#isPartOf" resource="#Act1">
-      <meta property="mdo:bibliography#isPartNumber" content="8"/>
+      <link property="schema:isPartOf dcterms:isPartOf mdo:pub#isPartOf" resource="#Act1">
+      <meta property="mdo:pub#isPartNumber" content="8"/>
       <meta property="schema:name dcterms:title mdo:title" content="Butch Fatale"/>
       <meta property="schema:abstract bibo:abstract mdo:description" content="Andrea fucks a corrupt cop, who proposes a very tempting (and very unethical) quid pro quo."/>
       
@@ -3575,8 +3570,8 @@ A lonely ocotillo stands proud among the dunes, fuchsia flowers pointed skywards
     </section>
       
     <section id="Act1Chapter09" property="schema:hasPart mdo:hasPart" typeof="schema:Chapter bibo:Chapter mdo:Chapter" resource="#Act1Chapter09" data-fs-page="Act 1, Chapter 9" role="doc-chapter">
-      <link property="schema:isPartOf dcterms:isPartOf mdo:bibliography#isPartOf" resource="#Act1">
-      <meta property="mdo:bibliography#isPartNumber" content="9"/>
+      <link property="schema:isPartOf dcterms:isPartOf mdo:pub#isPartOf" resource="#Act1">
+      <meta property="mdo:pub#isPartNumber" content="9"/>
       <meta property="schema:name dcterms:title mdo:title" content="Seagull"/>
       <meta property="schema:abstract bibo:abstract mdo:description" content="A hardboiled whore is born among dregs, by midwives braver than the troops."/>
       
@@ -3742,8 +3737,8 @@ A lonely ocotillo stands proud among the dunes, fuchsia flowers pointed skywards
     </section>
     
     <section id="Act1Chapter10" property="schema:hasPart mdo:hasPart" typeof="schema:Chapter bibo:Chapter mdo:Chapter" resource="#Act1Chapter10" data-fs-page="Act 1, Chapter 10" role="doc-chapter">
-      <link property="schema:isPartOf dcterms:isPartOf mdo:bibliography#isPartOf" resource="#Act1">
-      <meta property="mdo:bibliography#isPartNumber" content="10"/>
+      <link property="schema:isPartOf dcterms:isPartOf mdo:pub#isPartOf" resource="#Act1">
+      <meta property="mdo:pub#isPartNumber" content="10"/>
       <meta property="schema:name dcterms:title mdo:title" content="410 Gone"/>
       <meta property="schema:abstract bibo:abstract mdo:description" content="Our sleuth finally interviews the sex workers of Adams Avenue, whose testimonies lead her to a crime scene."/>
       
@@ -4077,8 +4072,8 @@ A lonely ocotillo stands proud among the dunes, fuchsia flowers pointed skywards
     </section>
     
     <section id="Act1Chapter11" property="schema:hasPart mdo:hasPart" typeof="schema:Chapter bibo:Chapter mdo:Chapter" resource="#Act1Chapter11" data-fs-page="Act 1, Chapter 11" role="doc-chapter">
-      <link property="schema:isPartOf dcterms:isPartOf mdo:bibliography#isPartOf" resource="#Act1">
-      <meta property="mdo:bibliography#isPartNumber" content="11"/>
+      <link property="schema:isPartOf dcterms:isPartOf mdo:pub#isPartOf" resource="#Act1">
+      <meta property="mdo:pub#isPartNumber" content="11"/>
       <meta property="schema:name dcterms:title mdo:title" content="Forensics"/>
       <meta property="schema:abstract bibo:abstract mdo:description" content="Having seen the evidence with her own eyes, Andrea realizes she must accept the deal with the devil before she can continue her search for her missing activist."/>
       
@@ -4268,8 +4263,8 @@ A lonely ocotillo stands proud among the dunes, fuchsia flowers pointed skywards
     </section>
     
     <section id="Act1Chapter12" property="schema:hasPart mdo:hasPart" typeof="schema:Chapter bibo:Chapter mdo:Chapter" resource="#Act1Chapter12" data-fs-page="Act 1, Chapter 12" role="doc-chapter">
-      <link property="schema:isPartOf dcterms:isPartOf mdo:bibliography#isPartOf" resource="#Act1">
-      <meta property="mdo:bibliography#isPartNumber" content="12"/>
+      <link property="schema:isPartOf dcterms:isPartOf mdo:pub#isPartOf" resource="#Act1">
+      <meta property="mdo:pub#isPartNumber" content="12"/>
       <meta property="schema:name dcterms:title mdo:title" content="Born-Again Bastard"/>
       <meta property="schema:abstract bibo:abstract mdo:description" content="Andrea discovers that she is being watched…"/>
       
@@ -4520,8 +4515,8 @@ A lonely ocotillo stands proud among the dunes, fuchsia flowers pointed skywards
     </section>
     
     <section id="Act1Chapter13" property="schema:hasPart mdo:hasPart" typeof="schema:Chapter bibo:Chapter mdo:Chapter" resource="#Act1Chapter13" data-fs-page="Act 1, Chapter 13" role="doc-chapter">
-      <link property="schema:isPartOf dcterms:isPartOf mdo:bibliography#isPartOf" resource="#Act1">
-      <meta property="mdo:bibliography#isPartNumber" content="13"/>
+      <link property="schema:isPartOf dcterms:isPartOf mdo:pub#isPartOf" resource="#Act1">
+      <meta property="mdo:pub#isPartNumber" content="13"/>
       <meta property="schema:name dcterms:title mdo:title" content="Section 74.0382"/>
       <meta property="schema:abstract bibo:abstract mdo:description" content="…and her observers are dead serious about building a criminal case against her."/>
       
@@ -4679,8 +4674,8 @@ A lonely ocotillo stands proud among the dunes, fuchsia flowers pointed skywards
     </section>
     
     <section id="Act1Chapter14" property="schema:hasPart mdo:hasPart" typeof="schema:Chapter bibo:Chapter mdo:Chapter" resource="#Act1Chapter14" data-fs-page="Act 1, Chapter 14" role="doc-chapter">
-      <link property="schema:isPartOf dcterms:isPartOf mdo:bibliography#isPartOf" resource="#Act1">
-      <meta property="mdo:bibliography#isPartNumber" content="14"/>
+      <link property="schema:isPartOf dcterms:isPartOf mdo:pub#isPartOf" resource="#Act1">
+      <meta property="mdo:pub#isPartNumber" content="14"/>
       <meta property="schema:name dcterms:title mdo:title" content="Invisible Friend"/>
       <meta property="schema:abstract bibo:abstract mdo:description" content="Andrea desperately needs a wardrobe befitting her new rank."/>
       
@@ -4841,8 +4836,8 @@ A lonely ocotillo stands proud among the dunes, fuchsia flowers pointed skywards
     </section>
     
     <section id="Act1Chapter15" property="schema:hasPart mdo:hasPart" typeof="schema:Chapter bibo:Chapter mdo:Chapter" resource="#Act1Chapter15" data-fs-page="Act 1, Chapter 15" role="doc-chapter">
-      <link property="schema:isPartOf dcterms:isPartOf mdo:bibliography#isPartOf" resource="#Act1">
-      <meta property="mdo:bibliography#isPartNumber" content="15"/>
+      <link property="schema:isPartOf dcterms:isPartOf mdo:pub#isPartOf" resource="#Act1">
+      <meta property="mdo:pub#isPartNumber" content="15"/>
       <meta property="schema:name dcterms:title mdo:title" content="Car Sex"/>
       <meta property="schema:abstract bibo:abstract mdo:description" content="The chapter title says it all."/>
       
@@ -5004,8 +4999,8 @@ A lonely ocotillo stands proud among the dunes, fuchsia flowers pointed skywards
     </section>
     
     <section id="Act1Chapter16" property="schema:hasPart mdo:hasPart" typeof="schema:Chapter bibo:Chapter mdo:Chapter" resource="#Act1Chapter16" data-fs-page="Act 1, Chapter 16" role="doc-chapter">
-      <link property="schema:isPartOf dcterms:isPartOf mdo:bibliography#isPartOf" resource="#Act1">
-      <meta property="mdo:bibliography#isPartNumber" content="16"/>
+      <link property="schema:isPartOf dcterms:isPartOf mdo:pub#isPartOf" resource="#Act1">
+      <meta property="mdo:pub#isPartNumber" content="16"/>
       <meta property="schema:name dcterms:title mdo:title" content="You Can’t Trust an Ex-Cop"/>
       <meta property="schema:abstract bibo:abstract mdo:description" content="Our detective-to-be must break the news of her betrayal of the antifascist cause… to the very people she is betraying."/>
       
@@ -5020,10 +5015,10 @@ A lonely ocotillo stands proud among the dunes, fuchsia flowers pointed skywards
       <p>I drove us down to Adams, piecing together and rehearsing the right things to tell the workers to convince them I was doing the right thing. We parked right in front of the hotel and went to pay the meter only to find that it already had 23 minutes on it, and, with guarded hopes, approached Yesenia.</p>
       <p>“What’s up, Dippy? Any luck in finding Alex?”</p>
       <p>“Hey, Yesenia, I&NoBreak;—&NoBreak;” My confidence collapsed without warning. “I&NoBreak;—&NoBreak;” I trembled and my mouth ran dry.</p>
-      <p>Her head flopped sideways. “Oh, no… Please don’t tell me you have bad news.”</p>
+      <p>Her head flopped sideways. “Oh, no… Please don’t say you have bad news.”</p>
       <p>“One sec,” interjected Judy as she turned me around, laid her hands on my shoulders and squeezed. “You can do this.”</p>
       <p>I shook my head, and kept my gaze away from hers to hide my fear, but she took me by the chin and drew my eyes into her own. “It was just a hunch,” I mumbled. “A hunch is just a thought. A thought without evidence.”</p>
-      <p>“Even if it goes tits-up, it’ll be worth the attempt. The alternative is guaranteed failure. The best outcome is only possible if you trust your gut and go all-in.”</p>
+      <p>“Even if it goes tits-up, at least you tried. The alternative is guaranteed failure. The best outcome is only possible if you trust your gut and go all-in.”</p>
       <p>Her reassurance helped… Not a lot&NoBreak;—but enough. I turned around. “Yesenia… I have some news that&NoBreak;—well, it’s good news, but it’s also bad news. I’ve deliberated, I’ve discussed it with Judy, I’ve considered the resources available to me… and I’ve determined that I only have one option if I’m going to solve Alex’s kidnapping.”</p>
       <p>Her eyes grew several sizes. <strong>“Kidnapped?”</strong></p>
       <p>“I&NoBreak;—forgot that I hadn’t notified anyone here…”</p>
@@ -5133,8 +5128,8 @@ A lonely ocotillo stands proud among the dunes, fuchsia flowers pointed skywards
     </section>
     
     <section id="Act1Chapter17" property="schema:hasPart mdo:hasPart" typeof="schema:Chapter bibo:Chapter mdo:Chapter" resource="#Act1Chapter17" data-fs-page="Act 1, Chapter 17" role="doc-chapter">
-      <link property="schema:isPartOf dcterms:isPartOf mdo:bibliography#isPartOf" resource="#Act1">
-      <meta property="mdo:bibliography#isPartNumber" content="17"/>
+      <link property="schema:isPartOf dcterms:isPartOf mdo:pub#isPartOf" resource="#Act1">
+      <meta property="mdo:pub#isPartNumber" content="17"/>
       <meta property="schema:name dcterms:title mdo:title" content="Ten-Ticket Thrill Ride"/>
       <meta property="schema:abstract bibo:abstract mdo:description" content="Andrea and Judith enkindle their true understanding of each other and themselves."/>
       
@@ -5269,7 +5264,7 @@ A lonely ocotillo stands proud among the dunes, fuchsia flowers pointed skywards
       <p>“Andy&NoBreak;—why&NoBreak;—<span class="Soft">(why did you stop?)”</span> she asked anxiously.</p>
       <p><span class="Soft">“(I… don’t… know,)”</span> I murmured between heaving breaths, hypnotized as I watched her cock bounce anxiously with each beat of her heart. It looked like it needed <strong>my pussy</strong> as much as my pussy needed <strong>it.</strong> And it was <strong>everything</strong> I needed.</p>
       <p>“What do you mean? Sucking dick shouldn’t require you to think straight. Or think <em>at all.”</em></p>
-      <p><span class="Soft">“(I… need…)”</span> I informed her in a monotone, mesmerized by her pulsating cock.</p>
+      <p><span class="Soft">“(I… need…)”</span> I told her in a monotone, mesmerized by her pulsating cock.</p>
       <p>“You need what?”</p>
       <p><span class="Instinct">(((Cocks belong in vaginas. They’re designed for each other. It’s natural. It’s meant to be inside me. It must go inside me. I need it. I need what it has to offer me.)))</span> I crawled over her until our parts were right next to each other, separated by just a few inches.</p>
       <p><span class="Soft">“(Andy, what are you doing…?)”</span> she asked, warily. I grabbed her cock and guided it as I lowered myself onto it…</p>
@@ -5403,8 +5398,8 @@ A lonely ocotillo stands proud among the dunes, fuchsia flowers pointed skywards
     </section>
       
     <section id="Act1Chapter18" property="schema:hasPart mdo:hasPart" typeof="schema:Chapter bibo:Chapter mdo:Chapter" resource="#Act1Chapter18" data-fs-page="Act 1, Chapter 18" role="doc-chapter">
-      <link property="schema:isPartOf dcterms:isPartOf mdo:bibliography#isPartOf" resource="#Act1">
-      <meta property="mdo:bibliography#isPartNumber" content="18"/>
+      <link property="schema:isPartOf dcterms:isPartOf mdo:pub#isPartOf" resource="#Act1">
+      <meta property="mdo:pub#isPartNumber" content="18"/>
       <meta property="schema:name dcterms:title mdo:title" content="Just Friends With Benefits"/>
       <meta property="schema:abstract bibo:abstract mdo:description" content="This is the part where perfection turns to ash."/>
       
@@ -5487,8 +5482,8 @@ A lonely ocotillo stands proud among the dunes, fuchsia flowers pointed skywards
         role="doc-part" 
         aria-labelledby="Act2Heading"
     >
-      <link property="schema:isPartOf dcterms:isPartOf mdo:bibliography#isPartOf" resource="https://fanniespanker.com/armedescorts/hardboiledwhore/"/>
-      <meta property="mdo:bibliography#isPartNumber" content="2"/>
+      <link property="schema:isPartOf dcterms:isPartOf mdo:pub#isPartOf" resource="https://fanniespanker.com/armedescorts/hardboiledwhore/"/>
+      <meta property="mdo:pub#isPartNumber" content="2"/>
       <meta property="schema:name dcterms:title mdo:title" content="Detective Hole-umbo"/>
 
       <meta property="schema:abstract bibo:abstract mdo:description" content="Hardboiled Whore, Act 2: Detective Hole-umbo. In which our intrepid investigator instigates a test of endurance, a contest of strength, a race to her fallopian tubes&NoBreak;—a matter of life and… well, life."/>
@@ -5514,8 +5509,8 @@ A lonely ocotillo stands proud among the dunes, fuchsia flowers pointed skywards
     </section>
     
     <section id="Act2Chapter01" property="schema:hasPart mdo:hasPart" typeof="schema:Chapter bibo:Chapter mdo:Chapter" resource="#Act2Chapter01" data-fs-page="Act 2, Chapter 1" role="doc-chapter">
-      <link property="schema:isPartOf dcterms:isPartOf mdo:bibliography#isPartOf" resource="#Act2">
-      <meta property="mdo:bibliography#isPartNumber" content="1"/>
+      <link property="schema:isPartOf dcterms:isPartOf mdo:pub#isPartOf" resource="#Act2">
+      <meta property="mdo:pub#isPartNumber" content="1"/>
       <meta property="schema:name dcterms:title mdo:title" content="Tracks 4 and 4 on Nevermind and In Utero"/>
       <meta property="schema:abstract bibo:abstract mdo:description" content="Judith shocks Andrea with the confession of her dearest and most perverse desires."/>
       
@@ -5552,7 +5547,7 @@ A lonely ocotillo stands proud among the dunes, fuchsia flowers pointed skywards
       <p>My jaw dropped.</p>
       <p>“Are you disturbed?”</p>
       <p>“Ah&NoBreak;—Uh&NoBreak;—It’s&NoBreak;—just&NoBreak;—a little shocking to hear someone admit something like that!”</p>
-      <p>“I suppose it is. If it’s any consolation to your guilt-ridden mind, the sex that came last night more than makes up for the endless painful declarations…” And then she smirked lasciviously. “…and I’m trying not to think about how extremely <strong>fertile</strong> you are&NoBreak;—about how I might have <strong>knocked you up</strong> last night&NoBreak;—about how your pretty little body is going to look in a few months when you <strong>start to show</strong> and you can no longer hide the fact that you’ve got <strong>our progeny</strong> growing inside you.” She drew me in with her embrace and in the process pulled me down onto her cock&NoBreak;—pushing a moan out of me, tickling my desires to kiss, to fuck, to mate&NoBreak;—and pressed her balls&NoBreak;—which I had over the course of seven more fucks the night before wrung for every sperm they could produce, each twitch of her cock sending a bolt of lightning to the pleasure center of my gray matter and inducing me to worship her with greater and greater fervor&NoBreak;—and pressed her balls against my inner thighs, and sighed contentedly. “God, that would be wonderful. I’d fuck you harder and harder as your belly gets bigger and bigger… and more and more <strong>beautiful.”</strong> She was granite inside me.</p>
+      <p>“I suppose it is. If it’s any consolation to your guilt-ridden mind, the sex that came last night more than makes up for the endless painful declarations…” And then she smirked lasciviously. “…and I’m trying not to think about how extremely <strong>fertile</strong> you are&NoBreak;—about how I might have <strong>knocked you up</strong> last night&NoBreak;—about how your pretty little body is going to look in a few months when you <strong>start to show</strong> and you can no longer hide the fact that you’ve got <strong>our progeny</strong> growing inside you.” She drew me in with her embrace and in the process pulled me down onto her cock&NoBreak;—pushing a moan out of me, tickling my desires to kiss, to fuck, to mate&NoBreak;—and pressed her balls&NoBreak;—which I had over the course of seven more fucks the night before wrung for every sperm they could produce, each twitch of her cock sending a bolt of lightning to the pleasure center of my white matter and inducing me to worship her with greater and greater fervor&NoBreak;—and pressed her balls against my inner thighs, and sighed contentedly. “God, that would be wonderful. I’d fuck you harder and harder as your belly gets bigger and bigger… and more and more <strong>beautiful.”</strong> She was granite inside me.</p>
       <p>Once again, I found myself panting speechlessly and digging my fingers into her luscious ass, fighting the desire to resume extracting her semen, a desire that intensified as her confession grew more shocking and as she slipped further inside me.</p>
       <p>“If you were wondering <em>why</em> I let you say those words to your heart’s content for the past several hours, that should be plenty of explanation. But if you need me to spell it out for you: I have never wanted to get a person pregnant as much as I’ve wanted to get <strong>you</strong> pregnant, ever since you first displayed for my enjoyment your naked, petite, inviting, maternally ideal body within the intimacy of your bed. I’ve been fantasizing&NoBreak;—<em>obsessing</em>—about fertilizing your egg with my sperm and watching your belly slowly swell as our embryo grows and grows until it emerges from you as a living child. <em>Our</em> child.”</p>
       <p>I hardly noticed that my heart was racing or that I was struggling to catch my breath or that I had begun slowly humping her. <span class="InnerMonologue">((What… the… fuck.))</span> And yet, in addition to panic and shock and concern, I felt something else I wasn’t ready to admit. “Uh&NoBreak;—um&NoBreak;—so&NoBreak;—&NoBreak;” I swallowed. “You&NoBreak;—like&NoBreak;—&NoBreak;” I was blushing so hard that my face was developing a second-degree burn. I was confused by many aspects of this sudden and bizarre turn in our conversation. “Preg&NoBreak;—nant…”</p>
@@ -5563,7 +5558,7 @@ A lonely ocotillo stands proud among the dunes, fuchsia flowers pointed skywards
       <p>“Andy, other than your moaning, you’ve been quiet. Are you alright?”</p>
       <p>“I’m… <span class="Soft">(ah…)</span> fine… <span class="Soft">(hah…)</span> You?”</p>
       <p>“I’d feel better knowing how you feel about my breeding kink&NoBreak;—as well as my pregnancy fetish. Does any of this make you… uncomfortable?”</p>
-      <p>“No. I’m… <span class="Soft">(hah…)</span> fine.” I gasped and panted. “Everything is&NoBreak;—<span class="Soft">(hah)</span>—is okay. I feel the same way about you that I’ve&NoBreak;—<span class="Soft">(mmh)</span>—always felt&NoBreak;—but I’ll admit this news&NoBreak;—<span class="Soft">(oh)</span>—is a little… umm…” I searched for a diplomatic word to express my shock while concealing my germinating enthusiasm. “…unexpected. But… if you <em>were</em> to ask for children…” If I had been capable of being honest with myself, I would have known that my enthusiasm was unmistakable in the ravenous thrusting of my hips.</p>
+      <p>“No. I’m… <span class="Soft">(hah…)</span> fine.” I gasped and panted as I humped her vigorously. “Everything is&NoBreak;—<span class="Soft">(hah)</span>—is okay. I feel the same way about you that I’ve&NoBreak;—<span class="Soft">(mmh)</span>—always felt&NoBreak;—but I’ll admit this news&NoBreak;—<span class="Soft">(oh)</span>—is a little… umm…” I searched for a diplomatic word to express my shock while concealing my germinating enthusiasm. “…unexpected. But… if you <em>were</em> to ask for children…” If I had been capable of being honest with myself, I would have known that my enthusiasm was unmistakable in the ravenous thrusting of my hips.</p>
       <p>“I just like the look of a pregnant belly. Another relatively common fetish. I’m not planning on having kids.”</p>
       <p><span class="Soft">“(Oh,)”</span> I replied with an emotion I would not have admitted to feeling even though I knew damn well what it was. In case you’re wondering, it rhymed with ‘missed appointment’.</p>
       <p>“Do <em>you</em> want children?”</p>
@@ -5612,8 +5607,8 @@ A lonely ocotillo stands proud among the dunes, fuchsia flowers pointed skywards
       <p>“You said you’d try to work through your reservations.”</p>
       <p>“Yes&NoBreak;—but&NoBreak;—I&NoBreak;—really don’t think&NoBreak;—&NoBreak;”</p>
       <p><span class="Irrealis">{I tie her down when she ‘isn’t in the mood’, wrap my fingers around the balls that are rightfully mine and, amid pleas for me to be gentle, squeeze an agonized yelp from her throat. She doesn’t get off on asking me to stop. “Please, Andy, be gentle…” Rather, it’s hearing me tell her, “I’ll play with my toys however I please,” that makes her agonized groans hornier.</span></p>
-      <p><span class="Irrealis">{I tackle her and handcuff her wrists behind her back, then bring her to her knees. “Eat,” I tell her. She shakes her head timidly. In response to her flaccid refusal I yank her hair, and with “reluctant” obedience she aggressively gets to work on my pussy. She can’t help revealing that her so-called reluctance is actually restrained eagerness.</span></p>
-      <p><span class="Irrealis">{“Please, Andy,” she begs, “I can’t take it, it’s too big.” “I know what I’m doing,” I ‘reassure’ her. The giant dildo doesn’t hurt her, but she cries out in agony anyway as I continue pushing it inside her. “Not so deep,” she pleads, even as her moaning betrays her pleasure. By “I can’t take it” she’s really trying to tell me I haven’t reached her prostate and need to go <strong>deeper.</strong>}</span></p>
+      <p><span class="Irrealis">{I tackle her and handcuff her wrists behind her back, then bring her to her knees. “Eat,” I tell her. She shakes her head timidly. In response to her flaccid refusal I yank her hair, and with ‘reluctant’ obedience she aggressively gets to work on my pussy. She can’t help revealing that her so-called reluctance is actually restrained eagerness.</span></p>
+      <p><span class="Irrealis">{“Please, Andy,” she begs, “I can’t take it, it’s too big.” “I know what I’m doing,” I ‘reassure’ her. The giant dildo doesn’t hurt her, but she cries out in agony anyway as I continue pushing it inside her. “Not so deep,” she pleads, even as her moaning betrays her pleasure. By ‘I can’t take it’ she’s really trying to tell me I haven’t reached her prostate and need to go <strong>deeper.</strong>}</span></p>
       <p>Fantasies flashed through my brain like a cluster of lightning strikes all hitting the same person&NoBreak;—namely, me&NoBreak;—one after another, each leaving me with cheeks glowing redder and redder and with sweat threatening to burst from my pores like tap water from a lawn sprinkler. <span class="InnerMonologue">((She wouldn’t tell me not to do something with the expectation that I’ll do it&NoBreak;—would she? Maybe she would. Even so, I shouldn’t do it. ‘No’ means ‘no’. Even if she clearly wants it…))</span></p>
       <p>“I don’t want to do anything with you that you tell me <em>you</em> don’t want,” I insisted, in spite of the heat building up inside me.</p>
       <p>She hid her grin behind a sheer frown. With a nonchalant shrug she told me, “If you’re not comfortable with it, I’m not going to force you to force yourself on me. But we can still have something <em>simulating</em> what I’m asking for, if you don’t mind. How do you feel about <em>roleplaying</em> it?”</p>
@@ -5652,11 +5647,11 @@ A lonely ocotillo stands proud among the dunes, fuchsia flowers pointed skywards
       <p>“What part would that be?”</p>
       <p>“Your cock, of course.”</p>
       <p>“You’re such a <em>sappy romantic,</em> Andrea Bachman.”</p>
-      <p>“I’m <em>your</em> romantic. And you shouldn’t make fun of me for being a romantic when <em>you’re</em> the one who called us ‘soulmates’.” The word excited me. I had my eyes on the future&NoBreak;—spending time with her, having sex with her, doing things that weren’t sex but sex-adjacent, having more sex with her, carbo loading to restore our energy to fuel yet another sex marathon…</p>
+      <p>“I’m <em>your</em> romantic. And you shouldn’t make fun of me for being a romantic when <em>you’re</em> the one who called us ‘soulmates’.” The word excited me. I had my eyes on the future&NoBreak;—spending time with her, having sex with her, doing things that weren’t sex but sex-adjacent, having more sex with her, carbo loading to fuel yet another sex marathon…</p>
       <p>“You’re right. We’re both sappy romantics. Now, let’s get our days started.”</p>
-      <p>After a quick shower, I chose a cream shirt and a charcoal jacket and pants, and rather than put my hair up with the usual utilitarian black elastic liga, I elected for a blue ribbon I had purchased during our shopping spree. I looked in my closet door mirror and gloried in positively hazardous self-admiration for the sharp figure I cut.</p>
+      <p>After a quick shower, I chose a cream shirt and a charcoal jacket and pants, and rather than put my hair up with the usual utilitarian black elastic <a href="#glossary-liga" role="doc-glossref" data-ssml-ph="ˈli.ga" class="NavButton">liga</a>, I elected for a blue ribbon I had purchased during our shopping spree. I looked in my closet door mirror and gloried in positively hazardous self-admiration for the sharp figure I cut.</p>
       <p><span class="InnerMonologue">((What a sexy bitch you are, Andrea Bachman, how irresistibly beautiful! Those vibrant eyes, that cute little nose, those luscious lips, those perky tits, those hazardous hips, that bountiful ass…))</span></p>
-      <p>I imagined myself with child. <span class="InnerMonologue">((Bigger tits, bigger ass, curvy baby bump; I’ll need a second wardrobe for the half of the year that my non-pregnancy clothes don’t fit. I could experiment with different styles every time I get knocked up&NoBreak;—though if our children are all Irish twins it might be simpler to just put these brand-new clothes into storage and wear maternity clothes until I enter menopause…))</span></p>
+      <p>I imagined myself with child. <span class="InnerMonologue">((Bigger tits, bigger ass, curvy baby bump; I’ll need a second wardrobe for the half of the year that my non-pregnancy clothes don’t fit. I could experiment with different styles each time I get knocked up&NoBreak;—though if our children are all Irish twins it might be simpler to just put these brand-new clothes into storage and wear maternity clothes until I enter menopause…))</span></p>
       <p><span class="InnerMonologue">((I’ll be like Demi Moore, so beautiful that all the magazines will be crawling over each other like crabs to put my nudes on their covers. All these decades I never shut up about how ugly and ‘stout’ I am, because something between my eyes and my brain was warping my reflection. Only now have I realized the obvious truth the mirror was trying to tell me:))</span></p>
       <p><span class="InnerMonologue">((I’m hotter than Hell in July.))</span></p>
       <p>“Lookin’ good, Bachman. Going somewhere?”</p>
@@ -5691,7 +5686,7 @@ A lonely ocotillo stands proud among the dunes, fuchsia flowers pointed skywards
       <p>As soon as we were both decent again&NoBreak;—and the resulting puddle on the plastic ‘hardwood’ floor had been mopped up&NoBreak;—I woke my phone. “7:08, Vice is open for business. I’m gonna make the call.”</p>
       <p>She finished inspecting her hair as she replied, “Alright, you do that. I’m going to change into some fresh clothes before I pick up your morning after. Ta-ta.” She took her first steps across the threshold as a committed woman.</p>
       <p>“Wait. Have you watched <cite>The Princess Bride?”</cite></p>
-      <p>“Of course I have.”</p>
+      <p>“I may have heard of it.”</p>
       <p>“Watch it with me sometime?”</p>
       <p>“As you wish.” She winked before softly closing the door behind her.</p>
       <p>Suddenly I was the most alone I’d ever been. I wanted her to come back. I needed her. I opened the door and peeked my head out. She was gone. Without thinking to lock or even close my door I ran to hers and readied my fist to knock.</p>
@@ -5718,8 +5713,8 @@ A lonely ocotillo stands proud among the dunes, fuchsia flowers pointed skywards
     </section>
     
     <section id="Act2Chapter02" property="schema:hasPart mdo:hasPart" typeof="schema:Chapter bibo:Chapter mdo:Chapter" resource="#Act2Chapter02" data-fs-page="Act 2, Chapter 2" role="doc-chapter">
-      <link property="schema:isPartOf dcterms:isPartOf mdo:bibliography#isPartOf" resource="#Act2">
-      <meta property="mdo:bibliography#isPartNumber" content="2"/>
+      <link property="schema:isPartOf dcterms:isPartOf mdo:pub#isPartOf" resource="#Act2">
+      <meta property="mdo:pub#isPartNumber" content="2"/>
       <meta property="schema:name dcterms:title mdo:title" content="Tits and Brass"/>
       <meta property="schema:abstract bibo:abstract mdo:description" content="Andy get your gun, and your badge, and your search warrant."/>
       
@@ -5929,8 +5924,8 @@ A lonely ocotillo stands proud among the dunes, fuchsia flowers pointed skywards
     </section>
       
     <section id="Act2Chapter03" property="schema:hasPart mdo:hasPart" typeof="schema:Chapter bibo:Chapter mdo:Chapter" resource="#Act2Chapter03" data-fs-page="Act 2, Chapter 3" role="doc-chapter">
-      <link property="schema:isPartOf dcterms:isPartOf mdo:bibliography#isPartOf" resource="#Act2"/>
-      <meta property="mdo:bibliography#isPartNumber" content="3"/>
+      <link property="schema:isPartOf dcterms:isPartOf mdo:pub#isPartOf" resource="#Act2"/>
+      <meta property="mdo:pub#isPartNumber" content="3"/>
       <meta property="schema:name dcterms:title mdo:title" content="Renegotiation and Renegation"/>
       <meta property="schema:abstract bibo:abstract mdo:description" content="Our hardboiled whore tries to use sex to get her way, and fails miserably."/>
       
@@ -6146,8 +6141,8 @@ A lonely ocotillo stands proud among the dunes, fuchsia flowers pointed skywards
     </section>
       
     <section id="Act2Chapter04" property="schema:hasPart mdo:hasPart" typeof="schema:Chapter bibo:Chapter mdo:Chapter" resource="#Act2Chapter04" data-fs-page="Act 2, Chapter 4" role="doc-chapter">
-      <link property="schema:isPartOf dcterms:isPartOf mdo:bibliography#isPartOf" resource="#Act2">
-      <meta property="mdo:bibliography#isPartNumber" content="4"/>
+      <link property="schema:isPartOf dcterms:isPartOf mdo:pub#isPartOf" resource="#Act2">
+      <meta property="mdo:pub#isPartNumber" content="4"/>
       <meta property="schema:name dcterms:title mdo:title" content="Competitive Cucking"/>
       <meta property="schema:abstract bibo:abstract mdo:description" content="Andrea and Judith discover yet another shared derangement, and the hardboiled whore decides to give coitus pro quo another try."/>
 
@@ -6355,8 +6350,8 @@ A lonely ocotillo stands proud among the dunes, fuchsia flowers pointed skywards
     </section>
       
     <section id="Act2Chapter05" property="schema:hasPart mdo:hasPart" typeof="schema:Chapter bibo:Chapter mdo:Chapter" resource="#Act2Chapter05" data-fs-page="Act 2, Chapter 5" role="doc-chapter">
-      <link property="schema:isPartOf dcterms:isPartOf mdo:bibliography#isPartOf" resource="#Act2">
-      <meta property="mdo:bibliography#isPartNumber" content="5"/>
+      <link property="schema:isPartOf dcterms:isPartOf mdo:pub#isPartOf" resource="#Act2">
+      <meta property="mdo:pub#isPartNumber" content="5"/>
       <meta property="schema:name dcterms:title mdo:title" content="Love HIRTs"/>
       <meta property="schema:abstract bibo:abstract mdo:description" content="They fuck in the back of a van."/>
       
@@ -6525,8 +6520,8 @@ A lonely ocotillo stands proud among the dunes, fuchsia flowers pointed skywards
     </section>
     
     <section id="Act2Chapter06" property="schema:hasPart mdo:hasPart" typeof="schema:Chapter bibo:Chapter mdo:Chapter" resource="#Act2Chapter06" data-fs-page="Act 2, Chapter 6" role="doc-chapter">
-      <link property="schema:isPartOf dcterms:isPartOf mdo:bibliography#isPartOf" resource="#Act2">
-      <meta property="mdo:bibliography#isPartNumber" content="6"/>
+      <link property="schema:isPartOf dcterms:isPartOf mdo:pub#isPartOf" resource="#Act2">
+      <meta property="mdo:pub#isPartNumber" content="6"/>
       <meta property="schema:name dcterms:title mdo:title" content="Field Promotion"/>
       <meta property="schema:abstract bibo:abstract mdo:description" content="Andrea realizes there is something wrong with her brain."/>
       
@@ -6712,8 +6707,8 @@ A lonely ocotillo stands proud among the dunes, fuchsia flowers pointed skywards
     </section>
       
     <section id="Act2Chapter07" property="schema:hasPart mdo:hasPart" typeof="schema:Chapter bibo:Chapter mdo:Chapter" resource="#Act2Chapter07" data-fs-page="Act 2, Chapter 7" role="doc-chapter">
-      <link property="schema:isPartOf dcterms:isPartOf mdo:bibliography#isPartOf" resource="#Act2">
-      <meta property="mdo:bibliography#isPartNumber" content="7"/>
+      <link property="schema:isPartOf dcterms:isPartOf mdo:pub#isPartOf" resource="#Act2">
+      <meta property="mdo:pub#isPartNumber" content="7"/>
       <meta property="schema:name dcterms:title mdo:title" content="The Catgirl Who Tasted Like Strawberries"/>
       <meta property="schema:abstract bibo:abstract mdo:description" content="Andrea lets her chips spill onto the table, but bets on her newest conquest not realizing there was no bet in the first place."/>
       
@@ -7049,8 +7044,8 @@ A lonely ocotillo stands proud among the dunes, fuchsia flowers pointed skywards
     </section>
     
     <section id="Act2Chapter08" property="schema:hasPart mdo:hasPart" typeof="schema:Chapter bibo:Chapter mdo:Chapter" resource="#Act2Chapter08" data-fs-page="Act 2, Chapter 8" role="doc-chapter">
-      <link property="schema:isPartOf dcterms:isPartOf mdo:bibliography#isPartOf" resource="#Act2">
-      <meta property="mdo:bibliography#isPartNumber" content="8"/>
+      <link property="schema:isPartOf dcterms:isPartOf mdo:pub#isPartOf" resource="#Act2">
+      <meta property="mdo:pub#isPartNumber" content="8"/>
       <meta property="schema:name dcterms:title mdo:title" content="Pleasure Bargain"/>
       <meta property="schema:abstract bibo:abstract mdo:description" content="Andrea and Georgina's new mistress watches her toys play with each other, then teases them with an outing to a mysterious rendezvous"/>
       
@@ -7287,8 +7282,8 @@ A lonely ocotillo stands proud among the dunes, fuchsia flowers pointed skywards
     </section>
     
     <section id="Act2Chapter09" property="schema:hasPart mdo:hasPart" typeof="schema:Chapter bibo:Chapter mdo:Chapter" resource="#Act2Chapter09" data-fs-page="Act 2, Chapter 9" role="doc-chapter">
-      <link property="schema:isPartOf dcterms:isPartOf mdo:bibliography#isPartOf" resource="#Act2">
-      <meta property="mdo:bibliography#isPartNumber" content="9"/>
+      <link property="schema:isPartOf dcterms:isPartOf mdo:pub#isPartOf" resource="#Act2">
+      <meta property="mdo:pub#isPartNumber" content="9"/>
       <meta property="schema:name dcterms:title mdo:title" content="Asmodeus"/>
       <meta property="schema:abstract bibo:abstract mdo:description" content="Madam Moneta takes her new pets to Asmodeus."/>
       
@@ -7457,8 +7452,8 @@ A lonely ocotillo stands proud among the dunes, fuchsia flowers pointed skywards
     </section>
     
     <section id="Act2Chapter10" property="schema:hasPart mdo:hasPart" typeof="schema:Chapter bibo:Chapter mdo:Chapter" resource="#Act2Chapter10" data-fs-page="Act 2, Chapter 10" role="doc-chapter">
-      <link property="schema:isPartOf dcterms:isPartOf mdo:bibliography#isPartOf" resource="#Act2">
-      <meta property="mdo:bibliography#isPartNumber" content="10"/>
+      <link property="schema:isPartOf dcterms:isPartOf mdo:pub#isPartOf" resource="#Act2">
+      <meta property="mdo:pub#isPartNumber" content="10"/>
       <meta property="schema:name dcterms:title mdo:title" content="Sperm Competition"/>
       <meta property="schema:abstract bibo:abstract mdo:description" content="Andrea meets another coworker&NoBreak;—the man she wants out of her life more than anything."/>
       
@@ -7876,8 +7871,8 @@ A lonely ocotillo stands proud among the dunes, fuchsia flowers pointed skywards
     </section>
       
     <section id="Act2Chapter11" property="schema:hasPart mdo:hasPart" typeof="schema:Chapter bibo:Chapter mdo:Chapter" resource="#Act2Chapter11" data-fs-page="Act 2, Chapter 11" role="doc-chapter">
-      <link property="schema:isPartOf dcterms:isPartOf mdo:bibliography#isPartOf" resource="#Act2">
-      <meta property="mdo:bibliography#isPartNumber" content="11"/>
+      <link property="schema:isPartOf dcterms:isPartOf mdo:pub#isPartOf" resource="#Act2">
+      <meta property="mdo:pub#isPartNumber" content="11"/>
       <meta property="schema:name dcterms:title mdo:title" content="The Hand that Spanks"/>
       <meta property="schema:abstract bibo:abstract mdo:description" content="A date so exciting it'll stop your heart."/>
       
@@ -8218,8 +8213,8 @@ A lonely ocotillo stands proud among the dunes, fuchsia flowers pointed skywards
     </section>
     
     <section id="Act2Chapter12" property="schema:hasPart mdo:hasPart" typeof="schema:Chapter bibo:Chapter mdo:Chapter" resource="#Act2Chapter12" data-fs-page="Act 2, Chapter 12" role="doc-chapter">
-      <link property="schema:isPartOf dcterms:isPartOf mdo:bibliography#isPartOf" resource="#Act2">
-      <meta property="mdo:bibliography#isPartNumber" content="12"/>
+      <link property="schema:isPartOf dcterms:isPartOf mdo:pub#isPartOf" resource="#Act2">
+      <meta property="mdo:pub#isPartNumber" content="12"/>
       <meta property="schema:name dcterms:title mdo:title" content="Kickstart My Heart"/>
       <meta property="schema:abstract bibo:abstract mdo:description" content="Death is impermanent; desire, undying."/>
       
@@ -8550,8 +8545,8 @@ Now we’re one&NoBreak;—thank Him above.))
     </section>
     
     <section id="Act2Chapter13" property="schema:hasPart mdo:hasPart" typeof="schema:Chapter bibo:Chapter mdo:Chapter" resource="#Act2Chapter13" data-fs-page="Act 2, Chapter 13" role="doc-chapter">
-      <link property="schema:isPartOf dcterms:isPartOf mdo:bibliography#isPartOf" resource="#Act2"/>
-      <meta property="mdo:bibliography#isPartNumber" content="13"/>
+      <link property="schema:isPartOf dcterms:isPartOf mdo:pub#isPartOf" resource="#Act2"/>
+      <meta property="mdo:pub#isPartNumber" content="13"/>
       <meta property="schema:name dcterms:title mdo:title" content="Who’s to Blame?"/>
       <meta property="schema:abstract bibo:abstract mdo:description" content="Diane's loyalty to her cause stuns Andrea."/>
       
@@ -8717,8 +8712,8 @@ Now we’re one&NoBreak;—thank Him above.))
     </section>
       
     <section id="Act2Chapter14" property="schema:hasPart mdo:hasPart" typeof="schema:Chapter bibo:Chapter mdo:Chapter" resource="#Act2Chapter14" data-fs-page="Act 2, Chapter 14" role="doc-chapter">
-      <link property="schema:isPartOf dcterms:isPartOf mdo:bibliography#isPartOf" resource="#Act2">
-      <meta property="mdo:bibliography#isPartNumber" content="14"/>
+      <link property="schema:isPartOf dcterms:isPartOf mdo:pub#isPartOf" resource="#Act2">
+      <meta property="mdo:pub#isPartNumber" content="14"/>
       <meta property="schema:name dcterms:title mdo:title" content="Friends and Allies"/>
       <meta property="schema:abstract bibo:abstract mdo:description" content="Andrea tries to save Diane’s friendship, only to be hit with another confession."/>
       
@@ -8733,16 +8728,16 @@ Now we’re one&NoBreak;—thank Him above.))
       <p>“I thought you <em>enjoyed</em> punishing your pets.”</p>
       <p>“As play, I do. I like to hear my subs yelp their pleasure when I spank or whip or paddle them, and to see them wiggle their bruised asses and tell me they have misbehaved again and that they deserve more; I like to humiliate my pets in front of others, to see them try to hide those sparks of perverse pride within their eyes; and I very much enjoy calling my pets ‘naughty’ and ‘whore’ and ‘little bitch’ when they are in the mood to be degraded&NoBreak;—but when the offense is serious, if it crosses a vital boundary, I must resort to methods as unpleasant to me as they are to them. I may take away toys and ears and tails, I may take away collars, I may end scenes early or else cancel them outright, and ditto dinner dates or visits to Asmodeus…” She sighed. “My second-least favorite punishment is threatening to end a relationship.”</p>
       <p>“What’s your first?”</p>
-      <p>“Following through on that threat. The bond between a Dominant and a submissive can be even stronger than your typical ‘vanilla’ romance, and the consequences of me severing it can, as you should expect, be devastating, often more-so than for a typical relationship.” My thoughts stewed as I thought more about how she had, in a way, ended our relationship; she noticed. “What is wrong?”</p>
+      <p>“Following through on that threat. The bond between a Dom and a sub can be even stronger than your typical ‘vanilla’ romance, and the consequences of me severing it can, as you should expect, be devastating, often more-so than for a typical relationship.” My thoughts stewed as I thought more about how she had, in a way, ended our relationship; she noticed. “What is wrong?”</p>
       <p>“When you said I shouldn’t want you to own me, that made me… upset. Refusing to own me felt like… like punishment.”</p>
       <p>“Oh, <span data-ssml-ph="ˈdɹeɪˌə">Drea</span>! I am ashamed of myself, that is not <em>at all</em> what I intended! It was simply the case that I felt unworthy of such a relationship.”</p>
       <p>“Oh. Oh…”</p>
       <p>“You helped me to get past that, though. I am as righteous as you are. We are equals, so there is nothing truly perverse about us pretending that I own you in your entirety.”</p>
       <p>Frustrated, I reminded her, “Mistress. I don’t want to be your <em>equal.</em> I don’t want to just <em>pretend</em> to be your property. <em>I want my body to belong to you.”</em></p>
-      <p>She stroked the corner of her jaw and pondered my protest. “That <em>sounds</em> quite sexy. But it would not work.” My frown dipped further. “I cannot consent to you making yourself my real estate&NoBreak;—because I cannot afford the effort or the time to make your decisions for you <span data-ssml-ph="ˈtwɛntiˌfɔːɹ ˈsɛvən">24/7</span>; because you are a free soul who would in due time chafe beneath all the restrictions of such a relationship; and furthermore because the new dynamics might well threaten to destabilize your extant partnerships, which I wish to respect and I would not be comfortable showing such a Dominant/submissive dynamic in view of your other lovers before they and I have had opportunities to get to know each other intimately, or all of us to sit down and formally work out the details&NoBreak;—in writing, if necessary.” <span class="InnerMonologue">((Damn it. God damn it.))</span> “The greatest extent to which I can take our game is that which I am offering you now: a simple Dominant/submissive intimacy. You can either accept that, or reassess our viability as Domme and sub. Am I understood?”</p>
+      <p>She stroked her jaw and pondered my protest. “That <em>sounds</em> quite sexy. But it would not work.” My frown dipped further. “I cannot consent to you making yourself my real estate&NoBreak;—because I cannot afford the effort or the time to make your decisions for you <span data-ssml-ph="ˈtwɛntiˌfɔːɹ ˈsɛvən">24/7</span>; because you are a free soul who would in due time chafe beneath all the restrictions of such a relationship; and furthermore because the new dynamics might well threaten to destabilize your extant partnerships, which I wish to respect and I would not be comfortable showing such a Dominant/submissive dynamic in view of your other lovers before they and I have had opportunities to get to know each other intimately, or all of us to sit down and formally work out the details&NoBreak;—in writing, if necessary.” <span class="InnerMonologue">((Damn it. God damn it.))</span> “The greatest extent to which I can take our game is that which I am offering you now: a simple Dominant/submissive intimacy. You can either accept that, or reassess our viability as Domme and sub. Am I understood?”</p>
       <p>“But I thought I was <em>yours!”</em> I <em>thought</em> I did a good job of not getting overworked as I continued whining, “I was supposed to be your <em>property!”</em></p>
       <p>Her sigh was delicate. “Andrea, even if your job was still in escrow, property free to cease being property at any time is not in earnest property. Instead we <em>roleplay</em> ownership, because the real thing is impossible. You may continue to refer to me as ‘Mistress’, we may put up a façade that I own you and even go so far as to have a calligrapher compose a deed for your whole body and for a fraction of your soul, but neither of us can expect that you will be unswervingly obedient to me forever, so ours will not in truth be&NoBreak;—oh, I really <em>do not like</em> this terminology&NoBreak;—a ‘Master and <em>slave’</em> dynamic. I realize that this goes not even half as far as you would like&NoBreak;—but is it not <em>acceptable,</em> at least?”</p>
-      <p>I grunted in frustration. <span class="InnerMonologue">((I want more. I want to be your property. I want that gold-embossed hand-written deed with my name scribbled in to really mean something&NoBreak;—))</span></p>
+      <p>I grunted in frustration. <span class="InnerMonologue">((I want more. I want to be your property. I want that gold-embossed hand-written deed with my name on it to really mean something&NoBreak;—))</span></p>
       <p><span class="InnerMonologue">((But I don’t want you <strong>selling</strong> me to anybody else. I want to be for you and only you. (And Judy and Tommy and Nico, too, of course.) I want a contract to last my whole life…))</span></p>
       <p>The word for what I <em>actually</em> <em>wanted</em> popped into my mind, which I pushed down back into its hole without a blink of hesitation. <span class="InnerMonologue">((Oh, no-no-no, we haven’t even said ‘I love you’, yet, it’s way too early to be thinking about the M-word. Perhaps I’m taking my desires too seriously. Maybe legal ownership truly is too much to ask of you.))</span> I resigned with a sigh. “Dominant/submissive… but on equal footing, is that it?”</p>
       <p>“Precisely.”</p>
@@ -8760,10 +8755,10 @@ Now we’re one&NoBreak;—thank Him above.))
       <p>“Diane betrays us on Wednesday; then, just a few days later, <em>another</em> pig, this one conveniently between jobs and looking for a little cash to pay her rent, shows up and plies our trade, and in doing so gains our trust.”</p>
       <p>“The chief forced her to do it; Gunther and Sampson bribed the mayor in exchange for a legally questionable favor.”</p>
       <p>She cocked her head and asked, skeptically, “Forced her to do… what?”</p>
-      <p>“To clear out the Torrey Pines. For all we know, the raid was a distraction to grab Alex, although my money is on the villains having operated independently.”</p>
+      <p>“To clear out the Torrey Pines. For all we know, the raid was a distraction to grab Alex, though my money is on the villains having operated independently.”</p>
       <p>“I’d like for you to define the word ‘forced’.”</p>
       <p>“She was given a choice between the raid or her job. If she refused, they would have simply replaced her with someone who would follow orders, and you would no longer have an insider at the department to make life less difficult for&NoBreak;—&NoBreak;” I thought better of using the word ‘us’. “—for sex workers.”</p>
-      <p>She pondered this a while. “Do you have any <em>proof</em> the pigs were in cahoots with G&amp;S?”</p>
+      <p>She pondered this a while. “Do you have any <em>proof</em> they were in cahoots?”</p>
       <p>“I don’t know… Maybe we can ask Diane?”</p>
       <p>“I will not break our silence. <em>You</em> ask her.”</p>
       <p>I knocked on the window and it rolled right down. “Do you have any proof the chief and mayor forced you into this?”</p>
@@ -8850,7 +8845,7 @@ Now we’re one&NoBreak;—thank Him above.))
       <p>“We could&NoBreak;—though it would have to be a summary, as I would like to have my <span data-ssml-ph="ˈdɹeɪˌə">Drea</span> in her bed as soon as possible.”</p>
       <p>“Eh. How about we catch up… Wednesday night, then we go back to meeting Saturdays?”</p>
       <p>“That works for me.”</p>
-      <p>“Alright, I’ll see you on the morrow. Dippy, go home, sober up, you smell like booze and sex. Take care of your girl, Money. I love ye, sisters&NoBreak;—keep up the good work.” She waved us goodbye and got back to advertising her services on the curb.</p>
+      <p>“Alright, I’ll see you on the morrow. Dippy, go home, sober up, you smell like booze and sex. Take care of your girl, Money. I love ye, sisters&NoBreak;—keep up the good work.” She waved us goodbye and got back to advertising her services.</p>
       <p>Some ten-ish minutes of her mostly cheerful driving and contented sighs later, Diane pulled up to my apartment and, before I could open my door, said, her voice taut with anxiety, “Andrea… it may be… too early in our dalliance for me to be expressing sentiments such as that which is to follow&NoBreak;—but it comes from deep inside of me, where it first began to lurk when you entertained my degradation fetish, surfaced when you fished me from my bottomless sea of despair tonight, and surfed the waves after you rescued my relationship with Yesenia. Taking responsibility for your safety and health, as well as discussing with you what you want out of our relationship, are making keeping it inside more difficult. Perhaps even… <em>impossible.”</em></p>
       <p>I waited for her to say what she wanted to say, but she struggled with her mouth for long enough that I figured that she needed some encouragement. “Whatever you might want to say, feel free to say it. You cannot insult, offend, or frighten me, and I will still be yours.”</p>
       <p>“Andrea, I…” She choked upon the words that struggled for release. “Georgina was right. I set you up to fail. And I feel terrible, I feel like I have betrayed you. Because…” Her sentence trailed off. I placed my hand in hers and intertwined our fingers. “<span data-ssml-ph="ˈdɹeɪˌə">Drea</span> Bachman… we have only known each other for a few days, and yet…”</p>
@@ -8924,8 +8919,8 @@ Now we’re one&NoBreak;—thank Him above.))
     </section>
       
     <section id="Act2Chapter15" property="schema:hasPart mdo:hasPart" typeof="schema:Chapter bibo:Chapter mdo:Chapter" resource="#Act2Chapter15" data-fs-page="Act 2, Chapter 15" role="doc-chapter">
-      <link property="schema:isPartOf dcterms:isPartOf mdo:bibliography#isPartOf" resource="#Act2">
-      <meta property="mdo:bibliography#isPartNumber" content="15"/>
+      <link property="schema:isPartOf dcterms:isPartOf mdo:pub#isPartOf" resource="#Act2">
+      <meta property="mdo:pub#isPartNumber" content="15"/>
       <meta property="schema:name dcterms:title mdo:title" content="Shmendrik"/>
       <meta property="schema:abstract bibo:abstract mdo:description" content="Mothers worry too much, if you ask Andrea."/>
       
@@ -9026,8 +9021,8 @@ Now we’re one&NoBreak;—thank Him above.))
     </section>
       
     <section id="Act2Chapter16" property="schema:hasPart mdo:hasPart" typeof="schema:Chapter bibo:Chapter mdo:Chapter" resource="#Act2Chapter16" data-fs-page="Act 2, Chapter 16" role="doc-chapter">
-      <link property="schema:isPartOf dcterms:isPartOf mdo:bibliography#isPartOf" resource="#Act2">
-      <meta property="mdo:bibliography#isPartNumber" content="16"/>
+      <link property="schema:isPartOf dcterms:isPartOf mdo:pub#isPartOf" resource="#Act2">
+      <meta property="mdo:pub#isPartNumber" content="16"/>
       <meta property="schema:name dcterms:title mdo:title" content="Closer"/>
       <meta property="schema:abstract bibo:abstract mdo:description" content="I wanna fuck you like an animal."/>
       
@@ -9500,8 +9495,8 @@ Now we’re one&NoBreak;—thank Him above.))
     </section>
     
     <section id="Act2Chapter17" property="schema:hasPart mdo:hasPart" typeof="schema:Chapter bibo:Chapter mdo:Chapter" resource="#Act2Chapter17" data-fs-page="Act 2, Chapter 17" role="doc-chapter">
-      <link property="schema:isPartOf dcterms:isPartOf mdo:bibliography#isPartOf" resource="#Act2">
-      <meta property="mdo:bibliography#isPartNumber" content="17"/>
+      <link property="schema:isPartOf dcterms:isPartOf mdo:pub#isPartOf" resource="#Act2">
+      <meta property="mdo:pub#isPartNumber" content="17"/>
       <meta property="schema:name dcterms:title mdo:title" content="Everything’s Gonna Be Fine, Fine, Fine"/>
       <meta property="schema:abstract bibo:abstract mdo:description" content="Andrea's night of excess finally catches up with her."/>
       
@@ -9634,8 +9629,8 @@ Now we’re one&NoBreak;—thank Him above.))
         role="doc-part" 
         aria-labelledby="Act3Heading"
     >
-      <link property="schema:isPartOf dcterms:isPartOf mdo:bibliography#isPartOf" resource="https://fanniespanker.com/armedescorts/hardboiledwhore/">
-      <meta property="mdo:bibliography#isPartNumber" content="3"/>
+      <link property="schema:isPartOf dcterms:isPartOf mdo:pub#isPartOf" resource="https://fanniespanker.com/armedescorts/hardboiledwhore/">
+      <meta property="mdo:pub#isPartNumber" content="3"/>
       <meta property="schema:name dcterms:title mdo:title" content="Pierce the Blue Shield"/>
 
       <meta property="schema:abstract bibo:abstract mdo:description" content="Hardboiled Whore, Act 3: Pierce the Blue Shield. Orgies one day, death threats the next."/>
@@ -9657,8 +9652,8 @@ Now we’re one&NoBreak;—thank Him above.))
     </section>
     
     <section id="Act3Chapter01" property="schema:hasPart mdo:hasPart" typeof="schema:Chapter bibo:Chapter mdo:Chapter" resource="#Act3Chapter01" data-fs-page="Act 3, Chapter 1" role="doc-chapter">
-      <link property="schema:isPartOf dcterms:isPartOf mdo:bibliography#isPartOf" resource="#Act3">
-      <meta property="mdo:bibliography#isPartNumber" content="1"/>
+      <link property="schema:isPartOf dcterms:isPartOf mdo:pub#isPartOf" resource="#Act3">
+      <meta property="mdo:pub#isPartNumber" content="1"/>
       <meta property="schema:name dcterms:title mdo:title" content="Acetaldehyde"/>
       <meta property="schema:abstract bibo:abstract mdo:description" content="Andrea's hangover makes an already uncomfortable situation worse."/>
       
@@ -9831,8 +9826,8 @@ Now we’re one&NoBreak;—thank Him above.))
     </section>
     
     <section id="Act3Chapter02" property="schema:hasPart mdo:hasPart" typeof="schema:Chapter bibo:Chapter mdo:Chapter" resource="#Act3Chapter02" data-fs-page="Act 3, Chapter 2" role="doc-chapter">
-      <link property="schema:isPartOf dcterms:isPartOf mdo:bibliography#isPartOf" resource="#Act3">
-      <meta property="mdo:bibliography#isPartNumber" content="2"/>
+      <link property="schema:isPartOf dcterms:isPartOf mdo:pub#isPartOf" resource="#Act3">
+      <meta property="mdo:pub#isPartNumber" content="2"/>
       <meta property="schema:name dcterms:title mdo:title" content="Synchronized Hourglasses"/>
       <meta property="schema:abstract bibo:abstract mdo:description" content="Andrea and Andrea strike up a raunchy rapport almost instantly."/>
       
@@ -9968,15 +9963,19 @@ Now we’re one&NoBreak;—thank Him above.))
       <p class="AvoidPageBreakBefore">“Oh, thank God, please, keep going.” I planted my mouth on her clitoris&NoBreak;—</p>
       
       <div id="Poem=Maíz" property="schema:hasPart bibo:hasPart mdo:hasPart" resource="#Poem=Maíz" typeof="schema:CreativeWork bibo:Document mdo:Poem" class="HorizontallyCentered VerticallyCentered">
-        <div class="Verse VersePresentTense HorizontallyCentered PreserveWhiteSpace" style="text-align: center; font-size: 4cqw;">
- from
- your earth
- springs proud
- <a href="#glossary-maíz" role="doc-glossref" lang="es-US-CA" xml:lang="es-US-CA" data-ssml-ph="maˈis" class="NavButton">maíz</a>,  who  we
- baptize   in   lye
- to be   reborn   as
- our filling aliment:
- <a href="#glossary-nixtamal" role="doc-glossref" lang="es-US-CA" xml:lang="es-US-CA" data-ssml-ph="niʃtaˈmal" class="NavButton">nixtamal</a> we pound
+        <div class="Verse VersePresentTense HorizontallyCentered PreserveWhiteSpace" style="text-align: center; font-size: 1.5cqw;">
+\ /
+\ | /
+\\ || //
+\\\|||///
+from
+your earth
+springs proud
+<a href="#glossary-maíz" role="doc-glossref" lang="es-US-CA" xml:lang="es-US-CA" data-ssml-ph="maˈis" class="NavButton">maíz</a>,  who  we
+baptize   in   lye
+to be   reborn   as
+our filling aliment:
+<a href="#glossary-nixtamal" role="doc-glossref" lang="es-US-CA" xml:lang="es-US-CA" data-ssml-ph="niʃtaˈmal" class="NavButton">nixtamal</a> we pound
 till             fine as the  gold dust             of
      the        rivers of the  land  we       know.
 your  sweet dough brings life  and 
@@ -10003,8 +10002,8 @@ comfort.
     </section>
     
     <section id="Act3Chapter03" property="schema:hasPart mdo:hasPart" typeof="schema:Chapter bibo:Chapter mdo:Chapter" resource="#Act3Chapter03" data-fs-page="Act 3, Chapter 3" role="doc-chapter">
-      <link property="schema:isPartOf dcterms:isPartOf mdo:bibliography#isPartOf" resource="#Act3">
-      <meta property="mdo:bibliography#isPartNumber" content="3"/>
+      <link property="schema:isPartOf dcterms:isPartOf mdo:pub#isPartOf" resource="#Act3">
+      <meta property="mdo:pub#isPartNumber" content="3"/>
       <meta property="schema:name dcterms:title mdo:title" content="The Silent Whistleblower"/>
       <meta property="schema:abstract bibo:abstract mdo:description" content="Andrea and Andrea discover that their values and goals align."/>
       
@@ -10155,8 +10154,8 @@ comfort.
     </section>
     
     <section id="Act3Chapter04" property="schema:hasPart mdo:hasPart" typeof="schema:Chapter bibo:Chapter mdo:Chapter" resource="#Act3Chapter04" data-fs-page="Act 3, Chapter 4" role="doc-chapter">
-      <link property="schema:isPartOf dcterms:isPartOf mdo:bibliography#isPartOf" resource="#Act3">
-      <meta property="mdo:bibliography#isPartNumber" content="4"/>
+      <link property="schema:isPartOf dcterms:isPartOf mdo:pub#isPartOf" resource="#Act3">
+      <meta property="mdo:pub#isPartNumber" content="4"/>
       <meta property="schema:name dcterms:title mdo:title" content="Répondez S’il Vous Poulet"/>
       <meta property="schema:abstract bibo:abstract mdo:description" content="Andrea gets her footage."/>
       
@@ -10337,8 +10336,8 @@ comfort.
     </section>
     
     <section id="Act3Chapter05" property="schema:hasPart mdo:hasPart" typeof="schema:Chapter bibo:Chapter mdo:Chapter" resource="#Act3Chapter05" data-fs-page="Act 3, Chapter 5" role="doc-chapter">
-      <link property="schema:isPartOf dcterms:isPartOf mdo:bibliography#isPartOf" resource="#Act3">
-      <meta property="mdo:bibliography#isPartNumber" content="5"/>
+      <link property="schema:isPartOf dcterms:isPartOf mdo:pub#isPartOf" resource="#Act3">
+      <meta property="mdo:pub#isPartNumber" content="5"/>
       <meta property="schema:name dcterms:title mdo:title" content="Six’s Company, Too"/>
       <meta property="schema:abstract bibo:abstract mdo:description" content="A detective, a desk jockey, a drug dealer, a medical examiner and her assistant cram themselves into a tiny apartment furnished with booze and a king size bed."/>  
       
@@ -10485,8 +10484,8 @@ comfort.
     </section>
     
     <section id="Act3Chapter06" property="schema:hasPart mdo:hasPart" typeof="schema:Chapter bibo:Chapter mdo:Chapter" resource="#Act3Chapter06" data-fs-page="Act 3, Chapter 6" role="doc-chapter">
-      <link property="schema:isPartOf dcterms:isPartOf mdo:bibliography#isPartOf" resource="#Act3">
-      <meta property="mdo:bibliography#isPartNumber" content="6"/>
+      <link property="schema:isPartOf dcterms:isPartOf mdo:pub#isPartOf" resource="#Act3">
+      <meta property="mdo:pub#isPartNumber" content="6"/>
       <meta property="schema:name dcterms:title mdo:title" content="The Uninvited Guest of Honor"/>
       <meta property="schema:abstract bibo:abstract mdo:description" content="Andrea wants nothing more than to be punished for being a naughty girl."/>
       
@@ -10600,7 +10599,7 @@ comfort.
       <p>Doll put on the ears; Regina pointed her compact mirror at her&NoBreak;—prompting a delighted giggle from the newly-adopted kitten. She inspected the tail. “How does this work? I don’t see any way to strap it on.”</p>
       <p>Diane showed her the butt end. “This shiny knob… goes up your ass.”</p>
       <p>“Really?” Diane nodded. “I don’t know if I…”</p>
-      <p>“Butt plugs feel kinda good,” said Georgina. “If you’re not sure how to do it, I can help.”</p>
+      <p>“Butt plugs feel good,” said Georgina. “If you’re not sure how, I can help.”</p>
       <p><span class="Soft">“(Um…)</span> Thank you.”</p>
       <p>Diane handed out cat tails and cat ears to Georgina and Regina, along with a bottle of lube, then offered more of the same adornments to Judy.</p>
       <p>“I’m not really the feline type.”</p>
@@ -10628,8 +10627,8 @@ comfort.
     </section>
     
     <section id="Act3Chapter07" property="schema:hasPart mdo:hasPart" typeof="schema:Chapter bibo:Chapter mdo:Chapter" resource="#Act3Chapter07" data-fs-page="Act 3, Chapter 7" role="doc-chapter">
-      <link property="schema:isPartOf dcterms:isPartOf mdo:bibliography#isPartOf" resource="#Act3">
-      <meta property="mdo:bibliography#isPartNumber" content="7"/>
+      <link property="schema:isPartOf dcterms:isPartOf mdo:pub#isPartOf" resource="#Act3">
+      <meta property="mdo:pub#isPartNumber" content="7"/>
       <meta property="schema:name dcterms:title mdo:title" content="‘Reneging’ on Regina"/>
       <meta property="schema:abstract bibo:abstract mdo:description" content="Andrea recklessly pushes Diane's boundaries."/>
       
@@ -10714,7 +10713,7 @@ comfort.
       <p>“So… I was the <em>center of attention?”</em></p>
       <p>“You certainly were. You are the hostess, so I decided to reward you.” She combed her hand through my hair and played with one of my cat ears&NoBreak;—I wished that it was a <em>real</em> ear, so that I could feel her touch. “And what a <em>wonderful</em> performance it was.”</p>
       <p>“What happened during… my ‘performance’… that was so ‘wonderful’?” I asked nervously&NoBreak;— ‘nervously’ because I had no clue what might have happened after I lost all control.</p>
-      <p>“The little sounds you made when we touched your body or kissed it or nibbled it, the constant moaning as Prissy sucked on your clit, the whimpering when one of us kissed your mouth, the gasping whenever someone pinched or sucked your nipples or kissed your neck; the way your back arched and your body undulated in response to touch, showing off your curves; and the way you kissed us back, eager for every pair of lips and every tongue that mated with yours.”</p>
+      <p>“The little sounds you made when we touched or kissed or nibbled you, the constant moaning as Prissy sucked on your clit, the whimpering when one of us kissed your mouth, the gasping whenever someone pinched or sucked your nipples or kissed your neck; the way your back arched and your body undulated in response to touch, showing off your curves; and the way you kissed us back, eager for every pair of lips and every tongue that mated with yours.”</p>
       <p>I relaxed. “Okay, nothing embarrassing, then.”</p>
       <p>“Just being slutty and cute.”</p>
       <p>“It’s my turn with her,” said Regina. “Everybody off the bed.”</p>
@@ -10966,8 +10965,8 @@ comfort.
     </section>
     
     <section id="Act3Chapter08" property="schema:hasPart mdo:hasPart" typeof="schema:Chapter bibo:Chapter mdo:Chapter" resource="#Act3Chapter08" data-fs-page="Act 3, Chapter 8" role="doc-chapter">
-      <link property="schema:isPartOf dcterms:isPartOf mdo:bibliography#isPartOf" resource="#Act3">
-      <meta property="mdo:bibliography#isPartNumber" content="8"/>
+      <link property="schema:isPartOf dcterms:isPartOf mdo:pub#isPartOf" resource="#Act3">
+      <meta property="mdo:pub#isPartNumber" content="8"/>
       <meta property="schema:name dcterms:title mdo:title" content="The Morning After the Morning-After Pill"/>
       <meta property="schema:abstract bibo:abstract mdo:description" content="Fucking with Judith and making no progress on the missing person case."/>
       
@@ -11193,8 +11192,8 @@ comfort.
     </section>
     
     <section id="Act3Chapter09" property="schema:hasPart mdo:hasPart" typeof="schema:Chapter bibo:Chapter mdo:Chapter" resource="#Act3Chapter09" data-fs-page="Act 3, Chapter 9" role="doc-chapter">
-      <link property="schema:isPartOf dcterms:isPartOf mdo:bibliography#isPartOf" resource="#Act3">
-      <meta property="mdo:bibliography#isPartNumber" content="9"/>
+      <link property="schema:isPartOf dcterms:isPartOf mdo:pub#isPartOf" resource="#Act3">
+      <meta property="mdo:pub#isPartNumber" content="9"/>
       <meta property="schema:name dcterms:title mdo:title" content="Canary in a Cop Crime"/>
       <meta property="schema:abstract bibo:abstract mdo:description" content="Andrea receives her first of many death threats."/>
       
@@ -11261,7 +11260,7 @@ comfort.
       <p>But I had succeeded in all but forgetting about Geraldine’s ire. Instead, by the time Lou joined his polycule of <span lang="fr" data-ssml-ph="ˈfɛmz ˌfəˈtalz">femmes fatales</span> (and <span data-ssml-ph="ˈfɛmz ˈinˌɔˈfɛnsivz">femmes inoffensives</span>) before the credits, I had only one thing on my mind: the red bird.</p>
       <p>I fished it out of the trash, gently set it down on the coffee table, and stared at it. While the detective part of my brain slowly booted up, I took some pictures. <span class="InnerMonologue">((Who bought it?))</span> I had never seen a reddish-orange canary in my life, not even a photo of one, and they had never come up in any conversation I had listened to… so they had to be at least slightly less common than the yellow kind, and not likely to be stocked at pet shops that didn’t deal specifically in uncommon birds. A quick search turned up that <em>red factor</em> canaries were indeed uncommon in run-of-the-mill pet shops. I compiled a list of every store in the city that specialized in birds, dialed the first one&NoBreak;—and groaned as it occurred to me, <span class="InnerMonologue">((Georgina was only joking about the Ace Ventura thing… but here I am, tracking down the seller of a canary entangled in a kidnapping. Next I’ll learn how to talk to cats. Oh, right&NoBreak;—I <em>am</em> a cat.))</span></p>
       <p>I tapped the ‘call’ button, and someone picked up on the sixth ring. “Love and Feathers, how can I help you?”</p>
-      <p>“Good morning, this is Detective Andrea Bachman, SVPD. Do you carry red canaries?”</p>
+      <p>“Good morning, this is Detective Bachman, SVPD. Do you have red canaries?”</p>
       <p>“We can order you one and have it to you by tomorrow.”</p>
       <p>“I need to know if you’ve had any in stock recently.”</p>
       <p>“Sorry, ma’am, we don’t, but we deliver straight to your home, next day.”</p>
@@ -11376,14 +11375,14 @@ comfort.
       <p>“Go on in, Prax.”</p>
       <p>Diane smiled when she saw me and gave me a tight hug. “You look like you are doing better! How is the kidnapper hunt going, Sweetie?”</p>
       <p>“Geraldine basically told me to fuck off until I had good news, I just kind of… felt numb after that. No news turned out to be bad news, and I wanted to process it alone.”</p>
-      <p>She brushed away a curl of my hair. “I am sorry, Sweetie. It is your business why you did not come to me for comfort, but did you by any chance talk to Judy?”</p>
+      <p>She brushed away a curl of my hair. “I am sorry, Sweetie. It is your business why you did not come to me for comfort, but might you have talked to Judy?”</p>
       <p>“I wanted to be alone. I didn’t want anyone around feeling bad for me. I didn’t want to be comforted. I just wanted to stare at the TV and drool.”</p>
       <p>“We all have our own ways of coping. I hope that you are feeling better after getting some sleep.”</p>
       <p>“I’ve been trying since that phone call to convince myself that she hasn’t lost all hope, while simultaneously trying to accept the obvious conclusion that she <em>has</em>—because I’m a cop, and she knows damn well that cops can’t be trusted.”</p>
       <p>“You <em>are</em> trustworthy. Someday she will come to realize that, even if that someday is the day you find him.”</p>
       <p>“Maybe…” <span class="InnerMonologue">((But there’s someone interfering with my search…))</span></p>
       <p>“What is on your mind, <span data-ssml-ph="ˈdɹeɪˌə">Drea</span>?”</p>
-      <p>I pulled the bird out of my pocket and dangled it by its noose. “There was a present on my welcome mat when I finally got around to leaving my apartment this morning.”</p>
+      <p>I pulled the bird out of my pocket and dangled it by its noose. “There was a visitor waiting at my door this morning.”</p>
       <p>The concern in the wrinkles of her skin doubled, while the concern in her eyes turned into the beginnings of rage. She held out her cupped hand and I let the bird fall into her palm. Fear mixed with fury. “Do you have any idea who would want to do this?”</p>
       <p>“James Horton.”</p>
       <p>“I’ve never heard of him.”</p>
@@ -11396,7 +11395,7 @@ comfort.
       <p>“I appreciate you going to bat for me, but… I’m thinking I might also be able to spin an accessory after the fact for Alex’s kidnapping…” A subtle smile reversed her negative demeanor. “…on top of the Section <span data-ssml-ph="ˈfɔːɹ ˈtwɛːntiˈtuː">422</span> PC.”</p>
       <p>“Accessory to kidnapping might be a <em>little bit</em> of a stretch for something so simple as a dead bird… but I think you <em>might</em> be able to use that threat to extract a favorable plea bargain.” She kissed me, and with an affectionate pat on the cheek, ordered, “Get to it, Eupraxia.”</p>
       <p>“As you command, Mistress.”</p>
-      <p>After one last peck of our lips, I went to my desk, uploaded my pictures of the hanged bird, the video of Detective Horton purchasing it, and the point-of-sale transaction record.</p>
+      <p>After one last peck of our lips, I went to my desk and uploaded the pictures, surveillance video, and point-of-sale purchase record.</p>
       <p>About that point-of-sale transaction: the record made no mention of the name of the payer, his billing address, his issuing bank, or his bank account number&NoBreak;—only that the payment had been made with a <span class="Website">PassPorter</span> contactless credit card with the last four digits ‘<span class="CreditCard">7956</span>’. The transaction information had been obscured to the point that I had no straightforward way of proving the purchase was made with Horton’s card. I therefore had no choice but to go straight to his bank to acquire a full record of the incriminating payment.</p>
       <p>Which meant I needed a warrant.</p>
       <p>I created a new <span data-ssml-ph="ˈdɑːkˌɛːks">DOCX</span> in the <span class="Website">CaseCloud</span> vault, only to be interrupted: my calendar notified me that I was due in Traffic Court at 10. <span class="InnerMonologue">((Here we go…))</span> I called Sergeant Matthews and informed him I had a citation to respond to, and he kindly pointed out, “You already called in for the day, and I don’t care what you do with your time. Stop bothering me.” If anything, there was a hint of <em>hostility</em> in his dismissive tone.</p>
@@ -11705,8 +11704,8 @@ comfort.
     </section>
     
     <section id="Act3Chapter10" property="schema:hasPart mdo:hasPart" typeof="schema:Chapter bibo:Chapter mdo:Chapter" resource="#Act3Chapter10" data-fs-page="Act 3, Chapter 10" role="doc-chapter">
-      <link property="schema:isPartOf dcterms:isPartOf mdo:bibliography#isPartOf" resource="#Act3">
-      <meta property="mdo:bibliography#isPartNumber" content="10"/>
+      <link property="schema:isPartOf dcterms:isPartOf mdo:pub#isPartOf" resource="#Act3">
+      <meta property="mdo:pub#isPartNumber" content="10"/>
       <meta property="schema:name dcterms:title mdo:title" content="Tzedek"/>
       <meta property="schema:abstract bibo:abstract mdo:description" content="Andrea learns some ancient Jewish wisdom."/>
       
@@ -11730,8 +11729,8 @@ comfort.
       <p>“He deserves exactly what I offered.”</p>
       <p>“<span class="ACAB">All Cops Are Bastards</span>, and that man in particular is <em>garbage,</em> no argument. But the deal you gave Horton has me fearing what you have planned for the actual kidnappers.” When after too many seconds I failed to tell her what I had planned for them, she said, “But as much as I fear it, I must know. When the time comes to arrest the rest of the ne’er-do-wells, what kinds of bargains will you try to extort from them?”</p>
       <p>“None. I’ll force them to go to trial.”</p>
-      <p>“Why would you do that? A plea bargain is a safer bet; minimum sentences are already grotesquely disproportionate to the impact of their corresponding crimes. The system is designed to force the accused into accepting bargains as a rule.”</p>
-      <p>“The unfairness of the system is immaterial to my decision, the kidnappers deserve <em>life.”</em></p>
+      <p>“Why would you do that? A plea bargain is a safer bet; minimum sentences are already grotesquely disproportionate to their corresponding crimes. The system is designed to force the accused into accepting bargains as a rule.”</p>
+      <p>“The system’s unfairness is immaterial to my decision. They deserve <em>life.”</em></p>
       <p>“Their lives seem like a lot to take from them if they have taken only a <em>finite portion</em> of <em>one man’s life,</em> don’t you think?”</p>
       <p>“‘Finite portion’? We don’t even know whether Alex is still alive! As for your ‘one man’s life’, the <span class="ACAB">bastards</span> who took him have traumatized his loved ones, robbed his comrades of a powerful ally, deprived countless vulnerable people of a hero, and demoralized the communities and movements to whom he has given hope. Whoever took him hurt <em>many</em> people’s lives and deserves the worst punishment on the books.”</p>
       <p>She sighed, shook her head, and exhaled a single, extended, disappointed stream of air. “Detective. The first step towards a favorable outcome for the prosecution is securing a bargain as soon as the defendant signals that they are amenable to negotiations. We are at our most powerful <em>now,</em> before we arrive at the preliminary hearing. The best possible outcome for the prosecution is the judge sealing the deal at pre-trial, negating the need for a trial altogether. Sending it to a jury, I should not need to tell you, takes time and resources and gives the evildoers an opportunity to get away scot-free.”</p>
@@ -11739,8 +11738,8 @@ comfort.
       <p>“Do you trust the judge? The jurors? Your witnesses?”</p>
       <p>“The judge…” You can probably tell by now that I hadn’t thought that far ahead&NoBreak;—Diane was right to tell me I wasn’t a good detective.</p>
       <p>“You are no longer inspiring confidence within me, Detective.”</p>
-      <p>I winced. “We have a solid case for Horton, so even if the plea bargain falls through, we still have him dead to rights for accessory to kidnapping&NoBreak;—will you at least admit <em>that?”</em></p>
-      <p>She pondered the question for a disconcerting length of time before admitting, “Other than the fact we have neither Alex nor his corpse to testify for us at the moment&NoBreak;—sure, for however long it takes for the wills of the jury to melt in a poorly air-conditioned courtroom in late July.”</p>
+      <p>I winced. “We have a solid case for Horton, so even if the plea bargain falls through, we still have him dead to rights for accessory to kidnapping&NoBreak;—right?”</p>
+      <p>She pondered my claim for a disconcerting length of time before admitting, “Other than the fact we have neither Alex nor his corpse to testify for us at the moment&NoBreak;—sure, for however long it takes for the wills of the jury to melt in a poorly air-conditioned courtroom in late July.”</p>
       <p>“And… and wouldn’t you say that its solidity is the most important factor in predicting success?”</p>
       <p>She shook-nodded dubiously. “If our judge is <em>honest</em> and <em>fair</em> and <em>competent,</em> and the jury isn’t <em>biased</em> or <em>tampered</em> with, and the witnesses are <em>respectable</em> and <em>compliant,</em> if his counsel doesn’t manage to get any of our evidence thrown out in pretrial for being warrantless… then the persuasiveness of the case is a modestly effective predictor of success.” I nodded, satisfied. “But if you have a judge with blue blood, Horton might not look so guilty; and as for the actual kidnappers: if one of our witnesses ‘disappears’, or is intimidated into silence, or turns out to have ‘bad character’—cough, cough, gets paid for sex&NoBreak;—or if we have a single bad juror; or if any of your evidence was hearsay or acquired in violation of the Fourth… you can show the jury absolute proof, but in the end he will walk out of that courtroom unshackled.”</p>
       <p>“Oh.”</p>
@@ -11756,11 +11755,11 @@ comfort.
       <p>“Or like Diane,” I riposted.</p>
       <p><em>“Diane</em> has deliberately decided to put as few people in jail as she can get away with and allow the few she is forced to catch to go free without punishment at her earliest opportunity; she has secured not even a single conviction, neither by her own hands nor by any of her subordinates… <em>in her entire career.</em> You went <em>in person</em> to the judge to get your warrant, having spent your day off investigating instead of recuperating; you arrested Horton yourself; and you wanted me to put him behind bars for an excessive length of time. Your aims diverge from hers.”</p>
       <p>“But she supports my decisions.”</p>
-      <p>“Which&NoBreak;—&NoBreak;” She allowed a little frustration to dribble out. <em>“—boggles</em> my mind. I have been transplanted&NoBreak;—without anesthetic or antiseptic or antirejection medication&NoBreak;—into the DA’s office and given a badge without any training, like Dorothy being given silver shoes without a good witch to guide her through this depraved permutation of Oz. <em>This</em> was the punishment inflicted upon me by Diane.”</p>
+      <p>“Which&NoBreak;—&NoBreak;” She allowed a little frustration to dribble out. <em>“—boggles</em> my mind. I have been transplanted&NoBreak;—without anesthetic or antiseptic or antirejection medication&NoBreak;—into the DA’s office without any training, like Dorothy being given silver shoes without a good witch to guide her through this depraved permutation of Oz. <em>This</em> was the punishment inflicted upon me by Diane.”</p>
       <p>“Punishment for what?”</p>
       <p>“Things I will not explain to you because it is <em>our</em> business, <em>not yours.”</em></p>
       <p>“Whatever. I don’t know how to feel about being on my girlfriend’s other submissive’s shit list. I wish she hadn’t told you anything about me.”</p>
-      <p>“I am <em>her lawyer.</em> I have a need to know about her indiscretions. She could be fined for quid pro quo and be liable for a God-awful sum in damages if any of you decide to exercise your legal and human rights&NoBreak;—enough to have a significant impact on her finances. Not to mention&NoBreak;—it is simply unethical, and unbecoming of someone who believes in the inviolable right to control one’s own body to engage in these exchanges of power and liberty. I’ve told her she’s a fool and a hypocrite, but she insists on playing the sexual harassment lottery. <em>Nobody</em> tells Moneta, Teacher of a Hundred Naughty Subs, what she can and cannot do.”</p>
+      <p>“I am <em>her lawyer.</em> I have a need to know about her indiscretions. She could be sued for quid pro quo for a God-awful sum in damages if any of you were to decide to exercise your legal and human rights&NoBreak;—enough to have a significant impact on her finances. Not to mention&NoBreak;—it is simply unethical, and unbecoming of someone who believes in the inviolable right to control one’s own body to engage in these exchanges of power and liberty. I’ve told her she’s a fool and a hypocrite, but she insists on playing the sexual harassment lottery. <em>Nobody</em> tells Moneta, Teacher of a Hundred Naughty Subs, what she can and cannot do.”</p>
       <p>After an awkward moment, I admitted, “I hadn’t considered her net worth until you brought up damages. How much does she make?”</p>
       <p>“Attorney-client privilege.”</p>
       <p>“Aww. Guess I’ll have to ask her myself. You sure you don’t feel like dishing on how you pissed her off?”</p>
@@ -11770,11 +11769,11 @@ comfort.
       <p>“I’ll tell you anyway, because you might find it amusing and thus like me more than the big steaming dog shit you stepped in right before meeting me.”</p>
       <p>“I won’t stop you from trying to endear yourself to someone whose mind has been permanently concluded since she first heard about Diane’s new pet who wanted to be a cop and <em>really</em> wants to fight crime.”</p>
       <p>“I bit her on the neck.”</p>
-      <p>She was caught off guard; unable to hold back the laugh forcing its way out of her throat, she resorted to covering her mouth to suppress it. <span class="Soft">“(Hmh!)</span> Oh my <em>God.”</em></p>
+      <p>Unable to hold back the surprised laugh forcing its way out of her throat, she resorted to covering her mouth to suppress it. <span class="Soft">“(Hmh!)</span> Oh my <em>God.”</em></p>
       <p>“To mark her as mine.”</p>
       <p>She cackled. “You are <em>insane!”</em></p>
       <p>“She took away my ears and tail. Absolutely devastated me, and she warned me of some additional, vague punishment to come at an undefined date.”</p>
-      <p>“I’ll be damned… I’ll be damned. What could she have in mind for you? Something horrible, no doubt, if you displayed such insubordination.” She sighed. “Something that will be difficult to one-up.” She removed a card from her jacket and offered it. “Until I hatch a plan to piss her off, I have work to do.” I accepted the business card, which simply listed her name and number. “I will be off.”</p>
+      <p>“I’ll be damned… I’ll be damned. What could she have in mind for you? Something horrible, no doubt, for such insubordination.” She sighed. “Something that will be difficult to one-up.” She removed a card from her jacket and offered it. “Until I hatch a plan to piss her off, I have work to do.” I accepted the business card, which simply listed her name and number. “I will be off.”</p>
       <p>“Nice chatting with you, Eileen.”</p>
       <p>She waved as she left.</p>
       <p>“Tough crowd,” observed a voice once Eileen was gone.</p>
@@ -11832,7 +11831,7 @@ comfort.
       <p>“Somebody took a man away from his loved ones and away from the people who look to him for the right path in life&NoBreak;—and for all we know, they took not just his body, but his life. And Horton tried to help them.”</p>
       <p>“Yeah. Exactly. He was an accessory.”</p>
       <p>“But he doesn’t know where Brookvale is.”</p>
-      <p>“That doesn’t matter. He tried to help the kidnappers get away with their crime.”</p>
+      <p>“Doesn’t matter. He tried to help the kidnappers get away with their crime.”</p>
       <p>“Did he succeed?”</p>
       <p>“No.”</p>
       <p>“Then what harm has he caused?”</p>
@@ -11970,8 +11969,8 @@ comfort.
     </section>
     
     <section id="Act3Chapter11" property="schema:hasPart mdo:hasPart" typeof="schema:Chapter bibo:Chapter mdo:Chapter" resource="#Act3Chapter11" data-fs-page="Act 3, Chapter 11" role="doc-chapter">
-      <link property="schema:isPartOf dcterms:isPartOf mdo:bibliography#isPartOf" resource="#Act3">
-      <meta property="mdo:bibliography#isPartNumber" content="11"/>
+      <link property="schema:isPartOf dcterms:isPartOf mdo:pub#isPartOf" resource="#Act3">
+      <meta property="mdo:pub#isPartNumber" content="11"/>
       <meta property="schema:name dcterms:title mdo:title" content="Cheesecake"/>
       <meta property="schema:abstract bibo:abstract mdo:description" content="Andrea entertains the chief with sweet dairy goodness."/>
       
@@ -12090,8 +12089,8 @@ comfort.
     </section>
     
     <section id="Act3Chapter12" property="schema:hasPart mdo:hasPart" typeof="schema:Chapter bibo:Chapter mdo:Chapter" resource="#Act3Chapter12" data-fs-page="Act 3, Chapter 12" role="doc-chapter">
-      <link property="schema:isPartOf dcterms:isPartOf mdo:bibliography#isPartOf" resource="#Act3">
-      <meta property="mdo:bibliography#isPartNumber" content="12"/>
+      <link property="schema:isPartOf dcterms:isPartOf mdo:pub#isPartOf" resource="#Act3">
+      <meta property="mdo:pub#isPartNumber" content="12"/>
       <meta property="schema:name dcterms:title mdo:title" content="Mother-Daughter Heart-to-Heart"/>
       <meta property="schema:abstract bibo:abstract mdo:description" content="Andrea thinks she's cracked the case."/>
       
@@ -12209,8 +12208,8 @@ comfort.
     </section>
     
     <section id="Act3Chapter13" property="schema:hasPart mdo:hasPart" typeof="schema:Chapter bibo:Chapter mdo:Chapter" resource="#Act3Chapter13" data-fs-page="Act 3, Chapter 13" role="doc-chapter">
-      <link property="schema:isPartOf dcterms:isPartOf mdo:bibliography#isPartOf" resource="#Act3">
-      <meta property="mdo:bibliography#isPartNumber" content="13"/>
+      <link property="schema:isPartOf dcterms:isPartOf mdo:pub#isPartOf" resource="#Act3">
+      <meta property="mdo:pub#isPartNumber" content="13"/>
       <meta property="schema:name dcterms:title mdo:title" content="Action Girl Task Force!"/>
       <meta property="schema:abstract bibo:abstract mdo:description" content="He should be here. Where is he? Why isn't he here? What the hell happened to Alexander Brookvale?"/>
       
@@ -12649,8 +12648,8 @@ comfort.
     </section>
     
     <section id="Act3Chapter14" property="schema:hasPart mdo:hasPart" typeof="schema:Chapter bibo:Chapter mdo:Chapter" resource="#Act3Chapter14" data-fs-page="Act 3, Chapter 14" role="doc-chapter">
-      <link property="schema:isPartOf dcterms:isPartOf mdo:bibliography#isPartOf" resource="#Act3">
-      <meta property="mdo:bibliography#isPartNumber" content="14"/>
+      <link property="schema:isPartOf dcterms:isPartOf mdo:pub#isPartOf" resource="#Act3">
+      <meta property="mdo:pub#isPartNumber" content="14"/>
       <meta property="schema:name dcterms:title mdo:title" content="Forgiving Ghosts"/>
       <meta property="schema:abstract bibo:abstract mdo:description" content="They moved him."/>
       
@@ -12895,8 +12894,8 @@ comfort.
     </section>
     
     <section id="Act3Chapter15" property="schema:hasPart mdo:hasPart" typeof="schema:Chapter bibo:Chapter mdo:Chapter" resource="#Act3Chapter15" data-fs-page="Act 3, Chapter 15" role="doc-chapter">
-      <link property="schema:isPartOf dcterms:isPartOf mdo:bibliography#isPartOf" resource="#Act3">
-      <meta property="mdo:bibliography#isPartNumber" content="15"/>
+      <link property="schema:isPartOf dcterms:isPartOf mdo:pub#isPartOf" resource="#Act3">
+      <meta property="mdo:pub#isPartNumber" content="15"/>
       <meta property="schema:name dcterms:title mdo:title" content="Steel Casket"/>
       <meta property="schema:abstract bibo:abstract mdo:description" content="The climax you've been waiting for. No, the other kind of climax."/>
       
@@ -13188,6 +13187,15 @@ comfort.
         <p>
           <span class="PartOfSpeech">n.</span>
           <span role="definition">milk</span>
+        </p>
+      </article>
+
+      <article id="glossary-liga">
+        <dfn role="term" lang="es" xml:lang="es">liga</dfn>
+        <span class="IPA">[ˈli.ga]</span>        
+        <p>
+          <span class="PartOfSpeech">n.</span>
+          <span role="definition">hair tie</span>
         </p>
       </article>
 
