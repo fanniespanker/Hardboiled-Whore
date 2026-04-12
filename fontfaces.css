@@ -305,6 +305,13 @@
 }
 
 @font-face {
+  font-family: "Old English Five";
+  font-weight: normal;
+  font-style: normal;
+  src: url('/fonts/OldEnglishFive.ttf');
+}
+
+@font-face {
   font-family: "Playfair";
   font-style: normal;
   src: url('/fonts/Playfair-VariableFont_opsz\,wdth\,wght.ttf') format("truetype");

@@ -651,6 +651,10 @@ cite {
   }
 }
 
+.Unreadable {
+  font-family: "Old English Five", serif;
+}
+
 .ACAB {
   font-family: "Operation Napalm", monospace;
 }
