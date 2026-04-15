@@ -555,14 +555,13 @@ em {
 
 .Instinct {
   color: #006060;
-/*  font-family: "Charrington Roughened", serif; */
-  font-weight: bold;
   font-style: italic;
   font-variant-caps: petite-caps;
   voice-volume: x-soft;
   voice-pitch: -60%;
   
   em {
+    font-weight: bold;
     text-transform: uppercase;
   }
 }
