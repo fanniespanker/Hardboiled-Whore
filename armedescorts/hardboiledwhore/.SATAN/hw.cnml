@@ -3,16 +3,23 @@
 
 <cnml>
   <book>
-    <title>Hardboiled Whore</title>
-    <author>Fannie Spanker</author>
-    <year>2025</year>
-    <modified>2026-94-26</modified>,
-    <pubtype>novel</pubtype>
-    <uri>https://fanniespanker.com/armedescorts/hardboiledwhore/</uri>
-    <license>
-      <name>Creative Commons Attributioni Noncommercial ShareAlike</name>
-      <uri>https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode</uri>
-    </license>
+    <pub>
+      <title>Hardboiled Whore</title>
+      <author>Fannie Spanker</author>
+      <year>2025</year>
+      <modified>2026-94-26</modified>
+      <uri>https://fanniespanker.com/armedescorts/hardboiledwhore/</uri>
+      <isbn>unassigned</isbn>
+      <license>
+        <name>Creative Commons Attributioni Noncommercial ShareAlike</name>
+        <uri>https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode</uri>
+      </license>
+      <length-category>novel</length-category>
+      <reality-type>fiction</reality-type>
+      <genre>mystery</genre>
+      <genre>romance</genre>
+      <genre>erotica</genre>
+    </data>
 
     <frontmatter>
 
@@ -53,16 +60,14 @@
       <section role="disclaimer">
         <heading>Dicksclaimer</heading>
         <description>Nothing here is true.</description>
-        
-        <heading>Dicksclaimer</heading>
+
         This is a work of fiction, with neither nuance nor message.
 
         It is not historical, it is not biographical, and it is not informational.
 
-        The characters, vocations, demographics, organizations, locations, municipalities, and legal entities; political beliefs, misinformation, and conspiracy theories; works of art, forgeries, and satirizations of AI slop; quotes cinematic, musical, folklorical, and literary; trademarks, copyrights, patents, and other forms of cultural theft; religious beliefs, scriptures, and discourse thereof; subcultures, scenes, kinks, fetishes, and perversions; events historical, contemporary, potential, or predestined; military or paramilitary procedures, agendas, and capabilities; claims factual, fabricated, and dubious; and all other matters or things or stuffs—tangible or intangible, published or unpublished, written or oral, concrete or abstract, enlightened or obscured, benign or malignant, portrayed or referenced herein; either are products of the author’s imagination, or—if having any basis in or bearing even the slightest resemblance to any reality, falsification, confabulation, or shared delusion—are portrayed fictitiously.
+        The people, places, organizations, ideologies, and movements portrayed or referenced herein either are products of the author’s imagination, or—if having any basis in or bearing even the slightest resemblance to any reality, falsification, confabulation, or delusion—are portrayed fictitiously.
 
         Beware, Dear Reader: nothing here is true.
-
       </section>
 
     </frontmatter>
@@ -201,7 +206,9 @@
           This question, my friend, was—if you have not already guessed—the moment my miserable life took a turn for the better. <say>Yes, actually. There’s a matchmaking system that will pair me up with strangers who like <work type="videogame">Martian Marine</work> as much as I do.</say>
 
           <say>Then get to it, Esti! I’ll step out and let you do your thing.</say> And then she was gone again.
+        </scene>
 
+        <scene>
           So, I booted up my ancient PlayBox U, started <work type="videogame">Martian Marine</work>, and entered the cooperative matchmaking lobby. Fifteen seconds later, the servers offered me a partner with zero ping, which I accepted without hesitation. HalenBunny entered my lobby, and I donned my headset (which was good for its microphone but no longer produced sound through the earphones, forcing me to pass game and voice audio through the TV).
 
           <say>Which level are we playing, <emph>Lou Peckinpaw?</emph></say> asked the sultry contralto of a woman much older than myself. <say>By the way, that’s an interesting gamersign.</say>
@@ -393,7 +400,9 @@
                 to adulterate.
 
           </poem>
-          
+        </scene>
+
+        <scene>
           <think>It would seem,</think> I realized, <think>that I have what people refer to as a <quote>type</quote>.</think>
 
           <say>You’re that redhead cop from next door,</say> inferred my new friend with a disdainful tone and a sharp glare.
@@ -495,7 +504,6 @@
           <say>You got it.</say> She leaned in; I closed my eyes and parted my lips, expecting hers to meet mine.
 
           Instead of a kiss on the mouth, though, I felt a wet pressure on the side of my neck, and then a vibration in my throat, and I thanked God that I was seated because my legs instantly turned to jelly.
-
         </scene>        
       </chapter>
   
