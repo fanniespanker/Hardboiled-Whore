@@ -19,7 +19,7 @@
       <section role="acknowledgments"> 
         Adrian, first: I love you. Every day I try to think of ways to thank you for encouraging me to keep going through the toughest of times, and for the invaluable feedback you provided even though this book has been… not quite your cup of tea. Thank you. You are the best thing to ever happen to me.
 
-        I wish also to thank Rambling Chantrix, who proved to me that I have an audience that will listen to everything I have to say then ask for more. She is the author of many vibrant and surreal-yet-heartfelt (and sexy) stories, including her debut short story omnibus, <work>Sad Porn About the End of the World;</work> more can be read about her work on her professional website (<work type="site">rambling.chantrix.org</work>).
+        I wish also to thank Rambling Chantrix, who proved to me that I have an audience that will listen to everything I have to say then ask for more. She is the author of many vibrant and surreal-yet-heartfelt (and sexy) stories, including her debut short story omnibus, <work type="book">Sad Porn About the End of the World</work>; more can be read about her work on her professional website (<work type="site">rambling.chantrix.org</work>).
 
         Finally, a big <quote>thank you so much</quote> goes to Dirk Hooper, who cheated death just so that he could give this book the cover it deserves; his creative services can be accessed from his professional website (<work type="site">www.dirkhooper.com</work>).
       </section>
@@ -82,9 +82,9 @@
 
           An hour before my shift would have ended, I fumbled my key into the cheap lock with poorer hand-eye coordination than I’d have after a fifth of a fifth. I dreaded what I must do next to survive. I turned the key, pushed open the flimsy hollow core door, and edged the steel-reinforced toes of my boots into my dingy studio apartment.
 
-          I surveyed its unimpressive contents: an aughts-era plasma TV (with the <work>Martian Marine</work> main menu burned into the screen), an outdated <phonetic ipa="ˈplɛɪbaks ˈjuː">PlayBox U</phonetic> game console (which had started having issues reading discs 8 months prior), plain wooden box containing the plastic-wrapped bricks of my mother’s ashes (which I had no idea where to spread), and my most prized luxury: my king-size bed (which I had cleared of clutter just the night before because the mess had accumulated to the point there was no longer enough room for me to lie down).
+          I surveyed its unimpressive contents: an aughts-era plasma TV (with the <work type="videogame">Martian Marine</work> main menu burned into the screen), an outdated PlayBox U game console (which had started having issues reading discs 8 months prior), plain wooden box containing the plastic-wrapped bricks of my mother’s ashes (which I had no idea where to spread), and my most prized luxury: my king-size bed (which I had cleared of clutter just the night before because the mess had accumulated to the point there was no longer enough room for me to lie down).
 
-          I considered the value of each of my possessions and tried to plan out which I could sell to stretch my funds. <say><soft>Couch…</soft></say> I mumbled, <say><soft>…20 bucks tops on <work>DansForum;</work> TV… might be able to sell it as an antique—let’s say 30; console… auction on <work>Awkshion.stuff</work> for parts, same for the laptop…</soft></say>
+          I considered the value of each of my possessions and tried to plan out which I could sell to stretch my funds. <say><soft>Couch…</soft></say> I mumbled, <say><soft>…20 bucks tops on <work type="website">DansForum</work>; TV… might be able to sell it as an antique—let’s say 30; console… auction on <work type="website">Awkshion.stuff</work> for parts, same for the laptop…</soft></say>
 
           <say>How much do you think you could get for the ashes?</say> asked Shosh as she sidled up next to me. She had haunted me since I identified her cadaver.
 
@@ -198,11 +198,11 @@
 
           <say>Is there any way to <emph>find</emph> other people to play with?</say>
 
-          This question, my friend, was—if you have not already guessed—the moment my miserable life took a turn for the better. <say>Yes, actually. There’s a matchmaking system that will pair me up with strangers who like <work>Martian Marine</work> as much as I do.</say>
+          This question, my friend, was—if you have not already guessed—the moment my miserable life took a turn for the better. <say>Yes, actually. There’s a matchmaking system that will pair me up with strangers who like <work type="videogame">Martian Marine</work> as much as I do.</say>
 
           <say>Then get to it, Esti! I’ll step out and let you do your thing.</say> And then she was gone again.
 
-          So, I booted up my ancient PlayBox U, started <work>Martian Marine,</work> and entered the cooperative matchmaking lobby. Fifteen seconds later, the servers offered me a partner with zero ping, which I accepted without hesitation. HalenBunny entered my lobby, and I donned my headset (which was good for its microphone but no longer produced sound through the earphones, forcing me to pass game and voice audio through the TV).
+          So, I booted up my ancient PlayBox U, started <work type="videogame">Martian Marine</work>, and entered the cooperative matchmaking lobby. Fifteen seconds later, the servers offered me a partner with zero ping, which I accepted without hesitation. HalenBunny entered my lobby, and I donned my headset (which was good for its microphone but no longer produced sound through the earphones, forcing me to pass game and voice audio through the TV).
 
           <say>Which level are we playing, <emph>Lou Peckinpaw?</emph></say> asked the sultry contralto of a woman much older than myself. <say>By the way, that’s an interesting gamersign.</say>
 
@@ -304,7 +304,7 @@
 
           <say>Wow. You… um… know how to flatter a girl.</say> I allowed myself to smile at the first compliment I’d ever consciously accepted as sincere flirtation.
 
-          Not that I accepted it wholeheartedly. I approached my closet’s door, carefully peeled away the <work>Martian Marine</work> and <work>L.A. Noire</work> posters I had taped over the full-length mirror, and assessed my appearance for the first time in many years.
+          Not that I accepted it wholeheartedly. I approached my closet’s door, carefully peeled away the <work type="videogame">Martian Marine</work> and <work type="videogame">L.A. Noire</work> posters I had taped over the full-length mirror, and assessed my appearance for the first time in many years.
 
           Red, frizzy, shoulder-length hair drawn up into a bun that met the bare-minimum criteria for professionalism—I pulled out my hair tie and let it down, admired it as soft, incandescent lighting played along my tight copper curls, combed my fingers through it to appreciate its texture and bounce. It needed a trim and some conditioner… but it was still pretty. Contrasting it were green eyes that alluded to something other than pure Ashkenazi, vibrant hints towards the ancestry of the man who my mother refused to talk about. Beneath those, freckles generously dusted my nose and cheeks—a nice bit of texture to break up the shocking paleness of my skin.
 
@@ -854,7 +854,7 @@
 
         <say>A homicide detective?</say> Her face had changed. I asked myself, <think>Is that a twinkle in your eye?</think> It was. Excitement, curiosity, eureka—in her eye a puzzle piece slipped into place and completed a picture—a picture obscured from me. <say>Or <emph>any</emph> kind of detective?</say> she continued. <say>Might you solve… kidnappings?</say>
 
-        <say>Yes. I would prefer homicides specifically, just like Lieutenant Columbo, but he rescues his nephew’s wife from her kidnapper in <work>No Time to Die.</work> Not my favorite episode, but it’s fun to watch the lieutenant pull out all the stops and work at a breakneck pace and just be a hero in a way he can’t be if the victim is already dead. And… I really like seeing him in a tuxedo. Very handsome.</say>
+        <say>Yes. I would prefer homicides specifically, just like Lieutenant Columbo, but he rescues his nephew’s wife from her kidnapper in <work type="television-episode">No Time to Die</work>. Not my favorite episode, but it’s fun to watch the lieutenant pull out all the stops and work at a breakneck pace and just be a hero in a way he can’t be if the victim is already dead. And… I really like seeing him in a tuxedo. Very handsome.</say>
 
         <say>You really like Peter Falk. You got a crush on him or something?</say>
 
@@ -862,7 +862,7 @@
 
         She might have interpreted this as a joke, because she chuckled. <say>You think he’s sexy?</say>
 
-        <say>He was at his sexiest as Grandpa in <work>The Princess Bride.</say></work>
+        <say>He was at his sexiest as Grandpa in <work type="movie">The Princess Bride</work>.</say>
 
         At this fact she laughed with extra gusto, mirthful surprise pinching her cheeks. <say>Yeah, he was pretty sexy with gray hair! And in his trench coat I consider him a rare exception to ACAB. If you had become a detective… maybe I would have considered you an exception, too. Though I can’t say that any antifascist who takes themself seriously would agree with such an unorthodox attitude.</say>
 
@@ -882,7 +882,7 @@
 
         <say>I had a moment of weakness. The face you made was so… pathetically needy, I felt compelled to finish you off. I’m not letting that happen again—no more sex until you dish.</say>
 
-        <say>Favorite song: <quote>Just What I Needed</quote> by The Cars; favorite movies: <work>The Cheap Detective,</work> <work>The Princess Bride,</work> and <work>A Friend in Deed</work> from <work>Columbo</work> (if you count feature-length television episodes as movies); and my dearest, most favorite book: <work>Just One More Thing</work> by Peter Falk.</say>
+        <say>Favorite song: <quote>Just What I Needed</quote> by The Cars; favorite movies: <work type="movie">The Cheap Detective</work>, <work type="movie">The Princess Bride</work>, and <work type="television-show-episode">A Friend in Deed</work> from <work type="television-show">Columbo</work> (if you count feature-length television episodes as movies); and my dearest, most favorite book: <work type="book">Just One More Thing</work> by Peter Falk.</say>
 
         <say><quote>Movie-<emph>s</emph></quote>? I said <quote>mov-<emph>ie</emph></quote>, singular.</say>
 
@@ -937,7 +937,7 @@
 
         I showered—and conditioned (for the first time in 9 months; I had to unclog the 6-year-old bottle’s nozzle with a floss pick)—I brushed and detangled my hair; I put on what I estimated to be a reasonable amount of makeup, including a bit of low-coverage foundation, rose eyeshadow, rouge, and my blood-red lipstick; I blasted myself with the (miraculously still-potent) perfume my mother bought me for my 21st birthday; I moisturized… I never moisturized, as evidenced by the hitherto factory-sealed container. There I was, incapable of working, yet preening myself like I was getting ready for the job interview of a lifetime, aiming to give my best possible impression. Because every impression I gave that woman mattered more than all its predecessors put together.
 
-        As ready as I was in body and in mind, my wardrobe was not. I hadn’t done my laundry in a month because I’d been in the midst of a moderate (verging-on-severe) depressive episode during which I worked, played <work>Martian Marine,</work> occasionally ate, and jerked myself off to sleep—and not a damn thing else.
+        As ready as I was in body and in mind, my wardrobe was not. I hadn’t done my laundry in a month because I’d been in the midst of a moderate (verging-on-severe) depressive episode during which I worked, played <work type="video-game">Martian Marine</work>, occasionally ate, and jerked myself off to sleep—and not a damn thing else.
 
         Now that there was someone in my life whose opinion of my outward presentation I actually cared about, depression was no longer a valid excuse for skipping laundry. I needed all of my clothes to be freshly laundered from there on out. I smelled everything in my closet, and nearly all of it had a… let’s just say it had a detectable hint of sweat—except for the dress my mother had given me for my 21<sup>st</sup> birthday, the one I had worn only twice: first, on said birthday, when we both went to a bar and got plastered and <emph>remained</emph> plastered from noon to noon; and last, to her funeral a month later, because even back then it was the closest thing to a <quote>formal</quote> outfit I had in my wardrobe. (In hindsight, I really ought to have bought something more appropriate for such a solemn occasion, but in my defense I was mentally disabled by my grief.) And since I hadn’t worn it since I last had it dry-cleaned a week after the funeral, it still smelled more-or-less freshly laundered. It was an off-the-shoulder knee-length black satin dress with a slit down the side that exposed my plus-size left thigh, and a plunging lace-up neckline that brought further unwanted attention to my already excessive cleavage. I dreaded all the eyes that would be wandering over my body, ogling all the fat stubbornly clinging to my skeleton, but I had no other options. I either wore the dress, or I wore my natural perfume.
 
@@ -983,7 +983,7 @@
 
         <say>Sounds about right.</say> Her phone hooted again. <say>Except your so-called <quote>laziness</quote>—don’t insult yourself.</say>
 
-        Our waiter arrived wearing jeans with gently torn knees and a T-shirt depicting a cartoonish (yet, nevertheless, revolting) The <work>Human Centipede</work>-inspired take on <work>The Very Hungry Caterpillar,</work> captioned <quote>The Very Human Caterpillar</quote>—further highlighting how overdressed I was. <say>Good morning, ladies, can I start you off with anything to drink?</say>
+        Our waiter arrived wearing jeans with gently torn knees and a T-shirt depicting a cartoonish (yet, nevertheless, revolting) The <work type="movie">Human Centipede</work>-inspired take on <work type="book">The Very Hungry Caterpillar</work>, captioned <quote>The Very Human Caterpillar</quote>—further highlighting how overdressed I was. <say>Good morning, ladies, can I start you off with anything to drink?</say>
 
         <say>Four shots of espresso in a coffee mug,</say> said my new <quote>fuckbuddy</quote> who had fucked me but whom I had yet to fuck, <say>and… the senior biscuits and gravy.</say>
 
@@ -1031,7 +1031,7 @@
 
         I giggled. Shosh rolled her eyes.
 
-        Even though I was okay—if not pleased—with Judith being so much older, the age gap still seemed a little… <quote>novel</quote> is a gentle word to describe it, albeit a misleading choice given the frequency with which the word <quote>mature</quote> appeared in my search history and my browser homepage being set to <work>www.NubileGILFs.vidz.</work> I leaned towards her and smiled playfully. <say>Judith… I’m kind of reeling from the fact that I’m… <emph>special friends</emph> with someone mature enough to order off the senior menu.</say>
+        Even though I was okay—if not pleased—with Judith being so much older, the age gap still seemed a little… <quote>novel</quote> is a gentle word to describe it, albeit a misleading choice given the frequency with which the word <quote>mature</quote> appeared in my search history and my browser homepage being set to <work type="website">www.NubileGILFs.vidz</work>. I leaned towards her and smiled playfully. <say>Judith… I’m kind of reeling from the fact that I’m… <emph>special friends</emph> with someone mature enough to order off the senior menu.</say>
 
         <say>I’ve had the right to order old people food for 2 years, now. I thought that wouldn’t bother you. Is the age difference suddenly a deal-breaker?</say> Her eyes and tone of voice were not playful, as mine had been—rather, they made it clear that I was welcome to say <quote>yes</quote>, and in that case, she would rectify the inconvenience of her presence by leaving me with the bill and the displeasure of never seeing her again.
 
@@ -1089,7 +1089,7 @@
 
         <say>I’d be delighted to talk about naughty things when we have some privacy, so hold onto them for later. If you’re getting bombarded with so many hoots, it could be something important.</say>
 
-        She shrugged and checked <work>Hootr.</work> <say>Buncha quote hoots tagging me.</say> Her eyes grew. <say><soft>Christ.</soft> Andy, listen to this!”
+        She shrugged and checked <work type="app">Hootr</work>. <say>Buncha quote hoots tagging me.</say> Her eyes grew. <say><soft>Christ.</soft> Andy, listen to this!”
 
         I really liked her calling me <quote>Andy</quote>. <say>I’m listening.</say>
 
@@ -1103,7 +1103,7 @@
 
         She eyed me with what felt like an unfair amount of suspicion. <say>Do <emph>you</emph> feel the same way?</say>
 
-        <say>Nah, I hope he turns up alive and unscathed. I’m just sick of overhearing them badmouthing him. They think he’s the spawn of Satan, but to me his ideas seem perfectly reasonable, and his leadership and charisma is sort of… inspiring. I even follow him on <work>Hootr.</say></work>
+        <say>Nah, I hope he turns up alive and unscathed. I’m just sick of overhearing them badmouthing him. They think he’s the spawn of Satan, but to me his ideas seem perfectly reasonable, and his leadership and charisma is sort of… inspiring. I even follow him on <work type="app">Hootr.</say></work>
 
         <say>Really? Would you consider yourself an antifascist?</say>
 
@@ -1729,7 +1729,7 @@
 
         <say><soft>What the fuck is going on?</soft></say> whispered Shosh.
 
-        <say><soft>I need to work on my people skills, I guess,</soft></say> I mumbled. I had seen the shirts advertised in fundraisers on <work>Hootr</work>, so I already knew the color of the fabric (plain white) as well as the print (a cartoon piggy bank dressed in a police uniform being smashed by a hammer). I put on a strained smile and, in the happiest, most grateful voice, told Geraldine, <say>These are some great details that you’re giving us, ma’am. Where did he go?</say>
+        <say><soft>I need to work on my people skills, I guess,</soft></say> I mumbled. I had seen the shirts advertised in fundraisers on <work type="app">Hootr</work>, so I already knew the color of the fabric (plain white) as well as the print (a cartoon piggy bank dressed in a police uniform being smashed by a hammer). I put on a strained smile and, in the happiest, most grateful voice, told Geraldine, <say>These are some great details that you’re giving us, ma’am. Where did he go?</say>
 
         She sighed. <say>To <quote>a meeting</quote>.</say>
 
@@ -1807,7 +1807,7 @@
 
         <say>I haven’t a clue. I’ve never gone with him to a meeting or a protest. He keeps me out of his business. He wants me safe at home in case something bad happens at an event.</say>
 
-        <say>Of course,</say> I said. <say>If the bus or trolley was running late or was at capacity, would he have taken a <work>Ridr</work> or a taxi?</say>
+        <say>Of course,</say> I said. <say>If the bus or trolley was running late or was at capacity, would he have taken a <work type="app">Ridr</work> or a taxi?</say>
 
         <say>Neither. He boycotts cars. He would simply wait for the next bus with space for him.</say>
 
@@ -2214,7 +2214,7 @@
 
         <say>What gave it away?</say>
 
-        <say>For one thing, what’s up with the crazy car ride? Alex Brookvale is anti-car, and even if he broke his vow of celibacy, no <work>Ridr</work> or licensed taxi driver would go that fast down a residential street—except at gunpoint.</say>
+        <say>For one thing, what’s up with the crazy car ride? Alex Brookvale is anti-car, and even if he broke his vow of celibacy, no <work type="app">Ridr</work> or licensed taxi driver would go that fast down a residential street—except at gunpoint.</say>
 
         <say>Excellent logic. I hope you don’t mind me asking stupid questions, I just wanted to make sure you’re thinking things through and not just jumping to the most obvious conclusions. It <emph>is</emph> fishy.</say>
 
@@ -2393,7 +2393,7 @@
 
         <say>We checked the department’s social media for info, but we didn’t do a search for posts from the <strong>public</strong> mentioning our missing man.</say>
 
-        <say>Dude!</say> She whipped out her phone and started tapping away; I followed her lead, opened <work>Hootr,</work> and immediately came upon results—thousands of them, too many to comb through. <say>There’s a lot here, Andy… but it’s all people wondering the same thing, where he went. No info.</say>
+        <say>Dude!</say> She whipped out her phone and started tapping away; I followed her lead, opened <work type="app">Hootr</work>, and immediately came upon results—thousands of them, too many to comb through. <say>There’s a lot here, Andy… but it’s all people wondering the same thing, where he went. No info.</say>
 
         I nodded. <say>Yeah…</say> Spurred by impatience, I rewound to Wednesday’s hoots. <say>Wait. I found the first one. Quote: <quote>No meeting and no Brookvale. Today’s gone from bad to worse.</quote></say>
 
@@ -2431,7 +2431,7 @@
 
         She beamed. <say>Thank you, and you’re welcome.</say>
 
-        <say>Let’s skim for more intel.</say> We scrolled through screen after screen of search results for <quote>Brookvale</quote>, but after combing through several hundred posts I concluded that there was nothing else to be found there. <say>I think we’ve exhausted <work>Hootr</work>. How’s your <work>Headblog</work> search going?</say>
+        <say>Let’s skim for more intel.</say> We scrolled through screen after screen of search results for <quote>Brookvale</quote>, but after combing through several hundred posts I concluded that there was nothing else to be found there. <say>I think we’ve exhausted <work type="app">Hootr</work>. How’s your <work type="app">Headblog</work> search going?</say>
 
         <say>Helluva lotta nuttin’. Somebody started a Search for Alex page asking for tips, but it’s been flooded with so many thoughts and prayers that I don’t know if there are any actual tips to point us in the right direction. I also tried to check HiBall, but all of the chatter is just mutual aid stuff. I’m afraid Fluffy is our only online lead.</say>
 
@@ -2865,7 +2865,7 @@
 
         <say>Then let’s get grounded, chill on the couch with me.</say> So we sat. <say>Have you decided on a favorite movie?</say>
 
-        No longer under pressure to answer her right away, I was finally able to come up with an answer. <say><work>The Princess Bride.</say></work>
+        No longer under pressure to answer her right away, I was finally able to come up with an answer. <say><work type="movie">The Princess Bride</work>.</say>
 
         <say>Because it has Peter Falk?</say>
 
@@ -2935,7 +2935,7 @@
 
         <say>Yes, it took me like 10 minutes. The hardest part was taking a picture of my social security card that didn’t come out blurry.</say>
 
-        <say>Want to play some <work>Martian Marine</work> to pass the time?</say>
+        <say>Want to play some <work type="video-game">Martian Marine</work> to pass the time?</say>
 
         I was feeling better, and I was still… well, <emph>intimately lubricated.</emph> <say>Actually, my mood has improved since you offered to finger me.</say>
 
@@ -4764,7 +4764,7 @@
 
         Her sidelong glance made her concern clear. <say>And… we <strong>both</strong> remember that… y’know… <emph>nobody at the meeting saw him.</emph> So we know that was not the case.</say>
 
-        <say>Ye—es. Right. Of course. I knew that. Him going inside definitely makes <strong>no</strong> sense. He had to be <strong>outside</strong> during the raid. Obviously.</say> <think>How do I make it sound like my dumbass thought was actually me being smart…?</think> <say>I was just… exploring our mystery… <soft>um…</soft> via <emph>the Socratic method.</emph></say> I had read the phrase <quote>Socratic method</quote> mentioned in online discussions about <work>Columbo</work>, so I figured that—whatever it was—it was something that smart detectives used.
+        <say>Ye—es. Right. Of course. I knew that. Him going inside definitely makes <strong>no</strong> sense. He had to be <strong>outside</strong> during the raid. Obviously.</say> <think>How do I make it sound like my dumbass thought was actually me being smart…?</think> <say>I was just… exploring our mystery… <soft>um…</soft> via <emph>the Socratic method.</emph></say> I had read the phrase <quote>Socratic method</quote> mentioned in online discussions about <work type="television-show">Columbo</work>, so I figured that—whatever it was—it was something that smart detectives used.
 
         She nodded and smiled. <say>Oh, of <emph>course</emph> that’s what you were doing, obviously! That was a <emph>textbook</emph> example of the Socratic method if I’ve ever heard one. Very smart of you to use that investigatory technique. Very smart. Anyways… <emph>if</emph> he was outside—and free—in the minutes leading up to the raid, he must have fled into a nearby building before they could catch him.</say>
 
@@ -4930,7 +4930,7 @@
 
         <say>That can be fixed, just like everything else. We can read together. We can go to the library sometime. Call it a date.</say>
 
-        I shrugged. <say><work>Just One More Thing</work> was romantic, why can’t detective books be romantic, too?</say>
+        I shrugged. <say><work type="book">Just One More Thing</work> was romantic, why can’t detective books be romantic, too?</say>
 
         <say>Good point. We’ll find you some mystery <emph>romances.</emph></say>
 
@@ -5127,13 +5127,13 @@
 
         <say>Grish-what?</say>
 
-        <say>Raymond Chandler? He wrote <work>The Big Sleep</work> and <work>Farewell My Lovely.</say></work>
+        <say>Raymond Chandler? He wrote <work type="book">The Big Sleep</work> and <work type="book">Farewell My Lovely</work>.</say>
 
-        <say>I’ve watched <work>The Big Sleep,</work> but I’ve never heard of Raymond Chandler. These are some very <emph>obscure</emph> screenwriters.</say>
+        <say>I’ve watched <work type="book">The Big Sleep</work>, but I’ve never heard of Raymond Chandler. These are some very <emph>obscure</emph> screenwriters.</say>
 
         <say>Have you read <emph>any</emph> mystery stories?</say>
 
-        <say>I’ve read the <work>Columbo</work> books.</say>
+        <say>I’ve read the <work type="franchise">Columbo</work> books.</say>
 
         The two of them traded blank stares for a few seconds, then—with a smirk and a knowing look at Judith—Yesenia told me, <say>You will do <strong>fine,</strong> Andrea. I’m not gonna bother wishing you <quote>good luck</quote> because you simply <strong>don’t need it.</strong> You are gonna <strong>blow this case wide open.</strong></say> They both chuckled, Judith a little nervously.
 
@@ -5277,7 +5277,7 @@
 
         <say>Oh. Shit. That was a smart observation. You… <emph>are</emph> good at this detective business.</say> My heart picked up the pace, I shivered as her compliment touched me in exactly the right spot.
 
-        Shosh smiled for the first time that evening, and echoed her, <say>She’s right. All those <work>Columbo</work> episodes are paying off.</say>
+        Shosh smiled for the first time that evening, and echoed her, <say>She’s right. All those <work type="television-show">Columbo</work> episodes are paying off.</say>
 
         We found room 410 in a hurried instant. As we approached the door, cracked just an inch with no signs that it had been picked or forced, I smelled just a hint of… <emph>something.</emph> Something foul. I whispered, <say>Don’t touch the doorknob—actually, don’t touch <strong>any</strong> part of the door with your bare hands. Do you have gloves or a rag?</say>
 
@@ -5456,7 +5456,7 @@
 
         Judith’s eyes spread wide. <say>Of <emph>course!</emph> But how do we get video evidence from the police?</say>
 
-        <say>Shit.</say> I sighed. <say>The only way I can think of would be through a <work>Right to Know Act</work> request, but we’ll have to prove there was <quote>great bodily harm</quote> involved, and there weren’t any hoots indicating that the raid officers were violent enough to fulfill that requirement.</say>
+        <say>Shit.</say> I sighed. <say>The only way I can think of would be through a <work type="legal">Right to Know Act</work> request, but we’ll have to prove there was <quote>great bodily harm</quote> involved, and there weren’t any hoots indicating that the raid officers were violent enough to fulfill that requirement.</say>
 
         <say>So we’re fucked.</say>
 
@@ -5725,7 +5725,7 @@
 
         <say>You are so sickeningly sweet,</say> she replied with mock disgust.
 
-        I winked. As we finished our coffee I pointed out, <say>The captain won’t be in until tomorrow, so I have a day to burn. How about some <work>Martian Marine?</work> Or… sex?</say>
+        I winked. As we finished our coffee I pointed out, <say>The captain won’t be in until tomorrow, so I have a day to burn. How about some <work type="video-game">Martian Marine</work>? Or… sex?</say>
 
         <say>Gotta work.</say>
 
@@ -5741,7 +5741,7 @@
 
         She washed her empty cup and said, <say>I’m taking the long trek home so I can change into my <emph>work</emph> clothes and grab the packages. If you want, I can give you a tour of my pad.</say>
 
-        <say>I’d enjoy that.</say> I put on my Hallmart jeans and <work>Blade Runner</work> T-shirt, and she led me to the door neighboring mine, which opened into a very well decorated studio—the same layout as mine, but with infinitely more love put into its appearance. As I entered, I admired the neon signage—including a glowing figure of a nude woman reclining in an Adirondack chair and an illuminated Saint Pauli Girl sign—and gawked at several marvelous paintings portraying fantasy and science fiction subjects beyond just <work>Martian Marine.</work>
+        <say>I’d enjoy that.</say> I put on my Hallmart jeans and <work type="movie">Blade Runner</work> T-shirt, and she led me to the door neighboring mine, which opened into a very well decorated studio—the same layout as mine, but with infinitely more love put into its appearance. As I entered, I admired the neon signage—including a glowing figure of a nude woman reclining in an Adirondack chair and an illuminated Saint Pauli Girl sign—and gawked at several marvelous paintings portraying fantasy and science fiction subjects beyond just <work type="video-game">Martian Marine</work>.
 
         But what really caught my eye was the guitar nestled on a stand, its body scintillating like tiger’s eye, framed by a dark, amber-tinted edge, connected by a long cable to a series of small boxes and pedals, before terminating in the front panel of a big brown speaker box (which I thought might have been called an <quote>amp</quote>).
 
@@ -5993,7 +5993,7 @@
 
         <say>Damn it, I hate waiting. Fine. I’ll find something else to do.</say>
 
-        <say>Good. Let’s go, I was behind schedule when we came in here and I’m even further behind after the song and the chat.</say> She ushered me out and left for the bus stop, which was mercifully close—but as I was about to unlock my door, I had an idea. I caught up with her and tapped her on the shoulder, and she turned around. <say>Are you stumped about how to find allies, Miss Marple? You could go on <work>Hootr</work> and start friending nosy neighbors.</say>
+        <say>Good. Let’s go, I was behind schedule when we came in here and I’m even further behind after the song and the chat.</say> She ushered me out and left for the bus stop, which was mercifully close—but as I was about to unlock my door, I had an idea. I caught up with her and tapped her on the shoulder, and she turned around. <say>Are you stumped about how to find allies, Miss Marple? You could go on <work type="app">Hootr</work> and start friending nosy neighbors.</say>
 
         <say>How long does it take for you to finish your route?</say>
 
@@ -6135,7 +6135,7 @@
 
         They ignored me.
 
-        <say>If you don’t roll down that window I’m going to take a picture of the car, the plates, and the VIN, and post them on <work>Hootr</work>, and you’re going to have to explain to your captain how you blew your cover so badly the vehicle’s status as an unmarked car became public knowledge and now they have to file off the serial numbers and get new ones issued by the manufacturer, as well as new plates and a paint job in a new color.</say>
+        <say>If you don’t roll down that window I’m going to take a picture of the car, the plates, and the VIN, and post them on <work type="app">Hootr</work>, and you’re going to have to explain to your captain how you blew your cover so badly the vehicle’s status as an unmarked car became public knowledge and now they have to file off the serial numbers and get new ones issued by the manufacturer, as well as new plates and a paint job in a new color.</say>
 
         If it had been an <emph>undercover</emph> car, the brass would actually care about me posting the plates and VIN… but <emph>unmarked</emph> cars are little more than police cruisers without the black-and-white paint jobs or the push bumpers. They’re even the same damn model as the standard issue cruiser.
 
@@ -6285,7 +6285,7 @@
 
         <say>Yes, amen—but you’re preaching to the pastor, Andy, you don’t have to express every tangential thought in the form of an extended social justice sermon.</say>
 
-        <say>Sorry, I learned how to talk about these things on <work>Hootr.</say></work>
+        <say>Sorry, I learned how to talk about these things on <work type="app">Hootr</work>.</say>
 
         <say>Oh, honey, we need to get you some books.</say>
 
@@ -7117,7 +7117,7 @@
 
         <say>Why are you showing them to us?</say>
 
-        <say>Take pictures. If I betray you, post them on <work>Trollchan.</work> The villainous scum that inhabit that website will burn my life down.</say>
+        <say>Take pictures. If I betray you, post them on <work type="website">Trollchan</work>. The villainous scum that inhabit that website will burn my life down.</say>
 
         She shook her head. <say>I don’t… want these.</say>
 
@@ -7789,7 +7789,7 @@
       <description>In which our intrepid investigator instigates a test of endurance, a contest of strength, a race to her fallopian tubes—a matter of life and… well, life.</description>
     
       <chapter>
-        <title>Tracks 4 and 4 on <work>Nevermind</work> and <work>In Utero</work></title>
+        <title>Tracks 4 and 4 on <work type="music-album">Nevermind</work> and <work type="music-album">In Utero</work></title>
         <description>Judith shocks Andrea with the confession of her dearest and most perverse desires.</description>
         
         <subheading>Monday, July 15<sup>th</sup>, 2024</subheading>
@@ -8110,7 +8110,7 @@
 
         She finished inspecting her hair as she replied, <say>Alright, you do that. I’m going to change into some fresh clothes before I pick up your morning after. Ta-ta.</say> She took her first steps across the threshold as a committed woman.
 
-        <say>Wait. Have you watched <work>The Princess Bride?</say></work>
+        <say>Wait. Have you watched <work type="movie">The Princess Bride</work>?</say>
 
         <say>I may have heard of it.</say>
 
@@ -8430,9 +8430,9 @@
 
         But even as I felt the need to manifest the rest of my fantasies as realities and thereby, with each stroke of indulgence, extend my emotional plateau, brought on and sustained by the gratification of a quarter century of longing and desire and exertion and agonizing anticipation… I took care not to get lost in daydreams of grandeur, as I was prone as far back as I can remember—I needed to stay focused if I was going to meet my expectations of greatness. And, besides, I reminded myself, I was in theory there for <emph>Alex,</emph> not to live my lifelong dream. I had accepted this position as praxis, not pleasure. <think>That said… is there anything wrong with fooling around with my new job, as long as I don’t neglect my main objective or let on that I’m enjoying myself whenever my girlfriends are watching?</think>
 
-        I pulled my phone out and drafted a <work>SecreText</work> message to Yesenia, just a single telephone emoji, and tapped <emph>send.</emph> (I considered revising it to make it more cryptic, just in case her phone was seized for evidence and cracked by the Digital Forensics Unit, but decided that a search was so unlikely that such a degree of paranoia was counterproductive.) 10 seconds later, I received a reply containing only a thumbs-up emoji, and with confirmation that the plan was in motion I deleted our conversation.
+        I pulled my phone out and drafted a <work type="app">SecreText</work> message to Yesenia, just a single telephone emoji, and tapped <emph>send.</emph> (I considered revising it to make it more cryptic, just in case her phone was seized for evidence and cracked by the Digital Forensics Unit, but decided that a search was so unlikely that such a degree of paranoia was counterproductive.) 10 seconds later, I received a reply containing only a thumbs-up emoji, and with confirmation that the plan was in motion I deleted our conversation.
 
-        But before I could slip my phone back into my purse, I noticed a red notification dot on my <work>Hootr</work> icon. I opened the app to discover that I had 2 unread DMs—I had neglected to turn on notifications! I read the replies from @FluffyFresh, sent the night prior, apologizing for the late response—they had initially thought I was a <quote>Russian bot</quote> and thus ignored me. They then asked me if I knew about Sex Cop. I replied that I <strong>was</strong> Sex Cop; they congratulated me on my new job, and gave me an update: the demolition efforts were so far being effectively blocked by a human chain of sex workers and allies; to which I replied that the guild had my sincere gratitude, that I wished them luck, and—in a stroke of inspiration, suggested sharing a narrative on social media that the Torrey Pines was a historic building that deserved to be restored, not demolished. They replied that they thought this was a great idea, and that they would organize a task force to accomplish this. I let a smile escape; the day was going well.
+        But before I could slip my phone back into my purse, I noticed a red notification dot on my <work type="app">Hootr</work> icon. I opened the app to discover that I had 2 unread DMs—I had neglected to turn on notifications! I read the replies from @FluffyFresh, sent the night prior, apologizing for the late response—they had initially thought I was a <quote>Russian bot</quote> and thus ignored me. They then asked me if I knew about Sex Cop. I replied that I <strong>was</strong> Sex Cop; they congratulated me on my new job, and gave me an update: the demolition efforts were so far being effectively blocked by a human chain of sex workers and allies; to which I replied that the guild had my sincere gratitude, that I wished them luck, and—in a stroke of inspiration, suggested sharing a narrative on social media that the Torrey Pines was a historic building that deserved to be restored, not demolished. They replied that they thought this was a great idea, and that they would organize a task force to accomplish this. I let a smile escape; the day was going well.
 
         I rang up my captain and asked, <say>Sir, do you recall who’s assigned to the Alexander Brookvale disappearance?</say>
 
@@ -8456,7 +8456,7 @@
 
         <say>No, sir.</say>
 
-        <say>Good. We’ve received 57 anonymous tips in the past 45 minutes about a huge pool of blood in a room at the Old Torrey Pines Hotel, enough that the judge agreed to issue a search warrant.</say> I did my best not to grin. <say>Two black-and-whites have been dispatched along with the search warrant to cordon off the scene, CSI is following. I want you to go over there and not make a fool of yourself. Let them do their jobs, and don’t try to prove your usefulness by <emph>helping</emph> them—trust me, a rookie like you is just gonna ruin the crime scene. <emph>Your</emph> job is to build a case based on the evidence <strong>given to you,</strong> not to play <work>Blue’s Clues.</work> Am I understood?</say>
+        <say>Good. We’ve received 57 anonymous tips in the past 45 minutes about a huge pool of blood in a room at the Old Torrey Pines Hotel, enough that the judge agreed to issue a search warrant.</say> I did my best not to grin. <say>Two black-and-whites have been dispatched along with the search warrant to cordon off the scene, CSI is following. I want you to go over there and not make a fool of yourself. Let them do their jobs, and don’t try to prove your usefulness by <emph>helping</emph> them—trust me, a rookie like you is just gonna ruin the crime scene. <emph>Your</emph> job is to build a case based on the evidence <strong>given to you,</strong> not to play <work type="television-show">Blue’s Clues</work>. Am I understood?</say>
 
         <say>Yes, sir. I won’t screw it up.</say>
 
@@ -8464,7 +8464,7 @@
 
         <think>How does he figure it was a break-in? Was he aware the Old Torrey Pines was closed for business?</think> <say>That wouldn’t surprise me, sir.</say>
 
-        He leaned back in his leather desk chair and, for a long moment, bounced his fancy pen on his desktop, end over end, letting the barrel slide and fall between his thumb and finger as he troubled over something—something very <emph>important</emph> based on his pensive expression—then stopped tapping it, paused, and asked without a single microgram of frivolity, <say>Did you watch <work>Blue’s Clues</work> as a kid? My kids watched <work>Blue’s Clues,</work> and they’re about your age.</say>
+        He leaned back in his leather desk chair and, for a long moment, bounced his fancy pen on his desktop, end over end, letting the barrel slide and fall between his thumb and finger as he troubled over something—something very <emph>important</emph> based on his pensive expression—then stopped tapping it, paused, and asked without a single microgram of frivolity, <say>Did you watch <work type="television-show">Blue’s Clues</work> as a kid? My kids watched <work type="television-show">Blue’s Clues</work>, and they’re about your age.</say>
 
         <say><soft>Wh—?</soft> Um—Uh—Well—I was… born a few years early to be a regular viewer, sir, but I’m having some difficulty… seeing how this… <emph>pertains…</emph> to… um…”
 
@@ -8488,7 +8488,7 @@
 
         <think>Oh. My. God. Is he being serious? Does he really think so little of me?</think> <say>Right. I need to learn how to be a detective… by watching a show meant for human beings who are still struggling to form complete, grammatical sentences.</say>
 
-        <say>Exactly. It should be easy for you to understand, millennial or not.</say> My eyes lost focus as I tried to think of an appropriate response for his slight against me and my entire generation. He made a sound vaguely resembling a dog bark. <say>Bur bur-bur! That damn cartoon dog is still invading my thoughts all these years later.</say> He shook his head. <say>The mysteries were insultingly easy to solve—but <emph>quality</emph> educational television is hard to come by, and that show was about as good as a show for toddlers can be. Lots of research and careful thought went into it, and it revolutionized children’s educational programming by inviting the audience to participate in solving the mystery. You’ll have fun. <emph>Barney,</emph> though… Christ. Did you watch <work>Barney the Dinosaur?</say></work>
+        <say>Exactly. It should be easy for you to understand, millennial or not.</say> My eyes lost focus as I tried to think of an appropriate response for his slight against me and my entire generation. He made a sound vaguely resembling a dog bark. <say>Bur bur-bur! That damn cartoon dog is still invading my thoughts all these years later.</say> He shook his head. <say>The mysteries were insultingly easy to solve—but <emph>quality</emph> educational television is hard to come by, and that show was about as good as a show for toddlers can be. Lots of research and careful thought went into it, and it revolutionized children’s educational programming by inviting the audience to participate in solving the mystery. You’ll have fun. <emph>Barney,</emph> though… Christ. Did you watch <work type="television-show">Barney the Dinosaur</work>?</say>
 
         <think>Oh, thank God he’s changed the subject to something else. Except it’s yet another show for babies.</think> <say>Yes, I watched that one.</say> The captain’s obsession with children’s television was only the <emph>first</emph> roadblock of the day. <say>But I stopped watching it before I turned five… so I don’t have any clear memories of it.</say>
 
@@ -8502,7 +8502,7 @@
 
         <think>Is he going to let me do my job or is he going to talk my ears off about children’s television?</think> <say>I don’t—<emph>remember</emph> very well, sir. Maybe it was for the same reasons kids like any other show, it was colorful and the lyrics were catchy but—I really think I should be goi—</say>
 
-        <say>And <work>Wee Sing.</work> Did you watch that one?</say>
+        <say>And <work type="television-show">Wee Sing</work>. Did you watch that one?</say>
 
         <say>I think I need to go, sir.</say>
 
@@ -9035,7 +9035,7 @@
         <irreal>
           <say>Esti, this is Oliver. He’s my special buddy.</say>
 
-          I quickly take in the new guy’s face… <say>Oh.</say> …then turn my eyes back to <work>Prescription: Murder</work> as Doctor Flemming dumps the <quote>stolen</quote> goods overboard into either Bahía de Santa Lucía or the Pacific Ocean. <say>Hello,</say> I add absentmindedly.
+          I quickly take in the new guy’s face… <say>Oh.</say> …then turn my eyes back to <work type="television-show-episode">Prescription: Murder</work> as Doctor Flemming dumps the <quote>stolen</quote> goods overboard into either Bahía de Santa Lucía or the Pacific Ocean. <say>Hello,</say> I add absentmindedly.
 
           <say>Oliver, I’d like you to meet my daughter, Andrea.</say>
 
@@ -9043,31 +9043,31 @@
 
           I glance at him to tell him, <say>Nice to meet you,</say> then return my attention to the boob tube.
 
-          <say>Esti.</say> I pause the <work>Columbo</work> episode again and give her my attention. <say>Oliver likes cop shows, too. You might like to have a chat.</say>
+          <say>Esti.</say> I pause the <work type="television-show">Columbo</work> episode again and give her my attention. <say>Oliver likes cop shows, too. You might like to have a chat.</say>
 
           <say>Oh. What’s your favorite show?</say>
 
-          He smiles as he too proudly admits, <say><work>The X-Files.</say></work>
+          He smiles as he too proudly admits, <say><work type="television-show">The X-Files</work>.</say>
 
           I couldn’t help but stare.
 
-          <say>Is there something wrong with <work>X-Files?</say></work>
+          <say>Is there something wrong with <work type="television-show">X-Files</work>?</say>
 
           <say>If you’re into supernatural baloney,</say> I scoffed, <say>more power to you.</say>
 
           <say>It’s fun. It has mysteries.</say>
 
-          <say>Mysteries with less believability than a <work>Scooby Doo</work> caper.</say>
+          <say>Mysteries with less believability than a <work type="television-show">Scooby Doo</work> caper.</say>
 
           <say>I think they have <quote>believability</quote>, as long as you’re willing to <quote>suspend your belief</quote>.</say>
 
-          <say>I can’t <quote>suspend my disbelief</quote> in the supernatural. I can’t stand that ghosts-and-ghoulies <quote>mystery</quote> crap. Ghosts don’t exist, and <work>Scooby Doo</work> knows that, which is the responsible position to take considering it’s a children’s show where fear of superstition is mocked as silly and self-defeating while skepticism is rational and rewarded with Truth and Justice—it isn’t an example of blind credulity towards the supernatural to be misinterpreted and perverted by adult television. <strong>X-Files</strong> is making adults dumber.</say>
+          <say>I can’t <quote>suspend my disbelief</quote> in the supernatural. I can’t stand that ghosts-and-ghoulies <quote>mystery</quote> crap. Ghosts don’t exist, and <work type="television-show">Scooby Doo</work> knows that, which is the responsible position to take considering it’s a children’s show where fear of superstition is mocked as silly and self-defeating while skepticism is rational and rewarded with Truth and Justice—it isn’t an example of blind credulity towards the supernatural to be misinterpreted and perverted by adult television. <strong>X-Files</strong> is making adults dumber.</say>
 
           <say>Oh. Well. You’re entitled to your opinion. What’s <strong>your</strong> favorite show?</say>
 
-          <say><work>Columbo,</say></work> I inform him in a tone that makes it clear that he should know that the show was one of a few elite works of art worthy of my attention.
+          <say><work type="television-show">Columbo</work>,</say> I inform him in a tone that makes it clear that he should know that the show was one of a few elite works of art worthy of my attention.
 
-          <say><work>Columbo!</work> What a classic.</say>
+          <say><work type="television-show">Columbo</work>! What a classic.</say>
 
           <say>Have you actually watched it?</say>
 
@@ -9077,7 +9077,7 @@
 
           <say>I don’t remember.</say>
 
-          <say>Hm. Mine’s <work>A Friend in Deed.</work> Do you remember that one?</say>
+          <say>Hm. Mine’s <work type="television-show-episode">A Friend in Deed</work>. Do you remember that one?</say>
 
           <say>Unfortunately, no.</say>
 
@@ -9230,7 +9230,7 @@
 
         <say>This is not the sort of thing for which one <emph>asks permission</emph> beforehand,</say> explained Jessica, <say>but…</say> She shrugged. <say>Follow your conscience, if you insist on having one.</say>
 
-        I called and Judy picked up on the fourth ring. <say>Hey, girl! I saw on <work>Hootr</work> that Environmental Health stopped the demolition, congratulations on the victory!</say> I heard a man grunting and groaning in the background, and assumed I’d caught her in the middle of watching porn.
+        I called and Judy picked up on the fourth ring. <say>Hey, girl! I saw on <work type="app">Hootr</work> that Environmental Health stopped the demolition, congratulations on the victory!</say> I heard a man grunting and groaning in the background, and assumed I’d caught her in the middle of watching porn.
 
         <say>Thanks, Judy. There’s just been one little hiccup…</say>
 
@@ -9312,7 +9312,7 @@
 
         <say>You <emph>do</emph> realize you have a <strong>huge</strong> cuckoldry fetish?</say>
 
-        It ought to have been obvious to me. I had an inexplicable interest in videos of people cucking and being cucked on <work>PornTheater.vids.</work> However, I had pretended with her when we first met that I knew nothing about the art of sex, so I had no choice but to lie, <say>I never heard of <quote>cucking</quote> before now.</say>
+        It ought to have been obvious to me. I had an inexplicable interest in videos of people cucking and being cucked on <work type="website">PornTheater.vids</work>. However, I had pretended with her when we first met that I knew nothing about the art of sex, so I had no choice but to lie, <say>I never heard of <quote>cucking</quote> before now.</say>
 
         <say>Of <emph>course</emph> you haven’t…</say>
 
@@ -9685,7 +9685,7 @@
 
         He scoffed. <say>We both know his liking you is the reason you have this job. Everybody knows.</say>
 
-        I nodded, and in a low voice, replied, <say><soft>We’re finally on the same page. If I go to <emph>Dennis…)”</emph></span> By using the chief’s first name, I was implying that he and I were close. <span class="Soft">“(…and tell him that my CSI team is unable to start their investigation because the Lead Investigator refused to accept the green light from another agency, and that, after I tried to explain to him why proceeding would be perfectly safe, he called me a <quote>fire crotch whore</quote>…</soft></say> I paused for effect, and his smirk disappeared. <say><soft>…do you think you would keep your job for as long as I kept mine?</soft></say>
+        I nodded, and in a low voice, replied, <say><soft>We’re finally on the same page. If I go to <emph>Dennis…</emph></soft></say> By using the chief’s first name, I was implying that he and I were close. <say><soft>and tell him that my CSI team is unable to start their investigation because the Lead Investigator refused to accept the green light from another agency, and that, after I tried to explain to him why proceeding would be perfectly safe, he called me a <quote>fire crotch whore</quote>…</soft></say> I paused for effect, and his smirk disappeared. <say><soft>…do you think you would keep your job for as long as I kept mine?</soft></say>
 
         His eyes grew big.
 
@@ -10499,7 +10499,7 @@
 
         <say>You got it.</say> And she disappeared into the crowd.
 
-        I opened <work>KeyWitness,</work> the app that SVPD officers used for recording interviews in the field. <say>Good afternoon, ladies, gentlemen, and peers. We’ve finished with the crime scene investigation, and the Old Torrey Pines is safe… for the time being.</say>
+        I opened <work type="app">KeyWitness</work>, the app that SVPD officers used for recording interviews in the field. <say>Good afternoon, ladies, gentlemen, and peers. We’ve finished with the crime scene investigation, and the Old Torrey Pines is safe… for the time being.</say>
 
         The crowd whistled and cheered…
 
@@ -10509,7 +10509,7 @@
 
         <say>Now, I need to gather some witness statements. I understand most of you won’t be eager to testify in court, though it will probably—but not certainly—be necessary if we’re going to hold the kidnappers accountable. Any volunteers willing to chance being subpoenaed? No pressure, staying off the record is a perfectly valid choice if being in court has a chance of putting you in danger. You are all sex workers, your job can be dangerous—but you couldn’t handle it if you weren’t braver than the pigs.</say> More people than I expected stepped forward—the whole damn crowd. <say>Oh. Wow. Thank you for your help, all of you!</say>
 
-        There wasn’t much to gather—I recorded their statements about the raid, then interviewed everyone who saw the blue sedan and was willing to show their face in court, then finished with Yoly, my only witness who might have seen Alex. <say>Thank you, all of you. The defense will do their best to undermine your character, but I know all of you are strong, you’re used to being belittled and stigmatized, and I know for certain that your testimony will hold up in court, given your sheer numbers. Stay safe, and if you need to get a hold of me, I’m on <work>Hootr</work>, @LouPeckinpaw, P-E-C-K-I-N-P-A-W.</say>
+        There wasn’t much to gather—I recorded their statements about the raid, then interviewed everyone who saw the blue sedan and was willing to show their face in court, then finished with Yoly, my only witness who might have seen Alex. <say>Thank you, all of you. The defense will do their best to undermine your character, but I know all of you are strong, you’re used to being belittled and stigmatized, and I know for certain that your testimony will hold up in court, given your sheer numbers. Stay safe, and if you need to get a hold of me, I’m on <work type="app">Hootr</work>, @LouPeckinpaw, P-E-C-K-I-N-P-A-W.</say>
 
         <say>Are you a furry?</say> asked Keira Knutley, the actress whose girl-on-girl-on-girl three-way videos I had watched through many a lonely night.
 
@@ -10522,7 +10522,7 @@
         <title>Pleasure Bargain</title>
         <description>Andrea and Georgina's new mistress watches her toys play with each other, then teases them with an outing to a mysterious rendezvous.</description>
         
-        I finished uploading all my notes for the Torrey Pines blood pool to the case’s <work>CaseCloud</work> right as Georgina asked me from behind, <say>Detective?</say>
+        I finished uploading all my notes for the Torrey Pines blood pool to the case’s <work type="app">CaseCloud</work> right as Georgina asked me from behind, <say>Detective?</say>
 
         I spun around. <say>Just Andrea.</say>
 
@@ -11151,7 +11151,7 @@
 
         <say>Eupraxia here is a German Shepherd in spirit, that is certain, and a thousand times as smart, but the other is… Oh!</say> She turned to Georgina. <say>How about <quote>Asta</quote>?</say> Georgina was not impressed—she was hardly present.
 
-        <say>From <work>The Thin Man?</say></work> I asked.
+        <say>From <work type="movie">The Thin Man</work>?</say> I asked.
 
         <say>Catch!</say> She tossed a treat at me and I managed to catch it in my mouth. <say>That one is for recognizing the reference. Well, girl?</say>
 
@@ -11414,7 +11414,7 @@
 
         <say>I’ll keep that in mind. Thank you, Mistress.</say> She went back to kissing her beautiful strangers, both younger than me and wearing nothing but what looked to me like prosthetic dog snouts, floppy dog ears, droopy dog tails, and tight leather straps, with their breasts and asses squishing out between the leather.
 
-        I checked the time and slowly finished off my daiquiri, and while I knew the effects of ecstasy from illicit substances training in academy (and from reading virtually every one of <work>Psilo Silo’s</work> guides to tripping on a wide variety of substances), I nevertheless wondered how <emph>my</emph> subjective experience would present itself. After I reached the bottom of my bowl—giving into the temptation to lick it clean, because I might as well go the whole nine yards with the pet thing—I checked the time again: 7:45, about 10 minutes since I’d taken the pill. I still had 50 minutes to burn before the ecstasy kicked in. <say>I’ll make myself busy, Mistress,</say> I told her as I left; she lazily waved goodbye.
+        I checked the time and slowly finished off my daiquiri, and while I knew the effects of ecstasy from illicit substances training in academy (and from reading virtually every one of <work type="website">Psilo Silo’s</work> guides to tripping on a wide variety of substances), I nevertheless wondered how <emph>my</emph> subjective experience would present itself. After I reached the bottom of my bowl—giving into the temptation to lick it clean, because I might as well go the whole nine yards with the pet thing—I checked the time again: 7:45, about 10 minutes since I’d taken the pill. I still had 50 minutes to burn before the ecstasy kicked in. <say>I’ll make myself busy, Mistress,</say> I told her as I left; she lazily waved goodbye.
 
         I resumed wandering past tables, peering at cocks and pussies as they strolled by or as they were stimulated by mouths, hands, dildos, vibrators, or other genitals (both matching and complementary), in the beds between the booths, whether in the ones big enough for four, or in the little ones peppered between them just big enough for two—or, for smaller folks, maybe three. <think>Three of me sharing a bed…</think>
 
@@ -12232,7 +12232,7 @@
 
         <say>The SV Pride Parade is Saturday,</say> he said.
 
-        <say>Right. I saw on <work>Hootr.</say></work>
+        <say>Right. I saw on <work type="app">Hootr</work>.</say>
 
         <say>Cupcake and I will both be there.</say>
 
@@ -13309,7 +13309,7 @@
 
         <think>That’s cool, but how in the hell did you climb the ladder all the way to captain when you’ve been intentionally worse than me at playing cop?</think> (The answer to that question would not make itself apparent for some time.) <say>Those little measures sound like they would add up to a big difference.</say>
 
-        She hesitated before nodding faintly. <say>On the Saturday before I betrayed them—perhaps I can say <quote>was forced to betray them</quote>—my insider reported that the workers’ quality of life was at its highest, and that if only my infiltration needed not be kept a secret she would have passed around a <quote>thank you</quote> card for them to sign. But… late Wednesday morning, not long after the raid, she blocked me on <work>SecreText</work>—as I ought to have predicted. On Saturday evening I came to pick her up to have our weekly meeting and to pay my dues—and she flipped me off while you were looking my way.</say> <think>Wait, you pay dues? Never mind that— Your friend was there on Saturday, right beside me! Could your inside contact be…</think> <say>That was enough to tell me she no longer wishes to associate with me.</say>
+        She hesitated before nodding faintly. <say>On the Saturday before I betrayed them—perhaps I can say <quote>was forced to betray them</quote>—my insider reported that the workers’ quality of life was at its highest, and that if only my infiltration needed not be kept a secret she would have passed around a <quote>thank you</quote> card for them to sign. But… late Wednesday morning, not long after the raid, she blocked me on <work type="app">SecreText</work>—as I ought to have predicted. On Saturday evening I came to pick her up to have our weekly meeting and to pay my dues—and she flipped me off while you were looking my way.</say> <think>Wait, you pay dues? Never mind that— Your friend was there on Saturday, right beside me! Could your inside contact be…</think> <say>That was enough to tell me she no longer wishes to associate with me.</say>
 
         <say><emph>Yesenia</emph> is your contact?</say>
 
@@ -13450,7 +13450,7 @@
 
         <say>Precisely.</say>
 
-        <say>Alright. But I <emph>demand</emph> that you have that deed drafted as soon as possible.</say> She giggled, and I couldn’t help but smile. <say>I want it decorated with gold leaf, embossed, and written in old-timey cursive with a quill like the Declaration of Independence—call it my <work>Declaration of <emph>Dependence</emph></work>—and stamped by a notary.</say>
+        <say>Alright. But I <emph>demand</emph> that you have that deed drafted as soon as possible.</say> She giggled, and I couldn’t help but smile. <say>I want it decorated with gold leaf, embossed, and written in old-timey cursive with a quill like the <work type="legal">Declaration of Independence</work>—call it my <work type="legal">Declaration of <emph>Dependence</emph></work>—and stamped by a notary.</say>
 
         Her laughter was a flock of almond blossom petals in the wind. <say>Of course, my Drea. I am not so certain about the notary, but I will see if there is anybody willing to stamp such a document to make it <emph>look</emph> official.</say>
 
@@ -14225,7 +14225,7 @@
 
         <say>You <emph>cook</emph> with it?</say>
 
-        <say>I have a cookbook, <work>Natural Harvest.</work> And then there’s <work>Semenology</work> for mixed drinks… Perhaps you’d like me to turn one of the recipes into a mocktail?</say>
+        <say>I have a cookbook, <work type="book">Natural Harvest</work>. And then there’s <work type="book">Semenology</work> for mixed drinks… Perhaps you’d like me to turn one of the recipes into a mocktail?</say>
 
         <say>I’d like to try them all.</say>
 
@@ -14781,7 +14781,7 @@
 
         <say>You’re quite a singer. What’s that song?</say>
 
-        <say><quote>Hopelessly Devoted to You</quote>, from the 1978 musical <work>Grease.</work> If you want a glimpse into my childhood, or if you’re interested in movie musicals, even in the slightest, you should give it a watch. Olivia Newton-John has pipes. For all his singing and dancing talent, though, John Travolta’s a Scientologist, so try not to fall for his charm.</say>
+        <say><quote>Hopelessly Devoted to You</quote>, from the 1978 musical <work type="movie">Grease</work>. If you want a glimpse into my childhood, or if you’re interested in movie musicals, even in the slightest, you should give it a watch. Olivia Newton-John has pipes. For all his singing and dancing talent, though, John Travolta’s a Scientologist, so try not to fall for his charm.</say>
 
         <say>We can watch it together, and you can cover my eyes and ears to shield me from the cultist’s siren song and dance. How about Saturday?</say> Then I remembered something. <say>No, wait—the Pride parade is on Saturday, and I wanted Diane to walk me on the leash. We can watch musicals on Friday nights.</say>
 
@@ -15015,7 +15015,7 @@
 
         She kissed me quickly and slapped me on the ass, forcing from me the first sound of happiness of the day—of many, it would turn out. <say>Go, Drea.</say>
 
-        With a pounding agony in my head and a misery-defying smile on my face I returned to my desk and opened the Alex folder, finding only the initial report. Disappointed but unsurprised, I checked my <work>CaseCloud</work> evidence vault for findings from the hotel, but saw nothing. On that note, I emailed the crime lab asking for an ETA on the fiber, hair, and fingerprints; and sent another to the medical examiner requesting that they pull all unidentified males between the ages of sixteen and fifty so that I could attempt to make an identification myself. With no other desk chores to do, I set myself to following up on my leads.
+        With a pounding agony in my head and a misery-defying smile on my face I returned to my desk and opened the Alex folder, finding only the initial report. Disappointed but unsurprised, I checked my <work type="app">CaseCloud</work> evidence vault for findings from the hotel, but saw nothing. On that note, I emailed the crime lab asking for an ETA on the fiber, hair, and fingerprints; and sent another to the medical examiner requesting that they pull all unidentified males between the ages of sixteen and fifty so that I could attempt to make an identification myself. With no other desk chores to do, I set myself to following up on my leads.
 
         First, the blue sedan. If I knew who owned it, I would have my first suspect—and it happened to be the easiest lead to pursue. (After the fingerprints, of course. For whatever reason, the forensic evidence, which I ought to have gone over first, slipped my mind.)
 
@@ -15729,7 +15729,7 @@
 
         I checked my phone, then pulled away to inform her, <say>It’s almost 1:30, we have only an hour-and-a-half left in the shift, unless you want to put in for overtime.</say>
 
-        She sighed in frustration. <say>No, I’m not even authorized for overtime, otherwise I wouldn’t have a backlog. I’ll grab your footage ASAP. The first 10 videos should take about half an hour to locate, transcode, and replicate to your <work>CaseCloud.</work> I’ll include a copy of the standalone viewing software you’ll need to watch and annotate them.</say>
+        She sighed in frustration. <say>No, I’m not even authorized for overtime, otherwise I wouldn’t have a backlog. I’ll grab your footage ASAP. The first 10 videos should take about half an hour to locate, transcode, and replicate to your <work type="app">CaseCloud</work>. I’ll include a copy of the standalone viewing software you’ll need to watch and annotate them.</say>
 
         <say>Thanks, Doll.</say>
 
@@ -15958,7 +15958,7 @@
 
         <say>Alright, alright, I won’t try to get you to talk about it. Sorry for… prying. And I promise I will bring red cups.</say>
 
-        <say>Good. Thank you for showing me the bodies. I have to go over all the evidence in my <work>CaseCloud</work> and figure out what the hell my next step is gonna be.</say> She got up and hugged me firmly, something I was not expecting from a cutthroat workaholic bitch, but sure enough she squeezed me tight, <emph>authentically,</emph> then kissed me long and hard and aggressively. I occasionally glanced at my phone and watched the minutes tick by. We kissed for 11 minutes, until we were interrupted by the clearing of a throat. My heart skipped a beat. I turned around slowly, dreadfully, to see the source of the sound as it asked, <say>What’s up, bitches?</say>
+        <say>Good. Thank you for showing me the bodies. I have to go over all the evidence in my <work type="app">CaseCloud</work> and figure out what the hell my next step is gonna be.</say> She got up and hugged me firmly, something I was not expecting from a cutthroat workaholic bitch, but sure enough she squeezed me tight, <emph>authentically,</emph> then kissed me long and hard and aggressively. I occasionally glanced at my phone and watched the minutes tick by. We kissed for 11 minutes, until we were interrupted by the clearing of a throat. My heart skipped a beat. I turned around slowly, dreadfully, to see the source of the sound as it asked, <say>What’s up, bitches?</say>
 
         The woman was maybe 2 or 3 years my senior, 5′8″, with azure hair peeking out from a lighter blue bouffant, and teal scrubs under a white lab coat, both stained with blood. On her breast was a brass name tag labeled <quote>R. Klein, MD</quote>. I relaxed as soon as I recognized her name. Under her arm was a thick stack of paper held together by a binder clip. <say>Did you finish digitizing the Tenderloin John Doe, Georgia?</say> Medical Examiner Klein asked sternly.
 
@@ -16060,7 +16060,7 @@
 
         <say>I promise I won’t be late.</say>
 
-        I logged into my laptop and then into <work>CaseCloud.</work> The dash cam footage from 5 of the vans was there, and with trepid fingers I opened the first van’s file.
+        I logged into my laptop and then into <work type="app">CaseCloud</work>. The dash cam footage from 5 of the vans was there, and with trepid fingers I opened the first van’s file.
 
         With more skepticism than optimism, I watched from the dashboard a van idling for a couple of minutes. Nothing happens, other than someone asking about the countdown, and someone else responding that they have another 40 minutes until they’re moving forward with the operation. Sure enough, at precisely 09:00 the van starts moving. Nothing continues to happen, other than chatter about the Roadrunners’ most recent series against the Padres, for a quarter of an hour… and then the steeple of the Hotel Torrey Pines appears, towering above the other rooftops of Adams. As soon as the van turns eastbound onto Adams the mysterious blue car comes into view. I waited for the camera to get close enough to read the plates—
 
@@ -16094,7 +16094,7 @@
 
         <say>The location’s convenient.</say>
 
-        <say>Being neighbors made meeting for the first time interesting. Let’s go inside. You can put your shoes on the rack to the right.</say> I unlocked the door, but didn’t open it. <say>I should probably warn you… it’s pretty spartan.</say> I opened the door, and was frozen at the threshold by the strange collage of Things and Stuff that had replaced the emptiness of my room. Neon signs covered the walls, advertising vintage cigarettes, guitars, classic cars, live nude girls, and revolvers, among other things. Filling the spaces between them were framed movie posters, including <work>Who Framed Roger Rabbit,</work> <work>The Cheap Detective,</work> <work>Charade,</work> <work>Clue,</work> <work>Deathtrap,</work> <work>Hot Fuzz,</work> <work>Fargo,</work> <work>Super Troopers,</work> <work>The Thin Man…</work> My room was unrecognizable.
+        <say>Being neighbors made meeting for the first time interesting. Let’s go inside. You can put your shoes on the rack to the right.</say> I unlocked the door, but didn’t open it. <say>I should probably warn you… it’s pretty spartan.</say> I opened the door, and was frozen at the threshold by the strange collage of Things and Stuff that had replaced the emptiness of my room. Neon signs covered the walls, advertising vintage cigarettes, guitars, classic cars, live nude girls, and revolvers, among other things. Filling the spaces between them were framed movie posters, including <work type="movie">Who Framed Roger Rabbit</work>, <work type="movie">The Cheap Detective</work>, <work type="movie">Charade</work>, <work type="movie">Clue</work>, <work type="movie">Deathtrap</work>, <work type="movie">Hot Fuzz</work>, <work type="movie">Fargo</work>, <work type="movie">Super Troopers</work>, <work type="movie">The Thin Man…</work> My room was unrecognizable.
 
         <say>Clover?</say>
 
@@ -17521,7 +17521,7 @@
 
         <say>Where’s the drop?</say>
 
-        <say>Your desk, if I share my <work>CaseCloud</work> with you.</say>
+        <say>Your desk, if I share my <work type="app">CaseCloud</work> with you.</say>
 
         <say>Gimme-gimme-gimme! I mean—<emph>please.</emph></say>
 
@@ -17677,13 +17677,13 @@
 
         <emph>Somebody</emph> had figured out I was working on Alexander’s case. <think>But how? Nobody outside my circle knows that it was Alex’s blood that was spilled in room 410. Unless they’ve tested it and somehow matched him. There are databases after all, though Alex was quite particular about his OPSEC, so I doubt he would have willingly handed over his genome to any entity—it would have needed to be collected one of the times he was arrested. There’s a chance whoever sent this threat suspects that Alex was a victim in the Torrey Pines case—but they’d have needed to be looking over my shoulder from the moment I was put in charge of searching the hotel to have even a clue.</think>
 
-        <think>But… There are two cases, remember? And the other one has Alex’s name on it. And every case assigned to every detective, hot or cold, is tracked in the Crimes Against Persons Unit’s <work>CaseCloud</work> Team Database, which everyone in the unit has access to. If even one detective peeks at my entries in that file, they’ll tattle to the rest of the nest that its newest hornet is trying to find SVPD’s least wanted. And my bosses probably don’t care about keeping my assignments on the down-low.</think>
+        <think>But… There are two cases, remember? And the other one has Alex’s name on it. And every case assigned to every detective, hot or cold, is tracked in the Crimes Against Persons Unit’s <work type="app">CaseCloud</work> Team Database, which everyone in the unit has access to. If even one detective peeks at my entries in that file, they’ll tattle to the rest of the nest that its newest hornet is trying to find SVPD’s least wanted. And my bosses probably don’t care about keeping my assignments on the down-low.</think>
 
         <think>Shit.</think>
 
         There would be no fingerprints to lift from the bird’s porous feathers, and finding surveillance footage of its delivery would be impossible in an apartment complex with landlords too cheap to install security cameras; without any leads, further investigation was pointless. I threw it in the trash and walked to Jack in the Box. Along the way somebody whispered, <say><soft>Ya gotta get these bastards before they get you, Lieutenant.</soft></say> I wasn’t certain they were talking to me, so I just ignored them. I saw no utility in the whispers of invisible fools—besides, I wasn’t a lieutenant. I would <emph>never</emph> be one as long as Alex’s body remained hidden.
 
-        While I was waiting for my Breakfast Jack, I received a <work>SecreText</work> message:
+        While I was waiting for my Breakfast Jack, I received a <work type="app">SecreText</work> message:
 
         <chat>
           <in>
@@ -17711,7 +17711,7 @@
           </out>
         </chat>
 
-        I ate my sandwich, then walked to Walgreens, bought a pint of Ben &amp; Jerry’s Fudgegettaboutit, and ate it while watching <work>The Cheap Detective.</work> I didn’t laugh at any of the gags, and I felt bloated after eating a pint of milk and sugar.
+        I ate my sandwich, then walked to Walgreens, bought a pint of Ben &amp; Jerry’s Fudgegettaboutit, and ate it while watching <work type="movie">The Cheap Detective</work>. I didn’t laugh at any of the gags, and I felt bloated after eating a pint of milk and sugar.
 
         But I had succeeded in all but forgetting about Geraldine’s ire. Instead, by the time Lou joined his polycule of femmes fatales (and femmes inoffensives) before the credits, I had only one thing on my mind: the red bird.
 
@@ -17975,13 +17975,13 @@
 
         <say>A pig. Any idea how he found out?</say>
 
-        <say>He must have seen that I was assigned to Alex’s disappearance in our <work>CaseCloud</work> Team Database.</say>
+        <say>He must have seen that I was assigned to Alex’s disappearance in our <work type="app">CaseCloud</work> Team Database.</say>
 
         <say>How do you know it’s him?</say>
 
         <say>I tracked down the pet shop that sold him the canary, and watched the DVR footage. I have it on DVD…</say> I showed it to her. <say>…and I have the credit card transaction record from the payment system in my work inbox.</say>
 
-        <say>I’ll spin up a <work>CaseCloud</work> vault and add you so you can upload the evidence. I’ll make sure he gets his 3 years for criminal threat.</say>
+        <say>I’ll spin up a <work type="app">CaseCloud</work> vault and add you so you can upload the evidence. I’ll make sure he gets his 3 years for criminal threat.</say>
 
         <say>I appreciate you going to bat for me, but… I’m thinking I might also be able to spin an accessory after the fact for Alex’s kidnapping…</say> A subtle smile reversed her negative demeanor. <say>…on top of the Section 422 PC.</say>
 
@@ -17991,11 +17991,11 @@
 
         After one last peck of our lips, I went to my desk and uploaded the pictures, surveillance video, and point-of-sale purchase record.
 
-        About that point-of-sale transaction: the record made no mention of the name of the payer, his billing address, his issuing bank, or his bank account number—only that the payment had been made with a <work>PassPorter</work> contactless credit card with the last four digits <quote>7956</quote>. The transaction information had been obscured to the point that I had no straightforward way of proving the purchase was made with Horton’s card. I therefore had no choice but to go straight to his bank to acquire a full record of the incriminating payment.
+        About that point-of-sale transaction: the record made no mention of the name of the payer, his billing address, his issuing bank, or his bank account number—only that the payment had been made with a PassPorter contactless credit card with the last four digits <quote>7956</quote>. The transaction information had been obscured to the point that I had no straightforward way of proving the purchase was made with Horton’s card. I therefore had no choice but to go straight to his bank to acquire a full record of the incriminating payment.
 
         Which meant I needed a warrant.
 
-        I created a new DOCX in the <work>CaseCloud</work> vault, only to be interrupted: my calendar notified me that I was due in Traffic Court at 10. <think>Here we go…</think> I called Sergeant Matthews and informed him I had a citation to respond to, and he kindly pointed out, <say>You already called in for the day, and I don’t care what you do with your time. Stop bothering me.</say> If anything, there was a hint of <emph>hostility</emph> in his dismissive tone.
+        I created a new DOCX in the <work type="app">CaseCloud</work> vault, only to be interrupted: my calendar notified me that I was due in Traffic Court at 10. <think>Here we go…</think> I called Sergeant Matthews and informed him I had a citation to respond to, and he kindly pointed out, <say>You already called in for the day, and I don’t care what you do with your time. Stop bothering me.</say> If anything, there was a hint of <emph>hostility</emph> in his dismissive tone.
 
         <hr/>
         I showed the courthouse security people my badge and they let me skip the security line. I joined a crowd waiting outside court room 23, Traffic, and a few minutes later we were shepherded in and seated in the gallery. I was optimistic that my case would be resolved quickly, since I had been blessed with a last name that started with the second letter of the alphabet…
@@ -18783,7 +18783,7 @@
 
         <say>Is it a common phrase?</say>
 
-        <say>It’s from Parshe <work>Shoftim</work> of <work>Devarim</work>—for gentiles that would be the reading portion of <work>Judges</work> in <work>Deuteronomy</work>—chapter 16, verse 20. These 3 words are thousands of years old, and are part of the foundation of one of the world’s oldest and most-debated systems of ethics and justice.</say>
+        <say>It’s from Parshe <work type="parsha">Shoftim</work> of <work type="book">Devarim</work>—for gentiles that would be the reading portion of <work type="parsha">Judges</work> in <work type="book">Deuteronomy</work>—chapter 16, verse 20. These 3 words are thousands of years old, and are part of the foundation of one of the world’s oldest and most-debated systems of ethics and justice.</say>
 
         <say>Why are you suddenly okay with talking about this? You <emph>never</emph> talk about the Old Testament with me, it’s even more taboo than Yiddish.</say>
 
@@ -19238,11 +19238,11 @@
 
         I lowered my heel and pushed it down halfway, causing the cheese to splay out around it, and the cake to bulge at its edges.
 
-        <say><soft>Ahhhmmmggghhhaaahhh…</soft></say> His voice trembled with delicious, agonizing anticipation.
+        <say><soft>Ahhhmmmggghhhaaahhh…</soft></say> His voice trembled with delicious, agonized anticipation.
 
         <say>Before I go any further, I need you to do me a favor.</say>
 
-        <say><soft>Hah… Ahh… Hah…)</span> Anything… <span class="Soft">(Hah… Ahh… Hah…</soft></say> he moaned pathetically between pants.
+        <say><soft>Hah… Ahh… Hah…</soft> Anything… <soft>Hah… Ahh… Hah…</soft></say> he moaned pathetically between pants.
 
         <say>I want Intelligence to give me a report of all unoccupied or abandoned buildings in the city along with the title owner, current tenant, market value, square footage, business purpose, and purchase date.</say>
 
@@ -19451,11 +19451,11 @@
 
         <say>Great, thanks, I’ll swing by to pick it up in a bit.</say>
 
-        <say>It’ll be in your <work>CaseCloud</work> when it’s ready.</say>
+        <say>It’ll be in your <work type="app">CaseCloud</work> when it’s ready.</say>
 
         <say>Oh. Right. Thanks.</say> <think>Old fashioned.</think>
 
-        As soon as the Intel GIS file was in my vault, I imported it into <work>LEGIS Maps</work> and felt my way through the application’s capabilities (with the help of the user manual and several forum posts) until I had generated an aesthetically pleasing interactive map of Santa Virginia where each property’s address was plotted and labeled with its title holder, tenant, purchase date, market value and business purpose, with the fill color of each property polygon determined by who held the title.
+        As soon as the Intel GIS file was in my vault, I imported it into <work type="app">LEGIS Maps</work> and felt my way through the application’s capabilities (with the help of the user manual and several forum posts) until I had generated an aesthetically pleasing interactive map of Santa Virginia where each property’s address was plotted and labeled with its title holder, tenant, purchase date, market value and business purpose, with the fill color of each property polygon determined by who held the title.
 
         The result was a shotgun blast of data that I couldn’t make sense of—so I filtered out all the properties where neither the title holder nor tenant were listed as <quote>Gunther &amp; Sampson</quote>, then set the property polygon line color based on whether G&amp;S was the titleholder or the tenant, and the fill color of each polygon ranging in shades from green for the highest cost per square foot to red for the lowest. An obvious pattern emerged immediately. The map showed that G&amp;S had 376 properties spread throughout the city, of which only one—the old Fitzsimmons warehouse on Jefferson Avenue, the reddest property—had no tenant assigned to it.
 
@@ -19463,7 +19463,7 @@
 
         I felt my blood pressure spike. <say>No. Fucking. Way.</say> Four abandoned train tracks separated the southern edge of the abandoned Fitzsimmons warehouse (the facility’s rail docks) and the Torrey Pines’ private train station on the hotel’s northern edge. Our kidnappers didn’t need to transport Alex across town by car, they could have simply carried him a few dozen yards across the tracks—out one back entrance, in the other.
 
-        Finding Alex had proven to be shockingly straightforward—notwithstanding having to teach myself how to use <work>LEGIS</work>. The hard part was coping with my inability to save him in time.
+        Finding Alex had proven to be shockingly straightforward—notwithstanding having to teach myself how to use <work type="app">LEGIS</work>. The hard part was coping with my inability to save him in time.
 
         —No. The hard part was going to be telling Geraldine I had failed her, that I had promised her something I couldn’t actually give her: her husband, alive.
 
@@ -19478,7 +19478,7 @@
         <title>Action Girl Task Force!</title>
         <description>He should be here. Where is he? Why isn't he here? What the hell happened to Alexander Brookvale?</description>
         
-        After taking my last bite of chili, I notified my girlfriends via <work>SecreText</work>:
+        After taking my last bite of chili, I notified my girlfriends via <work type="app">SecreText</work>:
 
         <chat>
           <out>
@@ -20474,9 +20474,9 @@
 
         <say>You sent one?</say>
 
-        <say>Yes, they were able to identify a brown van speeding through the first intersection, and said the files would be in your <work>CaseCloud</work> in <quote>a few minutes</quote>—which was a few minutes <emph>ago,</emph> so it might be there by now.</say>
+        <say>Yes, they were able to identify a brown van speeding through the first intersection, and said the files would be in your <work type="app">CaseCloud</work> in <quote>a few minutes</quote>—which was a few minutes <emph>ago,</emph> so it might be there by now.</say>
 
-        <say>Oh.</say> I finished buttoning and logged in. <say><soft>Yesss,</soft></say> I hissed victoriously as <work>CaseCloud</work> opened to reveal the coveted pictures and records of violations. <say>Clues, precious clues.</say> They pulled up chairs for a better view of the first traffic light photo, which was at the intersection of Adams and Sylvester. <say>There’s our brown van alright. 1987 Ford Econoline E-150, license plate <quote>B120NKL7</quote>, registered to Advanced Plumbing Services, Inc. I’m a little disappointed that it’s hard to make out the driver, but we’ve got plenty to work with here.</say>
+        <say>Oh.</say> I finished buttoning and logged in. <say><soft>Yesss,</soft></say> I hissed victoriously as <work type="app">CaseCloud</work> opened to reveal the coveted pictures and records of violations. <say>Clues, precious clues.</say> They pulled up chairs for a better view of the first traffic light photo, which was at the intersection of Adams and Sylvester. <say>There’s our brown van alright. 1987 Ford Econoline E-150, license plate <quote>B120NKL7</quote>, registered to Advanced Plumbing Services, Inc. I’m a little disappointed that it’s hard to make out the driver, but we’ve got plenty to work with here.</say>
 
         <say>I’ll say,</say> said Koko. <say>Are those photos for every intersection they passed through?</say>
 
@@ -20585,7 +20585,7 @@
 
         <say>Affirmative.</say>
 
-        <say>Copy, I’ll log this call in your <work>CaseCloud</work> momentarily. Keep us apprised of any developments.</say>
+        <say>Copy, I’ll log this call in your <work type="app">CaseCloud</work> momentarily. Keep us apprised of any developments.</say>
 
         <say>Roger, thanks, out.</say> As we arrived at Alex’s steel coffin, I inspected the padlock. <say>Shit, it’s a disc detainer—and I left my disc detainer tool at home.</say>
 
@@ -20691,7 +20691,7 @@
 
         <say>Fine. There’s nothing we can do to get you to talk, so I guess we’ll just have to wait for your lawyers to give us your names.</say>
 
-        The squad car arrived first and took them away. One <work>SecreText</work> debriefing and 2 minutes later, the EMTs picked up Alex. I immediately called Geraldine to notify her that they were whisking him away to Cottonwood Lodge Memorial Hospital. The ambulance drove off into the night, sirens blazing, leaving the 4 of us to each other.
+        The squad car arrived first and took them away. One <work type="app">SecreText</work> debriefing and 2 minutes later, the EMTs picked up Alex. I immediately called Geraldine to notify her that they were whisking him away to Cottonwood Lodge Memorial Hospital. The ambulance drove off into the night, sirens blazing, leaving the 4 of us to each other.
 
         <say>Good job, Clover.</say> Doll gave me a kiss, and Koko and Blue followed her example. <say>He’s alive. He’s safe. And he’ll be home once they’ve taken care of the fractures and given him some fluids. You can relax.</say>
 
@@ -20775,7 +20775,7 @@
       <section role="afterword">
         <heading>Afterword</heading>
 
-        I was circling the creative drain while editing what was intended to be my debut story (titled <work>In the Shade of the Tiger Lily,</work> a sexy drug-fueled sci-fi spy thriller set in the ’80s) when my spouse suggested that I try working on something else instead. The plot of this new venture was born of a joke concept: a lowly meter maid bumbles her way through solving some inconsequential mystery with sex… or (as Adrian puts it) the pitch for <work>Zootopia,</work> but with horny humans instead of celibate anthros, and queer kinky erotica instead of sterile corporate cishet Disney <quote>wholesomeness</quote>.
+        I was circling the creative drain while editing what was intended to be my debut story (titled <work type="book">In the Shade of the Tiger Lily</work>, a sexy drug-fueled sci-fi spy thriller set in the ’80s) when my spouse suggested that I try working on something else instead. The plot of this new venture was born of a joke concept: a lowly meter maid bumbles her way through solving some inconsequential mystery with sex… or (as Adrian puts it) the pitch for <work type="movie">Zootopia</work>, but with horny humans instead of celibate anthros, and queer kinky erotica instead of sterile corporate cishet Disney <quote>wholesomeness</quote>.
 
         The idea gradually accrued gravitas as I continued to explore it, until the story became a romantic thriller about a meter maid who refuses to play by the rules, fighting for her life against the forces of corruption and social injustice. The spirits of humor and sex, however, never left, but merely made room in bed for the gravitas and romance, and the three moods got along so well that they found themselves in an intimate relationship with each other. Polyamorous love wins again.
       </section>
@@ -20785,7 +20785,7 @@
 
         Fannie Spanker was born and raised in Southern California. Música norteña reminds her of home. She dreams of someday smashing a police car (or a Tesla) in an L.A. riot, though she’s too much of a coward to participate in even the most peaceful of protests.
 
-        Once upon a time, Fannie had a badge, but it got taken away because she slacked on her tasks and slept on the job when she thought nobody was looking. (Her boss came a-looking whenever he couldn’t reach her on <work>Skype</work>, and on at least two occasions caught her in the act of snoozing with her face planted on her desk.) For 12 years she sucked at her job. For 12 years she observed the behavior of her coworkers and the inhumane and unethical behavior they engaged in. For 12 years her bosses were unable to hire someone else to do her job because they didn’t want to deal with the union. And now that she’s retired and collecting a government pension paid for by the bastards whose time and money she wasted, they’re officially paying her to <strong>not</strong> do her job while she writes pornographic anti-cop propaganda.
+        Once upon a time, Fannie had a badge, but it got taken away because she slacked on her tasks and slept on the job when she thought nobody was looking. (Her boss came a-looking whenever he couldn’t reach her on <work type="app">Skype</work>, and on at least two occasions caught her in the act of snoozing with her face planted on her desk.) For 12 years she sucked at her job. For 12 years she observed the behavior of her coworkers and the inhumane and unethical behavior they engaged in. For 12 years her bosses were unable to hire someone else to do her job because they didn’t want to deal with the union. And now that she’s retired and collecting a government pension paid for by the bastards whose time and money she wasted, they’re officially paying her to <strong>not</strong> do her job while she writes pornographic anti-cop propaganda.
 
         At least, that’s what she tells herself to feel better about being a pig for over a decade and only leaving her fascist profession when her mental health issues made her so bad at her job that her employers had no choice but to fire her and the union was sick of trying to protect her. She wouldn’t blame you for hating or mistrusting her for her past career choices.
       </section>
