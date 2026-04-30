@@ -15247,10 +15247,10 @@
         I checked social media for a few minutes before receiving a SecreText from Diane that said only,
 
         <chat>
-          <incoming>
+          <in>
             <from>Mistress</from>
             <msg>Done.</msg>
-          </incoming>
+          </in>
         </chat>
 
 
@@ -15887,19 +15887,19 @@
         <say>I need to… ask.</say> I SecreTexted Doll,
 
         <chat>
-          <outgoing>
+          <out>
             <from>Me</from>
             <msg>Do you mind if I invite other people tonight?</msg>
-          </outgoing>
+          </out>
         </chat>
 
         <say>Sent. If you end up coming, this would be her first time getting involved with two women—three if Judy joins in—at the same—</say> My phone notified me of a response.
 
         <chat>
-          <incoming>
+          <in>
             <from>Doll</from>
             <msg>id love that!</msg>
-          </incoming>
+          </in>
         </chat>
 
         <say>Oh. She says yes.</say>
@@ -17686,29 +17686,29 @@
         While I was waiting for my Breakfast Jack, I received a <work>SecreText</work> message:
 
         <chat>
-          <incoming>
+          <in>
             <from>Mistress</from>
             <msg>i heard that you took the day off.</msg>
             <msg>are you well?</msg>
-          </incoming>
+          </in>
         </chat>
 
         I didn’t want to interact with <emph>anybody,</emph> but I felt compelled to give my lover some kind of response.
 
         <chat>
-          <outgoing>
+          <out>
             <from>Me</from>
             <msg>Told Geraldine Pasteur I’m no closer to finding her husband, and she doesn’t want anything to do with me.</msg>
-          </outgoing>
-          <incoming>
+          </out>
+          <in>
             <from>Mistress</from>
             <msg>i am sorry, sweetie.</msg>
             <msg>you might watch a comfort movie or have some chocolate</msg>
-          </incoming>
-          <outgoing>
+          </in>
+          <out>
             <from>Me</from>
             <msg>Good idea.</msg>
-          </outgoing>
+          </out>
         </chat>
 
         I ate my sandwich, then walked to Walgreens, bought a pint of Ben &amp; Jerry’s Fudgegettaboutit, and ate it while watching <work>The Cheap Detective.</work> I didn’t laugh at any of the gags, and I felt bloated after eating a pint of milk and sugar.
@@ -18260,10 +18260,10 @@
         Outside the courthouse I brought my phone back to life to find a message in my inbox:
 
         <chat>
-          <incoming>
+          <in>
             <from>Mistress</from>
             <msg>if you require the assistance of a judge, I suggest Edgar Juarez.</msg>
-          </incoming>
+          </in>
         </chat>
 
         I thanked Diane and let her know about the arrest I had planned for later, then went back to my desk, whipped up an affidavit summarizing Horton’s crime, and made my way back to the courthouse. I informed Judge Juarez’s assistant that <say>I have an affidavit.</say>
@@ -19150,56 +19150,56 @@
         I SecreTexted Diane to ask her:
 
         <chat>
-          <outgoing>
+          <out>
             <from>Me</from>
             <msg>What’s Plaut’s favorite kind of cake?</msg>
-          </outgoing>
-          <incoming>
+          </out>
+          <in>
             <from>Mistress</from>
             <msg>...</msg>
-          </incoming>
+          </in>
         </chat>
 
         Pause.
 
         <chat>
-          <incoming>
+          <in>
             <from>Mistress</from>
             <msg>WHY do you want to know?</msg>
-          </incoming>
-          <outgoing>
+          </in>
+          <out>
             <from>Me</from>
             <msg>I want him to owe me a favor.</msg>
-          </outgoing>
-          <incoming>
+          </out>
+          <in>
             <from>Mistress</from>
             <msg>i will take care of it.</msg>
-          </incoming>
-          <outgoing>
+          </in>
+          <out>
             <from>Me</from>
             <msg>You want me to take over for you some day.</msg>
-          </outgoing>
+          </out>
         </chat>
 
         Pause.
 
         <chat>
-          <incoming>
+          <in>
             <from>Mistress</from>
             <msg>you are not yet ready.</msg>
-          </incoming>
-          <outgoing>
+          </in>
+          <out>
             <from>Me</from>
             <msg>There’s no time to start the transition like the present.</msg>
-          </outgoing>
-          <incoming>
+          </out>
+          <in>
             <from>Mistress</from>
             <msg>*sigh* you have a point. strawberry cheesecake. homemade is best but store bought is fine, get the one from hangar foods, it has a firmer curd that takes more force to deform, which allows for greater precision.</msg>
-          </incoming>
-          <outgoing>
+          </in>
+          <out>
             <from>Me</from>
             <msg>Thank you, Mistress!</msg>
-          </outgoing>
+          </out>
         </chat>
 
         I scheduled a surprise appointment with Plaut, bought a strawberry cheesecake from the nearest Hangar Foods, grabbed a plastic fork from my desk, and was back just in time to see him.
@@ -19481,224 +19481,224 @@
         After taking my last bite of chili, I notified my girlfriends via <work>SecreText</work>:
 
         <chat>
-          <outgoing>
+          <out>
             <from>Me</from>
             <msg>I think I’ve found him.</msg>
-          </outgoing>
-          <incoming>
+          </out>
+          <in>
             <from>Koko</from>
             <msg>Where?!</msg>
-          </incoming>
-          <incoming>
+          </in>
+          <in>
             <from>Mistress</from>
             <msg>Do tell!</msg>
-          </incoming>
-          <incoming>
+          </in>
+          <in>
             <from>Blondie</from>
             <msg>:O</msg>
-          </incoming>
-          <incoming>
+          </in>
+          <in>
             <from>Blue</from>
             <msg>good job</msg>
-          </incoming>
-          <incoming>
+          </in>
+          <in>
             <from>Doll</from>
             <msg>how and where did you find him?</msg>
             <msg>don’t keep us waiting!</msg>
-          </incoming>
-          <outgoing>
+          </in>
+          <out>
             <from>Me</from>
             <msg>I plotted abandoned properties throughout the city and the only one owned by G&amp;S that didn’t have a tenant was the old Fitzsimmons warehouse.</msg>
             <msg>Right next door to the Torrey Pines.</msg>
             <msg>I figure I can brew a few thermoses of coffee and stake out the train tracks for a few days and maybe catch them going in or out.</msg>
-          </outgoing>
-          <incoming>
+          </out>
+          <in>
             <from>Mistress</from>
             <msg>No.</msg>
             <msg>you are not engaging in hot pursuit.</msg>
-          </incoming>
-          <outgoing>
+          </in>
+          <out>
             <from>Me</from>
             <msg>Why not?</msg>
-          </outgoing>
-          <incoming>
+          </out>
+          <in>
             <from>Mistress</from>
             <msg>you will be sending in a team of officers to do it for you.</msg>
-          </incoming>
-          <outgoing>
+          </in>
+          <out>
             <from>Me</from>
             <msg>I don’t trust anyone to put in an honest effort.</msg>
             <msg>I’m not sure a few crooked officers wouldn’t just let the perps go.</msg>
-          </outgoing>
-          <incoming>
+          </out>
+          <in>
             <from>Mistress</from>
             <msg>you are NOT doing this.</msg>
-          </incoming>
-          <outgoing>
+          </in>
+          <out>
             <from>Me</from>
             <msg>You aren’t telling me WHY I’m not supposed to do this.</msg>
-          </outgoing>
-          <incoming>
+          </out>
+          <in>
             <from>Mistress</from>
             <msg>because I don’t want to lose you again.</msg>
-          </incoming>
-          <outgoing>
+          </in>
+          <out>
             <from>Me</from>
             <msg>You never lost me in the first place.</msg>
-          </outgoing>
-          <incoming>
+          </out>
+          <in>
             <from>Mistress</from>
             <msg>I could have lost you at Asmodeus.</msg>
-          </incoming>
-          <outgoing>
+          </in>
+          <out>
             <from>Me</from>
             <msg>Nothing’s going to happen this time.</msg>
-          </outgoing>
-          <incoming>
+          </out>
+          <in>
             <from>Mistress</from>
             <msg>you are going to end up shot or stabbed or clubbed on the head or something else awful. do not do this.</msg>
-          </incoming>
-          <outgoing>
+          </in>
+          <out>
             <from>Me</from>
             <msg>I’ll maintain a safe distance.</msg>
             <msg>And I know how to stay hidden, the other kids picked on me all the time at school so I got lots of practice.</msg>
             <msg>And I’m good with a gun, too.</msg>
-          </outgoing>
-          <incoming>
+          </out>
+          <in>
             <from>Mistress</from>
             <msg>we have no idea how many of them there are. there is only one of you.</msg>
-          </incoming>
-          <outgoing>
+          </in>
+          <out>
             <from>Me</from>
             <msg>Then I can take someone with me.</msg>
-          </outgoing>
-          <incoming>
+          </out>
+          <in>
             <from>Blue</from>
             <msg>ill go</msg>
             <msg>ill be your harry morgen my man friday . or yuor huckleberry</msg>
-          </incoming>
-          <incoming>
+          </in>
+          <in>
             <from>Mistress</from>
             <msg>I forbid it.</msg>
-          </incoming>
-          <incoming>
+          </in>
+          <in>
             <from>Blue</from>
             <msg>i know how to use a gun</msg>
-          </incoming>
-          <incoming>
+          </in>
+          <in>
             <from>Mistress</from>
             <msg>you do not!</msg>
-          </incoming>
-          <incoming>
+          </in>
+          <in>
             <from>Blue</from>
             <msg>if i dont go who will</msg>
-          </incoming>
-          <incoming>
+          </in>
+          <in>
             <from>Mistress</from>
             <msg>no one will!</msg>
-          </incoming>
-          <incoming>
+          </in>
+          <in>
             <from>Blue</from>
             <msg>what do you want do you want her to go in all by herself or with a buddy</msg>
-          </incoming>
-          <incoming>
+          </in>
+          <in>
             <from>Koko</from>
             <msg>Stop.</msg>
-          </incoming>
-          <incoming>
+          </in>
+          <in>
             <from>Mistress</from>
             <msg>that is not what I meant!</msg>
-          </incoming>
-          <incoming>
+          </in>
+          <in>
             <from>Blue</from>
             <msg>explain what you mean??</msg>
-          </incoming>
-          <incoming>
+          </in>
+          <in>
             <from>Koko</from>
             <msg>Stop.</msg>
-          </incoming>
-          <incoming>
+          </in>
+          <in>
             <from>Mistress</from>
             <msg>I am saying that she should not go, period!</msg>
-          </incoming>
-          <incoming>
+          </in>
+          <in>
             <from>Blue</from>
             <msg>then how my dear is she going to capture the bad guys</msg>
-          </incoming>
-          <incoming>
+          </in>
+          <in>
             <from>Koko</from>
             <msg>STOP</msg>
-          </incoming>
-          <incoming>
+          </in>
+          <in>
             <from>Blue</from>
             <msg>WHAT</msg>
-          </incoming>
-          <incoming>
+          </in>
+          <in>
             <from>Mistress</from>
             <msg>KOKO WHAT DO YOU WANT.</msg>
-          </incoming>
-          <incoming>
+          </in>
+          <in>
             <from>Koko</from>
             <msg>Diane, this is Andrea’s case, not yours.</msg>
             <msg>Regina, I only showed you how to shoot a dinky .22 yesterday, not to mention you’ve never been trained in <say-as interpret-as="characters">CQC</say-as>.</msg>
             <msg>Judy, I’ll venture a guess that you have never held a gun in your life.</msg>
             <msg>Am I wrong?</msg>
-          </incoming>
-          <incoming>
+          </in>
+          <in>
             <from>Blondie</from>
             <msg>you are not wrong.</msg>
-          </incoming>
-          <incoming>
+          </in>
+          <in>
             <from>Koko</from>
             <msg>Diane?</msg>
-          </incoming>
-          <incoming>
+          </in>
+          <in>
             <from>Mistress</from>
             <msg>i have a <say>medical exemption</say> from quals…</msg>
-          </incoming>
-          <incoming>
+          </in>
+          <in>
             <from>Koko</from>
             <msg>That leaves me and Prissy.</msg>
             <msg>If you want us to have a numerical advantage, you will accompany me and Prax on this mission.</msg>
-          </incoming>
-          <incoming>
+          </in>
+          <in>
             <from>Doll</from>
             <msg>of course.</msg>
-          </incoming>
-          <incoming>
+          </in>
+          <in>
             <from>Mistress</from>
             <msg>no.</msg>
             <msg>I forbid it.</msg>
             <msg>Prissy, you shall not go.</msg>
-          </incoming>
-          <incoming>
+          </in>
+          <in>
             <from>Koko</from>
             <msg>Okay, Diane.</msg>
             <msg>It’s just Koko and Prax, catching bad guys all alone.</msg>
-          </incoming>
-          <incoming>
+          </in>
+          <in>
             <from>Mistress</from>
             <msg>fuck god damn it</msg>
             <msg>Fine.</msg>
             <msg>You may all go</msg>
             <msg>vests and helmets</msg>
             <msg>Regina, keep your distance from the action</msg>
-          </incoming>
-          <incoming>
+          </in>
+          <in>
             <from>Koko</from>
             <msg>If that’s how you want to do it.</msg>
             <msg>Prissy?</msg>
-          </incoming>
-          <incoming>
+          </in>
+          <in>
             <from>Doll</from>
             <msg>I’m game.</msg>
-          </incoming>
-          <outgoing>
+          </in>
+          <out>
             <from>Me</from>
             <msg>Okay.</msg>
             <msg>We’ll look like tacticool dorks.</msg>
             <msg>But okay.</msg>
-          </outgoing>
+          </out>
         </chat>
 
         I drove to the station house and showed up at the armory. With no shortage of suspicion, Armory Sergeant Arthur Fletcher informed me, <say>Armory doesn’t stock office supplies, civvie.</say> He was much friendlier after I flashed my badge. <say>What can I do ya for, Detective?</say>
@@ -19744,56 +19744,56 @@
 
         
         <chat>
-          <incoming>
+          <in>
             <from>Blondie</from>
             <msg>consent probably won’t be too hard. you’re pretty good at getting consent. :P</msg>
-          </incoming>
-          <outgoing>
+          </in>
+          <out>
             <from>Me</from>
             <msg>What?</msg>
             <msg>They’d have to be insane to consent!</msg>
-          </outgoing>
-          <incoming>
+          </out>
+          <in>
             <from>Blondie</from>
             <msg>not if whoever manages the property doesn’t know what they’re consenting to.</msg>
-          </incoming>
-          <outgoing>
+          </in>
+          <out>
             <from>Me</from>
             <msg>Why would they consent to a search when I have no way of convincingly articulating to them that I’m certain there’s a man being imprisoned on their property without the word <say>liability</say> flashing in big red neon letters over my head?</msg>
-          </outgoing>
-          <incoming>
+          </out>
+          <in>
             <from>Blondie</from>
             <msg>tell them you’re an exterminator hired by a neighbor who’s sick of vermin nesting in the warehouse.</msg>
-          </incoming>
-          <outgoing>
+          </in>
+          <out>
             <from>Me</from>
             <msg>I’m not lying to them!</msg>
-          </outgoing>
-          <incoming>
+          </out>
+          <in>
             <from>Mistress</from>
             <msg>Drea, she has the right idea. you often evade or twist the truth in trying to get your way. with enough preparation you may be convincing.</msg>
-          </incoming>
-          <outgoing>
+          </in>
+          <out>
             <from>Me</from>
             <msg>No!</msg>
             <msg>I don’t twist the truth!</msg>
             <msg>I just… know how to… present it in interesting and compelling ways.</msg>
-          </outgoing>
-          <incoming>
+          </out>
+          <in>
             <from>Mistress</from>
             <msg>(quod erat demonstrandum.) then by all means be <say>interesting and compelling</say>. you may be more convincing if you engineer your <say>truth</say> ahead of time.</msg>
-          </incoming>
+          </in>
         </chat>
 
         <think>Ah… hmm…</think> My mind ran at a million miles a minute. <think>Vermin… neighbor… community… neighborhood… neighborhood watch… police… Yes. I have it.</think> The plan built itself in a minute, and as the last brick was laid I replied,
 
         <chat>
-          <outgoing>
+          <out>
             <from>Me</from>
             <msg>Okay.</msg>
             <msg>Thank you.</msg>
             <msg>I just thought of something that just might work.</msg>
-          </outgoing>
+          </out>
         </chat>
 
         
