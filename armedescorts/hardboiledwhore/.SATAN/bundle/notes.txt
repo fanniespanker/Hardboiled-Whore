@@ -1,0 +1,5 @@
+Reconstruction Notes:
+- Narrative is implicit
+- Discourse units via blank lines
+- <irreal> spans units
+- Prosody is compositional
