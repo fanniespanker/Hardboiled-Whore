@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE cnml>
 
-<cnml>
+<cnml xmlns="https://fanniespanker.com/ns/0.1/cnml">
   <book>
 
     <publication>
