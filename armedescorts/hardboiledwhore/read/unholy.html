@@ -12,15 +12,66 @@
     <link rel="canonical" href="https://fanniespanker.com/armedescorts/hardboiledwhore/read/unholy.html">
   </head>
 
-  <body>
-    <div id="include"></div>
-    <script type="include">
-      fetch("hw.cnml")
-      .then(r => r.text())
-      .then(text => {
-          document.getElementById("include").innerHTML = text;
-      });
-    </script>
-  </body>
+  <div id="app"></div>
+
+  <script type="module">
+    async function loadCNML(url) {
+      const text = await fetch(url).then(r => r.text());
+
+      const parser = new DOMParser();
+      const xml = parser.parseFromString(text, "text/xml");
+
+      // error check
+      const err = xml.querySelector("parsererror");
+      if (err) {
+        console.error("CNML parse error:", err.textContent);
+        return;
+      }
+
+      // ✅ AUTO-DETECT namespace
+      const CNML_NS = xml.documentElement.namespaceURI;
+
+      function convert(node) {
+        // text
+        if (node.nodeType === Node.TEXT_NODE) {
+          return document.createTextNode(node.textContent);
+        }
+
+        if (node.nodeType !== Node.ELEMENT_NODE) return null;
+
+        let el;
+
+        // ✅ convert only nodes in CNML namespace
+        if (node.namespaceURI === CNML_NS) {
+          const tag = "cnml-" + node.localName.toLowerCase();
+          el = document.createElement(tag);
+        } else {
+          // preserve foreign elements
+          el = document.createElement(node.tagName.toLowerCase());
+        }
+
+        // copy attributes (preserve names as-is)
+        for (const attr of node.attributes) {
+          el.setAttribute(attr.name, attr.value);
+        }
+
+        // recurse
+        for (const child of node.childNodes) {
+          const c = convert(child);
+          if (c) el.appendChild(c);
+        }
+
+        return el;
+      }
+
+      const root = convert(xml.documentElement);
+
+      const container = document.getElementById("app");
+      container.innerHTML = "";
+      container.appendChild(root);
+    }
+
+    loadCNML("hw.cnml");
+  </script>
 
 </html>
