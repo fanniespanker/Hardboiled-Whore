@@ -470,7 +470,7 @@
           <poem>
             <title>Cream or Sugar</title>
 
-            <irreal>
+            <nonactual>
             And then a quiet fragrance,
             carried to
                 
@@ -495,7 +495,7 @@
 
             the cream or sugar
             to adulterate.
-            </irreal>
+            </nonactual>
 
           </poem>
 
@@ -509,9 +509,9 @@
 
           <say>You quit?</say> Her distrust was not going anywhere.
           
-          <irreal>
+          <nonactual>
             I climb you like a tree and get lost in your foliage…
-          </irreal>  
+          </nonactual>  
           
           <say>You’ve heard of ACAB, right?</say>
 
@@ -531,7 +531,7 @@
 
           <say>You aren’t a cop anymore, which means you aren’t a bastard anymore.</say> Then she smiled at me.
 
-          I considered her kindness silently. <irreal>You sweep me off my feet, hold me up by my fat ass so that I can wrap my legs around your waist and cling to you and kiss you…</irreal> I replied, <say>That’s… the most reassuring thing I’ve heard in over a decade. Maybe I’m not a horrible person for having once been complicit in a corrupt and hateful institution. Just kind of… worthless.</say>
+          I considered her kindness silently. <nonactual>You sweep me off my feet, hold me up by my fat ass so that I can wrap my legs around your waist and cling to you and kiss you…</nonactual> I replied, <say>That’s… the most reassuring thing I’ve heard in over a decade. Maybe I’m not a horrible person for having once been complicit in a corrupt and hateful institution. Just kind of… worthless.</say>
 
           That precious smile disappeared— <think>Left me, abandoned me.</think> —to be replaced with her pitying stare. <say>You have some real self-esteem issues, don’t you?</say>
 
@@ -547,7 +547,7 @@
 
           <say>With a computer server as our matchmaker, yes—but you should know that I’ve been around the sun my fair share of times and I’ve learned to be an efficient judge of character. There’s something about you that I really like, and I want to figure out what it is. And now that we know we’re next-door neighbors, we can be friends!</say>
 
-          <say><quote>Friends</quote>…</say> I slipped into thought. <irreal>Like maybe draping your mass over me like a weighted blanket while kissing my entire face, my chest, my belly, my…</irreal> It was a good thing she couldn’t perceive my fantasies.
+          <say><quote>Friends</quote>…</say> I slipped into thought. <nonactual>Like maybe draping your mass over me like a weighted blanket while kissing my entire face, my chest, my belly, my…</nonactual> It was a good thing she couldn’t perceive my fantasies.
 
           <say>Depends on how far you want to take it. I have quite a few friends already, but I’m not super close to any of them, but <soft>you…</soft></say> She smiled slyly. <say>I’d like to get really close to you—if you know what I mean.</say>
 
@@ -832,7 +832,7 @@
             So her fingers invaded my country and I surrendered to her every maneuver as she politely conquered me. She performed magnificently, vigorously ruling over my clit with a firm hand, and I let her know I was hers with my moaning and whining until time bled over into space, until I felt—
           
 
-          <irreal>
+          <nonactual>
             <poem>
               <title>Sequoia</title>
 
@@ -873,7 +873,7 @@
               And know I am your Goddess.
             
             </poem>
-          </irreal>
+          </nonactual>
           
           
             My explosive death and gradual rebirth caught me completely off guard as it forced my back to arch, my legs to stiffen, and my toes to curl. Pleasure rained down like el Niño, flooding my mind with a euphoria that outdid tequila by a wide margin before slowly easing off, then dissipating, leaving me drenched but thriving beside a tranquil pond fit for dreaming, with a pleasant buzz permeating my body not unlike a very intense marijuana high. I sighed, perfectly content without alcohol for the first time in my post-pubescent life.
@@ -914,7 +914,7 @@
 
             With concern she observed, <say>Based on how long it took you to answer that question… you don’t sound fine.</say>
 
-            <think>In fact, your words hurt so little…</think> I realized silently, then concluded out loud, <say>Coming from you, it doesn’t bother me. I…</say> And so I asked myself, <think>Dare I say it?</think> then decided to admit to her, <say>I guess you’re just what I needed.</say> <irreal><quote>Just what I needed…</quote></irreal>
+            <think>In fact, your words hurt so little…</think> I realized silently, then concluded out loud, <say>Coming from you, it doesn’t bother me. I…</say> And so I asked myself, <think>Dare I say it?</think> then decided to admit to her, <say>I guess you’re just what I needed.</say> <nonactual><quote>Just what I needed…</quote></nonactual>
           
           
             <say>Is it the perfume that I wear?</say>
@@ -1375,11 +1375,11 @@
 
             Visions from God smashed into my head, one after another after another.
             
-            <irreal>
+            <nonactual>
               The subject proves elusive as I tail them, taking circuitous routes and unexpected turns on the way to wherever it is they’re going—they lose me. But all is not hopeless. I skulk down a damp and dark alley to meet a self-proclaimed friend of the subject to find out where they go after work. They earn themselves a Benjamin for their trouble—a business expense the client will be covering when it’s time to pay the bill. I venture into the Blind Owl—a seedy dive bar on the East Side—where the subject orders a Boilermaker with a maraschino cherry on top. A <quote>stranger</quote>, already seated a couple stools over, abandons their drink, joins the subject, and orders the same bizarre cocktail—then almost at once departs for the back of the bar. Exactly 30 seconds later, the subject follows. I tiptoe towards the back door and crack it. It’s dark outside, and I don’t hear any people sounds. As I sneak around the corner, the subject and drinking buddy are quietly discussing prices. Once the deal has been settled, the subject hands over an envelope in exchange for a hundred stack. The two begin to go their separate ways. <say>Not so fast,</say> I tell them. They stop dead in their tracks. <say>I have some questions—for both of you.</say>
               
               The IP trace brings me to a Garlic router endpoint, which would normally be the end of the road for me—but one of my underground contacts owes me a favor, and I’m willing to spend it for the sake of such a lucrative case. Once they’ve cracked the entry point and given me the IP address of the client who tunneled through it, I’m able to trace it to an Internet service provider on the East Side. A little <quote>gentle persuasion</quote> with the ISP—they wouldn’t enjoy a bunch of feds rifling through their records if I had to ask the FBI to investigate a breach of the CFAA—yields the physical address of the customer to whom they assigned the IP. I knock on the perp’s door and introduce myself: <say>Good evening, I’m a representative of one of your <quote>customers</quote>. My employers are willing to refrain from pressing charges against you if you hand over all your blackmail material.</say>  <say>I’m afraid they don’t love me anymore. They spend all their time on business trips, they decline dates, we haven’t had a vacation together since our honeymoon. I’m afraid… I’m afraid they might be cheating on me.</say> <say>You just relax while I get to the bottom of this,</say> I tell them. I tail one half of the pair of suspected adulterers to their rendezvous place in a hotel. A Benny slid across the front desk earns me their room number. From a building across the street I snap lurid photographs of the lovers in media res through a telephoto lens, capturing every square millimeter of their passion. Careless, I think to myself, making love with the drapes open. I follow the other lover home, where I convince them to divulge their name with my census-taker impersonation. <say>I’m sorry,</say> I tell my client as I hand over the dossier. I rest one comforting hand on the shoulder of the crying spouse as the other hand greedily accepts my pay…
-          </irreal>
+          </nonactual>
           
           
             I was ready to go off like fireworks dropped in a bonfire.
@@ -2368,9 +2368,9 @@
             <say>About…?</say> I asked… fully aware of the answer.
           
 
-          <irreal>
+          <nonactual>
             I’m standing on Adams, waiting for somebody. Nobody in particular, but a particular kind of nobody. A limo pulls up. A man seated in the back offers me a crisp Hamilton in exchange for something quick. Though I have no taste for men, this one’s different from the average fellow I might meet on the street… he has <strong>lots</strong> of money. I curl my fingers demandingly—I’m worth more than that. He pulls out another tenner. I snatch the bills with a greedy hand and shove them between my tits. He’s the wrong gender to speak to my love, but he speaks the <quote>love language</quote> needed to convince me to make an exception. He opens the door and makes room for me, and I take my seat next to him. With restrained eagerness I gingerly unbutton his pants and—
-          </irreal>
+          </nonactual>
           
           
             <say>Andy?</say>
@@ -2384,23 +2384,23 @@
             <say>Oh, hell no. The streets <emph>suck</emph>—unless, like, maybe you really enjoy being your own boss as a fille insoumise.</say>
           
 
-          <irreal>
+          <nonactual>
             I burn the midnight oil for as long as I feel like working, making half a dozen new friends each night; free to make my own decisions as an independent worker, deciding my own hours, choosing my own workplace, handpicking my own clients, setting my own prices—I head home early to kick back with my girlfriend once I’m satisfied with my nightly take…
-          </irreal>
+          </nonactual>
           
           
             <say>Other than that, the streets are <strong>the worst.</strong> Definitely not my bag. Anyways, I’m talking about being an <emph>escort.</emph> You can go the independent route if you want to keep all your earnings and are willing to manage your own business—in which case I can help you get started—or you can go the agency route and focus on the rest of the job—in which case I’ll help you find an agency that won’t bleed you dry with fees.</say>
 
-            I blushed. <say>No. Thank you, but—no. I’m satisfied with being a humble private investigator.</say> The mental image of me <irreal>carefully unbuttoning then slowly, sensually unzipping this stranger’s fly, pulling his pants down an inch, bringing my head down to bury my face in his lap—taking a moment to acquaint myself with his <strong>novel</strong> scent—before reverently retrieving his cock from his boxers and dutifully sucking it while savoring the sounds of his enjoyment and the taste of his sweat—the whole time anticipating the moolah, the dough, the <strong>riches</strong> I’m gonna rake in from all these attention-starved fellas—</irreal> was doing all it could to grab me and pull me back in.
+            I blushed. <say>No. Thank you, but—no. I’m satisfied with being a humble private investigator.</say> The mental image of me <nonactual>carefully unbuttoning then slowly, sensually unzipping this stranger’s fly, pulling his pants down an inch, bringing my head down to bury my face in his lap—taking a moment to acquaint myself with his <strong>novel</strong> scent—before reverently retrieving his cock from his boxers and dutifully sucking it while savoring the sounds of his enjoyment and the taste of his sweat—the whole time anticipating the moolah, the dough, the <strong>riches</strong> I’m gonna rake in from all these attention-starved fellas—</nonactual> was doing all it could to grab me and pull me back in.
 
             <say>Think of <emph>sucking</emph> dick as a backup career, in case <emph>being</emph> a dick doesn’t pan out. Or a side hustle for when your caseload has a dry spell.</say>
 
             <think>No, thank you. It’s a really dangerous career. I shouldn’t—even if—</think>
           
 
-          <irreal>
+          <nonactual>
             The stranger tips me an extra five for every time I made him cum, and one more for keeping anything from getting on his pants or matting his pubes. Another flawless, artful performance. Which comes as no surprise—everyone knows I’m the best damn cocksucker in the city. I count my latest paycheck—soft cotton paper lovingly tickling my fingertips—before I shove the wad into my cleavage. Another car pulls up to my curb. Time to blow another cock to blow another mind.  I smirk as I realize something: earning a living was never this easy—nor was it ever so satisfying. Being a cop, being a P.I.… frustrating wastes of time. This was my true calling all along. I’ve finally found my happily-ever-after.
-          </irreal>
+          </nonactual>
           
           
             I shook away the fantasy and the stupid dreamy smile on my face before I could change my mind and take her up on her offer to become an escort—or abandon the case in favor of the curb. <say>I’ll… take a rain check.</say>
@@ -2647,7 +2647,7 @@
             <say>I don’t want to get <strong>caught.</strong> Or have someone <strong>watching me</strong> and judging my… <strong>skills,</strong> or the <strong>noises</strong> I make.</say>
           
 
-          <irreal>
+          <nonactual>
             My stage partner is seated comfortably in an armless chair, his right side facing the audience. <say>Ladies and Gentlemen, please welcome to the stage: Andrea Bachman, Queen of Cocksuckers!</say> The crowd claps and cheers.  I enter stage left and bow, then ask my adoring fans, <say>Have all of you had the pleasure of meeting my dear friend Quincy Queef?</say>
 
             <say>Yes!</say>
@@ -2657,7 +2657,7 @@
             <say>Intimately!</say>
 
             <say>Then show him some love!</say> They do so, applauding him and calling out his name. I tease them, <say>Are you ready, my little perverts?</say> More cheers. <say>Then let’s get this show on the road!</say> My partner lifts his legs and I yank off his breakaway pants. The crowd goes wild. I slowly peel his ruby-sequined speedos down and off his legs, then swing them in circles over my head and sling them to the audience like little King David, inspiring a greedy frenzy over the shiny underwear. I kneel between his legs and lower my head—
-          </irreal>
+          </nonactual>
           
           
           <say>I figured you weren’t ready for public stuff yet…</say> I snapped out of my newest fantasy. <say>I was just curious about how close you were to opening up to the possibility. Don’t worry your pretty little curls about it, it’ll happen in due time.</say>
@@ -2783,7 +2783,7 @@
           <say>I actually get that a lot at work. I mean, <emph>got.</emph> It annoyed me. Tommy…</say>
           
 
-          <irreal>
+          <nonactual>
             <say>Hey, Red! Fancy seeing you around here.</say> You dismount your trike and stroll up to me like we’re the bestest of besties.  I tense up. You’re close. I could touch you—not that I <strong>want</strong> to touch you. <say>Of course I’m here, Tommy—<strong>Sergeant.</strong> This is <emph>my</emph> beat.</say>
 
             <say>Do you like it?</say>
@@ -2821,15 +2821,15 @@
             <say>I already am used to it. I have a million more hearts to give you. Keep on breaking them. Feel free to keep one for yourself when you figure out your feelings for me.</say>
 
             My heart pounds. My mouth is open, my chest is heaving, your eyes look into my soul, your soft lips wait inches from mine. Don’t you dare bring them closer. Don’t you dare embrace me with your strong arms. Don’t you dare kiss me passionately. Don’t you dare catch me when I swoon. And once you haven’t done any of that, don’t you dare take me home and let me make wild love to you.
-          </irreal>
+          </nonactual>
           
           
             I shook the memory away. <say>Um… Tom… Forrester was the worst. He never left me alone. He was a—a—a despicable… vile, wretched pest. His touch always made me feel…</say>
           
 
-          <irreal>
+          <nonactual>
             Your touch… your hand in the small of my back, slipping down, down, down, just short of my ass, while we stare into each other’s eyes, waiting for something to happen. Me, waiting for you to cross the line I’ve drawn in the sand. You, waiting for me to give you permission to step over it.  You’re so close to your destination, Tommy—won’t you put your foot forth?
-          </irreal>
+          </nonactual>
           
           
             I shivered.
@@ -2865,11 +2865,11 @@
             <think>Red hair.</think>
           
 
-          <irreal>
+          <nonactual>
             <say>I heard Redhead fucked the entire AV club, made them film the whole thing with their camcorder… then she hid the tape somewhere in the library!</say>  <say>You remember how the marching band wasn’t in the stands during the first half of last year’s homecoming game? Well, Titty Curls lured them under the bleachers and let all 76 of the horn players take turns with her mouth! She licked all of their <quote>tromboners</quote> for good luck…</say>
 
             <say>You know how Baby-Got-Bachman always wears long sleeves and high collars? That’s because every Saturday night she goes to a frat party at SVSU, and lets the guys pass her around, drawing their dicks on her body in Sharpie after they’re finished with her. The outfit’s to cover up their John Hancocks.</say>
-          </irreal>
+          </nonactual>
           
           
             <think>Kids called me a slut in high school just because I have red hair. But… I don’t really care about that anymore. They were right, I’m a slut.</think>
@@ -3802,7 +3802,7 @@
 
           <think>I undercharged the man in my daydream. My body is a valuable commodity. I should only lend it to wealthy patrons…</think>
           
-          <irreal>
+          <nonactual>
             …and perhaps one of them, ooh, yes, the mysterious one who always wears a mask, who—
           
             Of course! Who, when I ask him to take it off, growls back that I am the <strong>last</strong> person he wants to see his face… and if I ever ask again, he’ll cease to love my body… He loves my body every day, 365 times straight, and then… he proposes!
@@ -3814,21 +3814,21 @@
             After we’ve had our fill—it’s a light meal, and we have <quote>physical activity</quote> planned right after—he carries me in his strong arms again, this time into our bed chambers, where he <strong>rips off my clothes</strong> and <strong>plunders my flesh’s every treasure</strong> with his rough hands and his long and girthy <strong>cock…</strong>
 
             But he’s still wearing the mask I loathe more than anything, the thing that keeps us from being truly together. I <strong>must</strong> see his face.
-          </irreal>
+          </nonactual>
           
           I shivered in shameful delight and anticipation.
 
-          <irreal>
+          <nonactual>
             As the sweat beads up on our bodies, our muscles grow sore but our passion only intensifies… as does my curiosity. <think>He said I couldn’t ask him to take it off. He didn’t say that I couldn’t just take it off myself—</think>
 
             I snatch the mask from his face and am shocked by what is underneath. <think>This is not the face of a man.</think>
-          </irreal>
+          </nonactual>
           
             I gasped. I was shocked by what I saw, I was stunned by what I discovered, I was scandalized by the lie that had brought us together.
 
-          <irreal>
+          <nonactual>
             <think>This… is the face… of a <strong>beautiful woman.</strong></think>
-          </irreal>
+          </nonactual>
           
           My fantasy concluded satisfyingly, and my attention returned (from the most flawless dream ever to have diverted my attention from the present) to Yesenia mid-lecture. <say>…been paying attention, you’ll remember, but it bears repeating: if your john has something hanging between their legs…?</say> She waited for me to…
 
@@ -4213,13 +4213,13 @@
 
           <think>She actually wants me to literally sell her my actual body… in exchange for my dream coming true.</think>
 
-          <irreal>
+          <nonactual>
             Detective Bachman, on the scene of a murder picking out clues that CSI overlooked, gleaning motives and discrepancies in testimony from interviews with friends and coworkers and neighbors, building a case against the man she has a hunch is attempting to frame his stepson for the murder of his wife…  A body turns up in the bay, waterlogged and next-to-impossible to identify. This wedding ring, though… a little research reveals that it isn’t a wedding ring—it’s the ring of a member of a secret society. Detective Bachman tracks them down to their meeting place and interviews the other members, and deduces that not one of them killed the vic… but every one of them did, Roman Senate style.
 
             A fatal car collision takes four lives. One of the deceased drivers is found to be at fault for the deaths in the other car… but a follow-up with their psychiatrist reveals that their newest medication has a few rare but debilitating side effects, including narcolepsy. They had been taking it without issue for the past month, but it looks like this one symptom snuck up on them at exactly the wrong moment. Though the dead cannot be exonerated, knowing the truth nonetheless eases the consciences of their loved ones, whom the scrupulous detective reassures there was no negligence or malice behind the crash; this blemish on the deceased’s reputation is wiped clean.
 
             And between each case she performs her other duty of touching her, kissing her, pleasuring her, fulfilling her every desire, with unparalleled expertise and overflowing passion…
-          </irreal>
+          </nonactual>
           
           
           The hair on my arms and neck stood up, my face burned, and my clitoris throbbed painfully, but amid the storm of fantasies assaulting my mind I failed to notice what the thought of belonging to her was doing to my body.
@@ -5360,7 +5360,7 @@
 
           I recalled the first time I had seen a dead body, considered how it had changed me. 
           
-          <irreal>
+          <nonactual>
             I touch my mother’s face, even paler than normal, as pale as the sheet the medical examiner has pulled back. As caked in blood as she is, I can still recognize her nose, broken, just as small and round as mine—she’d gotten it from her mother, according to her, and I from mine. Her hair has the same red curls, but it’s much longer—she swore she’d never cover or cut it above her waist. And her eyes, the only features unscathed by the hit-and-run—not green like mine, but a shade paler than sapphires, the stuff day skies are made of. Our eyes and our speech were the only ways anyone knew how to tell us apart. Even our freckles looked identical, but as I look down on her now… hers aren’t easy to make out among the lacerations and abrasions.
             
             <say>It’s her,</say> I tell the medical examiner coldly.  <say>I’m sorry for your loss,</say> he says as he covers her back up.
@@ -5380,7 +5380,7 @@
             The medical examiner puts her away and bids me, <say>Fare well,</say> and the detective who brought me here—the detective with my dream job—lets me out.
 
             The next time I see the woman who was my entire world, she comes to me in a box too small to hold even a bag of sugar.
-          </irreal>
+          </nonactual>
         
         
           <say>I’m already used to it,</say> I informed my single and most important living friend.
@@ -5615,7 +5615,7 @@
 
           Judith looked me up and down and smirked softly. <say>Carnival of Sins. I never would have pegged you for a Crüe Head.</say>
 
-          <irreal>
+          <nonactual>
             Vince Neil is saying something from the stage, but Shosh distracts me with a twisted-up sausage of very thin paper the size of my pinky finger, one end softly burning like the coals of a campfire somebody fed a dead skunk.  <say>Shosh, is this…?</say>
 
             <say>Just suck it in your lungs, hold it for a couple of seconds, pass it to the next person, and let it out.</say> I timidly follow her instructions, and cough so hard I think my throat is going to rupture. <say>Try not to cough! The more you cough, the more you wanna cough!</say> I reel in the urge, and eventually regain control of my lungs. <say>Didja get any?</say>
@@ -5627,7 +5627,7 @@
             <say>Who do I pass it to?</say>
 
             <say>Me, duh.</say> She holds out her hand and I pass it back. She takes another lungful herself, then I take mine. The joint goes back and forth until all that remains is a nub of paper. By then I’m well and truly stupid. I don’t understand the music, I just enjoy it as I join Shosh in cheering and hopping up and down.
-          </irreal>
+          </nonactual>
           
           
             <say>Not really. I got the shirt at a concert,</say> I informed Judith. <say>My best friend’s birthday.</say>
@@ -5844,7 +5844,7 @@
 
             <say>Thanks. A little ditty, if you please?</say>
 
-            She shook her head and muttered, <irreal>bright and dark, a voice talking, singing, crying, laughing…</irreal>
+            She shook her head and muttered, <nonactual>bright and dark, a voice talking, singing, crying, laughing…</nonactual>
           
           
             A finger hammered another string against the fretboard, creating a softer but higher sound; she repeated this within the rhythm of her plucking, then alternated this with another finger hammering another string, then with a third finger and string, in rapid succession. Suddenly her fingers danced down the fretboard, stepping-leaping one over another, causing the tones to dance back and forth in their descent towards the pick-ups, before her fingers came to the end of the fretboard next to the pickups and dwelled there, rising and falling on the strings, spelling out a maze of sound with the fingers of both hands, a pushing-pulling <song>wa-wa-wa-wa</song> fractured into tiny, homogeneously diced but diversely voiced notes, an engaging and pleasing show of speed and precision and coordination—
@@ -6774,7 +6774,7 @@
 
           We stopped at a red light. <say>Humor me.</say>
 
-          <say>Alright…</say> I closed my eyes. <irreal>You make your move, unbuttoning my shirt and sticking your hand up my bra. I gasp. You undo my pants next—slowly, forcing me to endure my anticipation—and right as you slip that hand down my panties, a man walks up and knocks on the window—I yelp quietly, and you quickly cover my mouth—but you don’t stop twiddling my clit. The lights are off, and we’re parked under a streetlamp—the reflection of the lamp casts a glare, hiding us from bystanders. I pray that he can’t hear me moaning like the whore that I am. He knocks again; if he could see inside, he’d witness my heart leaping out of my chest. You move your hand from my clitoris to my dripping cunt, and my moans become louder. He knocks a third time, and my pulse triples. Then… he tents his hands and holds them up against the window—to block the lamp’s glare—and brings his face up to the glass. I cringe, fearful that we’ve been discovered… but he shakes his head and resumes his walk. You double up your efforts to make me cum and before long I—</irreal>
+          <say>Alright…</say> I closed my eyes. <nonactual>You make your move, unbuttoning my shirt and sticking your hand up my bra. I gasp. You undo my pants next—slowly, forcing me to endure my anticipation—and right as you slip that hand down my panties, a man walks up and knocks on the window—I yelp quietly, and you quickly cover my mouth—but you don’t stop twiddling my clit. The lights are off, and we’re parked under a streetlamp—the reflection of the lamp casts a glare, hiding us from bystanders. I pray that he can’t hear me moaning like the whore that I am. He knocks again; if he could see inside, he’d witness my heart leaping out of my chest. You move your hand from my clitoris to my dripping cunt, and my moans become louder. He knocks a third time, and my pulse triples. Then… he tents his hands and holds them up against the window—to block the lamp’s glare—and brings his face up to the glass. I cringe, fearful that we’ve been discovered… but he shakes his head and resumes his walk. You double up your efforts to make me cum and before long I—</nonactual>
         
           <say>Andy!</say> I came-to amid angry honking. <say>The light’s been green for like five seconds!</say> I gunned it across the intersection, just in time for the light to turn yellow behind us; I quickly realized I was going 5 over, so I gently nudged the brakes to gradually bring us down to the limit. <say>You were distracted by <emph>something,</emph> my girl… Care to share?</say>
 
@@ -7477,7 +7477,7 @@
             <say>We need to pull out—if I cum inside you might—get pregnant—but—but God I <emph>want</emph> to be—inside you when I—oh, <strong>yes-fuck-I’m—cummi—ah—hah—inside—you—yes—ah—O Ishtar! I must be dreaming…</strong></say> She grunted and grimaced blissfully and her hips jerked greedily. I devoted every hungry joule in my body to riding her cock as her chest heaved and she breathed in aggressive gasps— <say><soft>Hahh, hahh, hahh, fuck, ah…</soft></say> —and her eyes rolled back and her fingers dug into the soft flesh of my hips and slammed me down onto her cock and held me there as she began to twitch and—
           
           
-          <irreal>
+          <nonactual>
             <poem>
               <title>Cappuccino</title>
               <column-group>
@@ -7538,7 +7538,7 @@
 
               </column-group>
             </poem>
-          </irreal>
+          </nonactual>
 
           
             As someone chopped up my mind and fed it to a Magic Bullet one euphoric piece at a time, I was gradually overcome by a… <emph>need</emph> for her that transcended mere love. I pulled myself up to her tip and kissed her neck. <think>I want to be with you forever. I <strong>will</strong> be with you forever. We are one.</think> The only thing left on my itinerary was getting back to riding her until I climaxed.
@@ -7548,7 +7548,7 @@
             The tingling of the brushing of the crown of her cock against my G-spot on each stroke and the feeling of her filling me gradually magnified in their intensity as I—
           
 
-          <irreal>
+          <nonactual>
             <poem>
               <title>Promised Country</title>
 
@@ -7590,7 +7590,7 @@
 
               from ’twixt my lips…
             </poem>
-          </irreal>
+          </nonactual>
 
           
             My muscles gave way and I collapsed on top of her, my chest heaving, my body buzzing, my lips smiling. I hummed contentedly as we cuddled atop my lumpy old king-size mattress, her arms wrapped around me, her fingers gently rubbing my back, her body touching mine, her cock inside me, her lips pressed against my forehead, every little aspect of my existence a perfect masterpiece of the art of living, the best and most beautiful moment of my existence spent with the best and most beautiful person who I loved more than anybody or anything.
@@ -7881,9 +7881,9 @@
 
             <say>I—I… don’t— <strong>Yes,</strong> of course—b—but—</say> My thoughts gradually caught up with my confused feelings. I turned my lustful eyes away from hers and towards the picture of Peter on my nightstand, in the hopes that he might bless me with his guidance. <think>She wants me to conceive. She wants me to get pregnant.</think> But I recalled my newly discovered instinct to ride her until she reached orgasm, I remembered what it was like for her to lay her body on mine all night, fucking me over and over again, her dick planted inside me from beginning to conclusion, never once leaving my warmth over the course of several mutual orgasms, inside me even after we collapsed and concluded our marathon of doing what came naturally to us because—
 
-          <irreal>
+          <nonactual>
             You and me, baby, ain’t nothin’ but mammals…
-          </irreal>
+          </nonactual>
           
           
             I had to admit… I already wanted her to plant her seed inside me, and pregnancy certainly followed as a topic if not a possibility. I wasn’t disgusted or insulted by the idea of her admiring my changing body—or of admiring it myself. <think>It’s so satisfying to feel her twitch-twitch-twitch inside me, so validating to know that my body fills her with such an overwhelming desire to reproduce, so empowering to know that my vagina feels so good to her that she won’t be able to stop herself from ejaculating inside me every time I tell her I want it, so exhilarating when it finally blooms within my loins… So why not enjoy the next step of letting my abdomen grow for a few months, one more sexy curve to add to all the sexy curves I already have? Why not embrace this quirky little hobby she enjoys? And yet… I don’t think I want… children… I certainly don’t want children, I definitely do not want children, I don’t want children, I don’t want children… Children are out of the question, seriously, so I’m not going to give us an actual pregnancy. I will not…</think> I swallowed, and every pore in my skin threatened to open up and pour like a fire hydrant as my humping continued to speed up. <think>It’s too early for children, we can’t have them yet, I don’t want children, I don’t want them, really, they aren’t for me… not… not quite yet…</think> My breaths and my hips quickened yet more. <think>I refuse to want children.</think> I tried not to panic. <think>Unless…</think> I swallowed. <think>Unless she asks for them. If she does, I must give her as many as she wants. Lots of babies. Not only that, I should go above and beyond and give her more than she asks for. Double—no, triple!—the babies she asks for. Mountains of babies. Yes. But only if she asks for them. Though… I could ask her to ask me for lots of babies…</think>
@@ -7990,11 +7990,11 @@
 
             <say>Yes—but—I—really don’t think—</say>
 
-          <irreal>
+          <nonactual>
             I tie her down when she <quote>isn’t in the mood</quote>, wrap my fingers around the balls that are rightfully mine and, amid pleas for me to be gentle, squeeze an agonized yelp from her throat. She doesn’t get off on asking me to stop. <say>Please, Andy, be gentle…</say> Rather, it’s hearing me tell her, <say>I’ll play with my toys however I please,</say> that makes her agonized groans hornier.  I tackle her and handcuff her wrists behind her back, then bring her to her knees. <say>Eat,</say> I tell her. She shakes her head timidly. In response to her flaccid refusal I yank her hair, and with <quote>reluctant</quote> obedience she aggressively gets to work on my pussy. She can’t help revealing that her so-called reluctance is actually restrained eagerness.
 
             <say>Please, Andy,</say> she begs, <say>I can’t take it, it’s too big.</say> <say>I know what I’m doing,</say> I <quote>reassure</quote> her. The giant dildo doesn’t hurt her, but she cries out in agony anyway as I continue pushing it inside her. <say>Not so deep,</say> she pleads, even as her moaning betrays her pleasure. By <quote>I can’t take it</quote> she’s really trying to tell me I haven’t reached her prostate and need to go <strong>deeper.</strong>
-          </irreal>
+          </nonactual>
           
           
             Fantasies flashed through my brain like a cluster of lightning strikes all hitting the same person—namely, me—one after another, each leaving me with cheeks glowing redder and redder and with sweat threatening to burst from my pores like tap water from a lawn sprinkler. <think>She wouldn’t tell me not to do something with the expectation that I’ll do it—would she? Maybe she would. Even so, I shouldn’t do it. <quote>No</quote> means <quote>no</quote>. Even if she clearly wants it…</think>
@@ -8023,7 +8023,7 @@
 
             <say>Certainly. One of my most cherished fantasies, one which I assumed and despaired would never come true, has been having someone force me to cum inside their fertile body—bred against my will. You came as close to making one of my wildest dreams come true as you could get without committing a felony.</say> <think>Oh, I suppose that makes sense.</think> <say>You… are my <strong>soulmate.</strong></say>
 
-          <irreal>Soulmate, soulmate, soulmate, soulmate…</irreal> That word echoed in my head forever. <say>Oh my God, oh my God, oh my God—I’m so—I’m so <strong>happy! I’m overjoyed!</strong></say>
+          <nonactual>Soulmate, soulmate, soulmate, soulmate…</nonactual> That word echoed in my head forever. <say>Oh my God, oh my God, oh my God—I’m so—I’m so <strong>happy! I’m overjoyed!</strong></say>
 
             She brushed her hand over my hair. <say>As am I.</say>
 
@@ -8043,7 +8043,7 @@
 
             <say>Oh.</say> Never had greater disappointment overshadowed a human face.
 
-            I felt horrible for disappointing her in the moment, but I figured it would be so much more pleasurable in the long run if I waited a little while before <irreal>I tie her down and interrogate her about her gross income and talk about paternity tests and court orders and sole custody while riding her red-hot cock ready to blow a load inside me and knock me up, and…</irreal> I opened my eyes and escaped the confusing fantasy before it could steal me away from reality forever. <say>I’m… sorry. Please don’t be excruciatingly disappointed.</say>
+            I felt horrible for disappointing her in the moment, but I figured it would be so much more pleasurable in the long run if I waited a little while before <nonactual>I tie her down and interrogate her about her gross income and talk about paternity tests and court orders and sole custody while riding her red-hot cock ready to blow a load inside me and knock me up, and…</nonactual> I opened my eyes and escaped the confusing fantasy before it could steal me away from reality forever. <say>I’m… sorry. Please don’t be excruciatingly disappointed.</say>
 
             She spread a wan but reassuring smile. <say>It’s not a… <emph>big deal,</emph> I’m not used to my partners entertaining <emph>any</emph> of my fantasies. I’ve gotten gigaparsecs farther with you than with anyone else while discussing these things—before you, just calmly explaining the things I was into always ended in me being called a freak immediately followed by a breakup. I’m overjoyed that you don’t think I’m a freak for liking what I like, and on top of that, you said you’d act out one of my fantasies with me—and I would like to emphasize that this has never happened before. I can live without the child support gag if it makes you uncomfortable, it’s… just a minor detail, not… nothing important. On the whole, this morning has been very, very, <strong>very</strong> generous to me.</say> As she went on, her mouth went from smiling half-heartedly to beaming. She gave me a peck on the forehead and for some reason started to pull out.
 
@@ -9078,7 +9078,7 @@
             She nodded.
           
 
-          <irreal>
+          <nonactual>
             <say>Esti, this is Oliver. He’s my special buddy.</say>
 
             I quickly take in the new guy’s face… <say>Oh.</say> …then turn my eyes back to <work medium="television-show-episode">Prescription: Murder</work> as Doctor Flemming dumps the <quote>stolen</quote> goods overboard into either Bahía de Santa Lucía or the Pacific Ocean. <say>Hello,</say> I add absentmindedly.
@@ -9136,7 +9136,7 @@
             <say>Little bits.</say>
 
             Having lost all interest in this man, I unpause the VHS tape.  
-          </irreal>
+          </nonactual>
           
           
             I remembered the first time she brought a <quote>special buddy</quote> home to meet me; the others weren’t substantially different from him. <say>Esti… I wanted you to have another parent who loved you as much as I do, and I wanted him and I to set a good example for a committed relationship—and because I never found the real Mister Right… you’ve never been exposed to a healthy romantic relationship.</say>
@@ -9255,7 +9255,7 @@
 
             <say>I wish I could say that, but, unfortunately for my mental and criminal well-being, cars parked in public places are some of my <emph>favorite</emph> places for sex.</say> <think>Though I would not be surprised to discover that anywhere public is a favorite place for sex…</think>
 
-            <irreal type="fantasy">Although the benches at Hillside Park might not fit Judy’s six-plus feet of woman. Perhaps a survey of the city parks is in order, to find one long enough to accommodate somebody of her stature.</irreal>
+            <nonactual type="fantasy">Although the benches at Hillside Park might not fit Judy’s six-plus feet of woman. Perhaps a survey of the city parks is in order, to find one long enough to accommodate somebody of her stature.</nonactual>
           
           
             <say>If anything, the fact that there’s only one window for outsiders to peek through… is a <emph>drawback.</emph></say> This elicited amused snickers. Jessica opened the rear door to the nearest van, and gestured, <gesture>After you.</gesture> I clambered in and waited behind the front seats. <say>There is <strong>not</strong> a lot of room.</say>
@@ -11047,11 +11047,11 @@
 
             <say>Oh? <quote>And</quote>?</say>
 
-          <irreal type="fantasy">… she spills her seed inside me…</irreal> <say>Well. A dildo can’t squirt <emph>cum</emph> inside me.</say>
+          <nonactual type="fantasy">… she spills her seed inside me…</nonactual> <say>Well. A dildo can’t squirt <emph>cum</emph> inside me.</say>
 
             <say>They can if you’re willing to pay a little more, but bear in mind it’s just cum-colored lube, not the real thing.</say>
 
-          <irreal type="fantasy">…and she pulls out and it spills everywhere and makes a big mess.</irreal> I smirked, which may have had an effect on my speech. <say>And I have to admit that this… <emph>breeding</emph> thing has a bigger appeal than I at first thought.</say>
+          <nonactual type="fantasy">…and she pulls out and it spills everywhere and makes a big mess.</nonactual> I smirked, which may have had an effect on my speech. <say>And I have to admit that this… <emph>breeding</emph> thing has a bigger appeal than I at first thought.</say>
 
             <say>Are you admitting that you’re down with the sickness?</say>
 
@@ -13065,7 +13065,7 @@
 
             <say>Yep.</say>
 
-            I pictured <irreal type="fantasy">my arms wrapped around his waist, my breasts pressing through my leather jacket against his back, the wind caressing my cheeks and whipping my hair, the asphalt rushing inches beneath my toes fast enough to tear the flesh from my bones, the g-forces pulling us back and forth as our bike weaves in and out of traffic at high speeds, living with only whatever belongings we can fit in our saddlebags as we cross the continent on scenic highways and backroads, camping and fucking in national parks, plying my trade out of ancient motels to truckers and travelers to fund our adventures…</irreal> I gave his cheek a couple of gentle pats. <say>I wanna say <quote>yes</quote> because I can see it working out and being exciting, but—but this is a very complicated decision—but I <emph>will</emph> say <quote>yes</quote> eventually—but… not yet. Soon, though. It will happen, I just need a little time to get ready.</say>
+            I pictured <nonactual type="fantasy">my arms wrapped around his waist, my breasts pressing through my leather jacket against his back, the wind caressing my cheeks and whipping my hair, the asphalt rushing inches beneath my toes fast enough to tear the flesh from my bones, the g-forces pulling us back and forth as our bike weaves in and out of traffic at high speeds, living with only whatever belongings we can fit in our saddlebags as we cross the continent on scenic highways and backroads, camping and fucking in national parks, plying my trade out of ancient motels to truckers and travelers to fund our adventures…</nonactual> I gave his cheek a couple of gentle pats. <say>I wanna say <quote>yes</quote> because I can see it working out and being exciting, but—but this is a very complicated decision—but I <emph>will</emph> say <quote>yes</quote> eventually—but… not yet. Soon, though. It will happen, I just need a little time to get ready.</say>
 
             <say>But I love you! I want to wake up next to you tomorrow morning!</say>
 
@@ -13800,7 +13800,7 @@
             As we made out, I breathed in through my nose—
           
 
-          <irreal>
+          <nonactual>
             <poem>
               <title>Himbeertorte</title>
             
@@ -13841,7 +13841,7 @@
               With this confection
 
             </poem>
-          </irreal>
+          </nonactual>
           
           
             I liked her smell, I <emph>craved</emph> it, so I ran straight from first to third and reached between her legs and rubbed her crotch. She placed her hand on mine but made no attempt to stop me but, rather, began to kiss me more aggressively.
@@ -13983,7 +13983,7 @@
 
             <say>He didn’t try to run. I think they pulled him off of me.</say>
 
-              <ir>Fire, dim, crackles.</irreal> <say>Tell me they beat the ever-living shit out of the guy who did this to my daughter.</say>
+              <ir>Fire, dim, crackles.</nonactual> <say>Tell me they beat the ever-living shit out of the guy who did this to my daughter.</say>
 
             <say>They didn’t, but they were about to kick him out and ban—</say> With how her rage threatened to blaze I might as well—
 
@@ -13991,19 +13991,19 @@
 
             <say>I… I asked for them to… let him… stay.</say>
 
-          <irreal>flame leaps and lashes / it laps and it licks</irreal> <say>You <emph><strong>what?</strong></emph></say>
+          <nonactual>flame leaps and lashes / it laps and it licks</nonactual> <say>You <emph><strong>what?</strong></emph></say>
 
             <say>I convinced the bouncers to let him stay. So I could question him. I wanted to find out where the guilt in his face was coming from.</say>
 
-          <irreal>The jerry can tips over.</irreal> <say>Oy vey iz mir,</say> she murmured, placing her thumb and index finger on either temple. <say>Ikh hob geboyrn a Shmendrik an a kop!</say>
+          <nonactual>The jerry can tips over.</nonactual> <say>Oy vey iz mir,</say> she murmured, placing her thumb and index finger on either temple. <say>Ikh hob geboyrn a Shmendrik an a kop!</say>
 
             <say>I don’t know what that means,</say> I mumbled, <say>because you never taught me Yiddish.</say>
 
-          <irreal>Gasoline drips, gushes, pours, streams into the flames.</irreal> <say>That’s so unfair!</say> she mocked. <say>You deserve to know how to speak it, too! Here’s your first lesson: <quote>Ikh</quote> means <quote>I</quote>, <quote>hob geboyrn</quote> means <quote>birthed</quote>, and <quote>a Shmendrik an a kop</quote> means <quote>a headless idiot</quote>—therefore: <quote>I birthed a headless idiot.</quote> You enjoying learning the language of your people?</say>
+          <nonactual>Gasoline drips, gushes, pours, streams into the flames.</nonactual> <say>That’s so unfair!</say> she mocked. <say>You deserve to know how to speak it, too! Here’s your first lesson: <quote>Ikh</quote> means <quote>I</quote>, <quote>hob geboyrn</quote> means <quote>birthed</quote>, and <quote>a Shmendrik an a kop</quote> means <quote>a headless idiot</quote>—therefore: <quote>I birthed a headless idiot.</quote> You enjoying learning the language of your people?</say>
 
             <say>I <emph>have</emph> a head, <emph>Shosh,</emph> my head is <emph>why</emph> I needed to know his secret, his secret that he wanted to confess, and I <emph>had to hear it, I need to know</emph>—you <emph>know</emph> I can’t stand not knowing secrets. Which is to be expected because—I’m a <emph>detective</emph> for God’s—!</say>
 
-          <irreal>Ignition.</irreal> <say><emph><strong>No more.</strong></emph></say>
+          <nonactual>Ignition.</nonactual> <say><emph><strong>No more.</strong></emph></say>
 
             <say>No more <emph>what?</emph></say>
 
@@ -14019,7 +14019,7 @@
 
             <say><emph>Shosh,</emph> I drove him to violence—besides, detective is my dream job. All these years you’ve wanted this for me, and now all of a sudden you’ve decided it’s <quote>too dangerous</quote> for—</say>
 
-          <irreal>Fireball.</irreal> <say><emph><strong>I was wrong!</strong></emph></say> she screamed. <say>I was <emph>so wrong</emph> to put all these ideas of law and order in your head! By reading you those stories, by watching all those movies with you, by sending you to school for a degree in criminal justice—I was teaching you to throw caution to the wind! My child’s life matters, and I’ve seen you stoop to znus—to <emph>perverting your body,</emph> and now you’ve put your <emph>actual neck</emph> on the line for… for the sake of pretending to be a great detective!</say> She came down gradually. <say>No more. Find a new job. Even cleaning the toilets at McDonald’s for starvation wages is better than being ready at any moment to willingly throw your life away for a stranger who would sooner spit in your eye for being a peace officer than thank you for risking your life to save his ass. Your police career is over, you’re resigning first thing tomorrow morning. Seek employment elsewhere.</say>
+          <nonactual>Fireball.</nonactual> <say><emph><strong>I was wrong!</strong></emph></say> she screamed. <say>I was <emph>so wrong</emph> to put all these ideas of law and order in your head! By reading you those stories, by watching all those movies with you, by sending you to school for a degree in criminal justice—I was teaching you to throw caution to the wind! My child’s life matters, and I’ve seen you stoop to znus—to <emph>perverting your body,</emph> and now you’ve put your <emph>actual neck</emph> on the line for… for the sake of pretending to be a great detective!</say> She came down gradually. <say>No more. Find a new job. Even cleaning the toilets at McDonald’s for starvation wages is better than being ready at any moment to willingly throw your life away for a stranger who would sooner spit in your eye for being a peace officer than thank you for risking your life to save his ass. Your police career is over, you’re resigning first thing tomorrow morning. Seek employment elsewhere.</say>
 
             I examined her face: dead serious, on the verge of tears, and more frustrated than I’d ever seen it before. <say>Are you… actually… <soft>scared?</soft></say>
 
@@ -14027,7 +14027,7 @@
 
             <say>I’m fine. I lived. I survive—</say>
 
-          <irreal>The whole damn house catches fire.</irreal> <say><emph><strong>You’re all that’s left of me!</strong></emph></say> she cry-screamed. <say>I’m dead, I don’t have myself anymore, and <emph>you,</emph> my daughter, are all that’s left of my world, and <emph>I don’t wanna lose you, too!</emph></say>
+          <nonactual>The whole damn house catches fire.</nonactual> <say><emph><strong>You’re all that’s left of me!</strong></emph></say> she cry-screamed. <say>I’m dead, I don’t have myself anymore, and <emph>you,</emph> my daughter, are all that’s left of my world, and <emph>I don’t wanna lose you, too!</emph></say>
 
             My mind struggled to digest her words, so (in order to distract myself from the impending mental dyspepsia) I asked, <say>Is there a Heaven?</say>
 
@@ -14035,7 +14035,7 @@
 
             <say>Mom. Why aren’t you in Heaven?</say>
 
-          <irreal>Ashes and coals, gray and black with a neon heartbeat crazed throughout.</irreal> <say>I… have no idea whether there will be anything more to my afterlife; Jews speak of HaʾOlam Haba— <quote>the World to Come</quote> —but the details of what happens after we die generally receive little attention or discussion. If there <emph>is</emph> some form of paradise after death, I don’t know why HaShem would exclude me… unless I—did—something—wrong. Either I’ve sinned… or… or this… this is my eternal fate.</say>
+          <nonactual>Ashes and coals, gray and black with a neon heartbeat crazed throughout.</nonactual> <say>I… have no idea whether there will be anything more to my afterlife; Jews speak of HaʾOlam Haba— <quote>the World to Come</quote> —but the details of what happens after we die generally receive little attention or discussion. If there <emph>is</emph> some form of paradise after death, I don’t know why HaShem would exclude me… unless I—did—something—wrong. Either I’ve sinned… or… or this… this is my eternal fate.</say>
 
             With reassurance as my intent, in a naïve attempt to prevent the fatalism growing in her eyes from seizing her forever, I told her, <say>If there’s a Heaven, we can meet there—when my time comes. Would it be so awful for you if that moment came a little sooner than you were expecting?</say>
 
@@ -14416,29 +14416,29 @@
 
             <say>Soulmates don’t keep secrets, Andy.</say>
 
-          <irreal>Thumbs pressed against my throat, his eyes replete with fury—<emph>air,</emph> I need <emph>air.</irreal> I needed to run. Somewhere. Elsewhere. Anywhere. <irreal>Squeezed. My life is being squeezed out of me.</irreal> My breathing quickened. <say>—that he…</say>
+          <nonactual>Thumbs pressed against my throat, his eyes replete with fury—<emph>air,</emph> I need <emph>air.</nonactual> I needed to run. Somewhere. Elsewhere. Anywhere. <nonactual>Squeezed. My life is being squeezed out of me.</nonactual> My breathing quickened. <say>—that he…</say>
 
             Her alarm was palpable. <say><emph>Andy, what did he do?</emph></say>
 
-          <irreal>Pulling, yanking, clawing—futile.</irreal> <say>I was drunk, I—I—I wasn’t—</say> I was on the verge of hyperventilating.
+          <nonactual>Pulling, yanking, clawing—futile.</nonactual> <say>I was drunk, I—I—I wasn’t—</say> I was on the verge of hyperventilating.
 
             <say>I noticed, and we’ll talk about that later if you don’t mind, but I need you to tell me <emph>what this guy did.</emph></say>
 
-          <irreal>My larynx yields beneath his thumbs as they are pressing—pressing downwards—pressing down on bone and cartilage—to starve my lungs of air—</irreal> <say>So… He… He choked… me.</say>
+          <nonactual>My larynx yields beneath his thumbs as they are pressing—pressing downwards—pressing down on bone and cartilage—to starve my lungs of air—</nonactual> <say>So… He… He choked… me.</say>
 
             She needed a moment to process. <say>Okay. Fuck. Are you okay?</say>
 
-          <irreal>I’m about to die. I’m ending.</irreal> <say>I—feel fine, my throat—my throat doesn’t hurt anymore.</say>
+          <nonactual>I’m about to die. I’m ending.</nonactual> <say>I—feel fine, my throat—my throat doesn’t hurt anymore.</say>
 
             <say>Do you think you might be traumatized?</say>
 
-          <irreal>Now fade away… Forget the world and those I love… Surrender unto darkness…</irreal> <say>No. No. Of course not. I feel fine, really.</say> I tried to smile.
+          <nonactual>Now fade away… Forget the world and those I love… Surrender unto darkness…</nonactual> <say>No. No. Of course not. I feel fine, really.</say> I tried to smile.
 
             <say>Did they arrest the guy?</say>
 
             <say>Two big men took—</say>
 
-          <irreal>
+          <nonactual>
             big breath in
 
             eyes fly wide open
@@ -14446,7 +14446,7 @@
             see the world in Technicolor
 
             lights sounds faces all around me
-          </irreal>
+          </nonactual>
           
           
             I came back from the floor of the club. <say>What—were we talking about?</say>
@@ -14962,7 +14962,7 @@
 
             <say><song>I’m tired but I’m working…</song></say> she sang in a familiar melody, excavating from my hippocampus a quarter century of neurons to unearth some of my earliest memories—
 
-          <irreal>
+          <nonactual>
             Running through the sprinkler while the radio blasts one of this year’s top 100 hits the day before I’m to be introduced to the tribulations and terrors of the public schooling system.
 
             Shosh spinning up a CD she’d purchased one or two years ago while I struggle to complete my subtraction homework; the songstress’ poppy post-grunge sound—sometimes vengeful, sometimes optimistic—takes the edge off my frustration as I push myself to master the fundamentals of arithmetic.
@@ -14970,7 +14970,7 @@
             Crying on the couch over a book about a boy and his two redbone hounds while one of Shosh’s favorite albums softly fills the living room; the song grounds me, helps me through my fictional grief.
 
             And as the chanteuse sings to her best friend with benefits, I sing to the ones I’ve yet to meet, just loud enough for them to hear, <say><song>Don’t be alarmed… if I fall… head over… feet…</song></say>
-          </irreal>
+          </nonactual>
           
           
             <say><song>You couldn’t help it, it’s all my fault,</song></say> she replied melodically. <say>Let’s get you to bed, bestie with benefits.</say> Suddenly I was cradled in her arms, like a bride being carried by her groom over the threshold of their nuptial home. <say>I’ll take you home, my Lady.</say>
@@ -16291,9 +16291,9 @@
 
             A wave of relief flowed through my heart as I caught it. <say>Oh, <emph>thank you so much,</emph> Judy. I haven’t really been thinking about it much, so it’s a good thing you reminded me.</say> I rearranged the pillows to give my ass more room, read the instructions—
 
-          <irreal>
+          <nonactual>
             My belly swells millimeter by millimeter, day by day, until I have to be carted to the maternity ward to squeeze out our child; I hold her in my arms until she’s too big for me to hold; I tell her how to behave until she’s too old for me to tell her how to behave; she lives with her mothers until she’s too in love with someone to remain in her childhood home—but she spends Sundays here; then the joyous day comes when she brings her own child to our house, who grows up to do all the things <strong>her mother</strong> did growing up. And Diane and Judy and Tommy and Pink are all there, walking this journey with me even if our child is genetically related to only one of them—my lovers, me, and our children and grandchildren, doing something fantastic merely by loving each other.
-          </irreal>
+          </nonactual>
           
           
             I placed the box on the coffee table and stared at it, devastated by the vision, wondering how happy we could be raising a kid and watching them grow, starting as a blank slate and ripening like a fine wine into a human being over the decades, taking care of me and my lovers into old age, burying us when we were gone… As much as I loved Judy and Diane and Tom and Nico, this would be a kind of love my lovers were incapable of giving me. To love my children would be something even purer and demanding of patience and unconditionality and devotion than any romance.
@@ -20487,7 +20487,7 @@
           <poem>
             <title>Weld</title>
 
-            <irreal>
+            <nonactual>
             with tungsten’s arc
 
             we meld
@@ -20557,7 +20557,7 @@
             to perfection
 
             closer to—
-            </irreal>
+            </nonactual>
           </poem>
         
           Somebody cleared their throat from across my desk.
