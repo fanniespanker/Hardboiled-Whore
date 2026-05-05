@@ -1,0 +1,63 @@
+EMBODIMENT_SPEC:
+  meta:
+    version: 0.1
+    name: "light-reactive entity"
+    intent: "explore adaptive temporal perception via smoothing"
+
+  hardware:
+    sensors:
+      - id: light_1
+        type: analog_light
+        pin: A0
+        range: [0, 1023]
+    actuators:
+      - id: led_1
+        type: pwm_led
+        pin: 9
+        range: [0, 255]
+
+  timing:
+    dt: 0.01            # seconds
+    loop_delay_ms: 10
+
+  state:
+    smoothed: 0.0
+
+  parameters:
+    tau_min: 0.05
+    tau_max: 1.0
+    error_scale: 200.0
+
+  dynamics:
+    - name: adaptive_smoothing
+      description: "tau decreases when input deviates from state"
+      equations:
+        error: "abs(input - smoothed)"
+        normalized: "clamp(error / error_scale, 0, 1)"
+        tau: "tau_max - normalized * (tau_max - tau_min)"
+        alpha: "dt / (tau + dt)"
+        update: "smoothed = (1 - alpha)*smoothed + alpha*input"
+
+  mappings:
+    - from: smoothed
+      to: led_1
+      transform: "map(0-1023 -> 0-255)"
+
+  observability:
+    logs:
+      - raw_input
+      - smoothed
+      - tau
+      - alpha
+
+  index:
+    key_concepts:
+      - adaptive_tau
+      - temporal_horizon
+      - novelty_response
+    tunable:
+      - tau_min
+      - tau_max
+      - error_scale
+    state_vars:
+      - smoothed
