@@ -1,0 +1,364 @@
+CNML Specification (Draft)
+
+1. Overview
+
+CNML (Cognitive Narrative Markup Language) is a semantic markup language for representing narrative structure, modality, and expressive qualities such as prosody and voice. It is designed to separate:
+
+narrative structure
+
+modality (actual vs nonactual experience)
+
+communicative channels (speech, thought, gesture, etc.)
+
+prosody (how something is said)
+
+voice (baseline speaker characteristics)
+
+
+CNML prioritizes:
+
+composability
+
+orthogonality of expressive dimensions
+
+renderer independence
+
+
+
+---
+
+2. Core Structural Model
+
+2.1 Modal System
+
+CNML uses explicit modal containers:
+
+<narrative>: default, actualized narration
+
+<nonactual type="memory|dream|imagination|hypothetical">: non-actual experiences
+
+
+Rules:
+
+nonactual may nest within nonactual
+
+think may appear inside nonactual
+
+say may appear inside nonactual
+
+think cannot appear inside say (strict mode)
+
+nonactual cannot appear inside say (strict mode)
+
+
+
+---
+
+2.2 Communicative Channels
+
+<say>: spoken utterance
+
+<think>: cognition
+
+<gesture>: bodily movement (non-facial)
+
+<express>: facial/nonverbal expression
+
+<feel>: instinctual/internal affective impulses
+
+
+
+---
+
+3. Prosody System
+
+3.1 Design Principles
+
+Prosody tags are orthogonal
+
+Prosody tags compose
+
+Prosody tags define deltas, not absolute values
+
+Prosody is evaluated per text span, not per tree order
+
+
+
+---
+
+3.2 Supported Tags
+
+<loud> / <quiet> (amplitude)
+
+<emph> / <deemph> (salience)
+
+<harsh> / <gentle> (texture)
+
+<calm> / <agitated> (arousal)
+
+
+
+---
+
+3.3 Evaluation Model
+
+Step 1: Flatten to segments
+
+Example:
+
+<loud>one <emph>two</emph> three</loud>
+
+Becomes:
+
+"one" → {loud}
+
+"two" → {loud, emph}
+
+"three" → {loud}
+
+
+
+---
+
+Step 2: Evaluate tag sets
+
+Each segment is evaluated independently:
+
+state = base_voice
+for tag in active_tags:
+    state += tag.delta
+
+Order does not matter.
+
+
+---
+
+3.4 Parameter Space
+
+Canonical parameters:
+
+pitch_base
+
+volume
+
+tempo
+
+energy
+
+attack
+
+intonation
+
+timbre (set)
+
+
+
+---
+
+4. Voice System
+
+4.1 Definition
+
+Voices are defined globally and referenced by ID.
+
+Example:
+
+<voice id="Diane">
+  <dialect>US/California</dialect>
+  <accent>transatlantic</accent>
+  <range>alto</range>
+  <quality>nasal</quality>
+  <quality>exaggerated-vowels</quality>
+  <style>repressed</style>
+</voice>
+
+
+---
+
+4.2 Semantics
+
+<dialect>: linguistic system
+
+<accent>: phonological realization
+
+<range>: pitch band
+
+<quality>: acoustic traits
+
+<style>: baseline expressive tendency
+
+
+Voice defines baseline state, not momentary expression.
+
+
+---
+
+5. Chat / Messaging Layer
+
+<chat>
+  <out>
+    <from>Me</from>
+    <msg>Hello</msg>
+  </out>
+  <in>
+    <from>You</from>
+    <msg>Hi</msg>
+  </in>
+</chat>
+
+Rules:
+
+Full CNML allowed inside <msg>
+
+<from> identifies speaker
+
+
+
+---
+
+6. Referential Tags
+
+<work medium="...">: creative works
+
+<quote of="speech|thought">: quoted content
+
+
+Purpose:
+
+defer formatting decisions
+
+
+
+---
+
+7. Profiles
+
+7.1 Strict Mode
+
+enforces nesting constraints
+
+prohibits ambiguous structures
+
+suitable for tooling and validation
+
+
+7.2 Loose Mode
+
+allows author discretion
+
+renderer interprets intent
+
+
+
+---
+
+8. Relax NG Schema (Compact Syntax)
+
+default namespace = ""
+
+element cnml {
+  element book {
+    element publication { text* },
+    element frontmatter { text* }?,
+    element mainmatter { text* }
+  }
+}
+
+# Prosody
+
+element loud { mixed { any* } }
+element quiet { mixed { any* } }
+element emph { mixed { any* } }
+element deemph { mixed { any* } }
+element harsh { mixed { any* } }
+element gentle { mixed { any* } }
+element calm { mixed { any* } }
+element agitated { mixed { any* } }
+
+# Communication
+
+element say { mixed { any* } }
+element think { mixed { any* } }
+element feel { mixed { any* } }
+element gesture { mixed { any* } }
+element express { mixed { any* } }
+
+# Modal
+
+element nonactual {
+  attribute type { "memory" | "dream" | "imagination" | "hypothetical" },
+  mixed { any* }
+}
+
+# Voice
+
+element voice {
+  attribute id { text },
+  element dialect { text }?,
+  element accent { text }?,
+  element range { text }?,
+  element quality { text }*,
+  element style { text }*
+}
+
+# Chat
+
+element chat {
+  (element in { chat_block } | element out { chat_block })+
+}
+
+chat_block =
+  element from { text } &
+  element msg { mixed { any* }+ }
+
+# References
+
+element work {
+  attribute medium { text },
+  text
+}
+
+element quote {
+  attribute of { text }?,
+  text
+}
+
+# Generic fallback
+any = element * { (attribute * { text } | text | any)* }
+
+
+---
+
+9. Execution Model Summary
+
+1. Parse XML → tree
+
+
+2. Flatten into text segments with active tag sets
+
+
+3. Compute voice state per segment
+
+
+4. Map to renderer / TTS engine
+
+
+
+
+---
+
+10. Design Philosophy
+
+Structure defines scope
+
+Tags define meaning
+
+Evaluation is order-independent
+
+Rendering is deferred
+
+
+
+---
+
+End of Draft
