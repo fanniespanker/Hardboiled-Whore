@@ -1,0 +1,141 @@
+namespace xsd = "http://www.w3.org/2001/XMLSchema-datatypes"
+
+default namespace = ""
+
+# --- Root ---
+start = element cnml { book }
+
+book = element book {
+  publication?,
+  frontmatter?,
+  mainmatter
+}
+
+# --- Publication (minimal core-recognizable) ---
+publication = element publication {
+  (title | author | date | uri | isbn | form | license | synopsis | metadata)*
+}
+
+title = element title { text }
+author = element author { text }
+
+date = element date { attribute of { text }?, text }
+uri = element uri { text }
+isbn = element isbn { attribute status { text }?, empty }
+form = element form { text }
+
+license = element license { (name | uri)+ }
+name = element name { text }
+
+synopsis = element synopsis { attribute style { text }?, mixed { inline* } }
+
+metadata = element metadata { (namespace | anyMeta)* }
+namespace = element namespace { attribute prefix { text }, attribute uri { text } }
+anyMeta = element * { mixed { text } }
+
+# --- Frontmatter (loose) ---
+frontmatter = element frontmatter { (acknowledgments | dedication | authors_note | disclaimer)* }
+
+acknowledgments = element acknowledgments { mixed { inline* } }
+dedication = element dedication { mixed { inline* } }
+authors_note = element authors-note { attribute about { text }?, mixed { inline* } }
+disclaimer = element disclaimer { mixed { inline* } }
+
+# --- Mainmatter ---
+mainmatter = element mainmatter { act+ }
+
+act = element act { (title | synopsis)*, chapter+ }
+chapter = element chapter { attribute id { xsd:ID }?, (title | synopsis | subheading | block)* }
+subheading = element subheading { mixed { inline* } }
+
+# --- Blocks / Inline ---
+block = mixed { inline* }
+
+inline = (
+    say
+  | think
+  | gesture
+  | expression
+  | nonactual
+  | quote
+  | work
+  | prosody
+  | voiceRef
+  | music
+  | chat
+  | anyInline
+)
+
+anyInline = element * { mixed { text } }
+
+# --- Modality ---
+nonactual = element nonactual {
+  attribute type { "memory" | "dream" | "imagination" | "hypothetical" }?,
+  mixed { inline* }
+}
+
+say = element say { attribute voice { xsd:IDREF }?, mixed { inline* } }
+think = element think { mixed { inline* } }
+gesture = element gesture { mixed { inline* } }
+expression = element expression { mixed { inline* } }
+
+# --- Prosody (Core set) ---
+prosody = (
+    quiet | loud
+  | calm | agitated
+  | gentle | harsh
+  | emph | deemph
+  | raise | lower | jump
+  | drag | rush
+)
+
+quiet = element quiet { mixed { inline* } }
+loud = element loud { mixed { inline* } }
+
+calm = element calm { mixed { inline* } }
+agitated = element agitated { mixed { inline* } }
+
+gentle = element gentle { mixed { inline* } }
+harsh = element harsh { mixed { inline* } }
+
+emph = element emph { attribute flavor { text }?, mixed { inline* } }
+deemph = element deemph { mixed { inline* } }
+
+raise = element raise { mixed { inline* } }
+lower = element lower { mixed { inline* } }
+jump = element jump { empty }
+
+drag = element drag { mixed { inline* } }
+rush = element rush { mixed { inline* } }
+
+# --- Referential ---
+work = element work { attribute medium { text }?, mixed { inline* } }
+quote = element quote { attribute of { text }?, attribute from { text }?, mixed { inline* } }
+
+# --- Voice (Core + Extended hooks) ---
+voice = element voice {
+  attribute id { xsd:ID },
+  (dialect | accent | range | feature | prosody)*
+}
+
+voiceRef = empty  # handled via @voice on <say>
+
+dialect = element dialect { text }
+accent = element accent { text }
+range = element range { text }
+feature = element feature { text }
+
+# --- Music DSL container ---
+music = element music {
+  attribute time-signature { text }?,
+  attribute key { text }?,
+  attribute tempo { text }?,
+  text  # CDATA-like content containing DSL
+}
+
+# --- Chat (Extended) ---
+chat = element chat { (in | out)+ }
+in = element in { from, msg+ }
+out = element out { from, msg+ }
+from = element from { text }
+msg = element msg { mixed { inline* } }
