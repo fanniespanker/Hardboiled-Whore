@@ -573,3 +573,265 @@ Core ensures meaning. Extended enables expression.
 + - Preserve baseline prose inside enclosing <narrative>.
 +
 + Migration MAY occur incrementally and does NOT require single-pass full-document conversion.
++ 
+--- CNML_SPEC_PREVIOUS
++++ CNML_SPEC_PATCH_DOCUMENT_COMPOSITION_AND_RUNTIME
+
+@@ DOCUMENT TOPOLOGY
+
++ Introduce hierarchical publication/document structure.
++
++ Canonical top-level structure:
++
++ <cnml>
++     <book>
++         ...
++     </book>
++ </cnml>
++
++ Higher-order aggregation structures MAY include:
++
++     <series>
++     <universe>
++
++ Publication partitioning elements:
++
++     <frontmatter>
++     <mainmatter>
++     <backmatter>
++
++ Organizational narrative structures:
++
++     <act>
++     <chapter>
++     <scene>
++     <section>
++
++ Notes:
++ - <section> is a generic subdivision element.
++ - <section> is especially intended for frontmatter/backmatter organization.
++ - Structural hierarchy MAY vary by work.
++ - Standalone documents are permitted and need not participate in higher-order containers.
+
+
+@@ EXPLICIT NARRATIVE RUNTIME
+
+- narrative previously treated as implicit baseline layer
++ narrative is now explicitly represented.
+
++ Canonical narrative structure:
++
++ <chapter>
++     <header>
++         <title>...</title>
++         <subheading>...</subheading>
++     </header>
++
++     <scene>
++         <narrative>
++             ...
++         </narrative>
++     </scene>
++ </chapter>
++
++ Semantics:
++ - <narrative> establishes phenomenological runtime context.
++ - Cognitive and phenomenological operators are interpreted relative to enclosing narrative scope.
++ - Non-narrative structural elements MAY appear between narrative blocks.
++
++ Example:
++
++ <narrative>
++     I heard a sound.
++ </narrative>
++
++ <note>
++     ...
++ </note>
++
++ <narrative>
++     <say>Boo.</say>
++ </narrative>
++
++ Rationale:
++ - Separates experiential payload from metadata and metatext.
++ - Enables interruptible narrative continuity.
++ - Simplifies runtime traversal and phenomenological restoration.
+
+
+@@ PHENOMENOLOGICAL / COGNITIVE OPERATOR MODEL
+
+- Remove binary actual/nonactual partition semantics.
+-
+- Deprecate:
+-     <nonactual>
+-
+- Replace broad nonactual categorization with local phenomenological operators.
++ Replace broad binary modality partitioning with local phenomenological operators.
+
++ Retain:
++
++     <nonactual>
++
++ as a generalized fallback phenomenological operator.
+
++ <nonactual> semantics:
++ - intentionally underspecified,
++ - semantically weak relative to specialized operators,
++ - and intended for ambiguous or composite altered experiential states.
++
++ Specific operators SHOULD be preferred where applicable.
+
++ Canonical phenomenological substrate operators:
++
++     <dream>
++     <flashback>
++     <hallucinate>
++     <fantasize>
++     <nonactual>
++
++ Canonical cognitive process operators:
++
++     <think>
++     <feel>
++     <intuit>
++     <misremember>
++     <project>
++
++ Canonical expressive operators:
++
++     <say>
++     <gesture>
++     <express>
+
+
+@@ MODIFIER OPERATOR MODEL
+
++ Introduce modifier-oriented interpretive operators.
++
++ Modifier operators alter:
++ - cognition flow,
++ - interpretive framing,
++ - epistemic relation,
++ - or expressive delivery.
++
++ Canonical modifier operators currently include:
++
++     <intrusive>
++     <distorted>
++     <deceptive>
++     <recontextualized>
++
++ Semantics:
++ - Modifier operators inherit semantic domain from enclosing operators.
++ - Modifier operators are compositional and recursively nestable.
++
++ Example:
++
++ <think>
++     <intrusive>
++         RUN THEM OVER!
++     </intrusive>
++ </think>
++
++ Interpretation:
++ - intrusive cognition,
++ - rather than standalone intrusive state.
+
+
+@@ SEMANTIC COMPONENT GUIDANCE
+
++ Operators MAY participate in one or more semantic components.
++
++ Semantic components are descriptive interpretive dimensions intended to:
++ - aid authorship,
++ - guide implementation,
++ - preserve conceptual coherence,
++ - and support ontology extensibility.
++
++ Components are non-exclusive and non-restrictive.
++
++ Canonical semantic components currently include:
++
++     experiential
++     cognitive
++     expressive
++     epistemic
++
++ Operators MAY participate in multiple semantic components simultaneously.
++
++ Interpretation WILL be author-specific in some contexts.
++
++ Implementations MUST preserve operator structure even where interpretation is not standardized.
+
+
+@@ NESTING / RUNTIME SEMANTICS
+
++ Define phenomenological stack semantics.
++
++ Runtime traversal model:
++
++ - Enter operator:
++     push phenomenological/cognitive state
++
++ - Exit operator:
++     restore enclosing state
++
++ Semantics:
++ - Outer operators establish active phenomenological substrate.
++ - Inner operators locally modify cognition or interpretation.
++ - Closing operators restores enclosing runtime state.
++
++ Operators MAY nest recursively unless otherwise restricted.
+
+
+@@ STRUCTURAL DOCUMENT COMPOSITION
+
++ Structural elements MAY either:
++ - contain inline content,
++ - OR reference external content via src,
++ - but MAY NOT do both simultaneously.
++
++ Example:
++
++ <chapter src="chapter03.cnml"/>
++
++ Semantics:
++ - Structural tags preserve logical narrative role.
++ - src specifies external physical document location.
++
++ This enables:
++ - modular document composition,
++ - incremental parsing,
++ - hierarchical publication assembly,
++ - and partial runtime traversal.
++
++ Example:
++
++ <series>
++     <book src="book1.cnml"/>
++     <book src="book2.cnml"/>
++ </series>
++
++ Notes:
++ - Structural inclusion is recursive.
++ - Documents form compositional narrative trees.
++ - Implementations MAY lazy-load referenced structures.
+
+
+@@ SEMANTIC ADVISORIES
+
+- hard nesting prohibitions
++ semantic advisories
+
++ Certain nested structures MAY produce semantics that are:
++ - author-specific,
++ - context-dependent,
++ - or interpretation-variable.
++
++ Implementations SHOULD preserve:
++ - nesting order,
++ - interruption locality,
++ - containment hierarchy,
++ - and operator relationships,
++ even where semantic interpretation differs between ontologies or authors.
