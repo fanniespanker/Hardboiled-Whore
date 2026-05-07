@@ -364,3 +364,212 @@ Prosody (how it is delivered)
 
 
 Core ensures meaning. Extended enables expression.
+
+
+
+--- CNML_SPEC_PREVIOUS
++++ CNML_SPEC_PATCH_PHENOMENOLOGICAL_RUNTIME
+
+@@ STRUCTURAL MODEL
+
++ Introduce explicit chapter-local narrative containment.
++
++ Canonical chapter structure:
++
++ <chapter>
++     <header>
++         <title>...</title>
++         <subheading>...</subheading>
++     </header>
++
++     <narrative>
++         ...
++     </narrative>
++ </chapter>
++
++ Notes:
++ - <header> is metadata-only.
++ - <narrative> contains all experiential/prose content.
++ - Nested phenomenological operators occur only inside <narrative>.
++ - Multiple <narrative> blocks MAY be permitted in future revisions.
++
++ Rationale:
++ - Separates metadata from experiential payload.
++ - Preserves explicit baseline narrative scope.
++ - Simplifies parser traversal and stack restoration.
++ - Prevents global boilerplate <narrative> wrapping.
+
+
+@@ MODALITY / NONACTUAL MODEL
+
+- Remove binary actual/nonactual partition semantics.
+-
+- Deprecate:
+-     <nonactual>
+-
+- Replace broad nonactual categorization with local phenomenological operators.
+-
+- Phenomenological state is now modeled through nested cognitive-event elements.
+-
+- Baseline narration is represented implicitly by enclosing <narrative>.
+-
+- Example:
+-
+- <narrative>
+-     I opened the door.
+-
+-     <dream>
+-         ...
+-     </dream>
+-
+-     I lit a cigarette.
+- </narrative>
+-
+- Interpretation:
+- - <dream> temporarily overlays baseline narrative phenomenology.
+- - Exiting the tag restores enclosing narrative state.
+
+
+@@ PHENOMENOLOGICAL OPERATOR MODEL
+
++ Introduce verb-oriented cognitive/phenomenological operators.
++
++ Operators represent:
++ - cognitive acts,
++ - perceptual transformations,
++ - epistemic instability,
++ - or phenomenological overlays.
++
++ Operators are compositional and recursively nestable.
++
++ Canonical operators currently include:
++
++     <think>
++     <feel>
++     <intuit>
++     <say>
++     <dream>
++     <fantasize>
++     <hallucinate>
++     <flashback>
++     <intrude>
++     <deceive>
++     <distort>
++     <misremember>
++     <project>
++     <recontextualize>
++
++ Future operators MAY include:
++
++     <suppress>
++     <avoid>
++     <dissociate>
++     <fixate>
++     <obsess>
++
++ Notes:
++ - Operators model active cognitive/phenomenological processes.
++ - Operators are NOT diagnostic or psychiatric labels.
++ - Operators are semantically local unless explicitly specified otherwise.
++ - Inner operators modify local cognition.
++ - Outer operators establish phenomenological environment.
+
+
+@@ NESTING SEMANTICS
+
++ Define phenomenological stack semantics.
++
++ Parsing rule:
++
++ - Outer operators define active phenomenological substrate.
++ - Inner operators modify or interrupt local cognitive state.
++ - Closing an operator restores the previous enclosing state.
++
++ Example:
++
++ <dream>
++     <intrude>...</intrude>
++     <flashback>
++         <intuit>...</intuit>
++     </flashback>
++ </dream>
++
++ Interpretation:
++ - Flashback occurs within dream-state cognition.
++ - Intuition occurs within recalled memory state.
++ - Intrusion locally interrupts dream cognition.
++
++ This model is intentionally runtime-like and stack-based.
+
+
+@@ SEMANTIC DESIGN PRINCIPLES
+
++ CNML phenomenological operators SHOULD:
++
++ - represent distinct cognitive acts,
++ - remain psychologically intuitive,
++ - avoid excessive taxonomic granularity,
++ - preserve ambiguity where appropriate,
++ - and support recursive compositionality.
++
++ CNML SHOULD model:
++ - consciousness-shaped narration,
++ - cognitive instability,
++ - subjective phenomenology,
++ - and layered epistemic states.
++
++ CNML SHOULD NOT prematurely collapse:
++ - ambiguity,
++ - identity instability,
++ - projection semantics,
++ - or phenomenological uncertainty.
++
++ Preference is given to:
++ - process semantics,
++ over:
++ - static metadata classification.
+
+
+@@ PARSING MODEL
+
++ CNML parsers SHOULD treat phenomenological operators as stack transitions.
++
++ Recommended runtime behavior:
++
++ - Enter tag:
++     push phenomenological state
++
++ - Exit tag:
++     restore previous state
++
++ This behavior applies recursively.
++
++ Operators MAY be nested arbitrarily unless otherwise restricted by future revisions.
++
++ CNML parsers SHOULD preserve:
++ - nesting order,
++ - interruption locality,
++ - and phenomenological containment hierarchy.
+
+
+@@ BACKWARD COMPATIBILITY
+
++ Existing documents using:
++
++     <nonactual>
++
++ MAY be migrated incrementally.
++
++ Recommended migration path:
++
++ - Replace broad nonactual wrappers with specific local operators:
++
++     <dream>
++     <fantasize>
++     <hallucinate>
++     <flashback>
++     etc.
++
++ - Preserve baseline prose inside enclosing <narrative>.
++
++ Migration MAY occur incrementally and does NOT require single-pass full-document conversion.
