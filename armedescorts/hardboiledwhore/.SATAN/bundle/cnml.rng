@@ -7,24 +7,19 @@
           <choice>
             <text/>
             <element name="say"><text/></element>
-            <element name="think">
-              <optional>
-                <attribute name="mode">
-                  <value>instinct</value>
-                </attribute>
-              </optional>
-              <text/>
-            </element>
-            <element name="gesture"><text/></element>
+            <element name="think"><text/></element>
+            <element name="feel"><text/></element>
           </choice>
         </zeroOrMore>
       </element>
       <element name="say"><text/></element>
       <element name="think"><text/></element>
+      <element name="feel"><text/></element>
       <element name="gesture"><text/></element>
       <element name="soft"><text/></element>
       <element name="strong"><text/></element>
       <element name="emph"><text/></element>
+      <element name="gesture"><text/></element>
     </choice>
   </zeroOrMore>
 </element>

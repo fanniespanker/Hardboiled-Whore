@@ -122,6 +122,39 @@ def main(filepath):
     for e in inline_errors:
         print(e)
 
+def get_by_path(data, path):
+    parts = path.split(".")
+    cur = data
+    for p in parts:
+        if isinstance(cur, dict) and p in cur:
+            cur = cur[p]
+        else:
+            return None
+    return cur
+
+
+def set_by_path(data, path, value):
+    parts = path.split(".")
+    cur = data
+    for p in parts[:-1]:
+        cur = cur.setdefault(p, {})
+    cur[parts[-1]] = value
+
+
+def collect_roots(spec):
+    gc = spec.get("gc_policy", {})
+    root_paths = gc.get("roots", [])
+
+    new_spec = {}
+
+    for path in root_paths:
+        value = get_by_path(spec, path)
+        if value is not None:
+            set_by_path(new_spec, path, value)
+
+    return new_spec
+
+
 if __name__ == "__main__":
     if len(sys.argv) != 2:
         print("Usage: python cnml_validate.py <file.cnml>")
