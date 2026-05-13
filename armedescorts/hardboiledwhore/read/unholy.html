@@ -12,66 +12,77 @@
     <link rel="canonical" href="https://fanniespanker.com/armedescorts/hardboiledwhore/read/unholy.html">
   </head>
 
-  <div id="app"></div>
+  <body>
+    <div id="app"></div>
+    <pre id="debug" style="color:red;"></pre>
 
-  <script type="module">
-    async function loadCNML(url) {
-      const text = await fetch(url).then(r => r.text());
+    <script type="module">
+      async function loadCNML(url) {
+        const debug = document.getElementById("debug");
 
-      const parser = new DOMParser();
-      const xml = parser.parseFromString(text, "text/xml");
+        try {
+          const res = await fetch(url);
 
-      // error check
-      const err = xml.querySelector("parsererror");
-      if (err) {
-        console.error("CNML parse error:", err.textContent);
-        return;
+          if (!res.ok) {
+            debug.textContent = "Fetch failed: " + res.status;
+            return;
+          }
+
+          const text = await res.text();
+
+          const parser = new DOMParser();
+          const xml = parser.parseFromString(text, "text/xml");
+
+          // 🔴 SHOW PARSE ERRORS
+          const err = xml.querySelector("parsererror");
+          if (err) {
+            debug.textContent = "XML parse error:\\n" + err.textContent;
+            return;
+          }
+
+          const CNML_NS = xml.documentElement.namespaceURI;
+
+          function convert(node) {
+            if (node.nodeType === Node.TEXT_NODE) {
+              return document.createTextNode(node.textContent);
+            }
+
+            if (node.nodeType !== Node.ELEMENT_NODE) return null;
+
+            let el;
+
+            if (node.namespaceURI === CNML_NS) {
+              el = document.createElement("cnml-" + node.localName.toLowerCase());
+            } else {
+              el = document.createElement(node.tagName.toLowerCase());
+            }
+
+            for (const attr of node.attributes) {
+              el.setAttribute(attr.name, attr.value);
+            }
+
+            for (const child of node.childNodes) {
+              const c = convert(child);
+              if (c) el.appendChild(c);
+            }
+
+            return el;
+          }
+
+          const root = convert(xml.documentElement);
+
+          const container = document.getElementById("app");
+          container.innerHTML = "";
+          container.appendChild(root);
+
+          debug.textContent = "Loaded OK";
+
+        } catch (e) {
+          debug.textContent = "Error: " + e.message;
+        }
       }
 
-      // ✅ AUTO-DETECT namespace
-      const CNML_NS = xml.documentElement.namespaceURI;
-
-      function convert(node) {
-        // text
-        if (node.nodeType === Node.TEXT_NODE) {
-          return document.createTextNode(node.textContent);
-        }
-
-        if (node.nodeType !== Node.ELEMENT_NODE) return null;
-
-        let el;
-
-        // ✅ convert only nodes in CNML namespace
-        if (node.namespaceURI === CNML_NS) {
-          const tag = "cnml-" + node.localName.toLowerCase();
-          el = document.createElement(tag);
-        } else {
-          // preserve foreign elements
-          el = document.createElement(node.tagName.toLowerCase());
-        }
-
-        // copy attributes (preserve names as-is)
-        for (const attr of node.attributes) {
-          el.setAttribute(attr.name, attr.value);
-        }
-
-        // recurse
-        for (const child of node.childNodes) {
-          const c = convert(child);
-          if (c) el.appendChild(c);
-        }
-
-        return el;
-      }
-
-      const root = convert(xml.documentElement);
-
-      const container = document.getElementById("app");
-      container.innerHTML = "";
-      container.appendChild(root);
-    }
-
-    loadCNML("hw.cnml");
-  </script>
-
+      loadCNML("hw.cnml");
+    </script>
+  </body>
 </html>
