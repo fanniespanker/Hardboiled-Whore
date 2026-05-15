@@ -1,180 +1,179 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE cnml>
 
-<cnml 
-    xmlns="https://fanniespanker.github.io/cnml/0.1/ns" 
-    vocabulary="https://github.com/fanniespanker/Media-Description-Ontology/0.1/ns"
->
+<cnml xmlns="https://fanniespanker.github.io/cnml/0.1/ns">
   <series resource="https://fanniespanker.com/armedescorts/">
-    <title>Armed Escorts</title>
-    
     <book resource="https://fanniespanker.com/armedescorts/hardboiledwhore/">
 
-      <title>Hardboiled Whore</title>
-      <author>Fannie Spanker</author>
-      <date of="publication">2025</date>
-      <date of="modification">2026-05-13</date>
-      <identifier scheme="IRI">https://fanniespanker.com/armedescorts/hardboiledwhore/</identifier>
-      <identifier scheme="ISBN10" status="unassigned"/>
-      <identifier scheme="ISBN13" status="unassigned"/>
-      <identifier scheme="WorldCat" status="unassigned"/>
-      <identifier scheme="LCCN" status="unassigned"/>
-      <identifier scheme="ASIN">B0FNKYBNX5</identifier>
-      <license>
-        <name>Creative Commons Attribution Noncommercial ShareAlike 4.0 International</name>
-        <iri>https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode</iri>
-      </license>
+      <publication>
+        <title>Hardboiled Whore</title>
+        <author>Fannie Spanker</author>
+        <date of="publication">2025</date>
+        <date of="modification">2026-05-13</date>
+        <identifiers>
+          <iri>https://fanniespanker.com/armedescorts/hardboiledwhore/</iri>
+          <isbn status="unassigned"/>
+          <asin>B0FNKYBNX5</asin>
+        </identifiers>
+        <form>novel</form>
+        <license>
+          <name>Creative Commons Attribution Noncommercial ShareAlike 4.0 International</name>
+          <uri>https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode</uri>
+        </license>
 
-      <synopsis style="diegetic">
-        <heading>Some cops love themselves. Some cops know they’re human garbage.</heading>
-        
-        I was a parking cop, the rotten ichor stubbornly coating the bottom of the bin.
-        I’d been there 12 years, tearing up parking tickets and watching the world
-        pass me by from the comfort of my fancy air-conditioned tricycle.
-        I refused to play by the rules. <quote>ACAB</quote>, goes the day’s refrain. I’m ashamed
-        to admit that included me—the baddest cop in the department, so bad they threw the book 
-        at me like holy scriptures to exorcise me from the department.
-  
-        But even a bastard might redeem herself, if you give her a second chance.
-  
-        Then I got lucky. A dame came into my life, the kind that rolls with hot commodities
-        and deals in illicit medication. She forgave me my sins and gave me that second
-        chance in exchange for the one thing I hadn't lost, and helped me pick up the trail of a
-        missing activist the police were doing nil to find.
-  
-        I made my way to the Red-Light District to continue my search for our gone guy,
-        where I made an unexpected customer: another dame, powerful and corrupt,
-        only asking for a little company… and my complete and eternal loyalty,
-        for which I would receive an easy grand and a special job.
-        Then another dame with a knack for picking locks and pissing off her coworkers
-        joined me in sexual servitude… then a pretty little cupcake and
-        a dapper gentleman showed me what real men are like… then a doll with hazel eyes
-        and a doctor of the dead joined my growing found family…
-        In less than a week, I was drowning in nookie.
-  
-        I could have stopped at the one dame, but I can’t resist a hot muffin or a silky
-        creampie. My nose is as good at picking up on perfume as it is at sniffing out crime.
-  
-        And I’m a sucker for the human bouquet.
-      </synopsis>
-
-      <genre resource="Fiction.humor/sex_comedy*Fiction.crime/noir*Fiction.crime/hardboiled*Fiction/romances*Fiction.suspenseful/thrillers*Fiction.political*Media.erotica?about=Politics.Politics.movements.feminism/bodily_autonomy/sex_workers'_rights+(People.marginalized_groups/gender_minorities+People.marginalized_groups/sexual_minorities)*Relationships.romantic/polyamory">noir/hardboiled political thriller romance and sex comedy about sex workers’ rights polyamorous gender and sexual minorities</genre>
-      <genre resource="Poetry.love/erotic?about=(People.marginalized_groups/gender_minorities+People.marginalized_groups/sexual_minorities)*Relationships.romantic/polyamory">erotic poetry about gender and sexual minorities</genre>
-
-      <parodies resource="Fiction.crime/procedural">police procedural mysteries</parodies>
-      <parodies resource="#Columbo">Columbo</parodies>
-
-      <supports resource="Philosophy.ethics/righteousness*Philosophy.ethics/justice">righteousness and justice in ethics</supports>
-      <supports resource="Politics.movements.labor/unions?in=Politics.movements.feminism/bodily_autonomy*Politics/activism">labor unions in bodily autonomy-oriented feminist activism</supports>
-      <supports resource="Law_enforcement/reform_of">institutional reform in law enforcement</supports>
-      <supports resource="Philosophy.ethics/self-improvement?in=Philosophy.ethics/repentance">self-improvement in repentance</supports>
-
-      <explores resource="People.marginalized_groups/women+People.marginalized_groups/gender_minorities+People.marginalized_groups/sexual_minorities?in=Law_enforcement">women in law enforcement</explores>
-      <explores resource="Judaism.ethics/teshuvah+https://www.sefaria.org/topics/teshuvah?in=Institutions/reform">the Jewish ethical practice of t'shuva in institutional reform</explores>
-      <explores resource="Judaism.ethics/tzedek?in=Criminal_justice">the Jewish philosophical concept of tzedek in criminal justice</explores>
-
-      <examines resource="Language.translation/hermeneutics?of=Religion/Judaism/Torah/Devarim/Shoftim/tzedek_tzedek_tirdof">translation of the phrase 'tzedek tzedek tirdof' from Shoftim, Devarim, Torah, in Judaism</examines>
-
-      <challenges resource="Law_enforcement.people_of/officers?in=Politics.movements/anti-fascism">law enforcement officers in the anti-fascist movement</challenges>
-
-      <opposes resource="Law_enforcement.as_institution/corruption">corruption in law enforcment</opposes>
-      <opposes resource="Politics.movements/fascism?in=Christianity.movements/fundamentalism">Fascism in Christianity</opposes>
-
-      <depicts resource="Philosophy.ethics/misconduct?in=Law_enforcement">law enforcement misconduct</depicts>
-      <depicts resource="Drugs.use/polydrug_use?of=Drugs/MDMA*Drugs/alcohol">polydrug use of MDMA and alcohol</depicts>
-      <depicts resource="Drugs.use/recreational_use?of=Drugs/MDMA">recreational use of MDMA</depicts>
-      <depicts resource="Health.conditions/relapse?in=Health.conditions/alcoholism">alcoholic relapse</depicts>
-
-      <depicts resource="Sex.roleplay/domination">domination</depicts>
-      <depicts resource="Sex.roleplay/versatility">versatility</depicts>
-      <depicts resource="Sex.roleplay/submission">submission</depicts>
-      <depicts resource="Sex.roleplay/praise">praise kink</depicts>
-      <depicts resource="Sex.roleplay/degradation">degradation kink</depicts>
-      <depicts resource="Sex.roleplay/petplay">petplay kink</depicts>
-      <depicts resource="Sex.kink?for=Sex.reproduction/fertilization">fertilization/impregnation kink</depicts>
-      <depicts resource="Sex.kink?for=Sex.reproduction/pregnancy">pregnancy kink</depicts>
-      <depicts resource="Sex.kink?for=Sex.acts/creampies">creampie kink</depicts>
-      <depicts resource="Sex.kink?for=Sex.safety/unprotected">unprotected sex kink</depicts>
-      <depicts resource="Sex.attraction?to=fat_women">attraction to big beautiful women</depicts>
-      <depicts resource="Sex.attraction?to=large_penises">attraction to larg penises/size queen</depicts>
-      <depicts resource="Sex.group?of=FF">FF</depicts>
-      <depicts resource="Sex.group?of=FFF">FFF</depicts>
-      <depicts resource="Sex.group?of=FFFFFF">FFFFFF</depicts>
-      <depicts resource="Sex.group?of=FM">FM</depicts>
-      <depicts resource="Sex.group?of=FMM">FMM</depicts>
-      <depicts resource="Sex.venues/sex_club*Sex.roleplay/petplay">pet play sex club</depicts>
-
-      <audience resource="(People.marginalized_groups/gender_minorities+People.marginalized_groups/sexual_minorities)*Relationships.romantic/polyamory+Politics.movements/anti-fascism">polyamorous gender and sexual minorities</audience>
-      <audience resource="Media.people/fans?of=Sex.kinks/breeding+Sex.kinks/impregnation+Sex.kinks/pregnancy+Sex.kinks/creampies">fans of breeding kink</audience>
-      <audience resource="Politics.movements.fat_acceptance/big_beautiful_women">big beautiful women</audience>
-
-      <references resource="#Head_over_Feet">Head over Feet</references>
-      <references resource="#Prescription_Murder">Head over Feet</references>
-
-      <external>
-        <work 
-            about="#Columbo"
-            medium="Media.medium/television"
-            format="Media.format/series?of=Media.format/movie"
-            resource="https://www.imdb.com/title/tt0061496+https://www.wikidata.org/wiki/Q371207+http://dbpedia.org/resource/Columbo"
-        >
-          <title>Columbo</title>
-          <creator>Richard Levinson</creator>
-          <creator>William Link</creator>
-          <genre resource="Fiction.crime/mystery/procedural">police procedural mystery</genre>
+        <synopsis style="diegetic">
+          <heading>Some cops love themselves. Some cops know they’re human garbage.</heading>
           
-          <character resource="https://www.imdb.com/title/tt1466074/characters/nm0000393+https://www.wikidata.org/wiki/Q2984579+https://id.loc.gov/authorities/sh93004873">
-            <name>Columbo</name>
-            <honorific>Lieutenant</honorific>
-            <role>hero</role>
-            <performer resource="https://www.imdb.com/name/nm0000393/+https://www.wikidata.org/wiki/Q484881+https://id.loc.gov/authorities/names/n85199266+http://id.worldcat.org/fast/1760701+https://id.oclc.org/worldcat/entity/E39PBJtRQvb8xfDwtC4TKjpkjC">Peter Falk</performer>
-          </character>
-        </work>
+          I was a parking cop, the rotten ichor stubbornly coating the bottom of the bin.
+          I’d been there 12 years, tearing up parking tickets and watching the world
+          pass me by from the comfort of my fancy air-conditioned tricycle.
+          I refused to play by the rules. <quote>ACAB</quote>, goes the day’s refrain. I’m ashamed
+          to admit that included me—the baddest cop in the department, so bad they threw the book 
+          at me like holy scriptures to exorcise me from the department.
+    
+          But even a bastard might redeem herself, if you give her a second chance.
+    
+          Then I got lucky. A dame came into my life, the kind that rolls with hot commodities
+          and deals in illicit medication. She forgave me my sins and gave me that second
+          chance in exchange for the one thing I hadn't lost, and helped me pick up the trail of a
+          missing activist the police were doing nil to find.
+    
+          I made my way to the Red-Light District to continue my search for our gone guy,
+          where I made an unexpected customer: another dame, powerful and corrupt,
+          only asking for a little company… and my complete and eternal loyalty,
+          for which I would receive an easy grand and a special job.
+          Then another dame with a knack for picking locks and pissing off her coworkers
+          joined me in sexual servitude… then a pretty little cupcake and
+          a dapper gentleman showed me what real men are like… then a doll with hazel eyes
+          and a doctor of the dead joined my growing found family…
+          In less than a week, I was drowning in nookie.
+    
+          I could have stopped at the one dame, but I can’t resist a hot muffin or a silky
+          creampie. My nose is as good at picking up on perfume as it is at sniffing out crime.
+    
+          And I’m a sucker for the human bouquet.
+        </synopsis>
 
-        <work 
-            about="#Prescription_Murder"
-            medium="Media.medium/television"
-            format="Media.format/episode?of=#Columbo"
-            resource="https://www.imdb.com/title/tt0061496/+https://www.wikidata.org/wiki/Q50350442+https://en.wikipedia.org/wiki/List_of_Columbo_episodes#ep1"
-        >
-          <title>Prescription: Murder</title>
+        <metadata vocabulary="https://github.com/fanniespanker/Media-Description-Ontology/0.1/ns">
+          <genre resource="Fiction.humor/sex_comedy*Fiction.crime/noir*Fiction.crime/hardboiled*Fiction/romances*Fiction.suspenseful/thrillers*Fiction.political*Media.erotica?about=Politics.Politics.movements.feminism/bodily_autonomy/sex_workers'_rights+(People.marginalized_groups/gender_minorities+People.marginalized_groups/sexual_minorities)*Relationships.romantic/polyamory">noir/hardboiled political thriller romance and sex comedy about sex workers’ rights polyamorous gender and sexual minorities</genre>
+          <genre resource="Poetry.love/erotic?about=(People.marginalized_groups/gender_minorities+People.marginalized_groups/sexual_minorities)*Relationships.romantic/polyamory">erotic poetry about gender and sexual minorities</genre>
 
-          <director>Richard Irving</director>
-          <writer>Richard Levinson</writer>
-          <writer>William Link</writer>
-          
-          <character resource="https://www.imdb.com/title/tt0061496/characters/nm0058001">
-            <name>Ray Flemming</name>
-            <honorific>Doctor</honorific>
-            <role>villain</role>
-            <performer>Gene Barry</performer>
-          </character>
-          
-          <character resource="https://www.imdb.com/title/tt0061496/characters/nm0001225">
-            <name>Carol Flemming</name>
-            <role>victim</role>
-            <performer>Nina Foch</performer>
-          </character>
-          
-          <character resource="https://www.imdb.com/title/tt0061496/characters/nm0433157">
-            <name>Joan Hudson</name>
-            <role>accomplice</role>
-            <performer>Katherine Justice</performer>
-          </character>
-        </work>
+          <parodies resource="Fiction.crime/procedural">police procedural mysteries</parodies>
+          <parodies resource="#Columbo">Columbo</parodies>
 
-        <work 
-            about="#Head_over_Feet" 
-            medium="Media.medium/music"
-            format="Media.format/song"
-            resource="https://www.discogs.com/master/191838-Alanis-Morissette-Head-Over-Feet"
-        >
-          <title>Head over Feet</title>, 
-          <performer>Alanis Morissette</performer>
-          <writer>Alanis Morissette</writer>
-          <writer>Glen Ballard</writer>
-        </work>
-      </external>
+          <supports resource="Philosophy.ethics/righteousness*Philosophy.ethics/justice">righteousness and justice in ethics</supports>
+          <supports resource="Politics.movements.labor/unions?in=Politics.movements.feminism/bodily_autonomy*Politics/activism">labor unions in bodily autonomy-oriented feminist activism</supports>
+          <supports resource="Law_enforcement/reform_of">institutional reform in law enforcement</supports>
+          <supports resource="Philosophy.ethics/self-improvement?in=Philosophy.ethics/repentance">self-improvement in repentance</supports>
+
+          <explores resource="People.marginalized_groups/women+People.marginalized_groups/gender_minorities+People.marginalized_groups/sexual_minorities?in=Law_enforcement">women in law enforcement</explores>
+          <explores resource="Judaism.ethics/teshuvah+https://www.sefaria.org/topics/teshuvah?in=Institutions/reform">the Jewish ethical practice of t'shuva in institutional reform</explores>
+          <explores resource="Judaism.ethics/tzedek?in=Criminal_justice">the Jewish philosophical concept of tzedek in criminal justice</explores>
+
+          <examines resource="Language.translation/hermeneutics?of=Religion/Judaism/Torah/Devarim/Shoftim/tzedek_tzedek_tirdof">translation of the phrase 'tzedek tzedek tirdof' from Shoftim, Devarim, Torah, in Judaism</examines>
+
+          <challenges resource="Law_enforcement.people_of/officers?in=Politics.movements/anti-fascism">law enforcement officers in the anti-fascist movement</challenges>
+
+          <opposes resource="Law_enforcement.as_institution/corruption">corruption in law enforcment</opposes>
+          <opposes resource="Politics.movements/fascism?in=Christianity.movements/fundamentalism">Fascism in Christianity</opposes>
+
+          <depicts resource="Philosophy.ethics/misconduct?in=Law_enforcement">law enforcement misconduct</depicts>
+          <depicts resource="Drugs.use/polydrug_use?of=Drugs/MDMA*Drugs/alcohol">polydrug use of MDMA and alcohol</depicts>
+          <depicts resource="Drugs.use/recreational_use?of=Drugs/MDMA">recreational use of MDMA</depicts>
+          <depicts resource="Health.conditions/relapse?in=Health.conditions/alcoholism">alcoholic relapse</depicts>
+
+          <depicts resource="Sex.roleplay/domination">domination</depicts>
+          <depicts resource="Sex.roleplay/versatility">versatility</depicts>
+          <depicts resource="Sex.roleplay/submission">submission</depicts>
+          <depicts resource="Sex.roleplay/praise">praise kink</depicts>
+          <depicts resource="Sex.roleplay/degradation">degradation kink</depicts>
+          <depicts resource="Sex.roleplay/petplay">petplay kink</depicts>
+          <depicts resource="Sex.kink?for=Sex.reproduction/fertilization">fertilization/impregnation kink</depicts>
+          <depicts resource="Sex.kink?for=Sex.reproduction/pregnancy">pregnancy kink</depicts>
+          <depicts resource="Sex.kink?for=Sex.acts/creampies">creampie kink</depicts>
+          <depicts resource="Sex.kink?for=Sex.safety/unprotected">unprotected sex kink</depicts>
+          <depicts resource="Sex.attraction?to=fat_women">attraction to big beautiful women</depicts>
+          <depicts resource="Sex.attraction?to=large_penises">attraction to larg penises/size queen</depicts>
+          <depicts resource="Sex.group?of=FF">FF</depicts>
+          <depicts resource="Sex.group?of=FFF">FFF</depicts>
+          <depicts resource="Sex.group?of=FFFFFF">FFFFFF</depicts>
+          <depicts resource="Sex.group?of=FM">FM</depicts>
+          <depicts resource="Sex.group?of=FMM">FMM</depicts>
+          <depicts resource="Sex.venues/sex_club*Sex.roleplay/petplay">pet play sex club</depicts>
+
+          <audience resource="(People.marginalized_groups/gender_minorities+People.marginalized_groups/sexual_minorities)*Relationships.romantic/polyamory+Politics.movements/anti-fascism">polyamorous gender and sexual minorities</audience>
+          <audience resource="Media.people/fans?of=Sex.kinks/breeding+Sex.kinks/impregnation+Sex.kinks/pregnancy+Sex.kinks/creampies">fans of breeding kink</audience>
+          <audience resource="Politics.movements.fat_acceptance/big_beautiful_women">big beautiful women</audience>
+
+          <references resource="#Head_over_Feet">Head over Feet</references>
+          <references resource="#Prescription_Murder">Head over Feet</references>
+
+            <work 
+                id="Columbo"
+                medium="Media.medium/television"
+                format="Media.format/series?of=Media.format/movie"
+                resource="https://www.imdb.com/title/tt0061496+https://www.wikidata.org/wiki/Q371207+http://dbpedia.org/resource/Columbo"
+            >
+              <title>Columbo</title>
+              <creator>Richard Levinson</creator>
+              <creator>William Link</creator>
+              <genre resource="Fiction.crime/mystery/procedural">police procedural mystery</genre>
+              
+              <character resource="https://www.imdb.com/title/tt1466074/characters/nm0000393+https://www.wikidata.org/wiki/Q2984579+https://id.loc.gov/authorities/sh93004873">
+                <name>Columbo</name>
+                <honorific>Lieutenant</honorific>
+                <role>hero</role>
+                <performer resource="https://www.imdb.com/name/nm0000393/+https://www.wikidata.org/wiki/Q484881+https://id.loc.gov/authorities/names/n85199266+http://id.worldcat.org/fast/1760701+https://id.oclc.org/worldcat/entity/E39PBJtRQvb8xfDwtC4TKjpkjC">Peter Falk</performer>
+              </character>
+            </work>
+
+            <work 
+                id="Prescription_Murder"
+                medium="Media.medium/television"
+                format="Media.format/episode?of=#Columbo"
+                resource="https://www.imdb.com/title/tt0061496/+https://www.wikidata.org/wiki/Q50350442+https://en.wikipedia.org/wiki/List_of_Columbo_episodes#ep1"
+            >
+              <title>Prescription: Murder</title>
+
+              <director>Richard Irving</director>
+              <writer>Richard Levinson</writer>
+              <writer>William Link</writer>
+              
+              <character resource="https://www.imdb.com/title/tt0061496/characters/nm0058001">
+                <name>Ray Flemming</name>
+                <honorific>Doctor</honorific>
+                <role>villain</role>
+                <performer>Gene Barry</performer>
+              </character>
+              
+              <character resource="https://www.imdb.com/title/tt0061496/characters/nm0001225">
+                <name>Carol Flemming</name>
+                <role>victim</role>
+                <performer>Nina Foch</performer>
+              </character>
+              
+              <character resource="https://www.imdb.com/title/tt0061496/characters/nm0433157">
+                <name>Joan Hudson</name>
+                <role>accomplice</role>
+                <performer>Katherine Justice</performer>
+              </character>
+            </work>
+
+          <work 
+              id="Head_over_Feet" 
+              medium="Media.medium/music"
+              format="Media.format/song"
+              resource="https://www.discogs.com/master/191838-Alanis-Morissette-Head-Over-Feet"
+          >
+            <title>Head over Feet</title>, 
+            <performer>Alanis Morissette</performer>
+            <writer>Alanis Morissette</writer>
+            <writer>Glen Ballard</writer>
+          </work>
+
+        </metadata>
+
+      </publication>
 
       <frontmatter>
         <acknowledgments> 
