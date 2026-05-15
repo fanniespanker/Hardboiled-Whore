@@ -133,7 +133,7 @@
 
         <work 
             about="#Prescription_Murder"
-            medium="Media.medium/television"
+            medium="Media.format/television"
             format="Media.format/episode?of=#Columbo"
             resource="https://www.imdb.com/title/tt0061496/+https://www.wikidata.org/wiki/Q50350442+https://en.wikipedia.org/wiki/List_of_Columbo_episodes#ep1"
         >
