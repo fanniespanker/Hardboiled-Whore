@@ -114,7 +114,7 @@
       <external>
         <work 
             about="#Columbo"
-            medium="Media.medium/television"
+            medium="Media.format/television"
             format="Media.format/series?of=Media.format/movie"
             resource="https://www.imdb.com/title/tt0061496+https://www.wikidata.org/wiki/Q371207+http://dbpedia.org/resource/Columbo"
         >
