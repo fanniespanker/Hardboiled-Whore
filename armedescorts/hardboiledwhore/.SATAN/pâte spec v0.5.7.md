@@ -349,6 +349,27 @@ These MAY depend on:
 
 Metric shaping MUST NOT retroactively alter resolved affine geometry.
 
+### 8.2 Symbolic Affine Semantics
+
+Within PÂTE source semantics, affine displacement coefficients are represented symbolically over:
+
+$$
+\mathbb{Q}^2
+$$
+
+PÂTE source semantics do not prescribe a concrete numeric realization model.
+
+Renderer evaluation MAY convert symbolic affine quantities into implementation-defined geometric representations, including:
+
+- floating-point
+- fixed-point
+- arbitrary precision
+- renderer-native coordinate systems
+
+Operational numeric realization is not part of PÂTE source semantics.
+
+---
+
 ### 8.3 Coordinate System
 
 PÂTE defines:
