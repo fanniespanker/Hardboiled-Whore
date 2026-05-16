@@ -51,7 +51,7 @@ V_a &= \{ a \mid a \text{ is an anchor basis element} \} \\
 \text{Span} &:= V_s \\
 \text{AnchorBasis} &:= V_a \\
 E &\subseteq \mathcal{S} \\
-\mathcal{S} &= \left(Span \times AnchorBasis\right)^2 \times \mathbb{Q}
+\mathcal{S} &= \left(Span \times AnchorBasis\right)^2 \times \mathbb{Q}^2
 \end{aligned}
 $$
 
