@@ -1,285 +1,258 @@
-# PÂTE (Positional Affine Text Encoding) (***FINALIZED***)
+# PÂTE (Positional Affine Text Encoding) (FINALIZED)
 
 ## 1. Overview
 
-PÂTE is a deterministic **spatial constraint language** for CNML.
+PÂTE is a deterministic spatial constraint language for CNML.
 
-It compiles span declarations into a **directed affine constraint graph** over span anchor positions.
+It compiles span declarations into a deterministic affine constraint system whose dependency topology forms a directed graph.
 
-It is:
+PÂTE is:
+
 - declarative
 - graph-based
 - deterministic
 - non-optimizing
 
-PÂTE defines layout purely as deterministic affine relationships between span anchors.
+PÂTE defines layout purely as deterministic affine relationships between span geometries.
 
 ---
 
-## 2. Role in and Relationship to CNML (***FINALIZED***)
+## 2. Role in and Relationship to CNML
 
 PÂTE is currently distributed and instantiated as part of the CNML toolchain, where it functions as a projection layer within the CNML rendering pipeline:
 
-```
-CNML → PÂTE projection → constraint graph → renderer
+```text
+CNML → PÂTE projection → affine constraint system → renderer
 ```
 
 PÂTE is currently integrated with CNML for practical deployment and bootstrapping.
 
-It is not defined in terms of CNML and is not semantically dependent on it. CNML is the implementation bootstrap substrate.
+It is not semantically dependent on CNML. CNML presently serves as an upstream structural serialization substrate.
 
-Future versions of PÂTE are intended to operate independently of CNML as a standalone representation and compilation target. CNML may continue to serve as one possible upstream serialization format.
+Future versions of PÂTE are intended to operate independently of CNML as a standalone representation and compilation target.
 
 ---
 
 ## 3. Core Model
 
-Formally, a PÂTE program compiles into a graph:
+Formally, a PÂTE program compiles into:
 
-$ G = (V, E) $
+$$
+G = (V, E)
+$$
 
 Where:
 
-\[
+$$
 \begin{aligned}
 V &= V_s \cup V_a \\
 V_s &= \{ s \mid s \text{ is a span} \} \\
-V_a &= \{ a \mid a \text{ is an anchor} \} \\
+V_a &= \{ a \mid a \text{ is an anchor basis element} \} \\
 \text{Span} &:= V_s \\
-\text{Anchor} &:= V_a \\
+\text{AnchorBasis} &:= V_a \\
 E &\subseteq \mathcal{S} \\
-\mathcal{S} &= \left(Span \times Anchor\right)^2 \times \mathbb{Q} \\
+\mathcal{S} &= \left(Span \times AnchorBasis\right)^2 \times \mathbb{Q}
 \end{aligned}
-\]
+$$
 
-This can be interpreted as the tuple:
+This can be interpreted as:
 
-$ \left(A,a,B,b,\delta\right) \in E $
+$$
+(A,a,B,b,\delta) \in E
+$$
 
-Whose components are defined as:
+Where:
 
-- $ A, B \in \text{spans} $
-- $ a, b \in \{<, |, >\} $ denote anchor selectors (left, center, right respectively)
-- $ \delta \in \mathbb{Q} $
+- \(A,B \in \text{Span}\)
+- \(a,b \in \{<, |, >\}\)
+- \(\delta \in \mathbb{Q}\)
 
 ---
 
-## 4. Spans
+## 4. Span Geometry Model
 
-A span is a contiguous textual unit with intrinsic geometry.
+A span is a contiguous textual unit with renderer-resolved geometry.
 
-Each span defines exactly three anchors:
+Each span defines exactly three anchor basis positions:
 
-- leading edge
+- leading
 - center
-- trailing edge
+- trailing
 
-Anchors are immutable geometric projections.
+These basis positions are immutable geometric projections within the affine resolution system.
+
+### 4.1 Geometry Resolution Semantics
+
+Span geometry is determined during affine spatial resolution prior to final rendering.
+
+Resolved geometry MAY depend on:
+
+- font metrics
+- glyph shaping
+- ligatures
+- renderer configuration
+- typographic environment
+- text shaping systems
+
+Final rendering occurs only after:
+
+1. affine spatial resolution
+2. optional metric shaping
 
 ---
 
-## 5. Identifier System (PÂTE Scope Only) (***FINALIZED***)
+## 5. Identifier System (PÂTE Scope Only)
 
-All PÂTE identifiers are defined as non-empty sequences of Unicode scalar values whose Unicode General Category is in the permitted set defined below.
+All PÂTE identifiers are defined as non-empty sequences of Unicode scalar values whose Unicode General Category belongs to the permitted set defined below.
 
-The Permitted Unicode General Categories for Identifiers are:
+### 5.1 Permitted Unicode Categories
+
+The permitted Unicode General Categories are:
+
 - Letter (L)
 - Mark (M)
 - Number (N)
-- Punctuation, connector (Pc)
+- Connector Punctuation (Pc)
 - Private Use (Co)
-- Symbol, modifier (Sk)
-- Symbol, other (So)
-- Symbol, currency (Sc)
-- Other, format (Cf)
+- Modifier Symbol (Sk)
+- Other Symbol (So)
+- Currency Symbol (Sc)
+- Format (Cf)
 
-### Identifier Grammar
+### 5.2 Identifier Grammar
 
 ```ebnf
 ID := NON_NUMERIC_PERMITTED_CODEPOINT PERMITTED_CODEPOINT*
 ```
+
 Where:
-- `PERMITTED_CODEPOINT` is any Unicode scalar value whose Unicode General Category is in the permitted set defined above.
-- `NON_NUMERIC_PERMITTED_CODEPOINT` is any `PERMITTED_CODEPOINT` that is not in the Number General Category.
+
+- `PERMITTED_CODEPOINT` is any Unicode scalar value whose General Category belongs to the permitted set above.
+- `NON_NUMERIC_PERMITTED_CODEPOINT` is any permitted codepoint not belonging to the Number category.
+
+### 5.3 Identifier Equality
+
+Identifier equality is strict sequence equality over Unicode scalar values.
+
+$$
+ID_A = ID_B
+\iff
+\text{sequence}(ID_A)=\text{sequence}(ID_B)
+$$
+
+No normalization, canonical equivalence, grapheme equivalence, or visual equivalence is implied.
+
+### 5.4 Non-Normative Notes
+
+- Order-sensitive
+- Length-sensitive
+- Visually indistinguishable identifiers MAY be distinct
+- Authors are responsible for maintaining reproducible identifiers
 
 ---
 
-### Non-Normative Notes on Identifier Validity and Equivalence
+## 6. Alignment System
 
-* Order is sensitive.
-* Length is sensitive.
-* No visual equivalence is implied.
-* Visually indistinguishable glyphs MAY correspond to different identifiers.
-* **Identifier equality is equality of sequences.**
-* Authors should take care in selecting identifiers that are visually distinct from each other and which can be reproduced consistently.
+### 6.1 Anchor Basis
 
-Equality is strictly:
-```
-ID_A == ID_B  ⇔  identical Unicode scalar value sequence
-```
+PÂTE defines a fixed anchor basis:
 
----
+$$
+A = \{<, |, >\}
+$$
 
-### PÂTE Identifier Algebra Axiom Kernel (Self-Contained)
+corresponding to:
 
-\[
-\Sigma =
-\{ c \in \text{Unicode scalar values} \mid GC(c) \in \{\text{L}, \text{M}, \text{N}, \text{Pc}, \text{Co}, \text{Sk}, \text{So}, \text{Sc}, \text{Cf}\} \}
-\]
+- leading
+- center
+- trailing
 
-\[
-\mathcal{I} =
-\{ s \in \Sigma^+ \mid GC(s_1) \neq \text{N} \}
-\]
+### 6.2 Alignment Operators
 
-\[
-a = b \Longleftrightarrow \text{sequence}(a)=\text{sequence}(b)
-\]
+Alignment operators are syntactic selectors over the anchor basis.
 
----
+They are:
 
-+++++++++++++++++++
----
+- not anchors
+- not graph nodes
+- not runtime objects
+- not semantic entities
 
-## 6.2 Alignment Operators (Syntactic Selectors Only)
+They exist solely as compile-time selectors.
 
-Alignment operators are **pure syntactic selectors over the anchor basis A**.
+### 6.3 Cartesian Product Semantics
 
-They are not anchors.
-They are not nodes.
-They are not graph entities.
+Alignment operates over:
 
-They are compile-time projections that select elements of `A × A`.
+$$
+A \times A
+$$
 
----
+Each alignment expression selects exactly one ordered pair:
 
-### Operator Tokens
+$$
+(source\_basis,\ target\_basis)
+$$
 
-The operator system consists of two independent selectors:
+### 6.4 Edge Construction Rule
 
-```
-SOURCE_ALIGN_OP ∈ A
-TARGET_ALIGN_OP ∈ A
-```
+Given:
 
-An alignment expression is therefore a pair:
-
-```
-(SOURCE_ALIGN_OP, TARGET_ALIGN_OP)
-```
-
----
-
-## 6.3 Cartesian Product Semantics
-
-Alignment is defined over the Cartesian product:
-
-```
-A × A
-```
-
-Each alignment expression selects exactly one element of this set:
-
-```
-(source_anchor, target_anchor)
-```
-
-This pair is resolved into a constraint edge during compilation.
-
----
-
-## 6.4 Edge Construction Rule
-
-Given spans `A` and `B`:
-
-```
+```text
 A SOURCE_OP TARGET_OP B
 ```
 
-compiles to:
+the compiler constructs:
 
-```
+```text
 A[SOURCE_OP] → B[TARGET_OP]
 ```
 
-Where:
+producing exactly one affine constraint edge.
 
-- `A[SOURCE_OP] ∈ {A.<, A.|, A.>}`
-- `B[TARGET_OP] ∈ {B.<, B.|, B.>}`
+### 6.5 Operator Pair Table (Illustrative)
 
-This produces a single directed constraint edge.
+| Source \ Target | `<` | `|` | `>` |
+|---|---|---|---|
+| `<` | `< → <` | `< → |` | `< → >` |
+| `|` | `| → <` | `| → |` | `| → >` |
+| `>` | `> → <` | `> → |` | `> → >` |
 
----
+This table is illustrative only.
 
-## 6.5 Operator Pair Table (Illustrative Expansion)
+### 6.6 Determinism Rule
 
-This table is **not a semantic definition**, only a visualization of `A × A`:
+Every alignment expression MUST resolve to exactly one anchor-basis pair.
 
-| Source \ Target |   `<`   |   `|`   |   `>`   |
-|-----------------|---------|---------|---------|
-|             `<` | `< → <` | `< → |` | `< → >` |
-|             `|` | `| → <` | `| → |` | `| → >` |
-|             `>` | `> → <` | `> → |` | `> → >` |
+No contextual interpretation or ambiguity is permitted.
 
-Each cell corresponds to exactly one anchor pair.
-
----
-
-## 6.6 No Object Semantics Rule
-
-Alignment operators MUST NOT be interpreted as:
-
-- anchors
-- graph nodes
-- runtime objects
-- first-class semantic entities
-
-They exist only as:
-
-> syntactic selectors resolving into anchor-pair constraints
-
----
-
-## 6.7 Determinism Rule
-
-Each alignment expression MUST resolve to exactly one anchor pair.
-
-No ambiguity, probabilistic interpretation, or contextual override is permitted.
-
----
-
-## 6.8 Compilation Invariant
+### 6.7 Compilation Invariant
 
 All alignment expressions compile to:
 
+```text
+Edge = (source_span.basis, target_span.basis, δ)
 ```
-Edge = (source_span.anchor, target_span.anchor, δ)
-```
 
-Where:
-
-- anchors are selected via `(SOURCE_OP, TARGET_OP)`
-- `δ` is provided by optional offset system
-- no intermediate representation retains operator identity
-
----
-
-## 6.9 Conceptual Summary
-
-Alignment in PÂTE is:
-
-> a Cartesian-product selection over a fixed anchor basis, compiled into deterministic affine edges
-
-Operators are purely syntactic and disappear after compilation.
-
-They do not participate in the graph model.
+Alignment operators do not survive compilation.
 
 ---
 
 ## 7. Offset System
 
+### 7.1 Grammar
+
 ```ebnf
-SPAN := "{{" SOURCE_SPAN? SOURCE_ALIGN_OPERATOR TARGET_ALIGN_OPERATOR TARGET_HORIZONTAL_SPAN H_OFFSET? (TARGET_VERTICAL_SPAN V_OFFSET?)? ("::" CONTENT)? "}}"
+SPAN :=
+  "{{"
+  SOURCE_SPAN?
+  SOURCE_ALIGN_OPERATOR
+  TARGET_ALIGN_OPERATOR
+  TARGET_HORIZONTAL_SPAN
+  H_OFFSET?
+  (TARGET_VERTICAL_SPAN V_OFFSET?)?
+  ("::" CONTENT)?
+  "}}"
 
 SOURCE_SPAN := SPAN_ID
 
@@ -287,7 +260,7 @@ SOURCE_ALIGN_OPERATOR := ALIGN_OPERATOR
 
 TARGET_ALIGN_OPERATOR := ALIGN_OPERATOR
 
-ALIGN_OPERATOR := { "<" | "|" | ">" }
+ALIGN_OPERATOR := "<" | "|" | ">"
 
 TARGET_HORIZONTAL_SPAN := SPAN_ID
 
@@ -297,7 +270,7 @@ TARGET_VERTICAL_SPAN := SPAN_ID
 
 V_OFFSET := "," OFFSET+
 
-OFFSET :=  SIGN OFFSET_BODY
+OFFSET := SIGN OFFSET_BODY
 
 SIGN := "+" | "-"
 
@@ -313,15 +286,29 @@ POSITIVE_INTEGER :=
   [1-9][0-9]*
 ```
 
-### SCALE Semantics
+### 7.2 Content Payload
 
-SCALE denotes a rational scalar multiplier:
+```ebnf
+CONTENT := renderer-defined payload
+```
+
+PÂTE does not define CONTENT semantics.
+
+### 7.3 SCALE Semantics
+
+SCALE denotes:
 
 $$
 k \in \mathbb{Q}^+
 $$
 
-If `SCALE = ε`, it is interpreted as:
+If:
+
+$$
+SCALE = \varepsilon
+$$
+
+then:
 
 $$
 k = 1
@@ -329,33 +316,51 @@ $$
 
 ---
 
-# PÂTE Affine Vector Formulation
+## 8. Affine Vector Formulation
 
-## Span Geometry Model
+### 8.1 Span Position Vectors
 
-A PÂTE span is a positioned geometric text object embedded in a 2D affine vector space.
-
-Each span \(S\) possesses:
-
-- a center position vector:
+A span \(S\) possesses:
 
 $$
 \vec{p}(S) \in \mathbb{R}^2
 $$
 
-- intrinsic dimensions:
+### 8.2 Width and Height Semantics
+
+Unless otherwise specified:
 
 $$
-w(S), h(S) \in \mathbb{R}^+
+w(S)
+\quad \text{and} \quad
+h(S)
 $$
 
----
+refer to renderer-resolved span extents computed during affine spatial resolution prior to metric shaping.
 
-## Coordinate Projection Operators
+These MAY depend on:
 
-Horizontal and vertical positional components are projected independently.
+- font metrics
+- shaping systems
+- ligatures
+- glyph substitution
+- renderer configuration
+- typographic environment
 
-### Horizontal Projection
+Metric shaping MUST NOT retroactively alter resolved affine geometry.
+
+### 8.3 Coordinate System
+
+PÂTE defines:
+
+- positive \(x\) increasing rightward
+- positive \(y\) increasing downward
+
+matching SVG coordinate semantics.
+
+### 8.4 Projection Operators
+
+#### Horizontal
 
 $$
 \pi_x(\vec{p}(S))
@@ -363,7 +368,7 @@ $$
 x(S)\hat{x}
 $$
 
-### Vertical Projection
+#### Vertical
 
 $$
 \pi_y(\vec{p}(S))
@@ -373,17 +378,11 @@ $$
 
 ---
 
-# Alignment Operators
+## 9. Alignment Projection Operators
 
-PÂTE alignment operators are not anchors.
+Alignment operators are geometric projections over resolved span geometry.
 
-They are directional projection operators over span geometry.
-
----
-
-## Horizontal Alignment Operators
-
-### Leading
+### 9.1 Leading
 
 $$
 \alpha_{<}(S)
@@ -391,7 +390,7 @@ $$
 -\frac{1}{2}w(S)\hat{x}
 $$
 
-### Center
+### 9.2 Center
 
 $$
 \alpha_{|}(S)
@@ -399,7 +398,7 @@ $$
 0
 $$
 
-### Trailing
+### 9.3 Trailing
 
 $$
 \alpha_{>}(S)
@@ -407,13 +406,19 @@ $$
 +\frac{1}{2}w(S)\hat{x}
 $$
 
+### 9.4 Vertical Semantics
+
+Vertical alignment currently uses center projection semantics.
+
+No independent vertical alignment operator system currently exists.
+
 ---
 
-## Offset Vectors
+## 10. Offset Vectors
 
-Each offset term is a signed affine displacement vector.
+Each offset defines a signed affine displacement vector.
 
-### General Form
+### 10.1 General Form
 
 $$
 \delta_i
@@ -424,12 +429,10 @@ $$
 Where:
 
 - \(k_i \in \mathbb{Q}^+\)
-- sign is carried explicitly by the grammar
+- sign is explicit
 - \(d(S_i)\) is a directional span extent vector
 
----
-
-### Horizontal Offset
+### 10.2 Horizontal Offset
 
 $$
 \delta_i
@@ -437,7 +440,7 @@ $$
 \pm k_i \cdot w(S_i)\hat{x}
 $$
 
-### Vertical Offset
+### 10.3 Vertical Offset
 
 $$
 \delta_i
@@ -447,7 +450,7 @@ $$
 
 ---
 
-# Canonical PÂTE Equation
+## 11. Canonical Affine Equation
 
 Given:
 
@@ -455,7 +458,7 @@ Given:
 {{A<>B+1/10B-3/2C,D-7/8E+1/2F}}
 ```
 
-The corresponding affine vector equation is:
+the resulting affine equation is:
 
 $$
 \vec{p}(A)
@@ -471,9 +474,7 @@ $$
 \sum_i \delta_i
 $$
 
-Where:
-
-### Horizontal Offsets
+### 11.1 Horizontal Offsets
 
 $$
 \delta_1
@@ -487,7 +488,7 @@ $$
 -\frac{3}{2}w(C)\hat{x}
 $$
 
-### Vertical Offsets
+### 11.2 Vertical Offsets
 
 $$
 \delta_3
@@ -503,14 +504,89 @@ $$
 
 ---
 
-# Interpretation
+## 12. Evaluation Pipeline
+
+PÂTE evaluation proceeds in the following order:
+
+1. Parse source syntax
+2. Construct span table
+3. Resolve alignment operators
+4. Construct affine constraint system
+5. Resolve affine geometry
+6. Apply optional metric shaping
+7. Perform final rendering
+
+---
+
+## 13. Invalidity Conditions
+
+A PÂTE program is ill-formed if:
+
+- affine constraints are contradictory
+- affine resolution is impossible
+- cyclic metric dependencies exist
+- referenced spans are undefined
+- alignment expressions are ambiguous
+
+Renderers MAY reject ill-formed programs.
+
+---
+
+## 14. Metric Constraint Layer
+
+Metric constraints operate strictly after affine resolution.
+
+They affect typographic density only.
+
+They MUST NOT:
+
+- modify resolved affine geometry
+- alter affine position vectors
+- trigger re-resolution
+- alter graph topology
+
+### 14.1 Grammar
+
+```ebnf
+METRIC_CONSTRAINT :=
+  SPAN_ID "~" RATIONAL_NUMBER SPAN_ID
+```
+
+### 14.2 Semantics
+
+$$
+w(A)
+=
+k \cdot w(B)
+$$
+
+Where:
+
+- \(k \in \mathbb{Q}^+\)
+- widths are evaluated post-resolution
+- geometry remains fixed
+
+### 14.3 Implementation Examples
+
+Renderers MAY implement metric shaping via:
+
+- interword spacing
+- tracking adjustment
+- glyph scaling
+- typographic justification
+- font variation systems
+
+---
+
+## 15. Interpretation
 
 PÂTE defines a deterministic affine vector constraint system over typographic spans.
 
-A span position is determined by:
+Span position is determined by:
 
-- projected positional components
-- alignment operator projections
-- signed affine offset vectors
+- affine projection
+- alignment basis selection
+- offset vectors
+- resolved span geometry
 
-All geometry is compositional, deterministic, and graph-resolvable.
+All semantics are deterministic, compositional, and graph-resolvable.
