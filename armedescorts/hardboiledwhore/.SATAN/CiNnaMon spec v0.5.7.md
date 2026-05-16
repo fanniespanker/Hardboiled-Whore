@@ -1,306 +1,462 @@
+# CiNnaMoN (Cognitive-Narrative Musical Notation)
 
-## CiNnaMoN (Cognitive-Narrative Musical Notation)
+CiNnaMoN is a structured, human-readable temporal annotation language for expressive or performative text segments.
 
-CiNnaMoN is a structured, human-readable temporal annotation layer for expressive or performative text segments.
+Music elements may appear as semantic content inside any CNML container.
 
-Music elements may appear as semantic content inside ANY CNML container.
-
-
-### CiNnaMoN Semantic Duality Principle
-
-CiNnaMoN defines duration, beat, and measure-length attributes under a **dual semantic regime**:
+CiNnaMoN is not a programmatic execution system. It expresses **temporal intent and structural constraints**, not explicit computation.
 
 ---
 
-#### 1. Authorial (Normative) Semantics
+# 1. Semantic Foundations
 
-All temporal attributes (`time`, `beat`, `duration`) primarily serve a **normative compositional function**:
+## 1.1 Semantic Duality Principle
 
-- to guide authors in producing musically coherent notation
-- to constrain structural plausibility of rhythmic expression
-- to establish local consistency of temporal intent
+CiNnaMoN operates under a dual semantic regime:
+
+---
+
+## 1.1.1 Authorial (Normative) Semantics
+
+All temporal attributes (`time`, `beat`, `duration`) serve a **normative compositional function**:
+
+- guide authors in producing musically coherent notation
+- constrain structural plausibility of rhythmic expression
+- establish local consistency of temporal intent
 
 In this mode:
+
 - values are treated as **intent descriptors**
 - authors are NOT expected to perform arithmetic reasoning
-- symbolic forms (including fractions) are expressive, not computational
+- symbolic forms (including fractions, symbols, or irrational expressions) are expressive, not computational
+
+Importantly:
+
+> authoring does not require a unified numeric domain
+
+Temporal values MAY be symbolic, rational, irrational, or abstract at the source level.
 
 ---
 
-#### 2. Operational (Renderer) Semantics
+## 1.1.2 Operational (Renderer) Semantics
 
 Temporal attributes are secondarily interpreted by renderers as **operational constraints**:
 
-- to validate structural consistency of the score
-- to resolve timing relationships for playback, layout, or simulation
-- to detect under- or over-specified temporal structures
+- validate structural consistency
+- resolve timing relationships for playback, layout, or simulation
+- detect under- or over-specified structures
 
 In this mode:
-- values MAY be normalized or evaluated
-- interpretation is implementation-defined
-- results MUST NOT be re-encoded back into author-facing syntax
 
-Renderers MAY reject temporal systems that cannot be operationally resolved within their target notation or playback model.
+- interpretation is implementation-defined
+- renderers MAY normalize into any internal representation:
+  - rational arithmetic
+  - floating-point systems
+  - fixed-point systems
+  - symbolic constraint solvers
+  - hybrid timing engines
+- results MUST NOT be re-encoded back into CiNnaMoN source syntax
+
+Renderers MAY reject inputs they cannot operationally resolve.
 
 ---
 
-#### Non-Reification Constraint
+## 1.2 Non-Reification Constraint
 
 Operational interpretation MUST NOT be treated as part of CiNnaMoN source semantics.
 
 That is:
 
-- computed timing is **derivative**, not intrinsic
-- renderer resolution does not modify authorial meaning
-- CiNnaMoN text remains invariant under evaluation
+- computed timing is **derivative**
+- evaluation does not modify authorial meaning
+- CiNnaMoN text remains invariant under rendering
 
 ---
 
-#### Structural Validation Hierarchy
+## 1.3 Structural Validation Hierarchy
 
-Renderers MAY apply validation at two levels:
+Renderers MAY apply validation at two distinct layers:
 
-1. **Structural plausibility checks**
-   - consistency of measure grouping
-   - completeness of required fields
-   - continuity constraints for tied or sustained events
+### (1) Structural Plausibility Checks
+- measure grouping consistency
+- required attribute presence
+- event continuity constraints
+- inheritance consistency within a bar
 
-2. **Temporal resolution**
-   - mapping durations into internal time units
-   - scheduling of events for output systems
+### (2) Temporal Resolution
+- mapping symbolic durations to internal time
+- scheduling events in playback or rendering space
+- resolving timing conflicts
 
----
-
-#### Key Principle
-
-CiNnaMoN source notation expresses **temporal intent**, not explicit computation.
-
-Authors describe:
-- rhythmic structure
-- temporal continuity
-- expressive grouping
-- performative timing relationships
-
-Renderers MAY:
-- validate structural consistency
-- resolve durations operationally
-- map symbolic durations into playback or layout systems
-
-However:
-
-- operational resolution is derivative
-- computed timing is not authorial syntax
-- renderer interpretation MUST NOT alter source semantics
-
-CiNnaMoN therefore functions simultaneously as:
-
-- a symbolic notation system for human authors
-- a temporal constraint system for evaluators and renderers
-
-without collapsing either role into the other.
+These layers are distinct and MUST NOT be conflated.
 
 ---
 
-### CiNnaMoN Grammar
+## 1.4 Temporal Value Domain Rule
 
-The content model is line-oriented and token-based.
+Temporal values are interpreted as **symbolic expressions at the authorial layer**.
 
-#### Core Element
+They are not required to conform to a unified numeric system during authoring.
+
+Renderers MAY map values into any internal domain, including:
+
+- rational numbers
+- floating-point representations
+- fixed-point arithmetic
+- constraint-based timing systems
+- symbolic evaluators
+
+No canonical numeric representation is mandated by CiNnaMoN.
+
+---
+
+# 2. Rendering Invariant Kernel (RIK)
+
+CiNnaMoN defines a **non-canonical interpretation model**.
+
+All valid renderings MUST satisfy the following invariants.
+
+---
+
+## 2.1 Event Existence Invariant
+
+Every syntactic event MUST map to at least one rendered event:
+
+$$
+\forall e \in C,\ \exists r(e) \in R(C)
+$$
+
+Where:
+- \(C\) = CiNnaMoN source
+- \(R(C)\) = rendering space
+- \(r(e)\) = realized event mapping
+
+---
+
+## 2.2 Event Identity Preservation
+
+Event types MUST remain distinguishable:
+
+- note
+- rest
+- speech (`X`)
+- caesura (`//`)
+- tie/slur (`~`)
+
+These MAY be transformed in implementation, but MUST remain structurally separable.
+
+---
+
+## 2.3 Temporal Order Invariance
+
+Event order within a bar (`|`) MUST be preserved:
+
+If:
+$$
+e_1 \prec e_2
+$$
+
+Then:
+$$
+r(e_1) \prec r(e_2)
+$$
+
+Allowed:
+- expressive timing variation
+- rubato, swing, temporal deformation
+- local compression/stretching
+
+Not allowed:
+- reordering events within a bar
+
+---
+
+## 2.4 Bar Boundary Invariance
+
+Bar delimiters (`|`) define hard segmentation boundaries.
+
+All renderings MUST preserve:
+- grouping within bars
+- separation between bars
+
+---
+
+## 2.5 Duration Ratio Preservation
+
+Relative durations MUST remain invariant up to global scaling:
+
+$$
+\frac{d_1}{d_2}
+$$
+
+MUST be preserved structurally under rendering.
+
+Absolute time MAY vary.
+
+---
+
+## 2.6 Pitch Identity Constraint
+
+Explicit pitch definitions MUST remain traceable in rendering unless explicitly transformed by renderer policy.
+
+---
+
+## 2.7 Structural Non-Collapse Constraint
+
+Renderers MUST NOT:
+
+- merge distinct event types into indistinguishable outputs
+- destroy event ordering
+- remove bar structure
+- eliminate proportional duration relationships
+- collapse pitch identity where explicitly defined
+
+---
+
+## 2.8 Interpretive Freedom Principle
+
+Renderers MAY vary:
+
+- absolute timing
+- expressive timing
+- speech realization (`X`)
+- caesura interpretation (`//`)
+- tie/slur rendering behavior
+- synthesis backend
+- visual notation strategy
+
+---
+
+## 2.9 Optional IR Principle
+
+Renderers MAY construct internal IRs, but:
+
+- IRs are not standardized
+- IRs are not part of CiNnaMoN semantics
+- IRs MUST preserve all RIK invariants
+- IRs MUST NOT be exposed as canonical meaning
+
+---
+
+## 2.10 Semantic Summary
+
+CiNnaMoN defines:
+
+> a constrained space of structurally equivalent but interpretively variable temporal event realizations.
+
+---
+
+## 2.11 Formal Characterization
+
+$$
+C \rightarrow \mathcal{P}(R)
+$$
+
+Where:
+- \(C\) = CiNnaMoN source
+- \(R\) = valid rendering space
+
+---
+
+# 3. Grammar
+
+## 3.1 Core Element
 
 ```xml
 <music time="" beat="" key="" mode="" tempo="" mood="">
 ```
 
-##### Attributes
-* Together, `time` and `beat` define the enclosing measure duration for operational interpretation purposes:
-  * `time`: the number of beats in a measure (numerator of time signature). Example values: 1, 2, 3, 4, 5, 6.5, 3.1415926535, pi, √2.
-  * `beat`: the note-value unit representing the beat (inverse duration of the beat). Defines the denominator of the time signature. Example values: 2 = half note, 4 = quarter note, 5 = fifth note, 8 = eighth note, 16 = sixteenth note.
-  * Renderers MAY approximate irrational or symbolic temporal values for time and beat.
-* `key`: tonal center (A–G with optional accidentals). Examples: `C` for the key of C natural, `Gsharp` for G sharp, `Aflat` for A flat.
-* `mode`: modal context (major, minor, lydian, phrygian, dorian, etc.)
-* `tempo`: may be descriptive (largo, adagio, moderato, allegretto, etc.) or numeric (real number) in beats per minute (120)
-* `mood`: descriptive or desired emotional outcome
+---
+
+## 3.2 Attributes
+
+- `time`: beats per measure (numeric or symbolic)
+- `beat`: beat unit denominator
+- `key`: tonal center
+- `mode`: modal context
+- `tempo`: BPM or descriptive
+- `mood`: expressive descriptor
 
 ---
 
-#### Top-level structure
-
-```
-<music> ::= "<music" attributes ">" content "</music>"
-
-attributes ::= (time | beat | key | mode | tempo | mood)*
-```
-
-#### Content model
+## 3.3 Structure
 
 ```
 content ::= bar ("|" bar)*
-
 bar ::= sequence
-
 sequence ::= element (whitespace element)*
+element ::= note | rest | speech | caesura | tie
 ```
-
-#### Element types
-
-```
-element ::= note | rest | tie | caesura | speech
-```
-
-#### Duration
-
-```
-duration ::= ([1-9][0-9]*) "/" ([1-9][0-9]*)   // e.g. 1/4, 3/16, 99/167
-```
-
-Examples:
-- `7/2`
-- `2/3`
-- `7/5`
-- `3/11`
-
-Durations MAY span multiple measures when interpreted by a renderer as exceeding the enclosing measure duration.
-
-Examples:
-
-```
-D:1/4{Two} C:1/4{beats.}
-
-X:2/1{Here are two measures of speech.}
-
-C:7/2{Here are three and a half measures of freely sung vocals.}
-
-R:9/5
-```
-
-* Renderers MAY approximate irrational or symbolic temporal values for duration.
 
 ---
 
-#### Note syntax
+## 3.4 Duration
 
 ```
-note ::= pitch ":" duration "{" lyric "}" 
+duration ::= integer "/" integer
+```
+
+Examples:
+- `1/4`, `3/16`, `7/5`
+
+Renderers MAY approximate symbolic values.
+
+---
+
+## 3.5 Note Syntax
+
+```
+note ::= pitch ":" duration "{" lyric "}"
        | pitch ":" duration
        | pitch "{" lyric "}"
        | pitch
+```
 
+---
+
+## 3.6 Pitch Syntax
+
+```
 pitch ::= [A-G] accidental? octave?
-accidental ::= "#" | "b"
-octave ::= -? ( [0] | [1-9][0-9]* )
 ```
 
-#### Vocalization Semantics
+---
 
-CiNnaMoN note events represent performative pitched articulations.
-
-Lyrics are optional semantic attachments to note events rather than prerequisites for note existence.
-
-An empty lyric body:
-
-```text
-{}
-```
-
-represents intentionally non-lexical vocalization or unspecified articulation.
-
-Examples include:
-- humming
-- whistling
-- vowel-based singing
-- nonverbal melodic performance
-
-Renderers MAY additionally interpret lyricless note events as instrumental or synthesized realizations.
-
-#### Rest syntax
+## 3.7 Rest Syntax
 
 ```
 rest ::= "R" (":" duration)?
 ```
 
-#### Tie / sustain syntax
+---
+
+## 3.8 Tie / Slur Syntax
 
 ```
 tie ::= "~"
 ```
 
-* Ties connect preceding and following notes or sustain state across elements.
+### Tie / Slur Semantics
 
-#### Caesura / breath mark syntax
+The operator `~` is interpreted between adjacent notes:
+
+- If pitches are equal → **tie**
+  - duration merges
+  - no re-articulation
+
+- If pitches differ → **slur**
+  - articulation is connected
+  - pitch remains distinct
+
+This classification depends only on pitch equality.
+
+---
+
+## 3.9 Caesura Syntax
 
 ```
 caesura ::= "//"
 ```
 
-* `//` is a **caesura or breath mark**, not a comment.
-* CNML does NOT define comments in CiNnaMoN.
-* No comment syntax exists.
+### Semantics
 
+Caesuras are interpretive breaks:
 
-#### Speech syntax
+- not comments
+- not fixed-duration rests
+- not structural requirements
 
-Speech is a timed vocal articulation primitive. It does not encode pitch; pitch is resolved at evaluation time via renderer configuration, inference, or default policy.
+Renderers MAY interpret them as:
+- breath marks
+- pauses
+- fermata-like suspension gestures
+
+But CiNnaMoN does not prescribe timing.
+
+---
+
+## 3.10 Speech Syntax
 
 ```
 speech ::= "X" (":" duration)? "{" lyric "}"
 ```
 
-* NOTE: Common renderer profiles MAY include syllabic, rhythmic-spoken, or other amelodic vocal realizations.
+### Speech Semantics
+
+Speech events are pitch-agnostic at source level.
+
+Pitch realization is:
+
+- performer-determined (live systems)
+- renderer-determined (audio systems)
+- implementation-defined (general systems)
+
+Speech MAY be:
+- structured into multiple events
+- or expressed as a single interpretive window
 
 ---
 
-##### Composer-interpreted speech rhythm (structured timing)
+## 3.11 Inheritance Rules (Measure Scope)
 
-Speech MAY be subdivided into multiple articulated (`X`) events for rhythmic articulation.
+Within a bar:
 
-Example:
+- first explicit note defines pitch, octave, duration
+- subsequent events inherit last explicit values
+- inheritance resets at bar boundary (`|`)
 
-```
-X:3/8{Here} X:1/8{is} X:1/8{a} X:1/8{phrase.} |
-```
+Inheritance is:
 
-Semantics:
-- each `X` is a discrete articulation unit
-- rhythm is explicitly composed
-- timing is fully specified by durations
-
----
-
-##### Performer-interpreted rhythm (free speech)
-
-Speech MAY be encoded as a single event with internal timing left to interpretation.
-
-Example:
-
-```
-X:1/1{Here is a measure of speech.}
-```
-
-Semantics:
-- `X` defines total temporal window
-- internal pacing is performer-determined
-- no internal segmentation is specified
+- local to each bar
+- independent of duration or beat count
+- not time-aware
 
 ---
 
-#### Inheritance Rules (Measure Scope)
+## 3.12 Measure Validation Responsibility
 
-Within a given measure (bar):
+Authors are responsible for structural correctness:
 
-* The first explicit note MUST define:
+- time signature coherence
+- measure completeness
+- duration plausibility
 
-  * pitch
-  * octave
-  * duration
-  
-* The first explicit rest or explicit speech MUST define:
-  
-  * duration
-
-* Subsequent `note`s, `rests`, and `speech`es within the same measure MAY omit any of these fields.
-
-  * Missing pitch, octave, or duration values inherit from the most recent explicitly defined values in that measure scope.
-
-* Inheritance resets at each new measure boundary (`|`).
+Renderers MAY optionally validate but are not required to enforce strict correctness.
 
 ---
+
+# 4. Interpretation Model
+
+CiNnaMoN is not a deterministic compiler language.
+
+It defines:
+
+> a constrained interpretation space over temporally ordered event structures.
+
+Renderers:
+
+- MAY construct IRs
+- MAY choose evaluation strategies
+- MAY interpret ambiguous constructs
+- MUST respect RIK invariants
+
+---
+
+# 5. Summary
+
+CiNnaMoN is:
+
+> a canonical syntactic system defining a structurally constrained but non-canonical space of temporal musical interpretations.
+
+It guarantees:
+
+- structure
+- ordering
+- proportional relationships
+- event identity constraints
+
+It does NOT guarantee:
+
+- canonical output
+- deterministic rendering
+- single execution semantics
