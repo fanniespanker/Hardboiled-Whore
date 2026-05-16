@@ -578,6 +578,20 @@ Renderers MAY implement metric shaping via:
 
 ---
 
+### 14.4 Dependency Rule
+
+Given:
+
+$$
+A \sim kB
+$$
+
+the rendered width of \(B\) MUST be computable prior to application of the metric constraint on \(A\).
+
+Metric dependency cycles are ill-formed.
+
+---
+
 ## 15. Interpretation
 
 PÂTE defines a deterministic affine vector constraint system over typographic spans.
