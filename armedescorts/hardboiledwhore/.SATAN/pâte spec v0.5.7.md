@@ -437,7 +437,7 @@ No independent vertical alignment operator system currently exists.
 
 ## 10. Offset Vectors
 
-Each offset defines a signed affine displacement vector.
+Each offset defines a symbolic affine displacement vector.
 
 ### 10.1 General Form
 
