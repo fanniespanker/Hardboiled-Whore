@@ -32,6 +32,7 @@ A resource may be:
 
 # 2. Expression Grammar (Informal EBNF)
 
+```EBNF
 EXPR := COMPOSITION
 
 COMPOSITION := SYNTHESIS ("+" SYNTHESIS)*
@@ -55,6 +56,7 @@ RELATION_LIST := RELATION (";" RELATION)*
 RELATION := KEY "=" EXPR
 
 RESOURCE := IRI | COMPACT_ID | FRAGMENT
+```
 
 ---
 
@@ -366,19 +368,19 @@ A + (B * C)
 
 ---
 
-## 11.4 Binding Precedence
+## 11.4 Summary Order
 
 ```text
-(1)  ( ... )        grouping override
-(2)  /              subtype construction (taxonomy)
-(3)  ::             instance-of / classification
-(4)  ?()            relational projection
-(5)  *              fusion / synthesis
-(6)  +              aggregation
-(7)  =              relation binding (inside ?())
-(8)  ,              list / tuple separator
-(9)  ;              clause separator (inside relation blocks)
+( )
+→ ?()
+→ ::
+→ /
+→ *
+→ +
+→ , ; =
 ```
+
+---
 
 ---
 
@@ -643,5 +645,176 @@ RSVP now functions as:
 * a semantic expression calculus
 * a canonical AST-driven compiler frontend
 * a synthetic resource generation system
+
+---
+
+---
+
+# 13. Synthetic Identity Collisions & Cross-Expression Reuse (v0.1)
+
+## 13.1 Purpose
+
+This section defines how RSVP handles synthetic identities created by fusion (`*`) and whether identical constructions across separate expressions resolve to the same or different entities.
+
+This is critical for determining whether RSVP behaves as:
+
+* a semantic database (global identity collapse)
+* or a compositional universe (local identity generation)
+
+---
+
+## 13.2 Synthetic Identity Rule (Core)
+
+For any fusion expression:
+
+```text
+A * B * C
+```
+
+a synthetic identity is generated:
+
+```text
+SID = hash(canonical_sorted([A, B, C]))
+```
+
+---
+
+## 13.3 Global Identity Reuse Principle (Default Mode)
+
+If two expressions produce identical canonical member sets, they MUST resolve to the same SID:
+
+```text
+A * B == B * A
+A * B → SID_1
+B * A → SID_1
+```
+
+This enforces:
+
+* global structural identity consistency
+* ontology-independent reuse
+* deterministic graph compression
+
+---
+
+## 13.4 Cross-Expression Collision Rule
+
+If identical fusion sets appear in different expressions or documents:
+
+```text
+A * B   (in expression X)
+A * B   (in expression Y)
+```
+
+They resolve to the same synthetic node:
+
+```text
+SID(A,B)
+```
+
+This is a **global identity space**, not a local one.
+
+---
+
+## 13.5 Canonical Identity Invariance
+
+Identity is invariant under:
+
+* permutation of members
+* re-bracketing of fusion trees
+* repeated re-serialization
+
+Example:
+
+```text
+(A * B) * C == A * (B * C) == A * B * C
+```
+
+All map to the same SID.
+
+---
+
+## 13.6 Identity Non-Collapse Rule (Exception Mode)
+
+A system MAY optionally disable global reuse and treat each fusion as locally unique:
+
+```text
+A * B (instance-1)
+A * B (instance-2)
+```
+
+This produces distinct SIDs:
+
+```text
+SID_1 != SID_2
+```
+
+This mode is ONLY valid if explicitly enabled by execution context.
+
+---
+
+## 13.7 Ontology Independence Constraint
+
+Synthetic identity generation MUST NOT depend on:
+
+* ontology selection
+* relation annotations (?())
+* instance typing (::)
+* subtype structure (/)
+
+Only the fusion set defines identity.
+
+---
+
+## 13.8 Interaction With Instance Typing (::)
+
+If a fused node is classified:
+
+```text
+(A * B) :: C
+```
+
+then:
+
+* SID is computed BEFORE classification
+* classification does NOT affect SID
+
+Thus:
+
+```text
+SID(A,B) remains stable regardless of :: annotations
+```
+
+---
+
+## 13.9 Interaction With Relations (?())
+
+Relations do NOT affect identity:
+
+```text
+A * B ?(about=X)
+```
+
+SID is computed solely from:
+
+```text
+[A, B]
+```
+
+---
+
+## 13.10 System Implication
+
+This design choice makes RSVP:
+
+* a **globally deduplicating semantic system** by default
+* capable of forming a shared "concept space"
+* consistent with RDF graph merging semantics
+
+---
+
+## 13.11 Summary Rule
+
+> Fusion defines identity. Everything else annotates it.
 
 ---
