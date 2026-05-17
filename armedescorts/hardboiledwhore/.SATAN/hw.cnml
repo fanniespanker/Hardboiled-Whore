@@ -16,7 +16,7 @@
         <identifier scheme="IRI">https://fanniespanker.com/</identifier>
       </author>
       <date of="publication">2025</date>
-      <date of="modification">2026-05-13</date>
+      <date of="modification">2026-05-17</date>
       <identifier scheme="IRI">https://fanniespanker.com/armedescorts/hardboiledwhore/</identifier>
       <identifier scheme="ISBN10" status="unassigned"/>
       <identifier scheme="ISBN13" status="unassigned"/>
@@ -61,138 +61,74 @@
         And I’m a sucker for the human bouquet.
       </synopsis>
 
-      <genre resource="Fiction.humor/sex_comedy*Fiction.crime/noir*Fiction.crime/hardboiled*Fiction/romances*Fiction.suspenseful/thrillers*Fiction.political*Media.erotica?about=Politics.Politics.movements.feminism/bodily_autonomy/sex_workers'_rights+(People.marginalized_groups/gender_minorities+People.marginalized_groups/sexual_minorities)*Relationships.romantic/polyamory">noir/hardboiled political thriller romance and sex comedy about sex workers’ rights polyamorous gender and sexual minorities</genre>
-      <genre resource="Poetry.love/erotic?about=(People.marginalized_groups/gender_minorities+People.marginalized_groups/sexual_minorities)*Relationships.romantic/polyamory">erotic poetry about gender and sexual minorities</genre>
+      <biblio rel="genre" resource="Fiction/humor/sex_comedy*Fiction/crime/noir*Fiction/crime/hardboiled*Fiction/romances*Fiction.suspenseful/thrillers*Fiction/political*Media/erotica?about=Politics/movements/feminism/bodily_autonomy/sex_workers'_rights+(People/marginalized_groups/gender_minorities+People/marginalized_groups/sexual_minorities)*Relationships/romantic/polyamory">noir/hardboiled political thriller romance and sex comedy about sex workers’ rights polyamorous gender and sexual minorities</biblio>
+      <biblio rel="genre" resource="Poetry/love/erotic?about=(People/marginalized_groups/gender_minorities+People/marginalized_groups/sexual_minorities)*Relationships/romantic/polyamory">erotic poetry about gender and sexual minorities</biblio>
 
-      <parodies resource="Fiction.crime/procedural">police procedural mysteries</parodies>
-      <parodies resource="#Columbo">Columbo</parodies>
 
-      <supports resource="Philosophy.ethics/righteousness*Philosophy.ethics/justice">righteousness and justice in ethics</supports>
-      <supports resource="Politics.movements.labor/unions?in=Politics.movements.feminism/bodily_autonomy*Politics/activism">labor unions in bodily autonomy-oriented feminist activism</supports>
-      <supports resource="Law_enforcement/reform_of">institutional reform in law enforcement</supports>
-      <supports resource="Philosophy.ethics/self-improvement?in=Philosophy.ethics/repentance">self-improvement in repentance</supports>
+      <biblio rel="parodies" resource="Fiction.crime/procedural">police procedural mysteries</parodies>
+      <biblio rel="parodies" resource="#Columbo">Columbo</parodies>
 
-      <explores resource="People.marginalized_groups/women+People.marginalized_groups/gender_minorities+People.marginalized_groups/sexual_minorities?in=Law_enforcement">women in law enforcement</explores>
-      <explores resource="Judaism.ethics/teshuvah+https://www.sefaria.org/topics/teshuvah?in=Institutions/reform">the Jewish ethical practice of t'shuva in institutional reform</explores>
-      <explores resource="Judaism.ethics/tzedek?in=Criminal_justice">the Jewish philosophical concept of tzedek in criminal justice</explores>
+      <biblio rel="supports" resource="Philosophy.ethics/righteousness*Philosophy.ethics/justice">righteousness and justice in ethics</biblio>
+      <biblio rel="supports" resource="Politics.movements.labor/unions?in=Politics.movements.feminism/bodily_autonomy*Politics/activism">labor unions in bodily autonomy-oriented feminist activism</biblio>
+      <biblio rel="supports" resource="Law_enforcement/reform_of">institutional reform in law enforcement</biblio>
+      <biblio rel="supports" resource="Philosophy.ethics/self-improvement?in=Philosophy.ethics/repentance">self-improvement in repentance</biblio>
 
-      <examines resource="Language.translation/hermeneutics?of=Religion/Judaism/Torah/Devarim/Shoftim/tzedek_tzedek_tirdof">translation of the phrase 'tzedek tzedek tirdof' from Shoftim, Devarim, Torah, in Judaism</examines>
+      <biblio rel="explores" resource="People.marginalized_groups/women+People.marginalized_groups/gender_minorities+People.marginalized_groups/sexual_minorities?in=Law_enforcement">women in law enforcement</biblio>
+      <biblio rel="explores" resource="Judaism.ethics/teshuvah+https://www.sefaria.org/topics/teshuvah?in=Institutions/reform">the Jewish ethical practice of t'shuva in institutional reform</biblio>
+      <biblio rel="explores" resource="Judaism.ethics/tzedek?in=Criminal_justice">the Jewish philosophical concept of tzedek in criminal justice</biblio>
 
-      <challenges resource="Law_enforcement.people_of/officers?in=Politics.movements/anti-fascism">law enforcement officers in the anti-fascist movement</challenges>
+      <biblio rel="examines" resource="Language.translation/hermeneutics?of=Religion/Judaism/Torah/Devarim/Shoftim/tzedek_tzedek_tirdof">translation of the phrase 'tzedek tzedek tirdof' from Shoftim, Devarim, Torah, in Judaism</biblio>
 
-      <opposes resource="Law_enforcement.as_institution/corruption">corruption in law enforcment</opposes>
-      <opposes resource="Politics.movements/fascism?in=Christianity.movements/fundamentalism">Fascism in Christianity</opposes>
+      <biblio rel="challenges" resource="Law_enforcement.people_of/officers?in=Politics.movements/anti-fascism">law enforcement officers in the anti-fascist movement</biblio>
 
-      <depicts resource="Philosophy.ethics/misconduct?in=Law_enforcement">law enforcement misconduct</depicts>
-      <depicts resource="Drugs.use/polydrug_use?of=Drugs/MDMA*Drugs/alcohol">polydrug use of MDMA and alcohol</depicts>
-      <depicts resource="Drugs.use/recreational_use?of=Drugs/MDMA">recreational use of MDMA</depicts>
-      <depicts resource="Health.conditions/relapse?in=Health.conditions/alcoholism">alcoholic relapse</depicts>
+      <biblio rel="opposes" resource="Law_enforcement.as_institution/corruption">corruption in law enforcment</biblio>
+      <biblio rel="opposes" resource="Politics.movements/fascism?in=Christianity.movements/fundamentalism">Fascism in Christianity</biblio>
 
-      <depicts resource="Sex.roleplay/domination">domination</depicts>
-      <depicts resource="Sex.roleplay/versatility">versatility</depicts>
-      <depicts resource="Sex.roleplay/submission">submission</depicts>
-      <depicts resource="Sex.roleplay/praise">praise kink</depicts>
-      <depicts resource="Sex.roleplay/degradation">degradation kink</depicts>
-      <depicts resource="Sex.roleplay/petplay">petplay kink</depicts>
-      <depicts resource="Sex.kink?for=Sex.reproduction/fertilization">fertilization/impregnation kink</depicts>
-      <depicts resource="Sex.kink?for=Sex.reproduction/pregnancy">pregnancy kink</depicts>
-      <depicts resource="Sex.kink?for=Sex.acts/creampies">creampie kink</depicts>
-      <depicts resource="Sex.kink?for=Sex.safety/unprotected">unprotected sex kink</depicts>
-      <depicts resource="Sex.attraction?to=fat_women">attraction to big beautiful women</depicts>
-      <depicts resource="Sex.attraction?to=large_penises">attraction to larg penises/size queen</depicts>
-      <depicts resource="Sex.group?of=FF">FF</depicts>
-      <depicts resource="Sex.group?of=FFF">FFF</depicts>
-      <depicts resource="Sex.group?of=FFFFFF">FFFFFF</depicts>
-      <depicts resource="Sex.group?of=FM">FM</depicts>
-      <depicts resource="Sex.group?of=FMM">FMM</depicts>
-      <depicts resource="Sex.venues/sex_club*Sex.roleplay/petplay">pet play sex club</depicts>
+      <biblio rel="depicts" resource="Philosophy.ethics/misconduct?in=Law_enforcement">law enforcement misconduct</biblio>
+      <biblio rel="depicts" resource="Drugs.use/polydrug_use?of=Drugs/MDMA*Drugs/alcohol">polydrug use of MDMA and alcohol</biblio>
+      <biblio rel="depicts" resource="Drugs.use/recreational_use?of=Drugs/MDMA">recreational use of MDMA</biblio>
+      <biblio rel="depicts" resource="Health.conditions/relapse?in=Health.conditions/alcoholism">alcoholic relapse</biblio>
 
-      <audience resource="(People.marginalized_groups/gender_minorities+People.marginalized_groups/sexual_minorities)*Relationships.romantic/polyamory+Politics.movements/anti-fascism">polyamorous gender and sexual minorities</audience>
-      <audience resource="Media.people/fans?of=Sex.kinks/breeding+Sex.kinks/impregnation+Sex.kinks/pregnancy+Sex.kinks/creampies">fans of breeding kink</audience>
-      <audience resource="Politics.movements.fat_acceptance/big_beautiful_women">big beautiful women</audience>
+      <biblio rel="depicts" resource="Sex.roleplay/domination">domination</biblio>
+      <biblio rel="depicts" resource="Sex.roleplay/versatility">versatility</biblio>
+      <biblio rel="depicts" resource="Sex.roleplay/submission">submission</biblio>
+      <biblio rel="depicts" resource="Sex.roleplay/praise">praise kink</biblio>
+      <biblio rel="depicts" resource="Sex.roleplay/degradation">degradation kink</biblio>
+      <biblio rel="depicts" resource="Sex.roleplay/petplay">petplay kink</biblio>
+      <biblio rel="depicts" resource="Sex.kink?for=Sex.reproduction/fertilization">fertilization/impregnation kink</biblio>
+      <biblio rel="depicts" resource="Sex.kink?for=Sex.reproduction/pregnancy">pregnancy kink</biblio>
+      <biblio rel="depicts" resource="Sex.kink?for=Sex.acts/creampies">creampie kink</biblio>
+      <biblio rel="depicts" resource="Sex.kink?for=Sex.safety/unprotected">unprotected sex kink</biblio>
+      <biblio rel="depicts" resource="Sex.attraction?to=fat_women">attraction to big beautiful women</biblio>
+      <biblio rel="depicts" resource="Sex.attraction?to=large_penises">attraction to larg penises/size queen</biblio>
+      <biblio rel="depicts" resource="Sex.group?of=FF">FF</biblio>
+      <biblio rel="depicts" resource="Sex.group?of=FFF">FFF</biblio>
+      <biblio rel="depicts" resource="Sex.group?of=FFFFFF">FFFFFF</biblio>
+      <biblio rel="depicts" resource="Sex.group?of=FM">FM</biblio>
+      <biblio rel="depicts" resource="Sex.group?of=FMM">FMM</biblio>
+      <biblio rel="depicts" resource="Sex.venues/sex_club*Sex.roleplay/petplay">pet play sex club</biblio>
 
-      <references resource="#Head_over_Feet">Head over Feet</references>
-      <references resource="#Prescription_Murder">Head over Feet</references>
+      <biblio rel="audience" resource="(People.marginalized_groups/gender_minorities+People.marginalized_groups/sexual_minorities)*Relationships.romantic/polyamory+Politics.movements/anti-fascism">polyamorous gender and sexual minorities</biblio>
+      <biblio rel="audience" resource="Media.people/fans?of=Sex.kinks/breeding+Sex.kinks/impregnation+Sex.kinks/pregnancy+Sex.kinks/creampies">fans of breeding kink</biblio>
+      <biblio rel="audience" resource="Politics.movements.fat_acceptance/big_beautiful_women">big beautiful women</biblio>
 
-      <external>
-        <work 
-            about="#Columbo"
-            medium="Media.format/television"
-            format="Media.format/series?of=Media.format/movie"
-            resource="https://www.imdb.com/title/tt0061496+https://www.wikidata.org/wiki/Q371207+http://dbpedia.org/resource/Columbo"
-        >
-          <title>Columbo</title>
-          <creator>Richard Levinson</creator>
-          <creator>William Link</creator>
-          <genre resource="Fiction.crime/mystery/procedural">police procedural mystery</genre>
-          
-          <character resource="https://www.imdb.com/title/tt1466074/characters/nm0000393+https://www.wikidata.org/wiki/Q2984579+https://id.loc.gov/authorities/sh93004873">
-            <name>Columbo</name>
-            <honorific>Lieutenant</honorific>
-            <role>hero</role>
-            <performer resource="https://www.imdb.com/name/nm0000393/+https://www.wikidata.org/wiki/Q484881+https://id.loc.gov/authorities/names/n85199266+http://id.worldcat.org/fast/1760701+https://id.oclc.org/worldcat/entity/E39PBJtRQvb8xfDwtC4TKjpkjC">Peter Falk</performer>
-          </character>
-        </work>
-
-        <work 
-            about="#Prescription_Murder"
-            medium="Media.format/television"
-            format="Media.format/episode?of=#Columbo"
-            resource="https://www.imdb.com/title/tt0061496/+https://www.wikidata.org/wiki/Q50350442+https://en.wikipedia.org/wiki/List_of_Columbo_episodes#ep1"
-        >
-          <title>Prescription: Murder</title>
-
-          <director>Richard Irving</director>
-          <writer>Richard Levinson</writer>
-          <writer>William Link</writer>
-          
-          <character resource="https://www.imdb.com/title/tt0061496/characters/nm0058001">
-            <name>Ray Flemming</name>
-            <honorific>Doctor</honorific>
-            <role>villain</role>
-            <performer>Gene Barry</performer>
-          </character>
-          
-          <character resource="https://www.imdb.com/title/tt0061496/characters/nm0001225">
-            <name>Carol Flemming</name>
-            <role>victim</role>
-            <performer>Nina Foch</performer>
-          </character>
-          
-          <character resource="https://www.imdb.com/title/tt0061496/characters/nm0433157">
-            <name>Joan Hudson</name>
-            <role>accomplice</role>
-            <performer>Katherine Justice</performer>
-          </character>
-        </work>
-
-        <work 
-            about="#Head_over_Feet" 
-            medium="Media.medium/music"
-            format="Media.format/song"
-            resource="https://www.discogs.com/master/191838-Alanis-Morissette-Head-Over-Feet"
-        >
-          <title>Head over Feet</title>, 
-          <performer>Alanis Morissette</performer>
-          <writer>Alanis Morissette</writer>
-          <writer>Glen Ballard</writer>
-        </work>
-      </external>
+      <biblio rel="references" resource="#Head_over_Feet">Head over Feet</biblio>
+      <biblio rel="references" resource="#Prescription_Murder">Head over Feet</biblio>
 
       <frontmatter>
-        <acknowledgments> 
+        <section role="acknowledgments"> 
           Adrian, first: I love you. Every day I try to think of ways to thank you for encouraging me to keep going through the toughest of times, and for the invaluable feedback you provided even though this book has been… not quite your cup of tea. Thank you. You are the best thing to ever happen to me.
 
           I wish also to thank Rambling Chantrix, who proved to me that I have an audience that will listen to everything I have to say then ask for more. She is the author of many vibrant and surreal-yet-heartfelt (and sexy) stories, including her debut short story omnibus, <work medium="book">Sad Porn About the End of the World</work>; more can be read about her work on her professional website (<work medium="site">rambling.chantrix.org</work>).
 
           Finally, a big <quote>thank you so much</quote> goes to Dirk Hooper, who cheated death just so that he could give this book the cover it deserves; his creative services can be accessed from his professional website (<work medium="site">www.dirkhooper.com</work>).
-        </acknowledgments>
+        </section>
 
-        <dedication>
+        <section role="dedication">
           This story is dedicated to them, Murphy, Skye, Rachel, Effie… and Lexi, wherever she may be.
-        </dedication>
+        </section>
         
-        <authors-note about="semantic text formatting">
+        <section role="authors-note" about="semantic text formatting">
           <heading>Semantic Formatting Key</heading>
           <subheading>
             A Note to the Reader on the Formatting of this text
@@ -20981,7 +20917,7 @@
         </section>
         
         <section role="glossary-translations" lang="es">
-          <heading id="SpanishTranslationsHeading">Selected Spanish Translations</heading>
+          <heading>Selected Spanish Translations</heading>
           <description>Translations of Spanish words and phrases used throughout Hardboiled Whore.</description>
           
           <word id="glossary-abuelita">
