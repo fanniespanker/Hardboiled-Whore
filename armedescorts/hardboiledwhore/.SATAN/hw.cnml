@@ -111,8 +111,16 @@
       <biblio rel="has_audience" resource="Media.people/fans?of=Sex.kinks/breeding+Sex.kinks/impregnation+Sex.kinks/pregnancy+Sex.kinks/creampies">fans of breeding kink</biblio>
       <biblio rel="has_audience" resource="Politics.movements.fat_acceptance/big_beautiful_women">big beautiful women</biblio>
 
-      <biblio rel="references" resource="#Head_over_Feet">Head over Feet</biblio>
+      <biblio rel="references" resource="https://www.discogs.com/master/191838-Alanis-Morissette-Head-Over-Feet">Head over Feet</biblio>
       <biblio rel="references" resource="#Prescription_Murder">Head over Feet</biblio>
+
+    
+      <biblio about="#Prescription_Murder" rel="same_as" resource="https://www.imdb.com/title/tt0061496/,https://www.wikidata.org/wiki/Q50350442,https://en.wikipedia.org/wiki/List_of_Columbo_episodes#ep1">
+        <work medium="television">Columbo</work>, "Prescription: Murder"
+      </biblio>
+      <biblio about="#Head_over_Feet" rel="same_as" resource="https://www.discogs.com/master/191838-Alanis-Morissette-Head-Over-Feet">
+        <work medium="song">Head over Feet</work>
+      </biblio>
 
       <frontmatter>
         <section role="acknowledgments"> 
