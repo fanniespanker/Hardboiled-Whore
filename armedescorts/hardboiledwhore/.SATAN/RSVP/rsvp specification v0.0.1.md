@@ -32,7 +32,6 @@ A resource may be:
 
 # 2. Expression Grammar (Informal EBNF)
 
-```EBNF
 EXPR := COMPOSITION
 
 COMPOSITION := SYNTHESIS ("+" SYNTHESIS)*
@@ -56,7 +55,6 @@ RELATION_LIST := RELATION (";" RELATION)*
 RELATION := KEY "=" EXPR
 
 RESOURCE := IRI | COMPACT_ID | FRAGMENT
-```
 
 ---
 
@@ -652,14 +650,13 @@ RSVP now functions as:
 
 # 13. Synthetic Identity Collisions & Cross-Expression Reuse (v0.1)
 
+## 13. Synthetic Identity Collisions & Cross-Expression Reuse (v0.2)
+
 ## 13.1 Purpose
 
-This section defines how RSVP handles synthetic identities created by fusion (`*`) and whether identical constructions across separate expressions resolve to the same or different entities.
+This section defines how RSVP handles synthetic identities created by fusion (`*`) and how identical constructions behave across expressions and ontological contexts.
 
-This is critical for determining whether RSVP behaves as:
-
-* a semantic database (global identity collapse)
-* or a compositional universe (local identity generation)
+It establishes RSVP as a **contextual semantic composition system**, not a globally collapsing identity database.
 
 ---
 
@@ -677,52 +674,41 @@ a synthetic identity is generated:
 SID = hash(canonical_sorted([A, B, C]))
 ```
 
----
-
-## 13.3 Global Identity Reuse Principle (Default Mode)
-
-If two expressions produce identical canonical member sets, they MUST resolve to the same SID:
-
-```text
-A * B == B * A
-A * B → SID_1
-B * A → SID_1
-```
-
-This enforces:
-
-* global structural identity consistency
-* ontology-independent reuse
-* deterministic graph compression
+This rule is the sole source of identity formation in RSVP.
 
 ---
 
-## 13.4 Cross-Expression Collision Rule
+## 13.3 Identity Scope (Contextual Model)
 
-If identical fusion sets appear in different expressions or documents:
+RSVP operates under a **contextual identity space model (Option B)**.
 
-```text
-A * B   (in expression X)
-A * B   (in expression Y)
-```
+This means:
 
-They resolve to the same synthetic node:
+* SIDs are deterministic within a given execution context
+* identity reuse across contexts is OPTIONAL and externally controlled
+* no global identity collapse is assumed by default
 
-```text
-SID(A,B)
-```
+A context may be:
 
-This is a **global identity space**, not a local one.
+* a document
+* a runtime session
+* a compilation unit
+* a distributed graph shard
+
+Thus:
+
+> identical fusion structures are identical *within a context*, not inherently across all contexts
 
 ---
 
-## 13.5 Canonical Identity Invariance
+## 13.4 Identity Invariance Rules (Unified)
 
-Identity is invariant under:
+Fusion identity is invariant under:
 
 * permutation of members
 * re-bracketing of fusion trees
-* repeated re-serialization
+* duplicate elimination
+* serialization format differences
 
 Example:
 
@@ -730,91 +716,381 @@ Example:
 (A * B) * C == A * (B * C) == A * B * C
 ```
 
-All map to the same SID.
+All expressions are equivalent **within the same identity context**.
 
 ---
 
-## 13.6 Identity Non-Collapse Rule (Exception Mode)
-
-A system MAY optionally disable global reuse and treat each fusion as locally unique:
-
-```text
-A * B (instance-1)
-A * B (instance-2)
-```
-
-This produces distinct SIDs:
-
-```text
-SID_1 != SID_2
-```
-
-This mode is ONLY valid if explicitly enabled by execution context.
-
----
-
-## 13.7 Ontology Independence Constraint
+## 13.5 Ontology Independence Constraint (Clarified)
 
 Synthetic identity generation MUST NOT depend on:
 
 * ontology selection
-* relation annotations (?())
-* instance typing (::)
-* subtype structure (/)
+* relation annotations (`?()`)
+* instance typing (`::`)
+* subtype structure (`/`)
 
-Only the fusion set defines identity.
+Only the fusion member set determines identity.
+
+### Explication
+
+This guarantees a strict separation between:
+
+* **identity formation (structural composition)**
+* **semantic interpretation (ontological projection)**
+
+Thus, RSVP identities are *pre-semantic*: they exist prior to ontological assignment.
 
 ---
 
-## 13.8 Interaction With Instance Typing (::)
-
-If a fused node is classified:
+## 13.6 Classification Rule (`::`)
 
 ```text
 (A * B) :: C
 ```
 
-then:
+means:
 
-* SID is computed BEFORE classification
-* classification does NOT affect SID
+* compute SID first (fusion identity is unaffected)
+* attach classification afterward
+* classification does NOT modify identity
+
+Therefore:
+
+* identity layer is stable
+* ontology layer is orthogonal
+
+---
+
+## 13.7 System Implication (Reframed)
+
+RSVP defines a:
+
+> **declarative compositional space for nonlinear relations of concepts**
+
+Properties:
+
+* identities are compositional rather than referential
+* meaning emerges from structured combination, not lookup
+* ontologies act as interpretive overlays, not identity generators
+
+This positions RSVP as:
+
+* a semantic composition calculus
+* rather than a graph query or knowledge base system
+
+---
+
+## 13.8 Summary Rule
+
+> Fusion defines identity. Everything else interprets or annotates it within a context.
+
+---
+
+# 14. Context Model (v0.1)
+
+## 14.1 Purpose
+
+This section defines the structure of *contexts* in RSVP, which determine the scope of identity, canonicalization, and evaluation.
+
+A context is the fundamental unit of semantic isolation and composition.
+
+---
+
+## 14.2 Context Definition
+
+A context is a named or anonymous evaluation environment:
+
+```text
+Context := {
+  id: ContextID,
+  parent: ContextID | null,
+  rules: ContextRules
+}
+```
+
+Where:
+
+* `id` uniquely identifies the context
+* `parent` defines optional nesting
+* `rules` define scoping behavior (identity, ontology visibility, evaluation mode)
+
+---
+
+## 14.3 Contextual Identity Scope
+
+All synthetic identities (SIDs) are scoped to a context.
 
 Thus:
 
 ```text
-SID(A,B) remains stable regardless of :: annotations
+SID(A * B) in Context X ≠ SID(A * B) in Context Y
 ```
+
+unless explicitly linked via context mapping rules.
 
 ---
 
-## 13.9 Interaction With Relations (?())
+## 14.4 Context Nesting
 
-Relations do NOT affect identity:
+Contexts may be nested:
 
 ```text
-A * B ?(about=X)
+C_child ⊂ C_parent
 ```
 
-SID is computed solely from:
+Rules:
+
+* child contexts inherit ontology visibility unless overridden
+* child contexts do NOT inherit identity caches unless explicitly enabled
+
+---
+
+## 14.5 Context Isolation Principle
+
+By default:
+
+* identity generation is local to a context
+* canonicalization is deterministic but not globally shared
+
+This preserves RSVP as a compositional system rather than a global database.
+
+---
+
+## 14.6 Cross-Context Reference Model
+
+To reference a SID across contexts, a qualified form is used:
 
 ```text
-[A, B]
+SID@ContextID
 ```
 
----
+Meaning:
 
-## 13.10 System Implication
-
-This design choice makes RSVP:
-
-* a **globally deduplicating semantic system** by default
-* capable of forming a shared "concept space"
-* consistent with RDF graph merging semantics
+* resolve SID within specified context scope
+* do not merge identity spaces implicitly
 
 ---
 
-## 13.11 Summary Rule
+## 14.7 Context Merging (Explicit Operation)
 
-> Fusion defines identity. Everything else annotates it.
+Contexts may be merged only through an explicit operation:
+
+```text
+Merge(C1, C2)
+```
+
+Rules:
+
+* identity spaces remain distinct unless merged
+* SID collisions are re-evaluated under merged canonicalization rules
 
 ---
+
+## 14.8 Evaluation Rule
+
+All RSVP evaluation occurs relative to a context:
+
+```text
+Eval(Expression, Context)
+```
+
+No expression has meaning outside a context.
+
+---
+
+## 14.9 System Implication
+
+This establishes RSVP as a:
+
+> context-relative semantic composition system with deterministic but scoped identity generation
+
+This prevents accidental global ontology collapse while preserving compositional consistency.
+
+---
+
+## 14.10 Summary Rule
+
+> Identity is local. Structure is portable. Context defines meaning boundaries.
+
+---
+
+# 15. Context Linking Semantics (v0.1)
+
+## 15.1 Purpose
+
+This section defines how meanings, identities, and expressions are related across distinct contexts without merging identity spaces.
+
+Context linking enables interoperability while preserving isolation.
+
+---
+
+## 15.2 Core Principle
+
+Contexts are NEVER merged implicitly.
+
+Instead, RSVP supports **explicit mapping relations between contexts**.
+
+---
+
+## 15.3 Context Mapping Relation
+
+A mapping between contexts is defined as:
+
+```text
+Map(C1 → C2)
+```
+
+Meaning:
+
+* expressions in C1 may be interpreted in C2
+* identities are NOT unified
+* only translation rules are shared
+
+---
+
+## 15.4 Identity Translation (Non-Merging Projection)
+
+A SID may be projected across contexts:
+
+```text
+SID@C1 ⇝ SID@C2
+```
+
+This is a *projection*, not a re-generation.
+
+Rules:
+
+* original SID remains unchanged
+* target SID is context-local alias or view
+* no global identity collapse occurs
+
+---
+
+## 15.5 Semantic Alignment Rules
+
+When mapping contexts, alignment may be defined over:
+
+* ontology correspondences
+* relation renamings
+* subtype mappings
+
+Example:
+
+```text
+A::B in C1 → A::B' in C2
+```
+
+This does not affect identity, only interpretation.
+
+---
+
+## 15.6 Expression Translation
+
+An RSVP expression can be translated between contexts:
+
+```text
+Translate(Expression, C1 → C2)
+```
+
+Rules:
+
+* re-evaluates expression under C2 rules
+* preserves structural composition where possible
+* recomputes SID only within C2 scope
+
+---
+
+## 15.7 Context Linking Graph
+
+Contexts form a higher-order graph:
+
+```text
+C1 → C2 → C3
+  ↘──────↗
+```
+
+Properties:
+
+* edges represent mapping functions
+* nodes remain isolated identity spaces
+* cycles are allowed but do not imply identity merge
+
+---
+
+## 15.8 Non-Equivalence Guarantee
+
+Even if two contexts are fully mapped:
+
+```text
+SID(A * B in C1) ≠ SID(A * B in C2)
+```
+
+unless explicitly normalized under a shared context.
+
+---
+
+## 15.9 System Implication
+
+This enables RSVP to function as:
+
+> a network of partially interoperable semantic spaces
+
+rather than a single unified ontology or graph.
+
+---
+
+## 15.10 Summary Rule
+
+> Contexts may communicate. They do not collapse.
+
+---
+
+# 16. Ontology Reference Neutralization (v0.1)
+
+## 16.1 Purpose
+
+All ontology references in RSVP are non-binding and serve only as examples of external semantic systems.
+
+---
+
+## 16.2 Neutral Reference Rule
+
+Any mention of a named ontology (e.g., MODO) MUST be interpreted as:
+
+> "an external ontology system, such as MODO"
+
+and does NOT imply:
+
+* integration
+* dependency
+* shared semantics
+* structural coupling
+
+---
+
+## 16.3 Replacement Semantics
+
+All prior ontology-specific references SHOULD be read as:
+
+* "external ontology system (such as MODO)"
+* or "ontology layer (such as MODO)"
+
+This preserves RSVP ontology neutrality by default.
+
+---
+
+## 16.4 System Constraint
+
+RSVP does NOT define, embed, or require any specific ontology.
+
+Ontologies remain:
+
+* pluggable
+* externally defined
+* translation-mapped only
+
+---
+
+## 16.5 Summary Rule
+
+> Ontologies are examples, not dependencies.
