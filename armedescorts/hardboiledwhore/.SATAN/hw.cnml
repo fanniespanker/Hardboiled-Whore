@@ -9,9 +9,12 @@
     <title>Armed Escorts</title>
     
     <book resource="https://fanniespanker.com/armedescorts/hardboiledwhore/">
-
       <title>Hardboiled Whore</title>
-      <author>Fannie Spanker</author>
+      <author>
+        <given-name>Fannie</given-name>
+        <surname>Spanker</surname>
+        <identifier scheme="IRI">https://fanniespanker.com/</identifier>
+      </author>
       <date of="publication">2025</date>
       <date of="modification">2026-05-13</date>
       <identifier scheme="IRI">https://fanniespanker.com/armedescorts/hardboiledwhore/</identifier>
