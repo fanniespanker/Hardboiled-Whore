@@ -25,7 +25,7 @@
       <identifier scheme="ASIN">B0FNKYBNX5</identifier>
       <license>
         <name>Creative Commons Attribution Noncommercial ShareAlike 4.0 International</name>
-        <iri>https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode</iri>
+        <identifier scheme="iri">https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode</identifier>
       </license>
 
       <synopsis style="diegetic">
